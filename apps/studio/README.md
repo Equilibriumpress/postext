@@ -43,3 +43,7 @@ Note: upstream's \`.github/workflows\` remain in the fork. They have not been di
 No GitHub Actions are needed to add, replace or remove book files. Existing local Sandbox projects remain separate from versioned GitHub presets.
 
 For the DesignCraft adapter, preserve pinned SVGs for reproducible layout and only regenerate them on an explicit request. A live tile fetch must never change the geographical source of a published edition.
+
+## Host parity
+
+The host uses upstream web styles, native WebMCP, shipped design bundles and captured Cookbook links. Build locally before publishing the JavaScript changes. See `PST09-13-QA.md` for the visual acceptance gate. Stage and commit `docs/designs`, `docs/cookbook` and `docs/host-parity.css` alongside the generated assets.
