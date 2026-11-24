@@ -1,0 +1,259 @@
+{
+  "version": 1,
+  "presets": [
+    {
+      "id": "alf-layla",
+      "dir": "alf-layla",
+      "name": "ألف ليلة وليلة · One Thousand and One Nights",
+      "description": "Las mil y una noches completas en árabe, en el texto de Bulaq: un libro clásico egipcio encuadernado a la derecha, con marco de doble filete, las noches en palabras y las acuarelas de Sani ol-Molk · The complete Thousand and One Nights in Arabic, the Bulaq text: a classical Egyptian book bound on the right, with a double-ruled frame, the nights in words and Sani ol-Molk’s watercolours",
+      "locale": "ar",
+      "locales": [
+        "ar"
+      ],
+      "openLocale": "ar",
+      "thumbnail": "thumbnail.jpg",
+      "license": "Public domain · CC BY 4.0 · OFL fonts",
+      "credits": "مؤسسة هنداوي · Bulaq 1835 · صنيع الملك · William Harvey · Wikimedia Commons",
+      "tags": [
+        "book",
+        "arabic",
+        "right-to-left",
+        "right-bound",
+        "verse",
+        "plates",
+        "parts"
+      ],
+      "binding": "right",
+      "shelfOrder": 1,
+      "coverFit": "fill"
+    },
+    {
+      "id": "bioquimica-feduchi",
+      "dir": "bioquimica-feduchi",
+      "name": "Bioquímica Feduchi Capítulo 1",
+      "description": "Manual de bioquímica a columna y media: columna principal junto al lomo y columna exterior con figuras, conceptos clave y actividades · A column-and-a-half biochemistry textbook, the main column at the spine and an outer column of figures, key concepts and activities",
+      "locale": "es",
+      "locales": [
+        "es",
+        "en"
+      ],
+      "thumbnail": "thumbnail.jpg",
+      "license": "© Editorial Médica Panamericana",
+      "credits": "Feduchi, Romero, Yáñez, Blasco, García-Hoz · Editorial Médica Panamericana",
+      "tags": [
+        "textbook",
+        "one-and-a-half",
+        "callouts",
+        "tables",
+        "figures",
+        "parts"
+      ]
+    },
+    {
+      "id": "deep-sky",
+      "dir": "deep-sky",
+      "name": "Cielo profundo · Deep Sky",
+      "description": "Revista de astronomía a dos columnas con aperturas a sangre, recuadros y citas · A two-column astronomy magazine with full-bleed openers, boxes and pull quotes",
+      "locale": "es",
+      "locales": [
+        "es",
+        "en"
+      ],
+      "thumbnail": "thumbnail.jpg",
+      "license": "CC BY 4.0",
+      "credits": "ESO · NSF NOIRLab",
+      "tags": [
+        "magazine",
+        "two-column",
+        "parts",
+        "tables"
+      ]
+    },
+    {
+      "id": "don-quijote",
+      "dir": "don-quijote",
+      "name": "Don Quijote · Gustave Doré",
+      "description": "Edición literaria a columna y media con glosas al margen y láminas de Doré · A column-and-a-half literary edition with margin glosses and Doré's plates",
+      "locale": "es",
+      "locales": [
+        "es",
+        "en"
+      ],
+      "thumbnail": "thumbnail.jpg",
+      "license": "Public domain · CC BY 4.0",
+      "credits": "Cervantes · Ormsby · Doré · Project Gutenberg · Wikimedia Commons",
+      "tags": [
+        "book",
+        "one-and-a-half",
+        "margin-notes",
+        "front-matter"
+      ]
+    },
+    {
+      "id": "hongloumeng",
+      "dir": "hongloumeng",
+      "name": "紅樓夢 · Dream of the Red Chamber",
+      "description": "Novela clásica china en 120 capítulos, con las láminas de 1884: el texto de 1792 en chino tradicional, compuesto en vertical y con el lomo a la derecha, el mismo texto en chino simplificado y la traducción inglesa de Joly de los 56 primeros capítulos · A classic Chinese novel in 120 chapters, with the 1884 plates: the 1792 text in Traditional Chinese, set vertically and bound on the right, the same text in Simplified Chinese, and Joly’s English translation of the first 56 chapters",
+      "locale": "zh-Hant",
+      "locales": [
+        "zh-Hant",
+        "zh-Hans",
+        "en"
+      ],
+      "thumbnail": "thumbnail.jpg",
+      "license": "Public domain · CC BY-SA 4.0 · OFL fonts",
+      "credits": "曹雪芹 · 程偉元 · 高鶚 · zh.wikisource · H. Bencraft Joly · Project Gutenberg · 同文書局 1884 · 改琦 · Wikimedia Commons",
+      "tags": [
+        "book",
+        "chinese",
+        "vertical",
+        "right-bound",
+        "plates",
+        "front-matter",
+        "index"
+      ],
+      "openLocale": "zh-Hant",
+      "binding": "right",
+      "shelfOrder": 2
+    },
+    {
+      "id": "kokoro",
+      "dir": "kokoro",
+      "name": "こころ · Kokoro",
+      "description": "La novela de Natsume Sōseki (1914) en japonés, compuesta en vertical y encuadernada a la derecha como la primera edición de Iwanami, con la cubierta, las guardas y la portada que diseñó Sōseki, tres de sus pinturas y furigana sobre las palabras difíciles · Natsume Sōseki’s 1914 novel in Japanese, set vertically and bound on the right after the Iwanami first edition, with the cover, endpapers and title page Sōseki designed, three of his paintings and furigana over the harder words",
+      "locale": "ja",
+      "locales": [
+        "ja"
+      ],
+      "openLocale": "ja",
+      "thumbnail": "thumbnail.jpg",
+      "license": "Public domain · OFL fonts",
+      "credits": "夏目漱石 · 青空文庫 · 国立国会図書館 · 岩波書店 1914",
+      "tags": [
+        "book",
+        "japanese",
+        "vertical",
+        "right-bound",
+        "ruby",
+        "plates",
+        "parts",
+        "front-matter"
+      ],
+      "binding": "right",
+      "shelfOrder": 3
+    },
+    {
+      "id": "openstax-fisica",
+      "dir": "openstax-fisica",
+      "name": "Física universitaria · Physics (OpenStax)",
+      "description": "Libro de texto a columna y media con ejemplos resueltos, comprobaciones, tablas y fórmulas · A column-and-a-half textbook with worked examples, checks, tables and formulas",
+      "locale": "es",
+      "locales": [
+        "es",
+        "en"
+      ],
+      "thumbnail": "thumbnail.jpg",
+      "license": "CC BY 4.0",
+      "credits": "OpenStax, Rice University",
+      "tags": [
+        "textbook",
+        "one-and-a-half",
+        "math",
+        "callouts",
+        "tables"
+      ]
+    },
+    {
+      "id": "paradise-lost",
+      "dir": "paradise-lost",
+      "name": "Paradise Lost · Gustave Doré",
+      "description": "Edición anotada en verso: las notas de Verity al pie de página y las cincuenta láminas de Doré · An annotated verse edition: Verity's notes at the foot of the page and Doré's fifty plates",
+      "locale": "en",
+      "locales": [
+        "en"
+      ],
+      "openLocale": "en",
+      "thumbnail": "thumbnail.jpg",
+      "license": "Public domain · OFL fonts",
+      "credits": "Milton · Verity · Doré · Project Gutenberg · Wikisource · Wikimedia Commons",
+      "tags": [
+        "book",
+        "poetry",
+        "footnotes",
+        "plates",
+        "front-matter"
+      ]
+    },
+    {
+      "id": "pepper-carrot",
+      "dir": "pepper-carrot",
+      "name": "Pepper&Carrot · Pepper's Birthday Party",
+      "description": "El episodio 8 del cómic de David Revoy en diez idiomas: las viñetas originales sin texto, con los bocadillos y la rotulación que el motor compone a partir de las traducciones oficiales; la edición japonesa se rotula en vertical y, como la árabe, se lee de derecha a izquierda y se abre por la derecha · Episode 8 of David Revoy's webcomic in ten languages: the original text-free panels, with balloons and lettering the engine sets from the official translations; the Japanese edition is lettered vertically and, like the Arabic one, reads right to left and opens from the right",
+      "locale": "en",
+      "locales": [
+        "en",
+        "es",
+        "ca",
+        "fr",
+        "it",
+        "pt-BR",
+        "de",
+        "ja",
+        "zh-Hans",
+        "ar"
+      ],
+      "thumbnail": "thumbnail.jpg",
+      "license": "CC BY 4.0 · OFL fonts",
+      "credits": "David Revoy · Pepper&Carrot translators · peppercarrot.com",
+      "tags": [
+        "comic",
+        "panels",
+        "balloons",
+        "multilingual",
+        "vertical",
+        "right-to-left"
+      ],
+      "shelfOrder": 4
+    },
+    {
+      "id": "pintura-espanola",
+      "dir": "pintura-espanola",
+      "name": "Pintura española · Spanish Painting",
+      "description": "Catálogo de exposición a una columna: ficha y comentario frente a la lámina a página · A single-column exhibition catalogue, entry and commentary facing the full-page plate",
+      "locale": "es",
+      "locales": [
+        "es",
+        "en"
+      ],
+      "thumbnail": "thumbnail.jpg",
+      "license": "CC0 · CC BY-SA 4.0",
+      "credits": "The Met · National Gallery of Art · Cleveland Museum of Art · Museo Sorolla · Wikipedia",
+      "tags": [
+        "catalogue",
+        "single-column",
+        "plates",
+        "parts"
+      ]
+    },
+    {
+      "id": "senales",
+      "dir": "senales",
+      "name": "Señales 2020 · Signals 2020",
+      "description": "Revista de la Agencia Europea de Medio Ambiente a dos columnas con aperturas fotográficas, recuadros, citas y paneles de datos · A two-column EEA magazine with photo openers, boxes, pull quotes and data panels",
+      "locale": "es",
+      "locales": [
+        "es",
+        "en"
+      ],
+      "thumbnail": "thumbnail.jpg",
+      "license": "© EEA 2020, reproduction authorised · CC0 photos",
+      "credits": "Agencia Europea de Medio Ambiente · Unsplash",
+      "tags": [
+        "magazine",
+        "two-column",
+        "callouts",
+        "tables"
+      ]
+    }
+  ]
+}

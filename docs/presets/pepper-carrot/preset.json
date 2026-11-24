@@ -1,0 +1,2329 @@
+{
+ "version": 2,
+ "configVersion": 22,
+ "id": "pepper-carrot",
+ "name": "Pepper&Carrot · Pepper's Birthday Party",
+ "description": "El episodio 8 del cómic de David Revoy en diez idiomas: las viñetas originales sin texto, con los bocadillos y la rotulación que el motor compone a partir de las traducciones oficiales; la edición japonesa se rotula en vertical y, como la árabe, se lee de derecha a izquierda y se abre por la derecha · Episode 8 of David Revoy's webcomic in ten languages: the original text-free panels, with balloons and lettering the engine sets from the official translations; the Japanese edition is lettered vertically and, like the Arabic one, reads right to left and opens from the right",
+ "locale": "en",
+ "locales": [
+  "en",
+  "es",
+  "ca",
+  "fr",
+  "it",
+  "pt-BR",
+  "de",
+  "ja",
+  "zh-Hans",
+  "ar"
+ ],
+ "thumbnail": "thumbnail.jpg",
+ "license": "CC BY 4.0 · OFL fonts",
+ "credits": "David Revoy · Pepper&Carrot translators · peppercarrot.com",
+ "tags": [
+  "comic",
+  "panels",
+  "balloons",
+  "multilingual",
+  "vertical",
+  "right-to-left"
+ ],
+ "view": {
+  "canvasScope": "book"
+ },
+ "chapters": {
+  "en": [
+   {
+    "title": "Title page",
+    "file": "chapters/en/00-title.md"
+   },
+   {
+    "title": "Pepper's Birthday Party",
+    "file": "chapters/en/01-episode-8.md"
+   },
+   {
+    "title": "Credits",
+    "file": "chapters/en/02-credits.md"
+   }
+  ],
+  "es": [
+   {
+    "title": "Portada",
+    "file": "chapters/es/00-title.md"
+   },
+   {
+    "title": "El cumpleaños de Pimienta",
+    "file": "chapters/es/01-episode-8.md"
+   },
+   {
+    "title": "Créditos",
+    "file": "chapters/es/02-credits.md"
+   }
+  ],
+  "ca": [
+   {
+    "title": "Portada",
+    "file": "chapters/ca/00-title.md"
+   },
+   {
+    "title": "La festa d'aniversari de la Pepper",
+    "file": "chapters/ca/01-episode-8.md"
+   },
+   {
+    "title": "Crèdits",
+    "file": "chapters/ca/02-credits.md"
+   }
+  ],
+  "fr": [
+   {
+    "title": "Page de titre",
+    "file": "chapters/fr/00-title.md"
+   },
+   {
+    "title": "L'anniversaire de Pepper",
+    "file": "chapters/fr/01-episode-8.md"
+   },
+   {
+    "title": "Crédits",
+    "file": "chapters/fr/02-credits.md"
+   }
+  ],
+  "it": [
+   {
+    "title": "Frontespizio",
+    "file": "chapters/it/00-title.md"
+   },
+   {
+    "title": "Il compleanno di Pepper",
+    "file": "chapters/it/01-episode-8.md"
+   },
+   {
+    "title": "Crediti",
+    "file": "chapters/it/02-credits.md"
+   }
+  ],
+  "pt-BR": [
+   {
+    "title": "Folha de rosto",
+    "file": "chapters/pt-BR/00-title.md"
+   },
+   {
+    "title": "A Festa de Aniversário da Pepper",
+    "file": "chapters/pt-BR/01-episode-8.md"
+   },
+   {
+    "title": "Créditos",
+    "file": "chapters/pt-BR/02-credits.md"
+   }
+  ],
+  "de": [
+   {
+    "title": "Titelseite",
+    "file": "chapters/de/00-title.md"
+   },
+   {
+    "title": "Peppers Geburtstagsfeier",
+    "file": "chapters/de/01-episode-8.md"
+   },
+   {
+    "title": "Impressum",
+    "file": "chapters/de/02-credits.md"
+   }
+  ],
+  "ja": [
+   {
+    "title": "扉",
+    "file": "chapters/ja/00-title.md"
+   },
+   {
+    "title": "ペッパーの誕生パーティー",
+    "file": "chapters/ja/01-episode-8.md"
+   },
+   {
+    "title": "クレジット",
+    "file": "chapters/ja/02-credits.md"
+   }
+  ],
+  "zh-Hans": [
+   {
+    "title": "扉页",
+    "file": "chapters/zh-Hans/00-title.md"
+   },
+   {
+    "title": "小辣椒的生日",
+    "file": "chapters/zh-Hans/01-episode-8.md"
+   },
+   {
+    "title": "制作人员",
+    "file": "chapters/zh-Hans/02-credits.md"
+   }
+  ],
+  "ar": [
+   {
+    "title": "صفحة العنوان",
+    "file": "chapters/ar/00-title.md"
+   },
+   {
+    "title": "حفلةُ عيدِ ميلادِ فُلفُل",
+    "file": "chapters/ar/01-episode-8.md"
+   },
+   {
+    "title": "الاعتمادات",
+    "file": "chapters/ar/02-credits.md"
+   }
+  ]
+ },
+ "config": {
+  "colorPalette": [
+   {
+    "id": "ink",
+    "name": "Ink",
+    "value": {
+     "hex": "#1d1a17",
+     "model": "hex"
+    }
+   },
+   {
+    "id": "paper",
+    "name": "Paper",
+    "value": {
+     "hex": "#ffffff",
+     "model": "hex"
+    }
+   },
+   {
+    "id": "accent",
+    "name": "Pepper's red",
+    "value": {
+     "hex": "#b4402a",
+     "model": "hex"
+    }
+   },
+   {
+    "id": "muted",
+    "name": "Muted text",
+    "value": {
+     "hex": "#6b625a",
+     "model": "hex"
+    }
+   },
+   {
+    "id": "writing",
+    "name": "Writing on objects",
+    "value": {
+     "hex": "#3b2a1e",
+     "model": "hex"
+    }
+   },
+   {
+    "id": "cream",
+    "name": "Halo of the writing",
+    "value": {
+     "hex": "#fbf3dc",
+     "model": "hex"
+    }
+   },
+   {
+    "id": "night",
+    "name": "Monster balloons",
+    "value": {
+     "hex": "#0f0f0f",
+     "model": "hex"
+    }
+   },
+   {
+    "id": "gilt",
+    "name": "Gilt lettering",
+    "value": {
+     "hex": "#e4cf96",
+     "model": "hex"
+    }
+   },
+   {
+    "id": "plate",
+    "name": "Title plate",
+    "value": {
+     "hex": "#151a20",
+     "model": "hex"
+    }
+   }
+  ],
+  "resourceTypes": [
+   {
+    "id": "art",
+    "captionPrefix": "",
+    "numberingTemplate": "",
+    "resetOn": "never",
+    "counterFormat": "decimal",
+    "defaultPlacement": {
+     "position": "auto",
+     "span": "page",
+     "width": 1,
+     "align": "center"
+    }
+   }
+  ],
+  "page": {
+   "sizePreset": "custom",
+   "width": {
+    "value": 210,
+    "unit": "mm"
+   },
+   "height": {
+    "value": 297,
+    "unit": "mm"
+   },
+   "margins": {
+    "top": {
+     "value": 22,
+     "unit": "mm"
+    },
+    "bottom": {
+     "value": 24,
+     "unit": "mm"
+    },
+    "left": {
+     "value": 22,
+     "unit": "mm"
+    },
+    "right": {
+     "value": 22,
+     "unit": "mm"
+    },
+    "mirror": false
+   },
+   "pageNumbering": {
+    "format": "decimal",
+    "startAt": 1
+   }
+  },
+  "layout": {
+   "layoutType": "single",
+   "floatsUnderOpener": false
+  },
+  "bodyText": {
+   "fontFamily": "Comic Neue",
+   "fontSize": {
+    "value": 10.5,
+    "unit": "pt"
+   },
+   "lineHeight": {
+    "value": 15.5,
+    "unit": "pt"
+   },
+   "textAlign": "left",
+   "firstLineIndent": {
+    "value": 0,
+    "unit": "mm"
+   },
+   "paragraphSpacing": true,
+   "color": {
+    "hex": "#1d1a17",
+    "model": "hex",
+    "paletteId": "ink"
+   },
+   "boldColor": {
+    "hex": "#1d1a17",
+    "model": "hex",
+    "paletteId": "ink"
+   },
+   "italicColor": {
+    "hex": "#1d1a17",
+    "model": "hex",
+    "paletteId": "ink"
+   },
+   "avoidWidows": true,
+   "avoidOrphans": true,
+   "hyphenation": {
+    "enabled": false
+   },
+   "hardLineBreaks": false,
+   "scriptContext": false,
+   "shapingLanguage": "host",
+   "breakAfterSlashes": false
+  },
+  "headings": {
+   "fontFamily": "Bangers",
+   "fontWeight": 400,
+   "color": {
+    "hex": "#1d1a17",
+    "model": "hex",
+    "paletteId": "ink"
+   },
+   "keepWithNext": true,
+   "levels": [
+    {
+     "level": 1,
+     "numberingTemplate": "",
+     "fontSize": {
+      "value": 26,
+      "unit": "pt"
+     },
+     "lineHeight": {
+      "value": 30,
+      "unit": "pt"
+     },
+     "marginBottom": {
+      "value": 14,
+      "unit": "pt"
+     }
+    }
+   ],
+   "balancing": {
+    "maxLinesBeforeLoose": 4,
+    "trailingStep": "grid"
+   }
+  },
+  "headingStyles": [
+   {
+    "id": "title",
+    "name": "Title page",
+    "numbered": false,
+    "toc": false,
+    "span": "page",
+    "runningChapter": false,
+    "breakBefore": {
+     "enabled": true,
+     "parity": "odd"
+    },
+    "marginBottom": {
+     "value": 0,
+     "unit": "pt"
+    },
+    "advancedDesign": {
+     "enabled": true,
+     "minHeight": {
+      "value": 249,
+      "unit": "mm"
+     },
+     "slot": {
+      "elements": [
+       {
+        "kind": "image",
+        "id": "cover",
+        "placement": {
+         "anchor": {
+          "to": "bleed",
+          "edge": "top-left"
+         },
+         "offset": {
+          "x": {
+           "value": 0,
+           "unit": "mm"
+          },
+          "y": {
+           "value": 0,
+           "unit": "mm"
+          }
+         },
+         "size": {
+          "width": {
+           "value": 210,
+           "unit": "mm"
+          },
+          "height": {
+           "value": 146.05,
+           "unit": "mm"
+          }
+         }
+        },
+        "resourceId": "e08-cover"
+       },
+       {
+        "kind": "text",
+        "id": "series",
+        "placement": {
+         "anchor": {
+          "to": "page",
+          "edge": "top-left"
+         },
+         "offset": {
+          "x": {
+           "value": 20,
+           "unit": "mm"
+          },
+          "y": {
+           "value": 160.05,
+           "unit": "mm"
+          }
+         },
+         "size": {
+          "width": {
+           "value": 170,
+           "unit": "mm"
+          },
+          "height": "auto"
+         }
+        },
+        "content": "Pepper&Carrot",
+        "fontFamily": "Bangers",
+        "fontSize": {
+         "value": 18,
+         "unit": "pt"
+        },
+        "fontWeight": 400,
+        "italic": false,
+        "align": "center",
+        "verticalAlign": "middle",
+        "lineHeight": 1.2,
+        "overflow": "wrap",
+        "color": {
+         "hex": "#b4402a",
+         "model": "hex",
+         "paletteId": "accent"
+        },
+        "letterSpacing": {
+         "value": 1.5,
+         "unit": "pt"
+        }
+       },
+       {
+        "kind": "text",
+        "id": "title",
+        "placement": {
+         "anchor": {
+          "to": "page",
+          "edge": "top-left"
+         },
+         "offset": {
+          "x": {
+           "value": 20,
+           "unit": "mm"
+          },
+          "y": {
+           "value": 173.05,
+           "unit": "mm"
+          }
+         },
+         "size": {
+          "width": {
+           "value": 170,
+           "unit": "mm"
+          },
+          "height": "auto"
+         }
+        },
+        "content": "{titleText}",
+        "fontFamily": "Bangers",
+        "fontSize": {
+         "value": 42,
+         "unit": "pt"
+        },
+        "fontWeight": 400,
+        "italic": false,
+        "align": "center",
+        "verticalAlign": "middle",
+        "lineHeight": 1.12,
+        "overflow": "wrap",
+        "color": {
+         "hex": "#1d1a17",
+         "model": "hex",
+         "paletteId": "ink"
+        },
+        "direction": "auto"
+       },
+       {
+        "kind": "text",
+        "id": "art",
+        "placement": {
+         "anchor": {
+          "to": "page",
+          "edge": "top-left"
+         },
+         "offset": {
+          "x": {
+           "value": 20,
+           "unit": "mm"
+          },
+          "y": {
+           "value": 228.05,
+           "unit": "mm"
+          }
+         },
+         "size": {
+          "width": {
+           "value": 170,
+           "unit": "mm"
+          },
+          "height": "auto"
+         }
+        },
+        "content": "{attr.art}",
+        "fontFamily": "Comic Neue",
+        "fontSize": {
+         "value": 14,
+         "unit": "pt"
+        },
+        "fontWeight": 700,
+        "italic": false,
+        "align": "center",
+        "verticalAlign": "middle",
+        "lineHeight": 1.2,
+        "overflow": "wrap",
+        "color": {
+         "hex": "#1d1a17",
+         "model": "hex",
+         "paletteId": "ink"
+        },
+        "direction": "auto"
+       },
+       {
+        "kind": "text",
+        "id": "credit",
+        "placement": {
+         "anchor": {
+          "to": "page",
+          "edge": "top-left"
+         },
+         "offset": {
+          "x": {
+           "value": 20,
+           "unit": "mm"
+          },
+          "y": {
+           "value": 239.05,
+           "unit": "mm"
+          }
+         },
+         "size": {
+          "width": {
+           "value": 170,
+           "unit": "mm"
+          },
+          "height": "auto"
+         }
+        },
+        "content": "{attr.credit}",
+        "fontFamily": "Comic Neue",
+        "fontSize": {
+         "value": 11.5,
+         "unit": "pt"
+        },
+        "fontWeight": 400,
+        "italic": false,
+        "align": "center",
+        "verticalAlign": "middle",
+        "lineHeight": 1.35,
+        "overflow": "wrap",
+        "color": {
+         "hex": "#1d1a17",
+         "model": "hex",
+         "paletteId": "ink"
+        },
+        "direction": "auto"
+       },
+       {
+        "kind": "text",
+        "id": "site",
+        "placement": {
+         "anchor": {
+          "to": "page",
+          "edge": "bottom-left"
+         },
+         "offset": {
+          "x": {
+           "value": 20,
+           "unit": "mm"
+          },
+          "y": {
+           "value": -16,
+           "unit": "mm"
+          }
+         },
+         "size": {
+          "width": {
+           "value": 170,
+           "unit": "mm"
+          },
+          "height": "auto"
+         }
+        },
+        "content": "www.peppercarrot.com · CC BY 4.0",
+        "fontFamily": "Comic Neue",
+        "fontSize": {
+         "value": 9,
+         "unit": "pt"
+        },
+        "fontWeight": 400,
+        "italic": false,
+        "align": "center",
+        "verticalAlign": "middle",
+        "lineHeight": 1.2,
+        "overflow": "wrap",
+        "color": {
+         "hex": "#6b625a",
+         "model": "hex",
+         "paletteId": "muted"
+        }
+       }
+      ]
+     }
+    }
+   },
+   {
+    "id": "colophon",
+    "name": "Credits",
+    "numbered": false,
+    "toc": false,
+    "breakBefore": {
+     "enabled": true,
+     "parity": "any"
+    },
+    "fontFamily": "Bangers",
+    "fontWeight": 400,
+    "fontSize": {
+     "value": 26,
+     "unit": "pt"
+    },
+    "lineHeight": {
+     "value": 30,
+     "unit": "pt"
+    },
+    "color": {
+     "hex": "#b4402a",
+     "model": "hex",
+     "paletteId": "accent"
+    },
+    "marginBottom": {
+     "value": 14,
+     "unit": "pt"
+    }
+   }
+  ],
+  "header": {
+   "elements": []
+  },
+  "footer": {
+   "elements": [
+    {
+     "kind": "text",
+     "id": "folio",
+     "placement": {
+      "anchor": {
+       "to": "page",
+       "edge": "bottom"
+      },
+      "offset": {
+       "x": {
+        "value": 0,
+        "unit": "mm"
+       },
+       "y": {
+        "value": -5,
+        "unit": "mm"
+       }
+      },
+      "size": {
+       "width": {
+        "value": 30,
+        "unit": "mm"
+       },
+       "height": "auto"
+      }
+     },
+     "content": "{pageNumber}",
+     "fontFamily": "Comic Neue",
+     "fontSize": {
+      "value": 9,
+      "unit": "pt"
+     },
+     "fontWeight": 700,
+     "italic": false,
+     "align": "center",
+     "verticalAlign": "middle",
+     "lineHeight": 1.2,
+     "overflow": "ellipsis-end",
+     "color": {
+      "hex": "#6b625a",
+      "model": "hex",
+      "paletteId": "muted"
+     },
+     "pages": "comic"
+    }
+   ]
+  },
+  "comics": {
+   "readingDirection": "auto",
+   "frame": {
+    "margins": {
+     "top": {
+      "value": 8.47,
+      "unit": "mm"
+     },
+     "bottom": {
+      "value": 14,
+      "unit": "mm"
+     },
+     "left": {
+      "value": 8.47,
+      "unit": "mm"
+     },
+     "right": {
+      "value": 8.21,
+      "unit": "mm"
+     }
+    }
+   },
+   "gutter": {
+    "horizontal": {
+     "value": 5.42,
+     "unit": "mm"
+    },
+    "vertical": {
+     "value": 2.37,
+     "unit": "mm"
+    }
+   },
+   "panel": {
+    "borderWidth": {
+     "value": 0,
+     "unit": "mm"
+    },
+    "borderStyle": "none"
+   },
+   "panelStyles": [
+    {
+     "id": "rounded",
+     "name": "Rounded",
+     "borderRadius": {
+      "value": 5.8,
+      "unit": "mm"
+     },
+     "borderStyle": "none"
+    }
+   ],
+   "lettering": {
+    "fontSize": {
+     "value": 9,
+     "unit": "pt"
+    },
+    "strictPlacement": false
+   },
+   "balloonStyles": [
+    {
+     "id": "sfx",
+     "fontScale": 3.4,
+     "bold": false
+    },
+    {
+     "id": "writing",
+     "name": "Writing on objects",
+     "shape": "none",
+     "tail": "none",
+     "fontScale": 0.85,
+     "bold": false,
+     "italic": true,
+     "color": {
+      "hex": "#3b2a1e",
+      "model": "hex",
+      "paletteId": "writing"
+     },
+     "halo": {
+      "value": 1.4,
+      "unit": "pt"
+     },
+     "haloColor": {
+      "hex": "#fbf3dc",
+      "model": "hex",
+      "paletteId": "cream"
+     },
+     "strokeWidth": {
+      "value": 0,
+      "unit": "pt"
+     }
+    },
+    {
+     "id": "plate",
+     "name": "Title on the art",
+     "shape": "none",
+     "tail": "none",
+     "fontFamily": "Zen Antique",
+     "fontScale": 0.88,
+     "bold": false,
+     "italic": false,
+     "align": "center",
+     "aspect": 3,
+     "color": {
+      "hex": "#e4cf96",
+      "model": "hex",
+      "paletteId": "gilt"
+     },
+     "halo": {
+      "value": 0.5,
+      "unit": "pt"
+     },
+     "haloColor": {
+      "hex": "#151a20",
+      "model": "hex",
+      "paletteId": "plate"
+     },
+     "letterSpacing": {
+      "value": 0.2,
+      "unit": "pt"
+     }
+    }
+   ],
+   "cast": [
+    {
+     "id": "pepper",
+     "name": "Pepper"
+    },
+    {
+     "id": "carrot",
+     "name": "Carrot"
+    },
+    {
+     "id": "monster",
+     "name": "Monsters of Chaosah",
+     "fill": {
+      "hex": "#0f0f0f",
+      "model": "hex",
+      "paletteId": "night"
+     },
+     "color": {
+      "hex": "#ffffff",
+      "model": "hex",
+      "paletteId": "paper"
+     }
+    }
+   ],
+   "runningHeads": true
+  },
+  "pdfGeneration": {
+   "outlines": true
+  },
+  "folio": {
+   "paper": {
+    "type": "coatedMatte",
+    "grammage": 130
+   },
+   "binding": {
+    "type": "saddleStitch",
+    "cover": "pages"
+   },
+   "surface": {
+    "type": "walnut"
+   },
+   "lighting": {
+    "environment": "studio"
+   }
+  },
+  "checks": {
+   "contentInConfig": {
+    "allow": [
+     "www.peppercarrot.com · CC BY 4.0"
+    ]
+   }
+  }
+ },
+ "localized": {
+  "en": {
+   "config": {
+    "resourceTypes": [
+     {
+      "name": "Artwork",
+      "namePlural": "Artwork",
+      "shortLabel": "Artwork",
+      "id": "art"
+     }
+    ],
+    "locale": "en"
+   }
+  },
+  "es": {
+   "config": {
+    "resourceTypes": [
+     {
+      "name": "Ilustración",
+      "namePlural": "Ilustraciones",
+      "shortLabel": "Ilustración",
+      "id": "art"
+     }
+    ],
+    "locale": "es"
+   },
+   "resources": [
+    {
+     "id": "e08-cover",
+     "altText": "Pimienta, con los brazos en alto de alegría, y Zanahoria ante una mesa baja preparada para una fiesta: una tetera, magdalenas y una tarta de cumpleaños con velas, bajo guirnaldas de banderines."
+    }
+   ]
+  },
+  "ca": {
+   "config": {
+    "resourceTypes": [
+     {
+      "name": "Il·lustració",
+      "namePlural": "Il·lustracions",
+      "shortLabel": "Il·lustració",
+      "id": "art"
+     }
+    ],
+    "locale": "ca"
+   },
+   "resources": [
+    {
+     "id": "e08-cover",
+     "altText": "La Pepper, amb els braços enlaire d’alegria, i en Carrot davant d’una taula baixa parada per a una festa: una tetera, magdalenes i un pastís d’aniversari amb espelmes, sota garlandes de banderetes."
+    }
+   ]
+  },
+  "fr": {
+   "config": {
+    "resourceTypes": [
+     {
+      "name": "Illustration",
+      "namePlural": "Illustrations",
+      "shortLabel": "Illustration",
+      "id": "art"
+     }
+    ],
+    "locale": "fr"
+   },
+   "resources": [
+    {
+     "id": "e08-cover",
+     "altText": "Pepper, les bras levés de joie, et Carrot devant une table basse dressée pour une fête : une théière, des petits gâteaux et un gâteau d’anniversaire avec ses bougies, sous des guirlandes de fanions."
+    }
+   ]
+  },
+  "it": {
+   "config": {
+    "resourceTypes": [
+     {
+      "name": "Illustrazione",
+      "namePlural": "Illustrazioni",
+      "shortLabel": "Illustrazione",
+      "id": "art"
+     }
+    ],
+    "locale": "it"
+   },
+   "resources": [
+    {
+     "id": "e08-cover",
+     "altText": "Pepper, con le braccia alzate per la gioia, e Carrot davanti a un tavolino apparecchiato per una festa: una teiera, dei cupcake e una torta di compleanno con le candeline, sotto festoni di bandierine."
+    }
+   ]
+  },
+  "pt-BR": {
+   "config": {
+    "resourceTypes": [
+     {
+      "name": "Ilustração",
+      "namePlural": "Ilustrações",
+      "shortLabel": "Ilustração",
+      "id": "art"
+     }
+    ],
+    "locale": "pt-BR"
+   },
+   "resources": [
+    {
+     "id": "e08-cover",
+     "altText": "Pepper, de braços erguidos de alegria, e Carrot diante de uma mesa baixa arrumada para uma festa: um bule, cupcakes e um bolo de aniversário com velas, sob varais de bandeirinhas."
+    }
+   ]
+  },
+  "de": {
+   "config": {
+    "resourceTypes": [
+     {
+      "name": "Illustration",
+      "namePlural": "Illustrationen",
+      "shortLabel": "Illustration",
+      "id": "art"
+     }
+    ],
+    "locale": "de"
+   },
+   "resources": [
+    {
+     "id": "e08-cover",
+     "altText": "Pepper, die Arme vor Freude hochgerissen, und Carrot an einem niedrigen, für ein Fest gedeckten Tisch: eine Teekanne, Muffins und ein Geburtstagskuchen mit Kerzen, darüber Wimpelketten."
+    }
+   ]
+  },
+  "ja": {
+   "config": {
+    "resourceTypes": [
+     {
+      "name": "原画",
+      "namePlural": "原画",
+      "shortLabel": "原画",
+      "id": "art"
+     }
+    ],
+    "bodyText": {
+     "fontFamily": "Noto Sans JP",
+     "hyphenation": null
+    },
+    "headings": {
+     "fontFamily": "Dela Gothic One"
+    },
+    "headingStyles": [
+     {
+      "advancedDesign": {
+       "slot": {
+        "elements": [
+         {
+          "id": "series",
+          "$remove": true
+         },
+         {
+          "id": "title",
+          "$remove": true
+         },
+         {
+          "id": "art",
+          "$remove": true
+         },
+         {
+          "id": "credit",
+          "$remove": true
+         },
+         {
+          "id": "site",
+          "$remove": true
+         },
+         {
+          "kind": "image",
+          "id": "cover",
+          "placement": {
+           "anchor": {
+            "to": "bleed",
+            "edge": "top-left"
+           },
+           "offset": {
+            "x": {
+             "value": 0,
+             "unit": "mm"
+            },
+            "y": {
+             "value": 0,
+             "unit": "mm"
+            }
+           },
+           "size": {
+            "width": {
+             "value": 210,
+             "unit": "mm"
+            },
+            "height": {
+             "value": 146.05,
+             "unit": "mm"
+            }
+           }
+          },
+          "resourceId": "e08-cover"
+         },
+         {
+          "kind": "text",
+          "id": "series",
+          "placement": {
+           "anchor": {
+            "to": "page",
+            "edge": "top-left"
+           },
+           "offset": {
+            "x": {
+             "value": 177,
+             "unit": "mm"
+            },
+            "y": {
+             "value": 157,
+             "unit": "mm"
+            }
+           },
+           "size": {
+            "width": {
+             "value": 10,
+             "unit": "mm"
+            },
+            "height": {
+             "value": 118,
+             "unit": "mm"
+            }
+           }
+          },
+          "content": "Pepper&Carrot",
+          "fontFamily": "Dela Gothic One",
+          "fontSize": {
+           "value": 14,
+           "unit": "pt"
+          },
+          "fontWeight": 400,
+          "italic": false,
+          "align": "left",
+          "verticalAlign": "top",
+          "lineHeight": 1.25,
+          "overflow": "wrap",
+          "color": {
+           "hex": "#b4402a",
+           "model": "hex",
+           "paletteId": "accent"
+          },
+          "writingMode": "vertical-rl",
+          "letterSpacing": {
+           "value": 1,
+           "unit": "pt"
+          }
+         },
+         {
+          "kind": "text",
+          "id": "episode",
+          "placement": {
+           "anchor": {
+            "to": "page",
+            "edge": "top-left"
+           },
+           "offset": {
+            "x": {
+             "value": 163,
+             "unit": "mm"
+            },
+            "y": {
+             "value": 157,
+             "unit": "mm"
+            }
+           },
+           "size": {
+            "width": {
+             "value": 11,
+             "unit": "mm"
+            },
+            "height": {
+             "value": 118,
+             "unit": "mm"
+            }
+           }
+          },
+          "content": "{attr.episode}",
+          "fontFamily": "Dela Gothic One",
+          "fontSize": {
+           "value": 16,
+           "unit": "pt"
+          },
+          "fontWeight": 400,
+          "italic": false,
+          "align": "left",
+          "verticalAlign": "top",
+          "lineHeight": 1.25,
+          "overflow": "wrap",
+          "color": {
+           "hex": "#1d1a17",
+           "model": "hex",
+           "paletteId": "ink"
+          },
+          "writingMode": "vertical-rl"
+         },
+         {
+          "kind": "text",
+          "id": "title",
+          "placement": {
+           "anchor": {
+            "to": "page",
+            "edge": "top-left"
+           },
+           "offset": {
+            "x": {
+             "value": 136,
+             "unit": "mm"
+            },
+            "y": {
+             "value": 157,
+             "unit": "mm"
+            }
+           },
+           "size": {
+            "width": {
+             "value": 22,
+             "unit": "mm"
+            },
+            "height": {
+             "value": 124,
+             "unit": "mm"
+            }
+           }
+          },
+          "content": "{attr.name}",
+          "fontFamily": "Dela Gothic One",
+          "fontSize": {
+           "value": 29,
+           "unit": "pt"
+          },
+          "fontWeight": 400,
+          "italic": false,
+          "align": "left",
+          "verticalAlign": "top",
+          "lineHeight": 1.25,
+          "overflow": "wrap",
+          "color": {
+           "hex": "#1d1a17",
+           "model": "hex",
+           "paletteId": "ink"
+          },
+          "writingMode": "vertical-rl"
+         },
+         {
+          "kind": "text",
+          "id": "art",
+          "placement": {
+           "anchor": {
+            "to": "page",
+            "edge": "top-left"
+           },
+           "offset": {
+            "x": {
+             "value": 72,
+             "unit": "mm"
+            },
+            "y": {
+             "value": 171,
+             "unit": "mm"
+            }
+           },
+           "size": {
+            "width": {
+             "value": 9,
+             "unit": "mm"
+            },
+            "height": {
+             "value": 100,
+             "unit": "mm"
+            }
+           }
+          },
+          "content": "{attr.art}",
+          "fontFamily": "Zen Antique",
+          "fontSize": {
+           "value": 13,
+           "unit": "pt"
+          },
+          "fontWeight": 400,
+          "italic": false,
+          "align": "left",
+          "verticalAlign": "top",
+          "lineHeight": 1.25,
+          "overflow": "wrap",
+          "color": {
+           "hex": "#1d1a17",
+           "model": "hex",
+           "paletteId": "ink"
+          },
+          "writingMode": "vertical-rl"
+         },
+         {
+          "kind": "text",
+          "id": "credit",
+          "placement": {
+           "anchor": {
+            "to": "page",
+            "edge": "top-left"
+           },
+           "offset": {
+            "x": {
+             "value": 60,
+             "unit": "mm"
+            },
+            "y": {
+             "value": 171,
+             "unit": "mm"
+            }
+           },
+           "size": {
+            "width": {
+             "value": 9,
+             "unit": "mm"
+            },
+            "height": {
+             "value": 108,
+             "unit": "mm"
+            }
+           }
+          },
+          "content": "{attr.credit}",
+          "fontFamily": "Zen Antique",
+          "fontSize": {
+           "value": 11,
+           "unit": "pt"
+          },
+          "fontWeight": 400,
+          "italic": false,
+          "align": "left",
+          "verticalAlign": "top",
+          "lineHeight": 1.25,
+          "overflow": "wrap",
+          "color": {
+           "hex": "#6b625a",
+           "model": "hex",
+           "paletteId": "muted"
+          },
+          "writingMode": "vertical-rl"
+         },
+         {
+          "kind": "text",
+          "id": "site",
+          "placement": {
+           "anchor": {
+            "to": "page",
+            "edge": "top-left"
+           },
+           "offset": {
+            "x": {
+             "value": 24,
+             "unit": "mm"
+            },
+            "y": {
+             "value": 171,
+             "unit": "mm"
+            }
+           },
+           "size": {
+            "width": {
+             "value": 7,
+             "unit": "mm"
+            },
+            "height": {
+             "value": 108,
+             "unit": "mm"
+            }
+           }
+          },
+          "content": "www.peppercarrot.com · CC BY 4.0",
+          "fontFamily": "Zen Antique",
+          "fontSize": {
+           "value": 8.5,
+           "unit": "pt"
+          },
+          "fontWeight": 400,
+          "italic": false,
+          "align": "left",
+          "verticalAlign": "top",
+          "lineHeight": 1.25,
+          "overflow": "wrap",
+          "color": {
+           "hex": "#6b625a",
+           "model": "hex",
+           "paletteId": "muted"
+          },
+          "writingMode": "vertical-rl"
+         }
+        ]
+       }
+      },
+      "id": "title"
+     },
+     {
+      "fontFamily": "Dela Gothic One",
+      "id": "colophon"
+     }
+    ],
+    "footer": {
+     "elements": [
+      {
+       "fontFamily": "Noto Sans JP",
+       "id": "folio"
+      }
+     ]
+    },
+    "comics": {
+     "balloonStyles": [
+      {
+       "id": "writing",
+       "$remove": true
+      },
+      {
+       "id": "plate",
+       "$remove": true
+      },
+      {
+       "id": "sfx",
+       "fontScale": 3.4,
+       "bold": false
+      },
+      {
+       "id": "shout",
+       "fontFamily": "Dela Gothic One",
+       "bold": false
+      },
+      {
+       "id": "writing",
+       "name": "Writing on objects",
+       "shape": "none",
+       "tail": "none",
+       "fontScale": 0.85,
+       "bold": false,
+       "italic": true,
+       "color": {
+        "hex": "#3b2a1e",
+        "model": "hex",
+        "paletteId": "writing"
+       },
+       "halo": {
+        "value": 1.4,
+        "unit": "pt"
+       },
+       "haloColor": {
+        "hex": "#fbf3dc",
+        "model": "hex",
+        "paletteId": "cream"
+       },
+       "strokeWidth": {
+        "value": 0,
+        "unit": "pt"
+       }
+      },
+      {
+       "id": "plate",
+       "name": "Title on the art",
+       "shape": "none",
+       "tail": "none",
+       "fontFamily": "Zen Antique",
+       "fontScale": 0.88,
+       "bold": false,
+       "italic": false,
+       "align": "center",
+       "aspect": 3,
+       "color": {
+        "hex": "#e4cf96",
+        "model": "hex",
+        "paletteId": "gilt"
+       },
+       "halo": {
+        "value": 0.5,
+        "unit": "pt"
+       },
+       "haloColor": {
+        "hex": "#151a20",
+        "model": "hex",
+        "paletteId": "plate"
+       },
+       "letterSpacing": {
+        "value": 0.2,
+        "unit": "pt"
+       }
+      }
+     ]
+    },
+    "locale": "ja",
+    "cjk": {
+     "composeDesignText": false,
+     "latinSpacingEdge": "letters"
+    }
+   },
+   "resources": [
+    {
+     "id": "e08-cover",
+     "altText": "パーティーの支度ができた低いテーブルの前で、ペッパーが喜んで両手を上げ、キャロットも笑っている。テーブルにはティーポットとカップケーキ、ろうそくを立てたバースデーケーキ。頭上には三角の旗飾り。"
+    }
+   ]
+  },
+  "zh-Hans": {
+   "config": {
+    "resourceTypes": [
+     {
+      "name": "原画",
+      "namePlural": "原画",
+      "shortLabel": "原画",
+      "id": "art"
+     }
+    ],
+    "bodyText": {
+     "fontFamily": "Noto Sans SC",
+     "hyphenation": null
+    },
+    "headings": {
+     "fontFamily": "ZCOOL KuaiLe"
+    },
+    "headingStyles": [
+     {
+      "advancedDesign": {
+       "slot": {
+        "elements": [
+         {
+          "fontFamily": "ZCOOL KuaiLe",
+          "id": "series"
+         },
+         {
+          "fontFamily": "ZCOOL KuaiLe",
+          "fontSize": {
+           "value": 32,
+           "unit": "pt"
+          },
+          "id": "title"
+         },
+         {
+          "fontFamily": "Noto Sans SC",
+          "id": "art"
+         },
+         {
+          "fontFamily": "Noto Sans SC",
+          "id": "credit"
+         },
+         {
+          "fontFamily": "Noto Sans SC",
+          "id": "site"
+         }
+        ]
+       }
+      },
+      "id": "title"
+     },
+     {
+      "fontFamily": "ZCOOL KuaiLe",
+      "id": "colophon"
+     }
+    ],
+    "footer": {
+     "elements": [
+      {
+       "fontFamily": "Noto Sans SC",
+       "id": "folio"
+      }
+     ]
+    },
+    "comics": {
+     "balloonStyles": [
+      {
+       "fontScale": 2.1,
+       "id": "sfx"
+      },
+      {
+       "fontFamily": "Noto Sans SC",
+       "id": "plate"
+      }
+     ]
+    },
+    "locale": "zh-Hans",
+    "cjk": {
+     "titleMinChars": 1,
+     "composeDesignText": false
+    }
+   },
+   "resources": [
+    {
+     "id": "e08-cover",
+     "altText": "小辣椒高兴地举起双手，萝卜头坐在一张布置好派对的矮桌旁。桌上有茶壶、纸杯蛋糕和插着蜡烛的生日蛋糕，头顶挂着一串串彩旗。"
+    }
+   ]
+  },
+  "ar": {
+   "config": {
+    "resourceTypes": [
+     {
+      "name": "رسم",
+      "namePlural": "رسوم",
+      "shortLabel": "رسم",
+      "id": "art"
+     }
+    ],
+    "bodyText": {
+     "fontFamily": "Playpen Sans Arabic",
+     "hyphenation": null
+    },
+    "headings": {
+     "fontFamily": "Lalezar"
+    },
+    "headingStyles": [
+     {
+      "advancedDesign": {
+       "slot": {
+        "elements": [
+         {
+          "fontFamily": "Lalezar",
+          "id": "series"
+         },
+         {
+          "fontFamily": "Lalezar",
+          "id": "title"
+         },
+         {
+          "fontFamily": "Playpen Sans Arabic",
+          "id": "art"
+         },
+         {
+          "fontFamily": "Playpen Sans Arabic",
+          "id": "credit"
+         },
+         {
+          "fontFamily": "Playpen Sans Arabic",
+          "id": "site"
+         }
+        ]
+       }
+      },
+      "id": "title"
+     },
+     {
+      "fontFamily": "Lalezar",
+      "id": "colophon"
+     }
+    ],
+    "footer": {
+     "elements": [
+      {
+       "fontFamily": "Playpen Sans Arabic",
+       "id": "folio"
+      }
+     ]
+    },
+    "locale": "ar"
+   },
+   "resources": [
+    {
+     "id": "e08-cover",
+     "altText": "فُلفُل ترفع ذراعيها فرحًا، وجزر أمام طاولة منخفضة أُعدّت لحفلة: إبريق شاي وكعكات صغيرة وكعكة عيد ميلاد بشموعها، تحت أشرطة من الرايات الملوّنة."
+    }
+   ]
+  }
+ },
+ "resources": [
+  {
+   "id": "e08-cover",
+   "typeId": "art",
+   "kind": "bitmap",
+   "file": "resources/e08-cover.jpg",
+   "width": 1100,
+   "height": 765,
+   "altText": "Pepper, arms raised in joy, and Carrot at a low table set for a party: a teapot, cupcakes and a birthday cake with candles under strings of bunting.",
+   "safeArea": {
+    "x": 0.12,
+    "y": 0.19,
+    "width": 0.8,
+    "height": 0.58
+   }
+  },
+  {
+   "id": "e08p01-1",
+   "typeId": "art",
+   "kind": "bitmap",
+   "file": "resources/e08p01-1.jpg",
+   "width": 1200,
+   "height": 739,
+   "altText": "Pepper sits on the edge of her bed in an attic lit by a skylight, her hands on her knees. Carrot watches her from the floor.",
+   "safeArea": {
+    "x": 0.2,
+    "y": 0.2,
+    "width": 0.7,
+    "height": 0.76
+   }
+  },
+  {
+   "id": "e08p01-2",
+   "typeId": "art",
+   "kind": "bitmap",
+   "file": "resources/e08p01-2.jpg",
+   "width": 1200,
+   "height": 214,
+   "altText": "Close-up: Pepper gazes into the distance, downcast. Carrot, at her shoulder, looks up at her.",
+   "safeArea": {
+    "x": 0.25,
+    "y": 0.08,
+    "width": 0.35,
+    "height": 0.92
+   },
+   "anchors": [
+    {
+     "id": "pepper",
+     "x": 0.5593,
+     "y": 0.5271,
+     "face": {
+      "x": 0.47,
+      "y": 0.12,
+      "width": 0.11,
+      "height": 0.62
+     }
+    }
+   ],
+   "avoid": [
+    {
+     "x": 0.26,
+     "y": 0.38,
+     "width": 0.17,
+     "height": 0.62
+    }
+   ]
+  },
+  {
+   "id": "e08p01-3",
+   "typeId": "art",
+   "kind": "bitmap",
+   "file": "resources/e08p01-3.jpg",
+   "width": 1200,
+   "height": 199,
+   "altText": "Pepper buries her face in her hand, a few tears falling. Carrot clings to her arm, worried.",
+   "safeArea": {
+    "x": 0.24,
+    "y": 0.04,
+    "width": 0.51,
+    "height": 0.96
+   }
+  },
+  {
+   "id": "e08p01-4",
+   "typeId": "art",
+   "kind": "bitmap",
+   "file": "resources/e08p01-4.jpg",
+   "width": 1200,
+   "height": 473,
+   "altText": "Carrot, wide-eyed, points at a framed drawing of the witches of the Potion Contest, propped beside the winner’s gold coin.",
+   "safeArea": {
+    "x": 0.06,
+    "y": 0.2,
+    "width": 0.77,
+    "height": 0.62
+   }
+  },
+  {
+   "id": "e08p02-1",
+   "typeId": "art",
+   "kind": "bitmap",
+   "file": "resources/e08p02-1.jpg",
+   "width": 1200,
+   "height": 448,
+   "altText": "Pepper sits up on her bed and lifts her hands, delighted by the idea. Carrot sits facing her, smiling.",
+   "safeArea": {
+    "x": 0.17,
+    "y": 0.08,
+    "width": 0.69,
+    "height": 0.6
+   },
+   "anchors": [
+    {
+     "id": "pepper",
+     "x": 0.3033,
+     "y": 0.4494,
+     "face": {
+      "x": 0.24,
+      "y": 0.27,
+      "width": 0.12,
+      "height": 0.23
+     }
+    }
+   ],
+   "avoid": [
+    {
+     "x": 0.18,
+     "y": 0,
+     "width": 0.21,
+     "height": 0.27
+    },
+    {
+     "x": 0.7,
+     "y": 0.26,
+     "width": 0.14,
+     "height": 0.32
+    }
+   ]
+  },
+  {
+   "id": "e08p02-2",
+   "typeId": "art",
+   "kind": "bitmap",
+   "file": "resources/e08p02-2.jpg",
+   "width": 1200,
+   "height": 407,
+   "altText": "Pepper, smiling, writes invitations with a quill while Carrot holds up an envelope. A small white bird waits on the windowsill.",
+   "safeArea": {
+    "x": 0.17,
+    "y": 0.07,
+    "width": 0.62,
+    "height": 0.86
+   }
+  },
+  {
+   "id": "e08p02-3",
+   "typeId": "art",
+   "kind": "bitmap",
+   "file": "resources/e08p02-3.jpg",
+   "width": 527,
+   "height": 1200,
+   "altText": "Coriander, at her window with her invitation, gives a thumbs-up as Pepper and Carrot fly past on a broom. A grumpy black hen sits beside her.",
+   "safeArea": {
+    "x": 0.03,
+    "y": 0.12,
+    "width": 0.83,
+    "height": 0.71
+   }
+  },
+  {
+   "id": "e08p02-4",
+   "typeId": "art",
+   "kind": "bitmap",
+   "file": "resources/e08p02-4.jpg",
+   "width": 505,
+   "height": 1200,
+   "altText": "Seen from above, Shichimi waves from a green clearing by a steaming cauldron, her invitation in her other hand and her fox at her feet. Pepper waves back from her broom.",
+   "safeArea": {
+    "x": 0.17,
+    "y": 0.14,
+    "width": 0.79,
+    "height": 0.6
+   }
+  },
+  {
+   "id": "e08p02-5",
+   "typeId": "art",
+   "kind": "bitmap",
+   "file": "resources/e08p02-5.jpg",
+   "width": 530,
+   "height": 1200,
+   "altText": "Saffron reads her invitation with a smile on a balcony above the rooftops, her white cat beside her. Pepper and Carrot fly off towards the setting sun.",
+   "safeArea": {
+    "x": 0.04,
+    "y": 0.22,
+    "width": 0.8,
+    "height": 0.64
+   }
+  },
+  {
+   "id": "e08p03-1",
+   "typeId": "art",
+   "kind": "bitmap",
+   "file": "resources/e08p03-1.jpg",
+   "width": 1200,
+   "height": 481,
+   "altText": "Pepper’s cottage, its roof overgrown with greenery, stands at the edge of a wood beside a pond on a fine day. Bunting hangs across the porch.",
+   "safeArea": {
+    "x": 0.55,
+    "y": 0.16,
+    "width": 0.33,
+    "height": 0.74
+   },
+   "anchors": [
+    {
+     "id": "pepper",
+     "x": 0.7173,
+     "y": 0.7024
+    }
+   ]
+  },
+  {
+   "id": "e08p03-2",
+   "typeId": "art",
+   "kind": "bitmap",
+   "file": "resources/e08p03-2.jpg",
+   "width": 1200,
+   "height": 576,
+   "altText": "Inside, bunting hangs from the beams and cupcakes, a cake and a teapot wait on the low table. Pepper throws up her arms; Carrot grins.",
+   "safeArea": {
+    "x": 0.28,
+    "y": 0.22,
+    "width": 0.53,
+    "height": 0.58
+   },
+   "anchors": [
+    {
+     "id": "pepper",
+     "x": 0.6585,
+     "y": 0.5192,
+     "face": {
+      "x": 0.625,
+      "y": 0.37,
+      "width": 0.09,
+      "height": 0.22
+     }
+    }
+   ],
+   "avoid": [
+    {
+     "x": 0.32,
+     "y": 0.5,
+     "width": 0.09,
+     "height": 0.2
+    }
+   ]
+  },
+  {
+   "id": "e08p03-3",
+   "typeId": "art",
+   "kind": "bitmap",
+   "file": "resources/e08p03-3.jpg",
+   "width": 1200,
+   "height": 604,
+   "altText": "Later: Pepper waits at the table, chin in one hand, a cupcake in the other. Carrot dozes with his head on the table.",
+   "safeArea": {
+    "x": 0.27,
+    "y": 0.29,
+    "width": 0.51,
+    "height": 0.51
+   }
+  },
+  {
+   "id": "e08p04-1",
+   "typeId": "art",
+   "kind": "bitmap",
+   "file": "resources/e08p04-1.jpg",
+   "width": 1200,
+   "height": 589,
+   "altText": "Rain pours down around the awning over the party table. Pepper, anxious, holds out a hand to the rain; Carrot sits soaked beside the table.",
+   "safeArea": {
+    "x": 0.28,
+    "y": 0.3,
+    "width": 0.57,
+    "height": 0.54
+   },
+   "anchors": [
+    {
+     "id": "pepper",
+     "x": 0.7019,
+     "y": 0.5564,
+     "face": {
+      "x": 0.665,
+      "y": 0.39,
+      "width": 0.085,
+      "height": 0.23
+     }
+    }
+   ],
+   "avoid": [
+    {
+     "x": 0.31,
+     "y": 0.55,
+     "width": 0.11,
+     "height": 0.2
+    }
+   ]
+  },
+  {
+   "id": "e08p04-2",
+   "typeId": "art",
+   "kind": "bitmap",
+   "file": "resources/e08p04-2.jpg",
+   "width": 1200,
+   "height": 574,
+   "altText": "Night and rain: Pepper sits alone by a lantern at the party table, scowling. Carrot sleeps curled up on the table.",
+   "safeArea": {
+    "x": 0.32,
+    "y": 0.34,
+    "width": 0.51,
+    "height": 0.52
+   }
+  },
+  {
+   "id": "e08p04-3",
+   "typeId": "art",
+   "kind": "bitmap",
+   "file": "resources/e08p04-3.jpg",
+   "width": 1200,
+   "height": 498,
+   "altText": "Close-up of Pepper’s face under her hat in the rain, her eyes burning red, her mouth set in anger.",
+   "safeArea": {
+    "x": 0.27,
+    "y": 0.15,
+    "width": 0.46,
+    "height": 0.71
+   }
+  },
+  {
+   "id": "e08p05-1",
+   "typeId": "art",
+   "kind": "bitmap",
+   "file": "resources/e08p05-1.jpg",
+   "width": 1200,
+   "height": 500,
+   "altText": "Lightning. Pepper, furious, pulls a book with a demon’s face on its cover from the shelf. Carrot is terrified.",
+   "safeArea": {
+    "x": 0.25,
+    "y": 0.03,
+    "width": 0.62,
+    "height": 0.74
+   },
+   "anchors": [
+    {
+     "id": "pepper",
+     "x": 0.4249,
+     "y": 0.6863,
+     "face": {
+      "x": 0.38,
+      "y": 0.4,
+      "width": 0.13,
+      "height": 0.32
+     }
+    }
+   ],
+   "avoid": [
+    {
+     "x": 0,
+     "y": 0.66,
+     "width": 0.19,
+     "height": 0.34
+    },
+    {
+     "x": 0.73,
+     "y": 0.22,
+     "width": 0.13,
+     "height": 0.3
+    }
+   ]
+  },
+  {
+   "id": "e08p05-2",
+   "typeId": "art",
+   "kind": "bitmap",
+   "file": "resources/e08p05-2.jpg",
+   "width": 1200,
+   "height": 823,
+   "altText": "From above, in the rain, Pepper draws three glowing red magic circles on the ground with her wand, the open book in her other hand. Carrot watches.",
+   "safeArea": {
+    "x": 0.1,
+    "y": 0.09,
+    "width": 0.77,
+    "height": 0.81
+   },
+   "anchors": [
+    {
+     "id": "pepper",
+     "x": 0.7858,
+     "y": 0.6274,
+     "face": {
+      "x": 0.75,
+      "y": 0.54,
+      "width": 0.09,
+      "height": 0.13
+     }
+    }
+   ],
+   "avoid": [
+    {
+     "x": 0.55,
+     "y": 0.12,
+     "width": 0.1,
+     "height": 0.17
+    }
+   ]
+  },
+  {
+   "id": "e08p05-3",
+   "typeId": "art",
+   "kind": "bitmap",
+   "file": "resources/e08p05-3.jpg",
+   "width": 1200,
+   "height": 342,
+   "altText": "Red light from the circles floods the scene. Pepper, grim, holds the open book in the rain.",
+   "safeArea": {
+    "x": 0.09,
+    "y": 0.15,
+    "width": 0.81,
+    "height": 0.8
+   },
+   "anchors": [
+    {
+     "id": "sfx",
+     "x": 0.1861,
+     "y": 0.66
+    }
+   ]
+  },
+  {
+   "id": "e08p06-1",
+   "typeId": "art",
+   "kind": "bitmap",
+   "file": "resources/e08p06-1.jpg",
+   "width": 1200,
+   "height": 646,
+   "altText": "Seen from behind, Pepper, the book in her hand, faces three huge demons with glowing red eyes rising in the storm, one holding a trident. Carrot, at her feet, is terrified.",
+   "safeArea": {
+    "x": 0.15,
+    "y": 0.06,
+    "width": 0.73,
+    "height": 0.9
+   },
+   "anchors": [
+    {
+     "id": "monster",
+     "x": 0.4808,
+     "y": 0.293,
+     "face": {
+      "x": 0.4,
+      "y": 0.05,
+      "width": 0.22,
+      "height": 0.18
+     }
+    }
+   ],
+   "avoid": [
+    {
+     "x": 0.15,
+     "y": 0.25,
+     "width": 0.15,
+     "height": 0.14
+    },
+    {
+     "x": 0.73,
+     "y": 0.63,
+     "width": 0.14,
+     "height": 0.15
+    },
+    {
+     "x": 0.45,
+     "y": 0.77,
+     "width": 0.13,
+     "height": 0.2
+    }
+   ]
+  },
+  {
+   "id": "e08p06-2",
+   "typeId": "art",
+   "kind": "bitmap",
+   "file": "resources/e08p06-2.jpg",
+   "width": 1200,
+   "height": 290,
+   "altText": "Pepper, lit red, smiles a sly smile.",
+   "safeArea": {
+    "x": 0.59,
+    "y": 0.15,
+    "width": 0.3,
+    "height": 0.77
+   }
+  },
+  {
+   "id": "e08p06-3",
+   "typeId": "art",
+   "kind": "bitmap",
+   "file": "resources/e08p06-3.jpg",
+   "width": 1200,
+   "height": 730,
+   "altText": "The party after all: by candlelight, Pepper clinks teacups with the biggest demon while Carrot laughs, and the other two demons smile around the table.",
+   "safeArea": {
+    "x": 0.09,
+    "y": 0.1,
+    "width": 0.77,
+    "height": 0.7
+   }
+  }
+ ],
+ "fonts": [
+  {
+   "name": "Comic Neue",
+   "variants": [
+    {
+     "weight": 400,
+     "style": "normal",
+     "file": "fonts/ComicNeue-Regular.woff2"
+    },
+    {
+     "weight": 700,
+     "style": "normal",
+     "file": "fonts/ComicNeue-Bold.woff2"
+    },
+    {
+     "weight": 400,
+     "style": "italic",
+     "file": "fonts/ComicNeue-Italic.woff2"
+    },
+    {
+     "weight": 700,
+     "style": "italic",
+     "file": "fonts/ComicNeue-BoldItalic.woff2"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "name": "Bangers",
+   "variants": [
+    {
+     "weight": 400,
+     "style": "normal",
+     "file": "fonts/Bangers-Regular.woff2"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "name": "Zen Antique",
+   "variants": [
+    {
+     "weight": 400,
+     "style": "normal",
+     "file": "fonts/ZenAntique-Regular.woff2"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "name": "Dela Gothic One",
+   "variants": [
+    {
+     "weight": 400,
+     "style": "normal",
+     "file": "fonts/DelaGothicOne-Regular.woff2"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "name": "Noto Sans JP",
+   "variants": [
+    {
+     "weight": 400,
+     "style": "normal",
+     "file": "fonts/NotoSansJP-Regular.woff2"
+    },
+    {
+     "weight": 700,
+     "style": "normal",
+     "file": "fonts/NotoSansJP-Bold.woff2"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "name": "Noto Sans SC",
+   "variants": [
+    {
+     "weight": 400,
+     "style": "normal",
+     "file": "fonts/NotoSansSC-Regular.woff2"
+    },
+    {
+     "weight": 700,
+     "style": "normal",
+     "file": "fonts/NotoSansSC-Bold.woff2"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "name": "ZCOOL KuaiLe",
+   "variants": [
+    {
+     "weight": 400,
+     "style": "normal",
+     "file": "fonts/ZCOOLKuaiLe-Regular.woff2"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "name": "Playpen Sans Arabic",
+   "variants": [
+    {
+     "weight": 400,
+     "style": "normal",
+     "file": "fonts/PlaypenSansArabic-Regular.woff2"
+    },
+    {
+     "weight": 700,
+     "style": "normal",
+     "file": "fonts/PlaypenSansArabic-Bold.woff2"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "name": "Lalezar",
+   "variants": [
+    {
+     "weight": 400,
+     "style": "normal",
+     "file": "fonts/Lalezar-Regular.woff2"
+    }
+   ],
+   "redistributable": true
+  }
+ ]
+}
