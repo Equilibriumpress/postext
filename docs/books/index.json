@@ -89,6 +89,23 @@
         "illustrated",
         "composed-pages"
       ]
+    },
+    {
+      "id": "singapore-port-proof-12",
+      "dir": "singapore-port-proof-12",
+      "name": "SINGAPORE · Twelve-page Reconstruction Proof",
+      "description": "12 original-source pages reconstructed using native composed frames and original photo/map assets; source geometry and export sign-off pending.",
+      "locale": "en",
+      "locales": [
+        "en"
+      ],
+      "tags": [
+        "singapore",
+        "reproduction-proof",
+        "composed-pages"
+      ],
+      "license": "© Rough Guides",
+      "credits": "Mark Lewis · Rough Guides"
     }
   ]
 }

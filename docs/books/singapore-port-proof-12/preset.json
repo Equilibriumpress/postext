@@ -1,0 +1,3465 @@
+{
+  "version": 2,
+  "configVersion": 22,
+  "id": "singapore-port-proof-12",
+  "name": "SINGAPORE · Twelve-page Reconstruction Proof",
+  "locale": "en",
+  "locales": [
+    "en"
+  ],
+  "description": "Twelve representative editable Postext compositions referenced to specific pages of the original 194-page Rough Guide Directions Singapore PDF; source-comparison acceptance pending.",
+  "tags": [
+    "singapore",
+    "source-verified",
+    "editorial-port",
+    "proof"
+  ],
+  "view": {
+    "canvasScope": "book"
+  },
+  "chapters": [
+    {
+      "title": "Twelve representative source pages",
+      "file": "chapters/en/01-twelve-source-pages.md"
+    }
+  ],
+  "config": {
+    "locale": "en",
+    "page": {
+      "sizePreset": "custom",
+      "width": {
+        "value": 104,
+        "unit": "mm"
+      },
+      "height": {
+        "value": 191,
+        "unit": "mm"
+      },
+      "margins": {
+        "top": {
+          "value": 0,
+          "unit": "mm"
+        },
+        "bottom": {
+          "value": 0,
+          "unit": "mm"
+        },
+        "left": {
+          "value": 0,
+          "unit": "mm"
+        },
+        "right": {
+          "value": 0,
+          "unit": "mm"
+        },
+        "mirror": false
+      }
+    },
+    "layout": {
+      "layoutType": "single"
+    },
+    "bodyText": {
+      "fontFamily": "Open Sans",
+      "fontSize": {
+        "value": 7,
+        "unit": "pt"
+      },
+      "lineHeight": {
+        "value": 9,
+        "unit": "pt"
+      },
+      "textAlign": "left"
+    },
+    "headings": {
+      "fontFamily": "Open Sans",
+      "keepWithNext": true,
+      "levels": [
+        {
+          "level": 1,
+          "fontSize": {
+            "value": 17,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 21,
+            "unit": "pt"
+          }
+        }
+      ]
+    },
+    "pageTemplates": [
+      {
+        "id": "rg-cover",
+        "name": "Original cover image, live overlay text",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "art",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 0,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 0,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 104,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 191,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "imprint",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 3,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 1,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 21,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 11,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-cover-mark"
+          },
+          {
+            "name": "series",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 9,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 118,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 92,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 12,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-cover-series"
+          },
+          {
+            "name": "title",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 8,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 134,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 95,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 27,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-cover-title"
+          }
+        ]
+      },
+      {
+        "id": "rg-full-photo",
+        "name": "Full-bleed photograph with navigation",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "art",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 0,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 0,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 104,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 182,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "nav",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 5,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 184,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 94,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 5,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-nav"
+          }
+        ],
+        "decoration": {
+          "elements": [
+            {
+              "kind": "box",
+              "id": "paper-footer",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 182,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 104,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 9,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FFFFFF",
+                  "model": "hex"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "rg-section-opener",
+        "name": "Section opener with image strip",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "title",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 55,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 70,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 46,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 16,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-opener-title"
+          },
+          {
+            "name": "tile1",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 0,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 85,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 26,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 25,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "tile2",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 26,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 85,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 26,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 25,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "tile3",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 52,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 85,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 26,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 25,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "tile4",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 78,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 85,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 26,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 25,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "nav",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 5,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 184,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 94,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 5,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-nav"
+          }
+        ],
+        "decoration": {
+          "elements": [
+            {
+              "kind": "box",
+              "id": "upper",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 0,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 104,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 85,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#3A328F",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "middle",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 110,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 104,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 72,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#A29ACD",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "foot",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 182,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 104,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 9,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FFFFFF",
+                  "model": "hex"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "rg-idea-lead",
+        "name": "Blue lead column with two image-and-caption cards",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "folio",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 5,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 3,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 16,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 7,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-white-folio"
+          },
+          {
+            "name": "head",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 6,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 14,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 37,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 12,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-white-head"
+          },
+          {
+            "name": "intro",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 6,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 30,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 37,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 66,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-white-copy"
+          },
+          {
+            "name": "leftart",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 0,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 99,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 48,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 83,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "rightart1",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 48,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 0,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 56,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 90,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "rightcopy1",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 51,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 92,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 51,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 20,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-card-copy"
+          },
+          {
+            "name": "rightart2",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 48,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 116,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 56,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 40,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "rightcopy2",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 51,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 158,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 51,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 21,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-card-copy"
+          },
+          {
+            "name": "nav",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 5,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 184,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 94,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 5,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-nav"
+          }
+        ],
+        "decoration": {
+          "elements": [
+            {
+              "kind": "box",
+              "id": "left-blue",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 0,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 48,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 99,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#345BA7",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "paper",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 48,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 0,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 56,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 182,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FFFFFF",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "foot",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 182,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 104,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 9,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FFFFFF",
+                  "model": "hex"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "rg-idea-tiles",
+        "name": "Four mixed-size photo cards on white",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "folio",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 94,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 2,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 8,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 7,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-folio"
+          },
+          {
+            "name": "art1",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 10,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 10,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 88,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 37,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "caption1",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 10,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 48,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 89,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 23,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-card-copy"
+          },
+          {
+            "name": "art2",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 4,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 78,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 43,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 28,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "caption2",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 4,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 108,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 43,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 28,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-card-copy"
+          },
+          {
+            "name": "art3",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 53,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 78,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 45,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 28,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "caption3",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 53,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 108,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 45,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 28,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-card-copy"
+          },
+          {
+            "name": "art4",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 5,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 139,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 93,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 36,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "nav",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 5,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 184,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 94,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 5,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-nav"
+          }
+        ],
+        "decoration": {
+          "elements": [
+            {
+              "kind": "box",
+              "id": "background",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 0,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 104,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 182,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FFFFFF",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "foot",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 182,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 104,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 9,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FFFFFF",
+                  "model": "hex"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "rg-viewpoints",
+        "name": "Viewpoints picture sequence",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "folio",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 94,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 2,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 8,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 7,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-folio"
+          },
+          {
+            "name": "art1",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 5,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 9,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 94,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 52,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "copy1",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 5,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 63,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 46,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 22,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-card-copy"
+          },
+          {
+            "name": "copy2",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 53,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 63,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 46,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 22,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-card-copy"
+          },
+          {
+            "name": "art2",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 5,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 89,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 94,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 39,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "art3",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 5,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 133,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 66,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 41,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "copy3",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 73,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 134,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 25,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 37,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-card-copy"
+          },
+          {
+            "name": "nav",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 5,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 184,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 94,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 5,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-nav"
+          }
+        ],
+        "decoration": {
+          "elements": [
+            {
+              "kind": "box",
+              "id": "white",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 0,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 104,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 182,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FFFFFF",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "foot",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 182,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 104,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 9,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FFFFFF",
+                  "model": "hex"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "rg-map-article",
+        "name": "Full-width native SVG map above two text columns",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "ribbon",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 1,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 65,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 6,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 63,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-sideways"
+          },
+          {
+            "name": "folio",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 11,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 4,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 12,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 8,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-folio"
+          },
+          {
+            "name": "map",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 13,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 12,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 84,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 91,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "left",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 13,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 113,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 41,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 63,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-body-copy"
+          },
+          {
+            "name": "right",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 57,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 113,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 40,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 63,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-body-copy"
+          },
+          {
+            "name": "nav",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 5,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 184,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 94,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 5,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-nav"
+          }
+        ],
+        "decoration": {
+          "elements": [
+            {
+              "kind": "box",
+              "id": "blue-sidebar",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 0,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 9,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 182,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#345BA7",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "white-paper",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 9,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 0,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 95,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 182,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FFFFFF",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "foot",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 182,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 104,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 9,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FFFFFF",
+                  "model": "hex"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "rg-listing",
+        "name": "Two-column listings with photo base",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "ribbon",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 1,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 65,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 6,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 63,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-sideways"
+          },
+          {
+            "name": "folio",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 13,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 4,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 18,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 8,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-folio"
+          },
+          {
+            "name": "head",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 13,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 16,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 84,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 9,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-list-title"
+          },
+          {
+            "name": "left",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 29,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 39,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 89,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-body-copy"
+          },
+          {
+            "name": "right",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 57,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 29,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 39,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 89,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-body-copy"
+          },
+          {
+            "name": "art",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 12,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 122,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 88,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 55,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "nav",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 5,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 184,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 94,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 5,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-nav"
+          }
+        ],
+        "decoration": {
+          "elements": [
+            {
+              "kind": "box",
+              "id": "blue-sidebar",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 0,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 9,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 182,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#345BA7",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "white-paper",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 9,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 0,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 95,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 182,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FFFFFF",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "foot",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 182,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 104,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 9,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FFFFFF",
+                  "model": "hex"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "rg-map-plate",
+        "name": "Original vector map plate, no replacement labels",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "map",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 0,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 0,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 104,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 191,
+                  "unit": "mm"
+                }
+              }
+            }
+          }
+        ],
+        "decoration": {
+          "elements": [
+            {
+              "kind": "box",
+              "id": "paper",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 0,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 104,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 191,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FFFFFF",
+                  "model": "hex"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "calloutStyles": [
+      {
+        "id": "sg-cover-mark",
+        "name": "sg-cover-mark",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Open Sans",
+          "fontSize": {
+            "value": 6,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 7,
+            "unit": "pt"
+          },
+          "color": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "fontWeight": 700,
+          "boldFontWeight": 700,
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 1,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "sg-cover-series",
+        "name": "sg-cover-series",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Open Sans",
+          "fontSize": {
+            "value": 10,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 12,
+            "unit": "pt"
+          },
+          "color": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "fontWeight": 700,
+          "boldFontWeight": 700,
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 1,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "sg-cover-title",
+        "name": "sg-cover-title",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Open Sans",
+          "fontSize": {
+            "value": 25,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 29,
+            "unit": "pt"
+          },
+          "color": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "fontWeight": 700,
+          "boldFontWeight": 700,
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 1,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "sg-opener-title",
+        "name": "sg-opener-title",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Open Sans",
+          "fontSize": {
+            "value": 25,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 29,
+            "unit": "pt"
+          },
+          "color": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "fontWeight": 700,
+          "boldFontWeight": 700,
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 1,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "sg-white-folio",
+        "name": "sg-white-folio",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Open Sans",
+          "fontSize": {
+            "value": 6.5,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 7,
+            "unit": "pt"
+          },
+          "color": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "fontWeight": 700,
+          "boldFontWeight": 700,
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 1,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "sg-white-head",
+        "name": "sg-white-head",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Open Sans",
+          "fontSize": {
+            "value": 10.5,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 12,
+            "unit": "pt"
+          },
+          "color": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "fontWeight": 700,
+          "boldFontWeight": 700,
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 1,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "sg-white-copy",
+        "name": "sg-white-copy",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Open Sans",
+          "fontSize": {
+            "value": 7.2,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 9.7,
+            "unit": "pt"
+          },
+          "color": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "fontWeight": 400,
+          "boldFontWeight": 700,
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 1,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "sg-card-copy",
+        "name": "sg-card-copy",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Open Sans",
+          "fontSize": {
+            "value": 7,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 9,
+            "unit": "pt"
+          },
+          "color": {
+            "hex": "#273248",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#273248",
+            "model": "hex"
+          },
+          "fontWeight": 400,
+          "boldFontWeight": 700,
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 1,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "sg-folio",
+        "name": "sg-folio",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Open Sans",
+          "fontSize": {
+            "value": 6.8,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 8,
+            "unit": "pt"
+          },
+          "color": {
+            "hex": "#283247",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#283247",
+            "model": "hex"
+          },
+          "fontWeight": 700,
+          "boldFontWeight": 700,
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 1,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "sg-nav",
+        "name": "sg-nav",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Open Sans",
+          "fontSize": {
+            "value": 6.5,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 8,
+            "unit": "pt"
+          },
+          "color": {
+            "hex": "#445378",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#445378",
+            "model": "hex"
+          },
+          "fontWeight": 700,
+          "boldFontWeight": 700,
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 1,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "sg-sideways",
+        "name": "sg-sideways",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Open Sans",
+          "fontSize": {
+            "value": 6,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 7,
+            "unit": "pt"
+          },
+          "color": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "fontWeight": 700,
+          "boldFontWeight": 700,
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 1,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "sg-body-copy",
+        "name": "sg-body-copy",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Open Sans",
+          "fontSize": {
+            "value": 6.7,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 8.7,
+            "unit": "pt"
+          },
+          "color": {
+            "hex": "#2C3340",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#2C3340",
+            "model": "hex"
+          },
+          "fontWeight": 400,
+          "boldFontWeight": 700,
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 1,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "sg-list-title",
+        "name": "sg-list-title",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Open Sans",
+          "fontSize": {
+            "value": 9,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 10,
+            "unit": "pt"
+          },
+          "color": {
+            "hex": "#1E2B3A",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#1E2B3A",
+            "model": "hex"
+          },
+          "fontWeight": 700,
+          "boldFontWeight": 700,
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 1,
+            "unit": "pt"
+          }
+        }
+      }
+    ],
+    "resourceTypes": [
+      {
+        "id": "figure",
+        "numberingTemplate": "",
+        "defaultPlacement": {
+          "position": "here",
+          "span": "page"
+        }
+      }
+    ]
+  },
+  "resources": [
+    {
+      "id": "photo-001-01",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/photo-001-01.jpeg",
+      "width": 619,
+      "height": 1134,
+      "altText": "Original source image for PDF page 001",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "photo-002-01",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/photo-002-01.jpeg",
+      "width": 296,
+      "height": 541,
+      "altText": "Original source image for PDF page 002",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "photo-011-01",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/photo-011-01.jpeg",
+      "width": 77,
+      "height": 76,
+      "altText": "Original source image for PDF page 011",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "photo-011-02",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/photo-011-02.jpeg",
+      "width": 77,
+      "height": 76,
+      "altText": "Original source image for PDF page 011",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "photo-011-03",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/photo-011-03.jpeg",
+      "width": 76,
+      "height": 77,
+      "altText": "Original source image for PDF page 011",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "photo-011-04",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/photo-011-04.jpeg",
+      "width": 76,
+      "height": 75,
+      "altText": "Original source image for PDF page 011",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "photo-012-02",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/photo-012-02.jpeg",
+      "width": 162,
+      "height": 225,
+      "altText": "Original source image for PDF page 012",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "photo-012-03",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/photo-012-03.jpeg",
+      "width": 138,
+      "height": 235,
+      "altText": "Original source image for PDF page 012",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "photo-012-01",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/photo-012-01.jpeg",
+      "width": 133,
+      "height": 133,
+      "altText": "Original source image for PDF page 012",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "photo-013-01",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/photo-013-01.jpeg",
+      "width": 250,
+      "height": 105,
+      "altText": "Original source image for PDF page 013",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "photo-013-02",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/photo-013-02.jpeg",
+      "width": 250,
+      "height": 112,
+      "altText": "Original source image for PDF page 013",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "photo-013-03",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/photo-013-03.jpeg",
+      "width": 138,
+      "height": 113,
+      "altText": "Original source image for PDF page 013",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "photo-013-04",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/photo-013-04.jpeg",
+      "width": 150,
+      "height": 104,
+      "altText": "Original source image for PDF page 013",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "photo-049-01",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/photo-049-01.jpeg",
+      "width": 267,
+      "height": 174,
+      "altText": "Original source image for PDF page 049",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "photo-049-02",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/photo-049-02.jpeg",
+      "width": 250,
+      "height": 144,
+      "altText": "Original source image for PDF page 049",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "photo-049-03",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/photo-049-03.jpeg",
+      "width": 181,
+      "height": 118,
+      "altText": "Original source image for PDF page 049",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "photo-051-02",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/photo-051-02.jpeg",
+      "width": 77,
+      "height": 77,
+      "altText": "Original source image for PDF page 051",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "photo-051-03",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/photo-051-03.jpeg",
+      "width": 77,
+      "height": 77,
+      "altText": "Original source image for PDF page 051",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "photo-051-04",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/photo-051-04.jpeg",
+      "width": 76,
+      "height": 76,
+      "altText": "Original source image for PDF page 051",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "photo-051-01",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/photo-051-01.jpeg",
+      "width": 77,
+      "height": 76,
+      "altText": "Original source image for PDF page 051",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "photo-052-01",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/photo-052-01.jpeg",
+      "width": 297,
+      "height": 516,
+      "altText": "Original source image for PDF page 052",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "map-054",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/map-054.svg",
+      "width": 239,
+      "height": 305,
+      "altText": "Original source image for PDF page ap-",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "photo-095-01",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/photo-095-01.jpeg",
+      "width": 231,
+      "height": 147,
+      "altText": "Original source image for PDF page 095",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "photo-100-01",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/photo-100-01.jpeg",
+      "width": 269,
+      "height": 178,
+      "altText": "Original source image for PDF page 100",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "map-180",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/map-180.svg",
+      "width": 295,
+      "height": 541,
+      "altText": "Original source image for PDF page ap-",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    }
+  ],
+  "fonts": [],
+  "license": "© Rough Guides. Reference-source permission asserted by project owner.",
+  "credits": "Mark Lewis · Rough Guides"
+}
