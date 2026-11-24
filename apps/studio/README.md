@@ -31,7 +31,7 @@ For local development, first build the engine and Sandbox packages, then run \`p
 
 The Vite build uses \`emptyOutDir: false\` because the upstream repository already has documentation under \`docs/\` and books are maintained there separately. Never run a clean that deletes the \`docs/books/\` source directory.
 
-Note: upstream's \`.github/workflows\` remain in the fork. They have not been disabled here. Avoid PR/merge until the repository's Actions are disabled in Settings, or separate the fork's upstream workflows from active CI. This initial development branch makes no Actions-based deployment claims.
+Fork workflow policy: CI, layout tests, Sandbox probes and the Studio build are manual (`workflow_dispatch`) only. The upstream release and Discord workflows are preserved under `.github/upstream-workflows/` and are not active. Do not disable Actions globally: GitHub Pages uses its own deployment workflow. Book-only PRs need no engine build or test run. Merge into `main` without `[skip ci]` and verify that Pages deploys `main /docs`, then check the live `books/index.json`.
 
 ## Add a GitHub-authored book without rebuilding the app
 
