@@ -42,6 +42,18 @@
         "illustrated",
         "expanded-reading"
       ]
+    },
+    {
+      "id": "the-human-mind",
+      "dir": "the-human-mind",
+      "name": "THE HUMAN MIND · Visual Edition",
+      "description": "Original 80-page editorial structure rebuilt with native Postext composed-page templates; 30 SVG concept illustrations.",
+      "locale": "en",
+      "tags": [
+        "psychology",
+        "illustrated",
+        "visual-edition"
+      ]
     }
   ]
 }

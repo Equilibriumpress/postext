@@ -1,0 +1,1244 @@
+{
+  "version": 2,
+  "configVersion": 22,
+  "id": "the-human-mind",
+  "name": "THE HUMAN MIND · Visual Edition",
+  "locale": "en",
+  "description": "Original 80-page editorial structure rebuilt with native Postext composed-page templates; 30 SVG concept illustrations.",
+  "tags": [
+    "psychology",
+    "illustrated",
+    "visual-edition"
+  ],
+  "view": {
+    "canvasScope": "book"
+  },
+  "chapters": [
+    {
+      "title": "Opening · five pages",
+      "file": "chapters/00-opening.md"
+    },
+    {
+      "title": "How We Think",
+      "file": "chapters/01-theme-thinking.md"
+    },
+    {
+      "title": "01. Thinking, Fast and Slow",
+      "file": "chapters/02-thinking-fast-and-slow.md"
+    },
+    {
+      "title": "02. The Invisible Gorilla",
+      "file": "chapters/03-the-invisible-gorilla.md"
+    },
+    {
+      "title": "03. Noise",
+      "file": "chapters/04-noise.md"
+    },
+    {
+      "title": "04. The Scout Mindset",
+      "file": "chapters/05-the-scout-mindset.md"
+    },
+    {
+      "title": "05. How Minds Change",
+      "file": "chapters/06-how-minds-change.md"
+    },
+    {
+      "title": "Memory & Learning",
+      "file": "chapters/07-theme-learning.md"
+    },
+    {
+      "title": "06. Make It Stick",
+      "file": "chapters/08-make-it-stick.md"
+    },
+    {
+      "title": "07. Remember",
+      "file": "chapters/09-remember.md"
+    },
+    {
+      "title": "08. The Organized Mind",
+      "file": "chapters/10-the-organized-mind.md"
+    },
+    {
+      "title": "09. The Extended Mind",
+      "file": "chapters/11-the-extended-mind.md"
+    },
+    {
+      "title": "10. Why Don't Students Like School?",
+      "file": "chapters/12-why-dont-students-like-school.md"
+    },
+    {
+      "title": "Emotions & Happiness",
+      "file": "chapters/13-theme-emotions.md"
+    },
+    {
+      "title": "11. How Emotions Are Made",
+      "file": "chapters/14-how-emotions-are-made.md"
+    },
+    {
+      "title": "12. Emotional Agility",
+      "file": "chapters/15-emotional-agility.md"
+    },
+    {
+      "title": "13. Stumbling on Happiness",
+      "file": "chapters/16-stumbling-on-happiness.md"
+    },
+    {
+      "title": "14. The Happiness Hypothesis",
+      "file": "chapters/17-the-happiness-hypothesis.md"
+    },
+    {
+      "title": "15. The Upside of Stress",
+      "file": "chapters/18-the-upside-of-stress.md"
+    },
+    {
+      "title": "Habits & Motivation",
+      "file": "chapters/19-theme-habits.md"
+    },
+    {
+      "title": "16. Atomic Habits",
+      "file": "chapters/20-atomic-habits.md"
+    },
+    {
+      "title": "17. Tiny Habits",
+      "file": "chapters/21-tiny-habits.md"
+    },
+    {
+      "title": "18. The Expectation Effect",
+      "file": "chapters/22-the-expectation-effect.md"
+    },
+    {
+      "title": "19. Drive",
+      "file": "chapters/23-drive.md"
+    },
+    {
+      "title": "20. Scarcity",
+      "file": "chapters/24-scarcity.md"
+    },
+    {
+      "title": "The Social Mind",
+      "file": "chapters/25-theme-social.md"
+    },
+    {
+      "title": "21. Influence",
+      "file": "chapters/26-influence.md"
+    },
+    {
+      "title": "22. The Person and the Situation",
+      "file": "chapters/27-the-person-and-the-situation.md"
+    },
+    {
+      "title": "23. Mistakes Were Made (But Not by Me)",
+      "file": "chapters/28-mistakes-were-made.md"
+    },
+    {
+      "title": "24. The Righteous Mind",
+      "file": "chapters/29-the-righteous-mind.md"
+    },
+    {
+      "title": "25. Social",
+      "file": "chapters/30-social.md"
+    },
+    {
+      "title": "The Brain & The Self",
+      "file": "chapters/31-theme-brain.md"
+    },
+    {
+      "title": "26. Being You",
+      "file": "chapters/32-being-you.md"
+    },
+    {
+      "title": "27. Livewired",
+      "file": "chapters/33-livewired.md"
+    },
+    {
+      "title": "28. Behave",
+      "file": "chapters/34-behave.md"
+    },
+    {
+      "title": "29. The Man Who Mistook His Wife for a Hat",
+      "file": "chapters/35-the-man-who-mistook.md"
+    },
+    {
+      "title": "30. The Neuroscience of You",
+      "file": "chapters/36-the-neuroscience-of-you.md"
+    },
+    {
+      "title": "Sources and colophon · three pages",
+      "file": "chapters/37-closing.md"
+    }
+  ],
+  "config": {
+    "locale": "en",
+    "page": {
+      "sizePreset": "custom",
+      "width": {
+        "value": 210,
+        "unit": "mm"
+      },
+      "height": {
+        "value": 297,
+        "unit": "mm"
+      },
+      "margins": {
+        "top": {
+          "value": 0,
+          "unit": "mm"
+        },
+        "bottom": {
+          "value": 0,
+          "unit": "mm"
+        },
+        "left": {
+          "value": 0,
+          "unit": "mm"
+        },
+        "right": {
+          "value": 0,
+          "unit": "mm"
+        },
+        "mirror": false
+      }
+    },
+    "layout": {
+      "layoutType": "single"
+    },
+    "bodyText": {
+      "fontFamily": "Arial",
+      "fontSize": {
+        "value": 8.8,
+        "unit": "pt"
+      },
+      "lineHeight": {
+        "value": 12.3,
+        "unit": "pt"
+      },
+      "textAlign": "left"
+    },
+    "headings": {
+      "fontFamily": "Arial",
+      "keepWithNext": true,
+      "levels": [
+        {
+          "level": 1,
+          "fontSize": {
+            "value": 25,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 28,
+            "unit": "pt"
+          }
+        },
+        {
+          "level": 2,
+          "fontSize": {
+            "value": 15,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 18,
+            "unit": "pt"
+          }
+        },
+        {
+          "level": 3,
+          "fontSize": {
+            "value": 11,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 14,
+            "unit": "pt"
+          }
+        }
+      ]
+    },
+    "pageTemplates": [
+      {
+        "id": "thm-cover",
+        "name": "Cover",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "cover",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 0,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 0,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 210,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 297,
+                  "unit": "mm"
+                }
+              }
+            },
+            "flow": true
+          }
+        ]
+      },
+      {
+        "id": "thm-editorial",
+        "name": "Editorial and thematic page",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "text",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 18,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 17,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 174,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 265,
+                  "unit": "mm"
+                }
+              }
+            },
+            "flow": true
+          }
+        ]
+      },
+      {
+        "id": "thm-source",
+        "name": "Bibliography and colophon",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "text",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 15,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 14,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 180,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 272,
+                  "unit": "mm"
+                }
+              }
+            },
+            "flow": true,
+            "columns": 1
+          }
+        ]
+      },
+      {
+        "id": "thm-graphic",
+        "name": "Diagram with three takeaways",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "kicker",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 12,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 182,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 12,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "title",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 27,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 182,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 31,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "byline",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 60,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 182,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 12,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "graphic",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 11,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 76,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 188,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 133,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "subhead",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 210,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 182,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 16,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "scene",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 227,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 182,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 17,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "takeaway1",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 247,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 57,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 36,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "takeaway2",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 76,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 247,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 57,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 36,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "takeaway3",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 138,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 247,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 57,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 36,
+                  "unit": "mm"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "thm-ideas",
+        "name": "Eight ideas, two exercises",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "kicker",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 15,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 12,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 180,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 12,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "title",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 15,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 29,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 180,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 29,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "metadata",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 15,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 58,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 180,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 15,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "left",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 16,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 78,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 84,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 150,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "right",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 110,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 78,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 84,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 150,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "applications",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 16,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 233,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 178,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 51,
+                  "unit": "mm"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "resourceTypes": [
+      {
+        "id": "figure",
+        "numberingTemplate": "",
+        "defaultPlacement": {
+          "position": "here",
+          "span": "page"
+        }
+      }
+    ]
+  },
+  "resources": [
+    {
+      "id": "thm-cover",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/cover.svg",
+      "width": 595,
+      "height": 841,
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-atomic-habits",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/atomic-habits.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for atomic habits",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-behave",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/behave.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for behave",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-being-you",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/being-you.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for being you",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-drive",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/drive.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for drive",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-emotional-agility",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/emotional-agility.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for emotional agility",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-how-emotions-are-made",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/how-emotions-are-made.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for how emotions are made",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-how-minds-change",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/how-minds-change.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for how minds change",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-influence",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/influence.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for influence",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-livewired",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/livewired.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for livewired",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-make-it-stick",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/make-it-stick.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for make it stick",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-mistakes-were-made",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/mistakes-were-made.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for mistakes were made",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-noise",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/noise.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for noise",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-remember",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/remember.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for remember",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-scarcity",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/scarcity.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for scarcity",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-social",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/social.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for social",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-stumbling-on-happiness",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/stumbling-on-happiness.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for stumbling on happiness",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-the-expectation-effect",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/the-expectation-effect.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for the expectation effect",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-the-extended-mind",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/the-extended-mind.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for the extended mind",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-the-happiness-hypothesis",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/the-happiness-hypothesis.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for the happiness hypothesis",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-the-invisible-gorilla",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/the-invisible-gorilla.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for the invisible gorilla",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-the-man-who-mistook",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/the-man-who-mistook.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for the man who mistook",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-the-neuroscience-of-you",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/the-neuroscience-of-you.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for the neuroscience of you",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-the-organized-mind",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/the-organized-mind.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for the organized mind",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-the-person-and-the-situation",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/the-person-and-the-situation.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for the person and the situation",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-the-righteous-mind",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/the-righteous-mind.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for the righteous mind",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-the-scout-mindset",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/the-scout-mindset.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for the scout mindset",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-the-upside-of-stress",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/the-upside-of-stress.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for the upside of stress",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-thinking-fast-and-slow",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/thinking-fast-and-slow.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for thinking fast and slow",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-tiny-habits",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/tiny-habits.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for tiny habits",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-why-dont-students-like-school",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/why-dont-students-like-school.svg",
+      "width": 462,
+      "height": 336,
+      "altText": "Original concept illustration for why dont students like school",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    }
+  ]
+}
