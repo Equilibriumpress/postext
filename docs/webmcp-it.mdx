@@ -233,7 +233,7 @@ il suo percorso. Un agente raramente conosce il percorso all’inizio, quindi lo
     { "path": "bodyText.avoidOrphans", "effective": true },
     { "path": "bodyText.avoidOrphansInLists", "effective": true }
   ],
-  "sections": [{ "section": "Body text", "group": "Typography", "settingsGroup": "text", "configKeys": ["bodyText"] }]
+  "sections": [{ "section": "Body text", "group": "Typography", "settingsGroup": "text", "settingsSection": "bodyText", "configKeys": ["bodyText"] }]
 }
 ```
 
@@ -328,6 +328,8 @@ loro valore. Per cambiare anche quelle, apri ciascuna (`sandbox_open_book` con
 `language`) e scrivi il percorso con `scope: "edition"`: un valore uguale a quello
 generale smette di essere proprio dell’edizione. In un libro in una sola lingua
 `scope: "all"` viene rifiutato, perché tutte le sue impostazioni sono proprie.
+
+Gli altri strumenti che cambiano la grafica non accettano `scope`: scrivono dove si trova il pannello Grafica. Sono `sandbox_edit_labels` con `action: "pointer"`, `sandbox_set_view` con `guides`, `sandbox_rename_design_item`, `sandbox_remove_design_item`, `sandbox_chapter_styles`, `sandbox_frames_to_grid`, `sandbox_extract_module`, `sandbox_create_module`, `sandbox_insert_module`, `sandbox_rename_module`, `sandbox_merge_styles`, `sandbox_language_defaults`, `sandbox_print_profile`, `sandbox_save_layout_as_template` e `sandbox_apply_proposal`. Con il pannello su tutte le lingue, la modifica va nelle impostazioni generali e l’edizione a schermo la prende, anche dove aveva un valore proprio; la lingua dell’edizione resta sua. In un libro in più lingue le loro risposte riportano `scope`.
 
 Un libro i cui capitoli non sono tutti uguali ha degli [stili dei capitoli](/it/docs/configuration-styles#stili-dei-capitoli). `sandbox_chapter_styles` li elenca con le impostazioni che ciascuno cambia e i capitoli composti in esso, e dice da dove viene lo stile di ogni capitolo: dal suo front matter (`chapter`), dalla riga `:::part` con cui comincia (`part`) o dalla parte a cui appartiene (`partBefore`). Crea anche, rinomina e rimuove gli stili. `sandbox_get_config` e `sandbox_set_config` accettano `chapterStyle`: con esso leggono e scrivono le impostazioni di quello stile, come fa il pannello Design mentre lo stile è scelto. Un percorso condiviso dal libro intero (`page.width`, `locale`, i font, la stampa) viene scritto nel libro, e `notes` lo dice. `sandbox_set_chapter_style` dà a un capitolo il suo stile scrivendone la riga `chapterStyle:`, e `style: null` la toglie. Per comporre tutti i capitoli di una parte in uno stile si scrive `style="…"` nella riga `:::part` della parte con `sandbox_edit_text`.
 
@@ -538,7 +540,7 @@ Ciò che l’agente cambia, tu lo vedi. Per indicarti qualcosa:
 
 `sandbox_set_view` sceglie anche il visualizzatore (`canvas`, `pdf`, `folio`, `html`,
 `epub`, `scorm`), la modalità Contenuto o Grafica (`mode`), il pannello laterale, capitolo o libro intero, lo zoom, il corpo del testo
-per il lettore, l’anteprima di stampa, le linee di fustella (`dieLines`) e la vista degli inchiostri speciali (`finishes`: `flat`, `sheen` o `map`) del Canvas, il gruppo del pannello Grafica, e nella scheda SCORM il
+per il lettore, l’anteprima di stampa, le linee di fustella (`dieLines`) e la vista degli inchiostri speciali (`finishes`: `flat`, `sheen` o `map`) del Canvas, il gruppo del pannello Grafica o una delle sue sezioni (`settingsSection`), e nella scheda SCORM il
 contenuto (`scormLayout`), la versione (`scormVersion`) e i capitoli e le
 sezioni che il pacchetto prende (`scormPick`, id dai `contents` della scheda). `sandbox_go_to_page` sfoglia
 le pagine per `step`, `page`, `position`, un passo di `text`, un `anchor` o una

@@ -238,7 +238,7 @@ indicant-ne la ruta. D'entrada, un agent poques vegades en sap la ruta, així qu
     { "path": "bodyText.avoidOrphans", "effective": true },
     { "path": "bodyText.avoidOrphansInLists", "effective": true }
   ],
-  "sections": [{ "section": "Body text", "group": "Typography", "settingsGroup": "text", "configKeys": ["bodyText"] }]
+  "sections": [{ "section": "Body text", "group": "Typography", "settingsGroup": "text", "settingsSection": "bodyText", "configKeys": ["bodyText"] }]
 }
 ```
 
@@ -333,6 +333,8 @@ que conserven el seu valor. Per canviar-les també, obre cadascuna
 (`sandbox_open_book` amb `language`) i escriu la ruta amb `scope: "edition"`: un
 valor igual al general deixa de ser propi de l'edició. En un llibre en una sola
 llengua, `scope: "all"` es rebutja, perquè tots els seus ajustos són propis.
+
+Les altres eines que canvien el disseny no accepten `scope`: escriuen allà on és el tauler Disseny. Són `sandbox_edit_labels` amb `action: "pointer"`, `sandbox_set_view` amb `guides`, `sandbox_rename_design_item`, `sandbox_remove_design_item`, `sandbox_chapter_styles`, `sandbox_frames_to_grid`, `sandbox_extract_module`, `sandbox_create_module`, `sandbox_insert_module`, `sandbox_rename_module`, `sandbox_merge_styles`, `sandbox_language_defaults`, `sandbox_print_profile`, `sandbox_save_layout_as_template` i `sandbox_apply_proposal`. Amb el tauler en totes les llengües, el canvi va als ajustos generals i l'edició en pantalla el pren, també on tenia un valor propi; la llengua de l'edició continua sent seva. En un llibre en diverses llengües, les seves respostes porten `scope`.
 
 Un llibre els capítols del qual no són tots iguals té [estils de capítol](/ca/docs/configuration-styles#estils-de-capítol). `sandbox_chapter_styles` els llista amb els ajustos que canvia cadascun i els capítols compostos en ell, i diu d'on ve l'estil de cada capítol: del seu preàmbul (`chapter`), de la línia `:::part` amb què comença (`part`) o de la part a què pertany (`partBefore`). També crea, reanomena i elimina estils. `sandbox_get_config` i `sandbox_set_config` accepten `chapterStyle`: amb aquest paràmetre llegeixen i escriuen els ajustos d'aquell estil, com fa el tauler Disseny mentre l'estil està triat. Una ruta que comparteix tot el llibre (`page.width`, `locale`, les fonts, la impremta) s'escriu al llibre, i `notes` ho diu. `sandbox_set_chapter_style` dona a un capítol el seu estil escrivint-ne la línia `chapterStyle:`, i `style: null` la treu. Per compondre tots els capítols d'una part en un estil, s'escriu `style="…"` a la línia `:::part` de la part amb `sandbox_edit_text`.
 
@@ -546,7 +548,7 @@ El que canvia l'agent, ho veus tu. Per assenyalar-te alguna cosa:
 
 `sandbox_set_view` també tria el visor (`canvas`, `pdf`, `folio`, `html`,
 `epub`, `scorm`), el mode Contingut o Disseny (`mode`), el tauler lateral, capítol o llibre sencer, el zoom, la mida de lletra
-del lector, la previsualització d'impressió, les línies de troquel (`dieLines`) i la vista de tintes especials (`finishes`: `flat`, `sheen` o `map`) del Canvas, el grup del tauler Disseny, i a la pestanya SCORM
+del lector, la previsualització d'impressió, les línies de troquel (`dieLines`) i la vista de tintes especials (`finishes`: `flat`, `sheen` o `map`) del Canvas, el grup del tauler Disseny o una de les seves seccions (`settingsSection`), i a la pestanya SCORM
 el contingut (`scormLayout`), la versió (`scormVersion`) i els capítols i les
 seccions que entren al paquet (`scormPick`, ids de la llista `contents` de la pestanya).
 `sandbox_go_to_page` passa pàgines per `step`, `page`, `position`, un passatge
