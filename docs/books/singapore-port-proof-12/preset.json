@@ -84,6 +84,17 @@
             "value": 21,
             "unit": "pt"
           }
+        },
+        {
+          "level": 2,
+          "fontSize": {
+            "value": 9,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 11,
+            "unit": "pt"
+          }
         }
       ]
     },
@@ -2376,6 +2387,306 @@
                   },
                   "height": {
                     "value": 191,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FFFFFF",
+                  "model": "hex"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "rg-listing-continuation",
+        "name": "Continuation page of two-column directory",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "ribbon",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 1,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 65,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 6,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 63,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-sideways"
+          },
+          {
+            "name": "folio",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 13,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 4,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 18,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 8,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-folio"
+          },
+          {
+            "name": "left",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 15,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 39,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 104,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-body-copy"
+          },
+          {
+            "name": "right",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 57,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 15,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 39,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 104,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-body-copy"
+          },
+          {
+            "name": "art",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 12,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 122,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 88,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 55,
+                  "unit": "mm"
+                }
+              }
+            }
+          },
+          {
+            "name": "nav",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 5,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 184,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 94,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 5,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-nav"
+          }
+        ],
+        "decoration": {
+          "elements": [
+            {
+              "kind": "box",
+              "id": "blue-sidebar",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 0,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 9,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 182,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#345BA7",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "white-paper",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 9,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 0,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 95,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 182,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FFFFFF",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "foot",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 182,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 104,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 9,
                     "unit": "mm"
                   }
                 }

@@ -48,7 +48,7 @@ Contents                         Ideas
 10
 :::
 :::frame{slot="head"}
-# The Big Six
+## The Big Six
 :::
 :::frame{slot="intro"}
 Part of the fun of visiting Singapore lies in taking in the eateries, markets and places of worship offered up by its diverse ethnic districts. But the island harbours several landmark tourist attractions that you really must not miss. Together, they reflect history, nature, ethnic culture and cuisine – in other words, all that's great about Singapore.
@@ -215,15 +215,12 @@ Contents                         Places
 :::
 ::::
 
-::::page{template="rg-listing" id="source-095"}
+::::page{template="rg-listing-continuation" id="source-095"}
 :::frame{slot="ribbon"}
 PLACES
 :::
 :::frame{slot="folio"}
 93
-:::
-:::frame{slot="head"}
-
 :::
 :::frame{slot="left"}
 than the norm), it offers free entertainment such as local bands and Chinese opera. At lunchtime the place is full to bursting with suits from the city, while late at night the clubbers take over.
@@ -234,7 +231,7 @@ Junction of South Bridge Rd and Maxwell Rd. An old-style hawker centre, a stone'
 
 **Mitzi's**
 
-24–26 Murray Terrace. The cracking Cantonese food in this simple place, situated in a row of restaurants known as 'Food Alley', draws crowds, so be prepared to queue. Two can eat for $30, plus drinks.
+24–26 Murray Terrace. The cracking Cantonese food in this simple place, situated in a row of restaurants known as 'Food Alley', draws crowds, so be prepared to queue. Two can eat for \$30, plus drinks.
 
 **Moi Kong Hakka Restaurant**
 
@@ -249,7 +246,7 @@ salted and preserved ingredients. The inexpensive dishes here, at the best Hakka
 
 **Mouth Restaurant**
 
-Chinatown Point, 133 New Bridge Rd. Beside the popular Hong Kong dim sum menu, this jam-packed restaurant offers classy Cantonese food at under $20 a head.
+Chinatown Point, 133 New Bridge Rd. Beside the popular Hong Kong dim sum menu, this jam-packed restaurant offers classy Cantonese food at under \$20 a head.
 
 **Swee Kee**
 
@@ -280,7 +277,7 @@ PLACES
 
 **Louis' Oyster Bar**
 
-36 Boat Quay. The Louis in question is Louis Armstrong, who beams down from all the walls. Oysters cost around $18 per half-dozen, and the 'High Society Platter' (crayfish, crab, mussels, oysters and prawns on ice) is hard to resist.
+36 Boat Quay. The Louis in question is Louis Armstrong, who beams down from all the walls. Oysters cost around \$18 per half-dozen, and the 'High Society Platter' (crayfish, crab, mussels, oysters and prawns on ice) is hard to resist.
 
 **Our Village**
 
