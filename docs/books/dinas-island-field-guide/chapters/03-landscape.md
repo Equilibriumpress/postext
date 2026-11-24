@@ -22,6 +22,10 @@ The inland crossing occupies sheltered, lower ground. On the outer coast the ter
 
 The contrast is useful when reading a map. A short horizontal distance does not necessarily mean an easy walk. On a coastal circuit, the shape of the land, the exposure of the path and the condition of its surface all matter.
 
+The National Park describes the cliffs between Dinas Island and the Teifi estuary as largely sequences of sandstone and mudstone. Layers of contrasting rock are one feature to look for from the path. It is not necessary to climb down to the shore to examine them: the shape and colour of an exposed cliff often tell a useful story at a distance.
+
+Look at the vegetation as well. Where the path is sheltered, shrubs and trees interrupt the view. On open ground, grasses and low-growing plants leave a much wider horizon. The change is gradual, and the weather on the day influences how distinctly you notice it.
+
 **Look beyond the shoreline.** Follow the contours, notice the two bays and compare the crossing with the high circuit. The route is a small lesson in how topography shapes movement.
 
 :::

@@ -1735,7 +1735,7 @@
               "align": "right",
               "verticalAlign": "middle",
               "lineHeight": 1.1,
-              "overflow": "clip"
+              "overflow": "ellipsis-end"
             }
           ]
         }
@@ -2068,7 +2068,7 @@
               "align": "right",
               "verticalAlign": "middle",
               "lineHeight": 1.1,
-              "overflow": "clip"
+              "overflow": "ellipsis-end"
             }
           ]
         }
@@ -2401,7 +2401,7 @@
               "align": "right",
               "verticalAlign": "middle",
               "lineHeight": 1.1,
-              "overflow": "clip"
+              "overflow": "ellipsis-end"
             }
           ]
         }
@@ -2734,7 +2734,7 @@
               "align": "right",
               "verticalAlign": "middle",
               "lineHeight": 1.1,
-              "overflow": "clip"
+              "overflow": "ellipsis-end"
             }
           ]
         }
@@ -3015,7 +3015,7 @@
               "align": "right",
               "verticalAlign": "middle",
               "lineHeight": 1.1,
-              "overflow": "clip"
+              "overflow": "ellipsis-end"
             }
           ]
         },
@@ -3395,7 +3395,7 @@
               "align": "right",
               "verticalAlign": "middle",
               "lineHeight": 1.1,
-              "overflow": "clip"
+              "overflow": "ellipsis-end"
             }
           ]
         }
@@ -3793,7 +3793,7 @@
               "align": "right",
               "verticalAlign": "middle",
               "lineHeight": 1.1,
-              "overflow": "clip"
+              "overflow": "ellipsis-end"
             },
             {
               "kind": "connector",
@@ -4114,7 +4114,7 @@
               "align": "right",
               "verticalAlign": "middle",
               "lineHeight": 1.1,
-              "overflow": "clip"
+              "overflow": "ellipsis-end"
             }
           ]
         },
@@ -4456,7 +4456,7 @@
               "align": "right",
               "verticalAlign": "middle",
               "lineHeight": 1.1,
-              "overflow": "clip"
+              "overflow": "ellipsis-end"
             }
           ]
         }
