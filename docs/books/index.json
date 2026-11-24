@@ -70,6 +70,25 @@
         "city-guide",
         "composed-pages"
       ]
+    },
+    {
+      "id": "singapore-directions",
+      "dir": "singapore-directions",
+      "name": "Singapore · Rough Guide Directions (work in progress)",
+      "description": "Reconstruction draft from the supplied 194-page PDF, with editable text and separate illustrations.",
+      "locale": "en",
+      "locales": [
+        "en"
+      ],
+      "thumbnail": "thumbnail.jpg",
+      "license": "© Rough Guides",
+      "credits": "Mark Lewis · Rough Guides",
+      "tags": [
+        "travel",
+        "singapore",
+        "illustrated",
+        "composed-pages"
+      ]
     }
   ]
 }

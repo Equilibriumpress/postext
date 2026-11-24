@@ -1,0 +1,21 @@
+::::page{template="section-opener" id="source-169"}
+
+:::frame{slot="title"}
+
+# Chronology
+
+:::
+
+::::
+
+:::pagebreak
+
+:::pagebreak
+
+169 Chronology
+
+200AD Chinese sailors may be referring to Singapore in their account of a place called Pu-Luo-Chung, “island at the end of a peninsula”. 200–1200 Singapore grows into a trading outpost of the Sumatran Srivijaya Empire, known locally as Temasek (“sea town”). 1200s Marco Polo reports sighting a place called Chiamassie, which could be Singapore. 1390s Sumatran prince, Paramesvara, throws off allegiance to the Javanese Majapahit Empire, fl ees to Singapore, murders his host and rules the island until a Javanese offensive forces him north, up the peninsula, where he founds the Melaka sultanate. 1500s First record of the island’s current name (from the Sanskrit Singapura, meaning “Lion City”) in the Malay annals, the Sejarah Melayu. 1613 Portuguese accounts tell of the razing of an unnamed Malay outpost at the mouth of Sungei Johor; two centuries of anonymity ensue. 1818–19 British East India Company seeks to establish a British colony at the south tip of Malay Peninsula. Colonial administrator Thomas Stamford Raffl es steps ashore on the north bank of the Singapore River and strikes a treaty with Abdul Rahman, temenggong (chieftain) of Singapore, and Sultan Hussein Mohammed Shah, establishing a British trading station there. 1822 Raffl es draws demarcation lines that divide present-day Singapore. The area south of the river is earmarked for the Chinese; the commercial district is established at the river mouth; and Muslims are settled in today’s Arab Quarter. 1824 Singapore’s trading expansion begins: Malays, Chinese, Indians and Europeans arrive in search of work as coolies and merchants; the population reaches ten thousand by the time of the fi rst census. 1824–27 Sultan Hussein and the temenggong are bought out, and Singapore is ceded outright to the British. The fl edgling state unites with Penang and Melaka (by now under British rule) to form the Straits Settlements. 1867 The Straits Settlements become a British crown colony. By now the population has reached eighty thousand. 1877–87 Henry Ridley introduces the rubber plant into Southeast Asia; the island is soon the world centre of rubber exporting. Raffl es Hotel opens for business. 1942–45 Singapore falls to the Japanese and is renamed Syonan, “Light of the South”. The brutal Japanese rule sees thousands of civilians executed in anti-Chinese purges, while Europeans are herded into Changi Prison or marched up to work on Thailand’s
+
+:::pagebreak
+
+“Death Railway”. 1946 The Straits Settlements are dissolved; Singapore becomes a crown colony in its own right. 1948 The Federation of Malaya brings together all states of Peninsular Malaya, but not Singapore, whose inclusion would have led to ethnic Malays being in a minority. Chinese opposition to the federation ignites the Communist Emergency, a guerrilla struggle lasting until 1960, whose aim is to turn Singapore and Malaysia into a republic. 1959 Full internal self-government is achieved; People’s Action Party (PAP) leader, Lee Kuan Yew, becomes Singapore’s fi rst prime minister. 1963–65 Singapore combines with Malaya, Sarawak and British North Borneo (Sabah) in the Federation of Malaysia, but Sino– Malay tensions soon see Singapore asked to leave the federation. Lee Kuan Yew announces full Singaporean independence. 1965–92 Per capita income increases fourfold; huge profi ts are made in fi nancial services, hi-tech manufacturing, information technology and the petroleum industry. Meanwhile, “soft authoritarianism” grows: in 1972, Cliff Richard is refused entry into Singapore because his hair is too long. Twenty years later, chewing gum is banned across the state. 1990–2004 Goh Chok Tong becomes prime minister upon Lee’s retirement in 1990. Still, Lee looms over the political scene, as senior minister. His eldest son, Brigadier-General Lee Hsien Loong, becomes prime minister in 2004. On the same day, the elder Lee is named “minister mentor”. 2003 Severe Acute Respiratory Syndrome (SARS) claims 31 lives. 2006 The People’s Action Party is returned with 82 of the 84 seats in May’s elections.
