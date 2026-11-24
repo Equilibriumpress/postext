@@ -163,6 +163,23 @@
         "template",
         "layout-proof"
       ]
+    },
+    {
+      "id": "dinas-island-field-guide",
+      "dir": "dinas-island-field-guide",
+      "name": "DINAS ISLAND · A Coastal Field Guide",
+      "description": "Original illustrated coastal field guide and native Postext design proof: photography, source-backed map, editable diagrams, grid cards, modules and flowing text.",
+      "locale": "en",
+      "locales": [
+        "en"
+      ],
+      "thumbnail": "thumbnail.svg",
+      "tags": [
+        "travel",
+        "coastal",
+        "composed-pages",
+        "layout-proof"
+      ]
     }
   ]
 }
