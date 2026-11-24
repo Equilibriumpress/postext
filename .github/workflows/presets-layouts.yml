@@ -6,12 +6,6 @@ name: Showcase pagination
 # the same runner, without committing: the job log shows how the files it
 # writes differ from the committed ones, and the artifact holds them.
 on:
-  push:
-    branches: [develop]
-    paths:
-      - scripts/presets/layouts.mjs
-      - scripts/presets/ci-layouts.sh
-      - .github/workflows/presets-layouts.yml
   workflow_dispatch:
 
 # Read-only token: no job here writes to the repository (artifacts and

@@ -7,11 +7,6 @@ name: Rust crate
 # ci.yml's wasm job.
 
 on:
-  pull_request:
-    branches: [main, develop]
-    paths:
-      - packages/postext-rust/**
-      - .github/workflows/rust.yml
   workflow_dispatch:
 
 permissions:

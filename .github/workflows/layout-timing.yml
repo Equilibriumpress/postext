@@ -13,19 +13,6 @@ name: Layout timing
 # says how much of it is the runner. The numbers are in the run's summary
 # and in its artifact.
 on:
-  # main's numbers after each release, and develop's when the engine or the
-  # report changes: the layout performance programme (#1602) reads them
-  # commit by commit
-  push:
-    branches: [main, develop]
-    paths:
-      - .github/workflows/layout-timing.yml
-      - .github/scripts/layout-timing*.mjs
-      - packages/postext-cli/scripts/bench-layout.ts
-      - packages/postext/package.json
-      - packages/postext/src/**
-      - '!packages/postext/src/**/*.test.ts'
-      - rust/**
   workflow_dispatch:
     inputs:
       base:

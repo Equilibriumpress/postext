@@ -9,16 +9,7 @@ name: Cookbook in the Sandbox
 # that moves lines on purpose cannot capture the recipes again before its
 # release.
 on:
-  pull_request:
-    branches: [main, develop]
-    paths:
-      - packages/postext-sandbox/**
-      - packages/postext/**
-      - cookbook/**
-      - apps/web/public/cookbook/**
-      - apps/web/scripts/cookbook/**
-      - apps/web/src/lib/cookbook/**
-      - .github/workflows/cookbook-sandbox.yml
+  workflow_dispatch:
 
 # Read-only token: no job here writes to the repository (artifacts and
 # caches use the runner's own token).

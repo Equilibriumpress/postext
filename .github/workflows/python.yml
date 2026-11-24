@@ -6,11 +6,6 @@ name: Python package
 # it), so they need no build of the command line.
 
 on:
-  pull_request:
-    branches: [main, develop]
-    paths:
-      - packages/postext-python/**
-      - .github/workflows/python.yml
   workflow_dispatch:
 
 permissions:

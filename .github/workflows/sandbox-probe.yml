@@ -7,9 +7,6 @@ name: Sandbox probe
 # pen does not, shows another page count than capture.json records, or
 # fetched another edition's bundle (#737).
 on:
-  workflow_run:
-    workflows: [Release]
-    types: [completed]
   workflow_dispatch:
     inputs:
       site:
@@ -25,7 +22,7 @@ permissions:
 jobs:
   probe:
     name: Open the recipe bundles on the site
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event_name == 'workflow_dispatch' }}
     # macOS, as the captures: a recipe is captured on a Mac, and Chrome
     # measures text there to fractions of a pixel that Chrome on the Linux
     # runner does not give (the same 55 editions broke a line elsewhere on
