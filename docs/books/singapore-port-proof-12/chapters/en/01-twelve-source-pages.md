@@ -17,9 +17,6 @@ Rough Guide DIRECTIONS
 :::frame{slot="art"}
 ::resource{id="photo-002-01"}
 :::
-:::frame{slot="nav"}
-Contents                         Introduction
-:::
 ::::
 
 ::::page{template="rg-section-opener" id="source-011"}
