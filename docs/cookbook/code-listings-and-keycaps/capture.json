@@ -1,0 +1,828 @@
+{
+  "schemaVersion": 1,
+  "slug": "code-listings-and-keycaps",
+  "sourceHash": "08fcc54404582f689673fc7ac46707b7d234fe28d7d0d52f8266802dbd18937b",
+  "engine": {
+    "postext": "1.57.1",
+    "source": "npm"
+  },
+  "chrome": "155.0.8059.85",
+  "capturedAt": "2026-10-23T07:34:49.047Z",
+  "verified": {
+    "postext": "1.65.0",
+    "chrome": "156.0.8078.76",
+    "at": "2026-10-31T16:59:06.178Z"
+  },
+  "variants": {
+    "en": {
+      "hash8": "5660f3d7",
+      "vdtHash": "8b3311fe4bda801d997d19193889d8a025dee896",
+      "timings": {
+        "importMs": 333,
+        "fontsMs": 2244,
+        "buildMs": 89,
+        "totalMs": 3322,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          178,
+          229
+        ],
+        "dpi": 300,
+        "layoutType": "oneAndHalf",
+        "gutterMm": 6,
+        "mirror": true,
+        "body": {
+          "family": "Charis SIL",
+          "sizePt": 10,
+          "leadingPt": 14.5
+        },
+        "families": [
+          "Charis SIL",
+          "JetBrains Mono",
+          "Sora"
+        ],
+        "pages": 3,
+        "ownLines": 147
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "49",
+          "role": "opener",
+          "w": 1000,
+          "h": 1287,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 74218,
+          "alt": "Opening page 49: Small tools, joined."
+        },
+        {
+          "n": 2,
+          "label": "50",
+          "role": "body",
+          "w": 1000,
+          "h": 1287,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 103128,
+          "alt": "Page 50: When a command will not stop."
+        },
+        {
+          "n": 3,
+          "label": "51",
+          "role": "body",
+          "w": 1000,
+          "h": 1287,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 92244,
+          "alt": "Page 51: A script to keep."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "loupe"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "sandbox": {
+        "file": "code-listings-and-keycaps.postext",
+        "bytes": 27825,
+        "folio": "e7298095",
+        "chapters": [
+          {
+            "pages": 3,
+            "hash": "b4df1abdfe4ac4c5",
+            "lines": "6c0ce5f898bc0bec"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocument",
+          "prepareFonts",
+          "renderPageToCanvas",
+          "withLoadedFonts"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.maxWordSpacing",
+          "bodyText.referenceColor",
+          "calloutStyles",
+          "calloutStyles[].background",
+          "calloutStyles[].backgroundEnabled",
+          "calloutStyles[].body",
+          "calloutStyles[].body.boldColor",
+          "calloutStyles[].body.color",
+          "calloutStyles[].body.firstLineIndent",
+          "calloutStyles[].body.fontFamily",
+          "calloutStyles[].body.fontSize",
+          "calloutStyles[].body.italicColor",
+          "calloutStyles[].body.lineHeight",
+          "calloutStyles[].body.paragraphSpacing",
+          "calloutStyles[].body.textAlign",
+          "calloutStyles[].columnGap",
+          "calloutStyles[].id",
+          "calloutStyles[].marginBottom",
+          "calloutStyles[].marginTop",
+          "calloutStyles[].padding",
+          "calloutStyles[].padding.bottom",
+          "calloutStyles[].padding.left",
+          "calloutStyles[].padding.right",
+          "calloutStyles[].padding.top",
+          "calloutStyles[].placement",
+          "calloutStyles[].span",
+          "calloutStyles[].stripe",
+          "calloutStyles[].stripe.color",
+          "calloutStyles[].stripe.enabled",
+          "calloutStyles[].stripe.side",
+          "calloutStyles[].stripe.width",
+          "calloutStyles[].titleStyle",
+          "calloutStyles[].titleStyle.color",
+          "calloutStyles[].titleStyle.fontFamily",
+          "calloutStyles[].titleStyle.fontSize",
+          "calloutStyles[].titleStyle.fontWeight",
+          "calloutStyles[].titleStyle.gap",
+          "calloutStyles[].titleStyle.letterSpacing",
+          "calloutStyles[].titleStyle.textTransform",
+          "chipStyles",
+          "chipStyles[].background",
+          "chipStyles[].bold",
+          "chipStyles[].borderColor",
+          "chipStyles[].borderRadius",
+          "chipStyles[].borderWidth",
+          "chipStyles[].color",
+          "chipStyles[].fontFamily",
+          "chipStyles[].fontSize",
+          "chipStyles[].gap",
+          "chipStyles[].id",
+          "chipStyles[].paddingX",
+          "chipStyles[].paddingY",
+          "codeStyle",
+          "codeStyle.background",
+          "codeStyle.color",
+          "codeStyle.fontFamily",
+          "codeStyle.fontSize",
+          "codeStyle.inline",
+          "codeStyle.inline.fontSize",
+          "codeStyle.label",
+          "codeStyle.label.background",
+          "codeStyle.label.color",
+          "codeStyle.label.fontFamily",
+          "codeStyle.label.fontSize",
+          "codeStyle.label.fontWeight",
+          "codeStyle.label.height",
+          "codeStyle.label.offset",
+          "codeStyle.label.paddingX",
+          "codeStyle.label.position",
+          "codeStyle.lineHeight",
+          "codeStyle.marginBottom",
+          "codeStyle.marginTop",
+          "codeStyle.padding",
+          "codeStyle.padding.bottom",
+          "codeStyle.padding.left",
+          "codeStyle.padding.right",
+          "codeStyle.padding.top",
+          "codeStyle.span",
+          "codeStyle.tokens",
+          "codeStyle.tokens.comment",
+          "codeStyle.tokens.function",
+          "codeStyle.tokens.keyword",
+          "codeStyle.tokens.meta",
+          "codeStyle.tokens.number",
+          "codeStyle.tokens.operator",
+          "codeStyle.tokens.output",
+          "codeStyle.tokens.prompt",
+          "codeStyle.tokens.punctuation",
+          "codeStyle.tokens.string",
+          "codeStyle.tokens.type",
+          "codeStyle.tokens.variable",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].letterSpacing",
+          "footer.elements[].pages",
+          "footer.elements[].parity",
+          "footer.elements[].placement",
+          "footer.elements[].textTransform",
+          "header",
+          "header.elements",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].fontSize",
+          "headings.levels[].level",
+          "headings.levels[].lineHeight",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "layout",
+          "layout.gutterWidth",
+          "layout.layoutType",
+          "layout.sideColumnPercent",
+          "layout.sideColumnRole",
+          "layout.sideColumnSide",
+          "locale",
+          "orderedLists",
+          "orderedLists.color",
+          "orderedLists.fontFamily",
+          "orderedLists.fontWeight",
+          "orderedLists.gap",
+          "orderedLists.marginBottom",
+          "orderedLists.marginTop",
+          "orderedLists.separator",
+          "orderedLists.separatorColor",
+          "orderedLists.separatorFontFamily",
+          "orderedLists.separatorFontWeight",
+          "orderedLists.separatorGap",
+          "page",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.sizePreset",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].firstLineIndent",
+          "paragraphStyles[].id"
+        ],
+        "configSections": [
+          "bodyText",
+          "calloutStyles",
+          "chipStyles",
+          "codeStyle",
+          "colorPalette",
+          "footer",
+          "header",
+          "headings",
+          "layout",
+          "locale",
+          "orderedLists",
+          "page",
+          "paragraphStyles"
+        ],
+        "configLeaves": 314,
+        "designElements": 8,
+        "directives": [
+          ":::callout",
+          ":::paragraphs",
+          ":::columns"
+        ],
+        "inline": [
+          "{attrs}",
+          ":chip",
+          "$…$"
+        ],
+        "resources": {
+          "svg": 0,
+          "bitmap": 0,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Charis SIL",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Charis SIL",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "JetBrains Mono",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "JetBrains Mono",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "JetBrains Mono",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Sora",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Sora",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Sora",
+            "weight": 800,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "callout-columns",
+          "callout-styles",
+          "chips",
+          "code-listings",
+          "column-and-a-half",
+          "heading-attributes",
+          "math",
+          "opener-design",
+          "page-role-filters",
+          "paragraph-styles",
+          "side-column-floats"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 1,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 1.32
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 155.0.8059.85, the committed capture used 154.0.8037.98: pixels may differ"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "continuation carried as the bundle's start: pageIndexOffset, pageNumbering"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: en, es"
+          }
+        ]
+      }
+    },
+    "es": {
+      "hash8": "8c8b1dd2",
+      "vdtHash": "f61d6e1ac7d69bfb6a85cc1f21905dd10cfc0c68",
+      "timings": {
+        "importMs": 338,
+        "fontsMs": 2241,
+        "buildMs": 89,
+        "totalMs": 3299,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          178,
+          229
+        ],
+        "dpi": 300,
+        "layoutType": "oneAndHalf",
+        "gutterMm": 6,
+        "mirror": true,
+        "body": {
+          "family": "Charis SIL",
+          "sizePt": 10,
+          "leadingPt": 14.5
+        },
+        "families": [
+          "Charis SIL",
+          "JetBrains Mono",
+          "Sora"
+        ],
+        "pages": 3,
+        "ownLines": 147
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "49",
+          "role": "opener",
+          "w": 1000,
+          "h": 1287,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 76046,
+          "alt": "Página de apertura 49: Piezas que encajan."
+        },
+        {
+          "n": 2,
+          "label": "50",
+          "role": "body",
+          "w": 1000,
+          "h": 1287,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 108346,
+          "alt": "Página 50: Cuando una orden no termina."
+        },
+        {
+          "n": 3,
+          "label": "51",
+          "role": "body",
+          "w": 1000,
+          "h": 1287,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 98972,
+          "alt": "Página 51: Un guion para guardar."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "loupe"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "sandbox": {
+        "file": "code-listings-and-keycaps.postext",
+        "bytes": 28018,
+        "folio": "e7298095",
+        "chapters": [
+          {
+            "pages": 3,
+            "hash": "176e775587cbd3f5",
+            "lines": "40d0e559648a7eab"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocument",
+          "prepareFonts",
+          "renderPageToCanvas",
+          "withLoadedFonts"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.maxWordSpacing",
+          "bodyText.referenceColor",
+          "calloutStyles",
+          "calloutStyles[].background",
+          "calloutStyles[].backgroundEnabled",
+          "calloutStyles[].body",
+          "calloutStyles[].body.boldColor",
+          "calloutStyles[].body.color",
+          "calloutStyles[].body.firstLineIndent",
+          "calloutStyles[].body.fontFamily",
+          "calloutStyles[].body.fontSize",
+          "calloutStyles[].body.italicColor",
+          "calloutStyles[].body.lineHeight",
+          "calloutStyles[].body.paragraphSpacing",
+          "calloutStyles[].body.textAlign",
+          "calloutStyles[].columnGap",
+          "calloutStyles[].id",
+          "calloutStyles[].marginBottom",
+          "calloutStyles[].marginTop",
+          "calloutStyles[].padding",
+          "calloutStyles[].padding.bottom",
+          "calloutStyles[].padding.left",
+          "calloutStyles[].padding.right",
+          "calloutStyles[].padding.top",
+          "calloutStyles[].placement",
+          "calloutStyles[].span",
+          "calloutStyles[].stripe",
+          "calloutStyles[].stripe.color",
+          "calloutStyles[].stripe.enabled",
+          "calloutStyles[].stripe.side",
+          "calloutStyles[].stripe.width",
+          "calloutStyles[].titleStyle",
+          "calloutStyles[].titleStyle.color",
+          "calloutStyles[].titleStyle.fontFamily",
+          "calloutStyles[].titleStyle.fontSize",
+          "calloutStyles[].titleStyle.fontWeight",
+          "calloutStyles[].titleStyle.gap",
+          "calloutStyles[].titleStyle.letterSpacing",
+          "calloutStyles[].titleStyle.textTransform",
+          "chipStyles",
+          "chipStyles[].background",
+          "chipStyles[].bold",
+          "chipStyles[].borderColor",
+          "chipStyles[].borderRadius",
+          "chipStyles[].borderWidth",
+          "chipStyles[].color",
+          "chipStyles[].fontFamily",
+          "chipStyles[].fontSize",
+          "chipStyles[].gap",
+          "chipStyles[].id",
+          "chipStyles[].paddingX",
+          "chipStyles[].paddingY",
+          "codeStyle",
+          "codeStyle.background",
+          "codeStyle.color",
+          "codeStyle.fontFamily",
+          "codeStyle.fontSize",
+          "codeStyle.inline",
+          "codeStyle.inline.fontSize",
+          "codeStyle.label",
+          "codeStyle.label.background",
+          "codeStyle.label.color",
+          "codeStyle.label.fontFamily",
+          "codeStyle.label.fontSize",
+          "codeStyle.label.fontWeight",
+          "codeStyle.label.height",
+          "codeStyle.label.offset",
+          "codeStyle.label.paddingX",
+          "codeStyle.label.position",
+          "codeStyle.lineHeight",
+          "codeStyle.marginBottom",
+          "codeStyle.marginTop",
+          "codeStyle.padding",
+          "codeStyle.padding.bottom",
+          "codeStyle.padding.left",
+          "codeStyle.padding.right",
+          "codeStyle.padding.top",
+          "codeStyle.span",
+          "codeStyle.tokens",
+          "codeStyle.tokens.comment",
+          "codeStyle.tokens.function",
+          "codeStyle.tokens.keyword",
+          "codeStyle.tokens.meta",
+          "codeStyle.tokens.number",
+          "codeStyle.tokens.operator",
+          "codeStyle.tokens.output",
+          "codeStyle.tokens.prompt",
+          "codeStyle.tokens.punctuation",
+          "codeStyle.tokens.string",
+          "codeStyle.tokens.type",
+          "codeStyle.tokens.variable",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].letterSpacing",
+          "footer.elements[].pages",
+          "footer.elements[].parity",
+          "footer.elements[].placement",
+          "footer.elements[].textTransform",
+          "header",
+          "header.elements",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].fontSize",
+          "headings.levels[].level",
+          "headings.levels[].lineHeight",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "layout",
+          "layout.gutterWidth",
+          "layout.layoutType",
+          "layout.sideColumnPercent",
+          "layout.sideColumnRole",
+          "layout.sideColumnSide",
+          "locale",
+          "orderedLists",
+          "orderedLists.color",
+          "orderedLists.fontFamily",
+          "orderedLists.fontWeight",
+          "orderedLists.gap",
+          "orderedLists.marginBottom",
+          "orderedLists.marginTop",
+          "orderedLists.separator",
+          "orderedLists.separatorColor",
+          "orderedLists.separatorFontFamily",
+          "orderedLists.separatorFontWeight",
+          "orderedLists.separatorGap",
+          "page",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.sizePreset",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].firstLineIndent",
+          "paragraphStyles[].id"
+        ],
+        "configSections": [
+          "bodyText",
+          "calloutStyles",
+          "chipStyles",
+          "codeStyle",
+          "colorPalette",
+          "footer",
+          "header",
+          "headings",
+          "layout",
+          "locale",
+          "orderedLists",
+          "page",
+          "paragraphStyles"
+        ],
+        "configLeaves": 314,
+        "designElements": 8,
+        "directives": [
+          ":::callout",
+          ":::paragraphs",
+          ":::columns"
+        ],
+        "inline": [
+          "{attrs}",
+          ":chip",
+          "$…$"
+        ],
+        "resources": {
+          "svg": 0,
+          "bitmap": 0,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Charis SIL",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Charis SIL",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "JetBrains Mono",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "JetBrains Mono",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "JetBrains Mono",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Sora",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Sora",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Sora",
+            "weight": 800,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "callout-columns",
+          "callout-styles",
+          "chips",
+          "code-listings",
+          "column-and-a-half",
+          "heading-attributes",
+          "math",
+          "opener-design",
+          "page-role-filters",
+          "paragraph-styles",
+          "side-column-floats"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 1,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 1.38
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 155.0.8059.85, the committed capture used 154.0.8037.98: pixels may differ"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "continuation carried as the bundle's start: pageIndexOffset, pageNumbering"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: es, en"
+          }
+        ]
+      }
+    }
+  }
+}

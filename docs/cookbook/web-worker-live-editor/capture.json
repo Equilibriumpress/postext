@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "slug": "web-worker-live-editor",
+  "sourceHash": "322320e7c34352826f733d10a0eb214388240777e8638effc6afe9cd5065eade",
+  "engine": {
+    "postext": "1.57.1",
+    "source": "npm"
+  },
+  "chrome": "155.0.8059.85",
+  "capturedAt": "2026-10-23T07:51:48.488Z",
+  "verified": {
+    "postext": "1.65.0",
+    "chrome": "156.0.8078.76",
+    "at": "2026-10-31T16:48:54.640Z"
+  },
+  "variants": {
+    "en": {
+      "hash8": "78e09beb",
+      "vdtHash": "e003e73311d4ccebd7d9a4512d26acf8fa8c4d47",
+      "timings": {
+        "importMs": 930,
+        "fontsMs": 30624,
+        "buildMs": 111,
+        "totalMs": 32340,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          110,
+          147
+        ],
+        "dpi": 150,
+        "layoutType": "single",
+        "mirror": true,
+        "body": {
+          "family": "Baskervville",
+          "sizePt": 9.5,
+          "leadingPt": 13
+        },
+        "families": [
+          "Baskervville",
+          "Baskervville SC",
+          "Cinzel"
+        ],
+        "pages": 9,
+        "ownLines": 242
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1336,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 69372,
+          "alt": "Opening page 1: The Time Machine."
+        },
+        {
+          "n": 2,
+          "label": "2",
+          "role": "opener",
+          "w": 1000,
+          "h": 1336,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 93094,
+          "alt": "Opening page 2: I Introduction."
+        },
+        {
+          "n": 3,
+          "label": "3",
+          "role": "body",
+          "w": 1000,
+          "h": 1336,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 118768,
+          "alt": "Page 3."
+        },
+        {
+          "n": 4,
+          "label": "4",
+          "role": "body",
+          "w": 1000,
+          "h": 1336,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 142536,
+          "alt": "Page 4."
+        },
+        {
+          "n": 5,
+          "label": "5",
+          "role": "body",
+          "w": 1000,
+          "h": 1336,
+          "file": "p05.webp",
+          "strip": "p05.s.webp",
+          "bytes": 141498,
+          "alt": "Page 5."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "screenshot"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "sandbox": {
+        "file": "web-worker-live-editor.postext",
+        "bytes": 218767,
+        "folio": "ddaa1eeb",
+        "chapters": [
+          {
+            "pages": 9,
+            "hash": "63b4a07cec32bf02",
+            "lines": "019c97f1fb6045e3"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocument",
+          "createLayoutWorker",
+          "createMeasurementCache",
+          "registerResourceImage",
+          "renderPageToCanvas"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.maxWordSpacing",
+          "bodyText.minWordSpacing",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].align",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].pages",
+          "footer.elements[].placement",
+          "header",
+          "header.elements",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].footer",
+          "headingStyles[].footer.elements",
+          "headingStyles[].header",
+          "headingStyles[].header.elements",
+          "headingStyles[].id",
+          "headingStyles[].numbered",
+          "headingStyles[].span",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].level",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "headings.levels[].numberingTemplate",
+          "layout",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.backgroundColor",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.sizePreset",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].color",
+          "paragraphStyles[].firstLineIndent",
+          "paragraphStyles[].fontSize",
+          "paragraphStyles[].id",
+          "paragraphStyles[].lineHeight",
+          "paragraphStyles[].textAlign"
+        ],
+        "configSections": [
+          "bodyText",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "paragraphStyles"
+        ],
+        "configLeaves": 229,
+        "designElements": 14,
+        "directives": [
+          ":::space",
+          ":::paragraphs"
+        ],
+        "inline": [
+          "{attrs}"
+        ],
+        "resources": {
+          "svg": 1,
+          "bitmap": 1,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Baskervville SC",
+            "weight": 500,
+            "style": "normal"
+          },
+          {
+            "family": "Baskervville",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Baskervville",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Cinzel",
+            "weight": 700,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "heading-attributes",
+          "heading-numbering",
+          "heading-styles",
+          "opener-design",
+          "page-background",
+          "page-role-filters",
+          "paragraph-styles",
+          "resources",
+          "section-running-heads",
+          "unnumbered-headings",
+          "vertical-space",
+          "worker"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 2,
+        "looseLines": {
+          "count": 1,
+          "share": 0.0076,
+          "worst": 2.09
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "runtFixes": {
+          "count": 1,
+          "tracked": 1,
+          "worst": 5
+        },
+        "findings": [
+          {
+            "check": "C3",
+            "severity": "info",
+            "detail": "a worker recipe: captured without request interception (hosts checked, network not cached)"
+          },
+          {
+            "check": "C21",
+            "severity": "warn",
+            "detail": "the pen took 32.3 s to finish (warning at 30 s)"
+          },
+          {
+            "check": "C35",
+            "severity": "info",
+            "detail": "1 paragraph set a line short with tracking (worst −5‰): p. 9 −5‰ ““The experiment!” cried Filby, who was getting b…”"
+          },
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 155.0.8059.85, the committed capture used 154.0.8037.98: pixels may differ"
+          }
+        ]
+      }
+    }
+  }
+}

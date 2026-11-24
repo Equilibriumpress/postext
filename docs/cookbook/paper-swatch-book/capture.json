@@ -1,0 +1,458 @@
+{
+  "schemaVersion": 1,
+  "slug": "paper-swatch-book",
+  "sourceHash": "26993935f33275da04080b6bfdda70937a7eee16da07b27f9099cd30ccd49f6a",
+  "engine": {
+    "postext": "1.57.1",
+    "source": "npm"
+  },
+  "chrome": "155.0.8059.85",
+  "capturedAt": "2026-10-23T07:39:33.916Z",
+  "verified": {
+    "postext": "1.65.0",
+    "chrome": "156.0.8078.76",
+    "at": "2026-10-31T16:50:38.339Z"
+  },
+  "variants": {
+    "en": {
+      "hash8": "15e16e30",
+      "vdtHash": "f42700b73e71ba6b2b731760fd001dbfce977673",
+      "timings": {
+        "importMs": 245,
+        "fontsMs": 3,
+        "buildMs": 59,
+        "totalMs": 966,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          120,
+          176
+        ],
+        "dpi": 150,
+        "layoutType": "single",
+        "mirror": true,
+        "body": {
+          "family": "Crimson Pro",
+          "sizePt": 10.2,
+          "leadingPt": 13.4
+        },
+        "families": [
+          "Crimson Pro",
+          "IBM Plex Sans Condensed",
+          "Libre Caslon Display"
+        ],
+        "pages": 12,
+        "ownLines": 161
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1467,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 22838,
+          "alt": "Opening page 1: The Stock Book."
+        },
+        {
+          "n": 2,
+          "label": "2",
+          "role": "opener",
+          "w": 1000,
+          "h": 1467,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 93098,
+          "alt": "Opening page 2: How to use this book."
+        },
+        {
+          "n": 3,
+          "label": "3",
+          "role": "opener",
+          "w": 1000,
+          "h": 1467,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 59240,
+          "alt": "Opening page 3: Book Wove, Natural."
+        },
+        {
+          "n": 4,
+          "label": "4",
+          "role": "body",
+          "w": 1000,
+          "h": 1467,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 77652,
+          "alt": "Page 4: SPECIMEN."
+        },
+        {
+          "n": 5,
+          "label": "5",
+          "role": "opener",
+          "w": 1000,
+          "h": 1467,
+          "file": "p05.webp",
+          "strip": "p05.s.webp",
+          "bytes": 64656,
+          "alt": "Opening page 5: Laid Writing, White."
+        },
+        {
+          "n": 6,
+          "label": "6",
+          "role": "body",
+          "w": 1000,
+          "h": 1467,
+          "file": "p06.webp",
+          "strip": "p06.s.webp",
+          "bytes": 68168,
+          "alt": "Page 6: SPECIMEN."
+        },
+        {
+          "n": 7,
+          "label": "7",
+          "role": "opener",
+          "w": 1000,
+          "h": 1467,
+          "file": "p07.webp",
+          "strip": "p07.s.webp",
+          "bytes": 65776,
+          "alt": "Opening page 7: Art Gloss, Bright White."
+        },
+        {
+          "n": 8,
+          "label": "8",
+          "role": "body",
+          "w": 1000,
+          "h": 1467,
+          "file": "p08.webp",
+          "strip": "p08.s.webp",
+          "bytes": 67324,
+          "alt": "Page 8: SPECIMEN."
+        },
+        {
+          "n": 9,
+          "label": "9",
+          "role": "opener",
+          "w": 1000,
+          "h": 1467,
+          "file": "p09.webp",
+          "strip": "p09.s.webp",
+          "bytes": 66398,
+          "alt": "Opening page 9: India Bible, Opaque."
+        },
+        {
+          "n": 10,
+          "label": "10",
+          "role": "body",
+          "w": 1000,
+          "h": 1467,
+          "file": "p10.webp",
+          "strip": "p10.s.webp",
+          "bytes": 46172,
+          "alt": "Page 10: SPECIMEN."
+        },
+        {
+          "n": 11,
+          "label": "11",
+          "role": "opener",
+          "w": 1000,
+          "h": 1467,
+          "file": "p11.webp",
+          "strip": "p11.s.webp",
+          "bytes": 48008,
+          "alt": "Opening page 11: Ordering."
+        },
+        {
+          "n": 12,
+          "label": "12",
+          "role": "opener",
+          "w": 1000,
+          "h": 1467,
+          "file": "p12.webp",
+          "strip": "p12.s.webp",
+          "bytes": 10090,
+          "alt": "Opening page 12: Harwell & Daughters."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          null
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "screenshot"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "sandbox": {
+        "file": "paper-swatch-book.postext",
+        "bytes": 30828,
+        "folio": "c0edc776",
+        "chapters": [
+          {
+            "pages": 12,
+            "hash": "d96110b20fcefcfa",
+            "lines": "f85c14f8c3fbfc98"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "createFolioFromDocument",
+          "renderPageToCanvas"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.avoidOrphans",
+          "bodyText.avoidRunts",
+          "bodyText.avoidWidows",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.hyphenation",
+          "bodyText.hyphenation.enabled",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.optimalLineBreaking",
+          "bodyText.referenceColor",
+          "bodyText.textAlign",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "folio",
+          "folio.binding",
+          "folio.binding.cover",
+          "folio.binding.coverMaterial",
+          "folio.binding.type",
+          "folio.lighting",
+          "folio.lighting.environment",
+          "folio.lighting.intensity",
+          "folio.paper",
+          "folio.paper.type",
+          "folio.surface",
+          "folio.surface.type",
+          "folio.tilt",
+          "footer",
+          "footer.elements",
+          "footer.elements[].align",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].letterSpacing",
+          "footer.elements[].overflow",
+          "footer.elements[].pages",
+          "footer.elements[].placement",
+          "footer.elements[].textTransform",
+          "header",
+          "header.elements",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.minHeight",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].breakBefore",
+          "headingStyles[].breakBefore.enabled",
+          "headingStyles[].breakBefore.parity",
+          "headingStyles[].id",
+          "headingStyles[].margins",
+          "headingStyles[].margins.bottom",
+          "headingStyles[].margins.left",
+          "headingStyles[].margins.right",
+          "headingStyles[].margins.top",
+          "headingStyles[].numbered",
+          "headingStyles[].span",
+          "headingStyles[].toc",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].color",
+          "headings.levels[].fontFamily",
+          "headings.levels[].fontSize",
+          "headings.levels[].fontWeight",
+          "headings.levels[].letterSpacing",
+          "headings.levels[].level",
+          "headings.levels[].lineHeight",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "headings.levels[].textTransform",
+          "layout",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.sizePreset",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].boldColor",
+          "paragraphStyles[].color",
+          "paragraphStyles[].firstLineIndent",
+          "paragraphStyles[].fontFamily",
+          "paragraphStyles[].fontSize",
+          "paragraphStyles[].hangingIndent",
+          "paragraphStyles[].id",
+          "paragraphStyles[].lineHeight",
+          "paragraphStyles[].marginTop",
+          "paragraphStyles[].textAlign"
+        ],
+        "configSections": [
+          "bodyText",
+          "colorPalette",
+          "folio",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "paragraphStyles"
+        ],
+        "configLeaves": 293,
+        "designElements": 12,
+        "directives": [
+          ":::paper",
+          ":::paragraphs",
+          ":::pagebreak"
+        ],
+        "inline": [
+          "{attrs}",
+          ":swatch"
+        ],
+        "resources": {
+          "svg": 0,
+          "bitmap": 0,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Crimson Pro",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Crimson Pro",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Crimson Pro",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Sans Condensed",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Sans Condensed",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Sans Condensed",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Libre Caslon Display",
+            "weight": 400,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "bibliography",
+          "folio-appearance",
+          "folio-viewer",
+          "heading-attributes",
+          "heading-styles",
+          "opener-design",
+          "page-breaks",
+          "page-role-filters",
+          "paper-runs",
+          "paragraph-styles",
+          "section-geometry",
+          "swatches",
+          "unnumbered-headings"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 1,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 1.89
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 155.0.8059.85, the committed capture used 154.0.8037.98: pixels may differ"
+          }
+        ]
+      }
+    }
+  }
+}

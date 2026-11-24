@@ -1,0 +1,579 @@
+{
+  "schemaVersion": 1,
+  "slug": "ml-paper-theorems-proofs",
+  "sourceHash": "9e7e188a9cf6c269593495ae4558ddd5e9cb8f5e3f8255de3125c81063aaa1e3",
+  "engine": {
+    "postext": "1.65.0",
+    "postextPdf": "1.65.0",
+    "source": "npm"
+  },
+  "chrome": "156.0.8078.76",
+  "capturedAt": "2026-10-31T17:29:59.144Z",
+  "variants": {
+    "en": {
+      "hash8": "051e2b71",
+      "vdtHash": "dc596eb6572743d350b5fc539ef3add31cc0b83e",
+      "timings": {
+        "importMs": 4349,
+        "fontsMs": 359,
+        "buildMs": 363,
+        "totalMs": 6603,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          178,
+          254
+        ],
+        "dpi": 150,
+        "layoutType": "single",
+        "mirror": true,
+        "body": {
+          "family": "Spectral",
+          "sizePt": 9.6,
+          "leadingPt": 13.4
+        },
+        "families": [
+          "JetBrains Mono",
+          "Spectral",
+          "Work Sans"
+        ],
+        "pages": 10,
+        "ownLines": 220
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1427,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 126616,
+          "alt": "Opening page 1: Direct Preference Optimization: Your Language Model is Secretly a Reward Model."
+        },
+        {
+          "n": 2,
+          "label": "2",
+          "role": "body",
+          "w": 1000,
+          "h": 1427,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 167244,
+          "alt": "Page 2: 1 Introduction."
+        },
+        {
+          "n": 3,
+          "label": "3",
+          "role": "body",
+          "w": 1000,
+          "h": 1427,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 120624,
+          "alt": "Page 3. Figure 1. DPO optimizes for human preferences while avoiding reinforcement learning. Existing methods for fine-tuning language models with human feedback first fit a reward model to a dataset of prompts and human preferences over pairs of responses, and then use RL to…"
+        },
+        {
+          "n": 4,
+          "label": "4",
+          "role": "body",
+          "w": 1000,
+          "h": 1427,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 144246,
+          "alt": "Page 4: 4 Direct Preference Optimization."
+        },
+        {
+          "n": 5,
+          "label": "5",
+          "role": "body",
+          "w": 1000,
+          "h": 1427,
+          "file": "p05.webp",
+          "strip": "p05.s.webp",
+          "bytes": 143426,
+          "alt": "Page 5."
+        },
+        {
+          "n": 6,
+          "label": "6",
+          "role": "body",
+          "w": 1000,
+          "h": 1427,
+          "file": "p06.webp",
+          "strip": "p06.s.webp",
+          "bytes": 140094,
+          "alt": "Page 6: 5 Theoretical Analysis of DPO."
+        },
+        {
+          "n": 7,
+          "label": "7",
+          "role": "body",
+          "w": 1000,
+          "h": 1427,
+          "file": "p07.webp",
+          "strip": "p07.s.webp",
+          "bytes": 113142,
+          "alt": "Page 7: 6 Experiments. Table 1. GPT-4 win rates vs. ground truth summaries for out-of-distribution CNN/ DailyMail input articles."
+        },
+        {
+          "n": 8,
+          "label": "8",
+          "role": "body",
+          "w": 1000,
+          "h": 1427,
+          "file": "p08.webp",
+          "strip": "p08.s.webp",
+          "bytes": 109326,
+          "alt": "Page 8."
+        },
+        {
+          "n": 9,
+          "label": "9",
+          "role": "body",
+          "w": 1000,
+          "h": 1427,
+          "file": "p09.webp",
+          "strip": "p09.s.webp",
+          "bytes": 80956,
+          "alt": "Page 9: A Mathematical Derivations."
+        },
+        {
+          "n": 10,
+          "label": "10",
+          "role": "body",
+          "w": 1000,
+          "h": 1427,
+          "file": "p10.webp",
+          "strip": "p10.s.webp",
+          "bytes": 65030,
+          "alt": "Page 10: A.5 Proof of Lemma 1 and 2."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          null
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "crop"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "pdf": {
+        "file": "ml-paper-theorems-proofs.pdf",
+        "bytes": 975132,
+        "pages": 10
+      },
+      "sandbox": {
+        "file": "ml-paper-theorems-proofs.postext",
+        "bytes": 86698,
+        "folio": "70aa8698",
+        "chapters": [
+          {
+            "pages": 10,
+            "hash": "efd6b228e52bfacc",
+            "lines": "771549b8bab2fa2c"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "LOCALES",
+          "STYLES",
+          "buildDocumentWithFonts",
+          "createCiteprocEngine",
+          "decompressWoff2",
+          "defaultResourceTypes",
+          "initMathEngine",
+          "inlineSvgFonts",
+          "registerCitationEngine",
+          "registerResourceImage",
+          "renderMath",
+          "renderPageToCanvas",
+          "renderToPdf"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.avoidOrphans",
+          "bodyText.avoidRunts",
+          "bodyText.avoidWidows",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.hyphenation",
+          "bodyText.hyphenation.enabled",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.optimalLineBreaking",
+          "bodyText.referenceBold",
+          "bodyText.referenceColor",
+          "bodyText.textAlign",
+          "calloutStyles",
+          "calloutStyles[].background",
+          "calloutStyles[].backgroundEnabled",
+          "calloutStyles[].body",
+          "calloutStyles[].body.boldColor",
+          "calloutStyles[].body.firstLineIndent",
+          "calloutStyles[].body.fontSize",
+          "calloutStyles[].body.italic",
+          "calloutStyles[].body.italicColor",
+          "calloutStyles[].body.lineHeight",
+          "calloutStyles[].endMark",
+          "calloutStyles[].id",
+          "calloutStyles[].keepTogether",
+          "calloutStyles[].marginBottom",
+          "calloutStyles[].marginTop",
+          "calloutStyles[].numbering",
+          "calloutStyles[].numbering.bold",
+          "calloutStyles[].numbering.counter",
+          "calloutStyles[].numbering.italic",
+          "calloutStyles[].numbering.label",
+          "calloutStyles[].padding",
+          "calloutStyles[].padding.bottom",
+          "calloutStyles[].padding.left",
+          "calloutStyles[].padding.right",
+          "calloutStyles[].padding.top",
+          "calloutStyles[].snapToGrid",
+          "calloutStyles[].stripe",
+          "calloutStyles[].stripe.color",
+          "calloutStyles[].stripe.enabled",
+          "calloutStyles[].stripe.side",
+          "calloutStyles[].stripe.width",
+          "calloutStyles[].title",
+          "calloutStyles[].titleStyle",
+          "calloutStyles[].titleStyle.color",
+          "calloutStyles[].titleStyle.fontFamily",
+          "calloutStyles[].titleStyle.fontSize",
+          "calloutStyles[].titleStyle.fontWeight",
+          "calloutStyles[].titleStyle.gap",
+          "calloutStyles[].titleStyle.letterSpacing",
+          "calloutStyles[].titleStyle.lineHeight",
+          "calloutStyles[].titleStyle.textTransform",
+          "captionStyle",
+          "captionStyle.color",
+          "captionStyle.fontFamily",
+          "captionStyle.fontSize",
+          "captionStyle.gap",
+          "captionStyle.labelBold",
+          "captionStyle.labelColor",
+          "captionStyle.note",
+          "captionStyle.note.color",
+          "captionStyle.note.fontSize",
+          "checks",
+          "checks.contentInConfig",
+          "checks.contentInConfig.allow",
+          "citations",
+          "citations.bibliography",
+          "citations.bibliography.doi",
+          "citations.bibliography.entrySpacing",
+          "citations.bibliography.fontSize",
+          "citations.bibliography.hangingIndent",
+          "citations.bibliography.lineHeight",
+          "citations.link",
+          "citations.style",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "crossRefs",
+          "crossRefs.section",
+          "footer",
+          "footer.elements",
+          "footer.elements[].align",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].overflow",
+          "footer.elements[].pages",
+          "footer.elements[].placement",
+          "header",
+          "header.elements",
+          "header.elements[].align",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].overflow",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.minHeight",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].fontSize",
+          "headingStyles[].id",
+          "headingStyles[].lineHeight",
+          "headingStyles[].marginBottom",
+          "headingStyles[].marginTop",
+          "headingStyles[].numbered",
+          "headingStyles[].numberingTemplate",
+          "headings",
+          "headings.balancing",
+          "headings.balancing.maxLinesPerHeading",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].breakBefore",
+          "headings.levels[].fontSize",
+          "headings.levels[].level",
+          "headings.levels[].lineHeight",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "headings.levels[].numberingTemplate",
+          "layout",
+          "layout.layoutType",
+          "locale",
+          "math",
+          "math.equationNumbering",
+          "math.equationNumbering.format",
+          "math.equationNumbering.numberingTemplate",
+          "math.equationNumbering.resetOn",
+          "math.marginBottom",
+          "math.marginTop",
+          "page",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].color",
+          "paragraphStyles[].firstLineIndent",
+          "paragraphStyles[].fontFamily",
+          "paragraphStyles[].fontSize",
+          "paragraphStyles[].id",
+          "paragraphStyles[].lineHeight",
+          "paragraphStyles[].marginTop",
+          "paragraphStyles[].textAlign",
+          "resourceTypes",
+          "resourceTypes[].captionPrefix",
+          "resourceTypes[].captionStyle",
+          "resourceTypes[].captionStyle.position",
+          "resourceTypes[].counterFormat",
+          "resourceTypes[].id",
+          "resourceTypes[].name",
+          "resourceTypes[].namePlural",
+          "resourceTypes[].numberingTemplate",
+          "resourceTypes[].resetOn",
+          "resourceTypes[].shortLabel",
+          "tableStyle",
+          "tableStyle.bodyColor",
+          "tableStyle.bodyFontFamily",
+          "tableStyle.bodyFontSize",
+          "tableStyle.borderColor",
+          "tableStyle.borderWidth",
+          "tableStyle.cellPadding",
+          "tableStyle.headerBackground",
+          "tableStyle.headerColor",
+          "tableStyle.headerFontFamily",
+          "tableStyle.headerFontSize",
+          "tableStyle.rules"
+        ],
+        "configSections": [
+          "bodyText",
+          "calloutStyles",
+          "captionStyle",
+          "checks",
+          "citations",
+          "colorPalette",
+          "crossRefs",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "math",
+          "page",
+          "paragraphStyles",
+          "resourceTypes",
+          "tableStyle"
+        ],
+        "configLeaves": 464,
+        "designElements": 13,
+        "directives": [
+          ":::callout",
+          "::resource",
+          "$$",
+          ":::bibliography",
+          ":::pagebreak",
+          ":::paragraphs",
+          ":::references"
+        ],
+        "inline": [
+          "{attrs}",
+          "\\\\",
+          "$…$",
+          "^…^",
+          "~…~",
+          ":ref"
+        ],
+        "resources": {
+          "svg": 2,
+          "bitmap": 0,
+          "table": 1
+        },
+        "fonts": [
+          {
+            "family": "JetBrains Mono",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Spectral",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Spectral",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Spectral",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Spectral",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Work Sans",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Work Sans",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Work Sans",
+            "weight": 500,
+            "style": "normal"
+          },
+          {
+            "family": "Work Sans",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Work Sans",
+            "weight": 700,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "callout-splitting",
+          "callout-styles",
+          "citation-styles",
+          "column-balancing",
+          "cross-references",
+          "figure-citations",
+          "generated-bibliography",
+          "heading-attributes",
+          "heading-numbering",
+          "heading-styles",
+          "inline-embeds",
+          "localised-labels",
+          "math",
+          "off-grid-spacing",
+          "opener-design",
+          "page-breaks",
+          "page-role-filters",
+          "paragraph-styles",
+          "pdf-export",
+          "pdf-fonts",
+          "resource-types",
+          "resources",
+          "super-subscripts",
+          "title-line-breaks",
+          "unnumbered-headings"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 2,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 1.94
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "runtFixes": {
+          "count": 1,
+          "tracked": 1,
+          "worst": 5
+        },
+        "findings": [
+          {
+            "check": "C20",
+            "severity": "warn",
+            "detail": "the edition's images weigh 1.37 MB (warning at 1.0 MB for 10 pages; capture.expect.imageMb states the figure of a book of paintings)"
+          },
+          {
+            "check": "C35",
+            "severity": "info",
+            "detail": "1 paragraph set a line short with tracking (worst −5‰): p. 6 −5‰ “Lemma 1. Under the Plackett-Luce, and in particu…”"
+          }
+        ]
+      }
+    }
+  }
+}

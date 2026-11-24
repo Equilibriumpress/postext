@@ -1,0 +1,1018 @@
+{
+  "schemaVersion": 1,
+  "slug": "edited-volume-chapter-bibliographies",
+  "sourceHash": "10f06a700a262421122184557b16f51acf18282f649fc2db0d791fbbf767d10c",
+  "engine": {
+    "postext": "1.57.1",
+    "postextPdf": "1.57.1",
+    "source": "npm"
+  },
+  "chrome": "155.0.8059.85",
+  "capturedAt": "2026-10-23T07:51:48.423Z",
+  "verified": {
+    "postext": "1.65.0",
+    "postextPdf": "1.65.0",
+    "chrome": "156.0.8078.76",
+    "at": "2026-10-31T17:23:11.265Z"
+  },
+  "variants": {
+    "en": {
+      "hash8": "10cb4c4a",
+      "vdtHash": "58997a2cbc15aa06efcdbdbe1d9c4c5cbbeb8f4f",
+      "timings": {
+        "importMs": 729,
+        "fontsMs": 87,
+        "buildMs": 545,
+        "totalMs": 2275,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          155,
+          235
+        ],
+        "dpi": 150,
+        "layoutType": "single",
+        "mirror": true,
+        "body": {
+          "family": "Libre Caslon Text",
+          "sizePt": 9.6,
+          "leadingPt": 13.8
+        },
+        "families": [
+          "IBM Plex Sans Condensed",
+          "Libre Caslon Display",
+          "Libre Caslon Text"
+        ],
+        "pages": 10,
+        "ownLines": 187
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1516,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 32286,
+          "alt": "Opening page 1: The Working Page."
+        },
+        {
+          "n": 2,
+          "label": "2",
+          "role": "opener",
+          "w": 1000,
+          "h": 1516,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 28618,
+          "alt": "Opening page 2: Contents."
+        },
+        {
+          "n": 3,
+          "label": "3",
+          "role": "opener",
+          "w": 1000,
+          "h": 1516,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 138546,
+          "alt": "Opening page 3: 1 The Compositor’s Day."
+        },
+        {
+          "n": 4,
+          "label": "4",
+          "role": "body",
+          "w": 1000,
+          "h": 1516,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 174546,
+          "alt": "Page 4: Printers of the mind."
+        },
+        {
+          "n": 5,
+          "label": "5",
+          "role": "body",
+          "w": 1000,
+          "h": 1516,
+          "file": "p05.webp",
+          "strip": "p05.s.webp",
+          "bytes": 64862,
+          "alt": "Page 5: REFERENCES."
+        },
+        {
+          "n": 6,
+          "label": "6",
+          "role": "opener",
+          "w": 1000,
+          "h": 1516,
+          "file": "p06.webp",
+          "strip": "p06.s.webp",
+          "bytes": 136886,
+          "alt": "Opening page 6: 2 What Fixity Meant."
+        },
+        {
+          "n": 7,
+          "label": "7",
+          "role": "body",
+          "w": 1000,
+          "h": 1516,
+          "file": "p07.webp",
+          "strip": "p07.s.webp",
+          "bytes": 174842,
+          "alt": "Page 7: Circuits and models."
+        },
+        {
+          "n": 8,
+          "label": "8",
+          "role": "body",
+          "w": 1000,
+          "h": 1516,
+          "file": "p08.webp",
+          "strip": "p08.s.webp",
+          "bytes": 61796,
+          "alt": "Page 8: REFERENCES."
+        },
+        {
+          "n": 9,
+          "label": "9",
+          "role": "opener",
+          "w": 1000,
+          "h": 1516,
+          "file": "p09.webp",
+          "strip": "p09.s.webp",
+          "bytes": 139174,
+          "alt": "Opening page 9: 3 Punches, Matrices and the Name Garamond."
+        },
+        {
+          "n": 10,
+          "label": "10",
+          "role": "body",
+          "w": 1000,
+          "h": 1516,
+          "file": "p10.webp",
+          "strip": "p10.s.webp",
+          "bytes": 148562,
+          "alt": "Page 10: Whose letters."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          null
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "page"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "pdf": {
+        "file": "edited-volume-chapter-bibliographies.pdf",
+        "bytes": 143172,
+        "pages": 10
+      },
+      "sandbox": {
+        "file": "edited-volume-chapter-bibliographies.postext",
+        "bytes": 27075,
+        "folio": "3594c3d3",
+        "chapters": [
+          {
+            "pages": 2,
+            "hash": "c071e65970694777",
+            "lines": "cd1d8b46084768b2"
+          },
+          {
+            "pages": 3,
+            "hash": "2e511cf835937f3a",
+            "lines": "67233e6beb0bdca1"
+          },
+          {
+            "pages": 3,
+            "hash": "ebe095fd75567d9b",
+            "lines": "adf506e8a639835c"
+          },
+          {
+            "pages": 2,
+            "hash": "2af442364b00a9c8",
+            "lines": "9454feb324240c6f"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "LOCALES",
+          "STYLES",
+          "buildBundle",
+          "createCiteprocEngine",
+          "decompressWoff2",
+          "prepareFonts",
+          "registerCitationEngine",
+          "renderPageToCanvas",
+          "renderToPdf",
+          "withLoadedFonts"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.avoidOrphans",
+          "bodyText.avoidRunts",
+          "bodyText.avoidWidows",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.hyphenation",
+          "bodyText.hyphenation.enabled",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.maxWordSpacing",
+          "bodyText.optimalLineBreaking",
+          "bodyText.referenceColor",
+          "bodyText.textAlign",
+          "calloutStyles",
+          "calloutStyles[].backgroundEnabled",
+          "calloutStyles[].body",
+          "calloutStyles[].body.color",
+          "calloutStyles[].body.firstLineIndent",
+          "calloutStyles[].body.fontFamily",
+          "calloutStyles[].body.fontSize",
+          "calloutStyles[].body.lineHeight",
+          "calloutStyles[].body.textAlign",
+          "calloutStyles[].id",
+          "calloutStyles[].marginBottom",
+          "calloutStyles[].padding",
+          "calloutStyles[].padding.bottom",
+          "calloutStyles[].padding.left",
+          "calloutStyles[].padding.right",
+          "calloutStyles[].padding.top",
+          "calloutStyles[].placement",
+          "calloutStyles[].stripe",
+          "calloutStyles[].stripe.color",
+          "calloutStyles[].stripe.enabled",
+          "calloutStyles[].stripe.side",
+          "calloutStyles[].stripe.width",
+          "citations",
+          "citations.bibliography",
+          "citations.bibliography.entrySpacing",
+          "citations.bibliography.fontSize",
+          "citations.bibliography.hangingIndent",
+          "citations.bibliography.lineHeight",
+          "citations.bibliography.scope",
+          "citations.bibliography.title",
+          "citations.style",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].align",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].letterSpacing",
+          "footer.elements[].pages",
+          "footer.elements[].parity",
+          "footer.elements[].placement",
+          "footer.elements[].textTransform",
+          "header",
+          "header.elements",
+          "header.elements[].align",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.minHeight",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].color",
+          "headingStyles[].fontFamily",
+          "headingStyles[].fontSize",
+          "headingStyles[].fontWeight",
+          "headingStyles[].footer",
+          "headingStyles[].footer.elements",
+          "headingStyles[].header",
+          "headingStyles[].header.elements",
+          "headingStyles[].id",
+          "headingStyles[].italic",
+          "headingStyles[].letterSpacing",
+          "headingStyles[].lineHeight",
+          "headingStyles[].marginBottom",
+          "headingStyles[].marginTop",
+          "headingStyles[].numbered",
+          "headingStyles[].span",
+          "headingStyles[].textTransform",
+          "headingStyles[].toc",
+          "headings",
+          "headings.color",
+          "headings.columnHeadSpace",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].fontFamily",
+          "headings.levels[].fontSize",
+          "headings.levels[].italic",
+          "headings.levels[].level",
+          "headings.levels[].lineHeight",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "headings.levels[].numberingTemplate",
+          "layout",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.backgroundColor",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.sizePreset",
+          "page.width",
+          "toc",
+          "toc.leader",
+          "toc.leader.char",
+          "toc.leader.gap",
+          "toc.levels",
+          "toc.levels[].fontFamily",
+          "toc.levels[].fontSize",
+          "toc.levels[].level",
+          "toc.levels[].lineHeight",
+          "toc.levels[].marginBottom",
+          "toc.levels[].numberColor",
+          "toc.levels[].numberFontFamily",
+          "toc.levels[].numberFontSize",
+          "toc.levels[].numberFontWeight",
+          "toc.levels[].numberGap",
+          "toc.levels[].numberWidth",
+          "toc.pageNumber",
+          "toc.pageNumber.color",
+          "toc.pageNumber.fontFamily",
+          "toc.pageNumber.fontSize",
+          "toc.pageNumber.fontWeight",
+          "toc.pageNumber.width",
+          "toc.subtitle",
+          "toc.subtitle.attr",
+          "toc.subtitle.color",
+          "toc.subtitle.enabled",
+          "toc.subtitle.fontFamily",
+          "toc.subtitle.fontSize"
+        ],
+        "configSections": [
+          "bodyText",
+          "calloutStyles",
+          "citations",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "toc"
+        ],
+        "configLeaves": 371,
+        "designElements": 17,
+        "directives": [
+          ":::toc",
+          ":::callout",
+          ":::bibliography",
+          ":::references"
+        ],
+        "inline": [
+          "{attrs}"
+        ],
+        "resources": {
+          "svg": 0,
+          "bitmap": 0,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "IBM Plex Sans Condensed",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Sans Condensed",
+            "weight": 500,
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Sans Condensed",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Libre Caslon Display",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Libre Caslon Text",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Libre Caslon Text",
+            "weight": 400,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "callout-styles",
+          "citation-styles",
+          "generated-bibliography",
+          "heading-attributes",
+          "heading-numbering",
+          "heading-styles",
+          "multi-chapter-books",
+          "opener-design",
+          "page-background",
+          "page-role-filters",
+          "pdf-export",
+          "pdf-fonts",
+          "section-running-heads",
+          "toc",
+          "unnumbered-headings"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 2,
+        "looseLines": {
+          "count": 1,
+          "share": 0.0064,
+          "worst": 1.99
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "C20",
+            "severity": "warn",
+            "detail": "the edition's images weigh 1.18 MB (warning at 1.0 MB for 10 pages; capture.expect.imageMb states the figure of a book of paintings)"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: en, es"
+          }
+        ]
+      }
+    },
+    "es": {
+      "hash8": "0b909125",
+      "vdtHash": "06dab4d023c24fa868062edd94a3176adb471b90",
+      "timings": {
+        "importMs": 478,
+        "fontsMs": 85,
+        "buildMs": 563,
+        "totalMs": 2009,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          155,
+          235
+        ],
+        "dpi": 150,
+        "layoutType": "single",
+        "mirror": true,
+        "body": {
+          "family": "Libre Caslon Text",
+          "sizePt": 9.6,
+          "leadingPt": 13.8
+        },
+        "families": [
+          "IBM Plex Sans Condensed",
+          "Libre Caslon Display",
+          "Libre Caslon Text"
+        ],
+        "pages": 10,
+        "ownLines": 187
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1516,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 30502,
+          "alt": "Página de apertura 1: La página en obra."
+        },
+        {
+          "n": 2,
+          "label": "2",
+          "role": "opener",
+          "w": 1000,
+          "h": 1516,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 28704,
+          "alt": "Página de apertura 2: Índice."
+        },
+        {
+          "n": 3,
+          "label": "3",
+          "role": "opener",
+          "w": 1000,
+          "h": 1516,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 139890,
+          "alt": "Página de apertura 3: 1 La jornada del cajista."
+        },
+        {
+          "n": 4,
+          "label": "4",
+          "role": "body",
+          "w": 1000,
+          "h": 1516,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 175274,
+          "alt": "Página 4: Impresores imaginarios."
+        },
+        {
+          "n": 5,
+          "label": "5",
+          "role": "body",
+          "w": 1000,
+          "h": 1516,
+          "file": "p05.webp",
+          "strip": "p05.s.webp",
+          "bytes": 83740,
+          "alt": "Página 5: REFERENCIAS."
+        },
+        {
+          "n": 6,
+          "label": "6",
+          "role": "opener",
+          "w": 1000,
+          "h": 1516,
+          "file": "p06.webp",
+          "strip": "p06.s.webp",
+          "bytes": 139500,
+          "alt": "Página de apertura 6: 2 Lo que significaba la fijeza."
+        },
+        {
+          "n": 7,
+          "label": "7",
+          "role": "body",
+          "w": 1000,
+          "h": 1516,
+          "file": "p07.webp",
+          "strip": "p07.s.webp",
+          "bytes": 177724,
+          "alt": "Página 7: Circuitos y modelos."
+        },
+        {
+          "n": 8,
+          "label": "8",
+          "role": "body",
+          "w": 1000,
+          "h": 1516,
+          "file": "p08.webp",
+          "strip": "p08.s.webp",
+          "bytes": 69524,
+          "alt": "Página 8: REFERENCIAS."
+        },
+        {
+          "n": 9,
+          "label": "9",
+          "role": "opener",
+          "w": 1000,
+          "h": 1516,
+          "file": "p09.webp",
+          "strip": "p09.s.webp",
+          "bytes": 136344,
+          "alt": "Página de apertura 9: 3 Punzones, matrices y el nombre de Garamond."
+        },
+        {
+          "n": 10,
+          "label": "10",
+          "role": "body",
+          "w": 1000,
+          "h": 1516,
+          "file": "p10.webp",
+          "strip": "p10.s.webp",
+          "bytes": 147678,
+          "alt": "Página 10: De quién son las letras."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          null
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "page"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "pdf": {
+        "file": "edited-volume-chapter-bibliographies.pdf",
+        "bytes": 156832,
+        "pages": 10
+      },
+      "sandbox": {
+        "file": "edited-volume-chapter-bibliographies.postext",
+        "bytes": 26790,
+        "folio": "3594c3d3",
+        "chapters": [
+          {
+            "pages": 2,
+            "hash": "04486a8689ef637a",
+            "lines": "5ccd9cc112e63b1d"
+          },
+          {
+            "pages": 3,
+            "hash": "2f8e81703d0980e4",
+            "lines": "c0c0432f5e8d23bf"
+          },
+          {
+            "pages": 3,
+            "hash": "64675f8bf6883d2d",
+            "lines": "c06d9ebb0dd76f53"
+          },
+          {
+            "pages": 2,
+            "hash": "ef29f0419ca19ca1",
+            "lines": "06bcc8c543c14001"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "LOCALES",
+          "STYLES",
+          "buildBundle",
+          "createCiteprocEngine",
+          "decompressWoff2",
+          "prepareFonts",
+          "registerCitationEngine",
+          "renderPageToCanvas",
+          "renderToPdf",
+          "withLoadedFonts"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.avoidOrphans",
+          "bodyText.avoidRunts",
+          "bodyText.avoidWidows",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.hyphenation",
+          "bodyText.hyphenation.enabled",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.maxWordSpacing",
+          "bodyText.optimalLineBreaking",
+          "bodyText.referenceColor",
+          "bodyText.textAlign",
+          "calloutStyles",
+          "calloutStyles[].backgroundEnabled",
+          "calloutStyles[].body",
+          "calloutStyles[].body.color",
+          "calloutStyles[].body.firstLineIndent",
+          "calloutStyles[].body.fontFamily",
+          "calloutStyles[].body.fontSize",
+          "calloutStyles[].body.lineHeight",
+          "calloutStyles[].body.textAlign",
+          "calloutStyles[].id",
+          "calloutStyles[].marginBottom",
+          "calloutStyles[].padding",
+          "calloutStyles[].padding.bottom",
+          "calloutStyles[].padding.left",
+          "calloutStyles[].padding.right",
+          "calloutStyles[].padding.top",
+          "calloutStyles[].placement",
+          "calloutStyles[].stripe",
+          "calloutStyles[].stripe.color",
+          "calloutStyles[].stripe.enabled",
+          "calloutStyles[].stripe.side",
+          "calloutStyles[].stripe.width",
+          "citations",
+          "citations.bibliography",
+          "citations.bibliography.entrySpacing",
+          "citations.bibliography.fontSize",
+          "citations.bibliography.hangingIndent",
+          "citations.bibliography.lineHeight",
+          "citations.bibliography.scope",
+          "citations.bibliography.title",
+          "citations.style",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].align",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].letterSpacing",
+          "footer.elements[].pages",
+          "footer.elements[].parity",
+          "footer.elements[].placement",
+          "footer.elements[].textTransform",
+          "header",
+          "header.elements",
+          "header.elements[].align",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.minHeight",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].color",
+          "headingStyles[].fontFamily",
+          "headingStyles[].fontSize",
+          "headingStyles[].fontWeight",
+          "headingStyles[].footer",
+          "headingStyles[].footer.elements",
+          "headingStyles[].header",
+          "headingStyles[].header.elements",
+          "headingStyles[].id",
+          "headingStyles[].italic",
+          "headingStyles[].letterSpacing",
+          "headingStyles[].lineHeight",
+          "headingStyles[].marginBottom",
+          "headingStyles[].marginTop",
+          "headingStyles[].numbered",
+          "headingStyles[].span",
+          "headingStyles[].textTransform",
+          "headingStyles[].toc",
+          "headings",
+          "headings.color",
+          "headings.columnHeadSpace",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].fontFamily",
+          "headings.levels[].fontSize",
+          "headings.levels[].italic",
+          "headings.levels[].level",
+          "headings.levels[].lineHeight",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "headings.levels[].numberingTemplate",
+          "layout",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.backgroundColor",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.sizePreset",
+          "page.width",
+          "toc",
+          "toc.leader",
+          "toc.leader.char",
+          "toc.leader.gap",
+          "toc.levels",
+          "toc.levels[].fontFamily",
+          "toc.levels[].fontSize",
+          "toc.levels[].level",
+          "toc.levels[].lineHeight",
+          "toc.levels[].marginBottom",
+          "toc.levels[].numberColor",
+          "toc.levels[].numberFontFamily",
+          "toc.levels[].numberFontSize",
+          "toc.levels[].numberFontWeight",
+          "toc.levels[].numberGap",
+          "toc.levels[].numberWidth",
+          "toc.pageNumber",
+          "toc.pageNumber.color",
+          "toc.pageNumber.fontFamily",
+          "toc.pageNumber.fontSize",
+          "toc.pageNumber.fontWeight",
+          "toc.pageNumber.width",
+          "toc.subtitle",
+          "toc.subtitle.attr",
+          "toc.subtitle.color",
+          "toc.subtitle.enabled",
+          "toc.subtitle.fontFamily",
+          "toc.subtitle.fontSize"
+        ],
+        "configSections": [
+          "bodyText",
+          "calloutStyles",
+          "citations",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "toc"
+        ],
+        "configLeaves": 371,
+        "designElements": 17,
+        "directives": [
+          ":::toc",
+          ":::callout",
+          ":::bibliography",
+          ":::references"
+        ],
+        "inline": [
+          "{attrs}"
+        ],
+        "resources": {
+          "svg": 0,
+          "bitmap": 0,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "IBM Plex Sans Condensed",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Sans Condensed",
+            "weight": 500,
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Sans Condensed",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Libre Caslon Display",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Libre Caslon Text",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Libre Caslon Text",
+            "weight": 400,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "callout-styles",
+          "citation-styles",
+          "generated-bibliography",
+          "heading-attributes",
+          "heading-numbering",
+          "heading-styles",
+          "multi-chapter-books",
+          "opener-design",
+          "page-background",
+          "page-role-filters",
+          "pdf-export",
+          "pdf-fonts",
+          "section-running-heads",
+          "toc",
+          "unnumbered-headings"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 2,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 1.68
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "C20",
+            "severity": "warn",
+            "detail": "the edition's images weigh 1.21 MB (warning at 1.0 MB for 10 pages; capture.expect.imageMb states the figure of a book of paintings)"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: es, en"
+          }
+        ]
+      }
+    }
+  }
+}

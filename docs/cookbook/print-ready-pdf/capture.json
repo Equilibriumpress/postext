@@ -1,0 +1,381 @@
+{
+  "schemaVersion": 1,
+  "slug": "print-ready-pdf",
+  "sourceHash": "3f0660a45d6b4e02f0ebc887bc6e4e359a1013a5fe6799c2d95ce4a413c9c710",
+  "engine": {
+    "postext": "1.57.1",
+    "postextPdf": "1.57.1",
+    "source": "npm"
+  },
+  "chrome": "155.0.8059.85",
+  "capturedAt": "2026-10-23T07:40:37.800Z",
+  "verified": {
+    "postext": "1.65.0",
+    "postextPdf": "1.65.0",
+    "chrome": "156.0.8078.76",
+    "at": "2026-10-31T16:48:16.804Z"
+  },
+  "variants": {
+    "es": {
+      "hash8": "2bd485a8",
+      "vdtHash": "731346965b7c574a9b7c70d0d12cb2b5299688cd",
+      "timings": {
+        "importMs": 289,
+        "fontsMs": 37,
+        "buildMs": 51,
+        "totalMs": 1769,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          170,
+          227
+        ],
+        "dpi": 300,
+        "layoutType": "single",
+        "mirror": true,
+        "body": {
+          "family": "Karla",
+          "sizePt": 9.6,
+          "leadingPt": 13.6
+        },
+        "families": [
+          "Karla",
+          "Space Grotesk",
+          "Space Mono"
+        ],
+        "pages": 4,
+        "ownLines": 274
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1297,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 40962,
+          "alt": "Página de apertura 1: Cartografías imaginarias."
+        },
+        {
+          "n": 2,
+          "label": "2",
+          "role": "body",
+          "w": 1000,
+          "h": 1297,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 100638,
+          "alt": "Página 2: Sala 1 Una isla en ninguna parte."
+        },
+        {
+          "n": 3,
+          "label": "3",
+          "role": "body",
+          "w": 1000,
+          "h": 1297,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 108690,
+          "alt": "Página 3: Sala 3 El océano en blanco."
+        },
+        {
+          "n": 4,
+          "label": "4",
+          "role": "opener",
+          "w": 1000,
+          "h": 1297,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 54694,
+          "alt": "Página de apertura 4: Información práctica. Figura 1. Plano de la exposición, con el itinerario en naranja."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          null
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "loupe"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "pdf": {
+        "file": "print-ready-pdf.pdf",
+        "bytes": 476978,
+        "pages": 4
+      },
+      "sandbox": {
+        "file": "print-ready-pdf.postext",
+        "bytes": 102289,
+        "folio": "2465c19b",
+        "chapters": [
+          {
+            "pages": 4,
+            "hash": "7cd4dff372aa68f5",
+            "lines": "4f4766c12620bac9"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "decompressWoff2",
+          "defaultResourceTypes",
+          "loadOutputProfile",
+          "outputTransform",
+          "preflightDocument",
+          "registerResourceImage",
+          "renderPageToCanvas",
+          "renderToPdf"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.paragraphSpacing",
+          "bodyText.referenceColor",
+          "bodyText.textAlign",
+          "captionStyle",
+          "captionStyle.fontFamily",
+          "captionStyle.fontSize",
+          "captionStyle.labelColor",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].align",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].letterSpacing",
+          "footer.elements[].pages",
+          "footer.elements[].parity",
+          "footer.elements[].placement",
+          "footer.elements[].style",
+          "footer.elements[].textTransform",
+          "header",
+          "header.elements",
+          "header.elements[].align",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].breakBefore",
+          "headingStyles[].breakBefore.enabled",
+          "headingStyles[].breakBefore.parity",
+          "headingStyles[].footer",
+          "headingStyles[].footer.elements",
+          "headingStyles[].id",
+          "headingStyles[].margins",
+          "headingStyles[].margins.bottom",
+          "headingStyles[].numbered",
+          "headingStyles[].span",
+          "headings",
+          "headings.fontFamily",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].level",
+          "headings.levels[].marginTop",
+          "headings.levels[].numberingTemplate",
+          "layout",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.cutLines",
+          "page.cutLines.bleed",
+          "page.cutLines.enabled",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].fontFamily",
+          "paragraphStyles[].fontSize",
+          "paragraphStyles[].id",
+          "paragraphStyles[].lineHeight",
+          "print",
+          "print.outputProfile",
+          "print.preflight",
+          "print.preflight.smallTextSize",
+          "print.standard",
+          "resourceTypes",
+          "resourceTypes[].captionPrefix",
+          "resourceTypes[].counterFormat",
+          "resourceTypes[].id",
+          "resourceTypes[].name",
+          "resourceTypes[].namePlural",
+          "resourceTypes[].numberingTemplate",
+          "resourceTypes[].resetOn",
+          "resourceTypes[].shortLabel"
+        ],
+        "configSections": [
+          "bodyText",
+          "captionStyle",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "paragraphStyles",
+          "print",
+          "resourceTypes"
+        ],
+        "configLeaves": 382,
+        "designElements": 23,
+        "directives": [
+          ":::paragraphs"
+        ],
+        "inline": [
+          "{attrs}",
+          ":ref"
+        ],
+        "resources": {
+          "svg": 3,
+          "bitmap": 0,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Karla",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Karla",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Karla",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Space Grotesk",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Space Grotesk",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Space Mono",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Space Mono",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Space Mono",
+            "weight": 700,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "bleed-and-crop-marks",
+          "figure-citations",
+          "heading-attributes",
+          "heading-numbering",
+          "heading-styles",
+          "localised-labels",
+          "opener-design",
+          "page-role-filters",
+          "paragraph-styles",
+          "pdf-export",
+          "pdf-fonts",
+          "resource-types",
+          "resources",
+          "section-geometry",
+          "section-running-heads",
+          "unnumbered-headings"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 1,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 0
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "cubierta: print master cubierta.pdf left out (the SVG stays)"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "banda: print master banda.pdf left out (the SVG stays)"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "plano: print master plano.pdf left out (the SVG stays)"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,818 @@
+{
+  "schemaVersion": 1,
+  "slug": "garden-almanac",
+  "sourceHash": "c4c4996b1d263a659cfa33e5287fb9add9259f81730815b75b211e0b96bc7978",
+  "engine": {
+    "postext": "1.57.1",
+    "source": "npm"
+  },
+  "chrome": "155.0.8059.85",
+  "capturedAt": "2026-10-23T07:36:51.236Z",
+  "verified": {
+    "postext": "1.65.0",
+    "chrome": "156.0.8078.76",
+    "at": "2026-10-31T17:40:08.740Z"
+  },
+  "variants": {
+    "en": {
+      "hash8": "2e327831",
+      "vdtHash": "12f7bb8f16d35502a9c80c5f9136451ade987f30",
+      "timings": {
+        "importMs": 555,
+        "fontsMs": 850,
+        "buildMs": 80,
+        "totalMs": 2203,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          210,
+          280
+        ],
+        "dpi": 150,
+        "layoutType": "double",
+        "gutterMm": 7,
+        "mirror": true,
+        "body": {
+          "family": "Piazzolla",
+          "sizePt": 9.8,
+          "leadingPt": 14
+        },
+        "families": [
+          "Commissioner",
+          "Gilda Display",
+          "Piazzolla"
+        ],
+        "pages": 4,
+        "ownLines": 251
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "27",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 116784,
+          "alt": "Opening page 27: Marzo. ⁤ domeniche · ⁤ Pasqua e Pasquetta · luna nuova l’8, primo quarto il 15, luna piena il 22, ultimo quarto il 30, sul mese sinodico medio: un giorno prima o dopo è possibile. Per tradizione in crescente si semina ciò che fruttifica sopra terra, in calante…"
+        },
+        {
+          "n": 2,
+          "label": "28",
+          "role": "body",
+          "w": 1000,
+          "h": 1333,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 81020,
+          "alt": "Page 28: Consociazioni. Tabella 1. Consociazioni tra dieci ortaggi."
+        },
+        {
+          "n": 3,
+          "label": "29",
+          "role": "body",
+          "w": 1000,
+          "h": 1333,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 34714,
+          "alt": "Page 29. Tabella 2. Semine al Nord e al Centro, in pianura e collina: ⁤ in semenzaio protetto · ⁤ in piena terra · ⁤ trapianto o messa a dimora."
+        },
+        {
+          "n": 4,
+          "label": "30",
+          "role": "body",
+          "w": 1000,
+          "h": 1333,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 36948,
+          "alt": "Page 30. Tabella 2. Semine al Nord e al Centro, in pianura e collina: ⁤ in semenzaio protetto · ⁤ in piena terra · ⁤ trapianto o messa a dimora (segue)."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          null
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "crop"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "sandbox": {
+        "file": "garden-almanac.postext",
+        "bytes": 191898,
+        "folio": "49229ae8",
+        "chapters": [
+          {
+            "pages": 4,
+            "hash": "59436dc1963c8f83",
+            "lines": "86d23eff9b386645"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "mergeCells",
+          "parseTSV",
+          "prepareFonts",
+          "registerResourceImage",
+          "renderPageToCanvas",
+          "setAlignment",
+          "setCellBackground",
+          "setCellContent",
+          "setCellImage"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.boldFontWeight",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.maxWordSpacing",
+          "bodyText.minWordSpacing",
+          "bodyText.referenceBold",
+          "bodyText.referenceColor",
+          "calloutStyles",
+          "calloutStyles[].background",
+          "calloutStyles[].backgroundEnabled",
+          "calloutStyles[].body",
+          "calloutStyles[].body.fontSize",
+          "calloutStyles[].body.lineHeight",
+          "calloutStyles[].columnGap",
+          "calloutStyles[].id",
+          "calloutStyles[].lists",
+          "calloutStyles[].lists.gap",
+          "calloutStyles[].lists.itemSpacing",
+          "calloutStyles[].padding",
+          "calloutStyles[].padding.bottom",
+          "calloutStyles[].padding.left",
+          "calloutStyles[].padding.right",
+          "calloutStyles[].padding.top",
+          "calloutStyles[].span",
+          "calloutStyles[].title",
+          "calloutStyles[].titleStyle",
+          "calloutStyles[].titleStyle.color",
+          "calloutStyles[].titleStyle.fontFamily",
+          "calloutStyles[].titleStyle.fontSize",
+          "calloutStyles[].titleStyle.fontWeight",
+          "calloutStyles[].titleStyle.italic",
+          "calloutStyles[].titleStyle.letterSpacing",
+          "calloutStyles[].titleStyle.textTransform",
+          "captionStyle",
+          "captionStyle.fontSize",
+          "captionStyle.gap",
+          "captionStyle.labelColor",
+          "captionStyle.note",
+          "captionStyle.note.color",
+          "captionStyle.note.fontSize",
+          "chipStyles",
+          "chipStyles[].backgroundEnabled",
+          "chipStyles[].bold",
+          "chipStyles[].borderWidth",
+          "chipStyles[].color",
+          "chipStyles[].fontFamily",
+          "chipStyles[].fontSize",
+          "chipStyles[].id",
+          "chipStyles[].italic",
+          "chipStyles[].paddingX",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].align",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].overflow",
+          "footer.elements[].pages",
+          "footer.elements[].placement",
+          "header",
+          "header.elements",
+          "header.elements[].align",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].overflow",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].fontSize",
+          "headings.levels[].level",
+          "headings.levels[].lineHeight",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "headings.levels[].span",
+          "layout",
+          "layout.gutterWidth",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.backgroundColor",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.pageNumbering",
+          "page.pageNumbering.startAt",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].color",
+          "paragraphStyles[].firstLineIndent",
+          "paragraphStyles[].fontSize",
+          "paragraphStyles[].id",
+          "paragraphStyles[].lineHeight",
+          "paragraphStyles[].marginTop",
+          "paragraphStyles[].textAlign",
+          "resourceTypes",
+          "resourceTypes[].captionPrefix",
+          "resourceTypes[].captionStyle",
+          "resourceTypes[].captionStyle.position",
+          "resourceTypes[].counterFormat",
+          "resourceTypes[].id",
+          "resourceTypes[].name",
+          "resourceTypes[].numberingTemplate",
+          "resourceTypes[].resetOn",
+          "resourceTypes[].shortLabel",
+          "tableStyle",
+          "tableStyle.bodyFontSize",
+          "tableStyle.borderColor",
+          "tableStyle.borderWidth",
+          "tableStyle.cellPadding",
+          "tableStyle.continuesMarker",
+          "tableStyle.headerBackground",
+          "tableStyle.headerColor",
+          "tableStyle.headerFontFamily",
+          "tableStyle.headerFontSize",
+          "tableStyle.rules",
+          "tableStyles",
+          "tableStyles[].bodyFontFamily",
+          "tableStyles[].bodyFontSize",
+          "tableStyles[].borderColor",
+          "tableStyles[].borderWidth",
+          "tableStyles[].cellPadding",
+          "tableStyles[].headerBackgroundEnabled",
+          "tableStyles[].headerColor",
+          "tableStyles[].headerFontSize",
+          "tableStyles[].id",
+          "tableStyles[].rules",
+          "unorderedLists",
+          "unorderedLists.bulletChar",
+          "unorderedLists.color",
+          "unorderedLists.fontWeight"
+        ],
+        "configSections": [
+          "bodyText",
+          "calloutStyles",
+          "captionStyle",
+          "chipStyles",
+          "colorPalette",
+          "footer",
+          "header",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "paragraphStyles",
+          "resourceTypes",
+          "tableStyle",
+          "tableStyles",
+          "unorderedLists"
+        ],
+        "configLeaves": 352,
+        "designElements": 10,
+        "directives": [
+          ":::callout",
+          ":::columns",
+          ":::space",
+          ":::paragraphs"
+        ],
+        "inline": [
+          "{attrs}",
+          ":ref",
+          ":swatch"
+        ],
+        "resources": {
+          "svg": 14,
+          "bitmap": 1,
+          "table": 3
+        },
+        "fonts": [
+          {
+            "family": "Commissioner",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Gilda Display",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Piazzolla",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Piazzolla",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Piazzolla",
+            "weight": 600,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "callout-columns",
+          "callout-styles",
+          "cell-fills",
+          "cell-images",
+          "figure-citations",
+          "heading-attributes",
+          "nested-callouts",
+          "opener-band",
+          "opener-design",
+          "page-background",
+          "page-role-filters",
+          "paragraph-styles",
+          "resource-types",
+          "resources",
+          "roman-front-matter",
+          "swatches",
+          "table-model",
+          "table-styles",
+          "vertical-space"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 1,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 1.6
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: en, es"
+          }
+        ]
+      }
+    },
+    "es": {
+      "hash8": "8fe31c6f",
+      "vdtHash": "12f7bb8f16d35502a9c80c5f9136451ade987f30",
+      "timings": {
+        "importMs": 542,
+        "fontsMs": 866,
+        "buildMs": 80,
+        "totalMs": 2204,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          210,
+          280
+        ],
+        "dpi": 150,
+        "layoutType": "double",
+        "gutterMm": 7,
+        "mirror": true,
+        "body": {
+          "family": "Piazzolla",
+          "sizePt": 9.8,
+          "leadingPt": 14
+        },
+        "families": [
+          "Commissioner",
+          "Gilda Display",
+          "Piazzolla"
+        ],
+        "pages": 4,
+        "ownLines": 251
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "27",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 116784,
+          "alt": "Página de apertura 27: Marzo. ⁤ domeniche · ⁤ Pasqua e Pasquetta · luna nuova l’8, primo quarto il 15, luna piena il 22, ultimo quarto il 30, sul mese sinodico medio: un giorno prima o dopo è possibile. Per tradizione in crescente si semina ciò che fruttifica sopra terra, in c…"
+        },
+        {
+          "n": 2,
+          "label": "28",
+          "role": "body",
+          "w": 1000,
+          "h": 1333,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 81020,
+          "alt": "Página 28: Consociazioni. Tabella 1. Consociazioni tra dieci ortaggi."
+        },
+        {
+          "n": 3,
+          "label": "29",
+          "role": "body",
+          "w": 1000,
+          "h": 1333,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 34714,
+          "alt": "Página 29. Tabella 2. Semine al Nord e al Centro, in pianura e collina: ⁤ in semenzaio protetto · ⁤ in piena terra · ⁤ trapianto o messa a dimora."
+        },
+        {
+          "n": 4,
+          "label": "30",
+          "role": "body",
+          "w": 1000,
+          "h": 1333,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 36948,
+          "alt": "Página 30. Tabella 2. Semine al Nord e al Centro, in pianura e collina: ⁤ in semenzaio protetto · ⁤ in piena terra · ⁤ trapianto o messa a dimora (segue)."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          null
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "crop"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "sandbox": {
+        "file": "garden-almanac.postext",
+        "bytes": 191895,
+        "folio": "49229ae8",
+        "chapters": [
+          {
+            "pages": 4,
+            "hash": "59436dc1963c8f83",
+            "lines": "86d23eff9b386645"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "mergeCells",
+          "parseTSV",
+          "prepareFonts",
+          "registerResourceImage",
+          "renderPageToCanvas",
+          "setAlignment",
+          "setCellBackground",
+          "setCellContent",
+          "setCellImage"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.boldFontWeight",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.maxWordSpacing",
+          "bodyText.minWordSpacing",
+          "bodyText.referenceBold",
+          "bodyText.referenceColor",
+          "calloutStyles",
+          "calloutStyles[].background",
+          "calloutStyles[].backgroundEnabled",
+          "calloutStyles[].body",
+          "calloutStyles[].body.fontSize",
+          "calloutStyles[].body.lineHeight",
+          "calloutStyles[].columnGap",
+          "calloutStyles[].id",
+          "calloutStyles[].lists",
+          "calloutStyles[].lists.gap",
+          "calloutStyles[].lists.itemSpacing",
+          "calloutStyles[].padding",
+          "calloutStyles[].padding.bottom",
+          "calloutStyles[].padding.left",
+          "calloutStyles[].padding.right",
+          "calloutStyles[].padding.top",
+          "calloutStyles[].span",
+          "calloutStyles[].title",
+          "calloutStyles[].titleStyle",
+          "calloutStyles[].titleStyle.color",
+          "calloutStyles[].titleStyle.fontFamily",
+          "calloutStyles[].titleStyle.fontSize",
+          "calloutStyles[].titleStyle.fontWeight",
+          "calloutStyles[].titleStyle.italic",
+          "calloutStyles[].titleStyle.letterSpacing",
+          "calloutStyles[].titleStyle.textTransform",
+          "captionStyle",
+          "captionStyle.fontSize",
+          "captionStyle.gap",
+          "captionStyle.labelColor",
+          "captionStyle.note",
+          "captionStyle.note.color",
+          "captionStyle.note.fontSize",
+          "chipStyles",
+          "chipStyles[].backgroundEnabled",
+          "chipStyles[].bold",
+          "chipStyles[].borderWidth",
+          "chipStyles[].color",
+          "chipStyles[].fontFamily",
+          "chipStyles[].fontSize",
+          "chipStyles[].id",
+          "chipStyles[].italic",
+          "chipStyles[].paddingX",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].align",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].overflow",
+          "footer.elements[].pages",
+          "footer.elements[].placement",
+          "header",
+          "header.elements",
+          "header.elements[].align",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].overflow",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].fontSize",
+          "headings.levels[].level",
+          "headings.levels[].lineHeight",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "headings.levels[].span",
+          "layout",
+          "layout.gutterWidth",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.backgroundColor",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.pageNumbering",
+          "page.pageNumbering.startAt",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].color",
+          "paragraphStyles[].firstLineIndent",
+          "paragraphStyles[].fontSize",
+          "paragraphStyles[].id",
+          "paragraphStyles[].lineHeight",
+          "paragraphStyles[].marginTop",
+          "paragraphStyles[].textAlign",
+          "resourceTypes",
+          "resourceTypes[].captionPrefix",
+          "resourceTypes[].captionStyle",
+          "resourceTypes[].captionStyle.position",
+          "resourceTypes[].counterFormat",
+          "resourceTypes[].id",
+          "resourceTypes[].name",
+          "resourceTypes[].numberingTemplate",
+          "resourceTypes[].resetOn",
+          "resourceTypes[].shortLabel",
+          "tableStyle",
+          "tableStyle.bodyFontSize",
+          "tableStyle.borderColor",
+          "tableStyle.borderWidth",
+          "tableStyle.cellPadding",
+          "tableStyle.continuesMarker",
+          "tableStyle.headerBackground",
+          "tableStyle.headerColor",
+          "tableStyle.headerFontFamily",
+          "tableStyle.headerFontSize",
+          "tableStyle.rules",
+          "tableStyles",
+          "tableStyles[].bodyFontFamily",
+          "tableStyles[].bodyFontSize",
+          "tableStyles[].borderColor",
+          "tableStyles[].borderWidth",
+          "tableStyles[].cellPadding",
+          "tableStyles[].headerBackgroundEnabled",
+          "tableStyles[].headerColor",
+          "tableStyles[].headerFontSize",
+          "tableStyles[].id",
+          "tableStyles[].rules",
+          "unorderedLists",
+          "unorderedLists.bulletChar",
+          "unorderedLists.color",
+          "unorderedLists.fontWeight"
+        ],
+        "configSections": [
+          "bodyText",
+          "calloutStyles",
+          "captionStyle",
+          "chipStyles",
+          "colorPalette",
+          "footer",
+          "header",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "paragraphStyles",
+          "resourceTypes",
+          "tableStyle",
+          "tableStyles",
+          "unorderedLists"
+        ],
+        "configLeaves": 352,
+        "designElements": 10,
+        "directives": [
+          ":::callout",
+          ":::columns",
+          ":::space",
+          ":::paragraphs"
+        ],
+        "inline": [
+          "{attrs}",
+          ":ref",
+          ":swatch"
+        ],
+        "resources": {
+          "svg": 14,
+          "bitmap": 1,
+          "table": 3
+        },
+        "fonts": [
+          {
+            "family": "Commissioner",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Gilda Display",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Piazzolla",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Piazzolla",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Piazzolla",
+            "weight": 600,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "callout-columns",
+          "callout-styles",
+          "cell-fills",
+          "cell-images",
+          "figure-citations",
+          "heading-attributes",
+          "nested-callouts",
+          "opener-band",
+          "opener-design",
+          "page-background",
+          "page-role-filters",
+          "paragraph-styles",
+          "resource-types",
+          "resources",
+          "roman-front-matter",
+          "swatches",
+          "table-model",
+          "table-styles",
+          "vertical-space"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 1,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 1.6
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: es, en"
+          }
+        ]
+      }
+    }
+  }
+}

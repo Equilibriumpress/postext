@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "slug": "certificate-single-page",
+  "sourceHash": "cab86b58ce7a6dbcdae0f6c29ddc6aff9346e86a7dcee02b051b25826e1b6c07",
+  "engine": {
+    "postext": "1.57.1",
+    "postextPdf": "1.57.1",
+    "source": "npm"
+  },
+  "chrome": "155.0.8059.85",
+  "capturedAt": "2026-10-23T07:32:12.355Z",
+  "verified": {
+    "postext": "1.65.0",
+    "postextPdf": "1.65.0",
+    "chrome": "156.0.8078.76",
+    "at": "2026-10-31T17:07:12.907Z"
+  },
+  "variants": {
+    "en": {
+      "hash8": "a0fe1ba2",
+      "vdtHash": "9e7f834a65281cc1f4bc902a08b908f9f13a1e9b",
+      "timings": {
+        "importMs": 250,
+        "fontsMs": 33,
+        "buildMs": 33,
+        "totalMs": 1449,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          215.9,
+          279.4
+        ],
+        "dpi": 150,
+        "layoutType": "single",
+        "mirror": false,
+        "body": {
+          "family": "Rosarivo",
+          "sizePt": 11.5,
+          "leadingPt": 17
+        },
+        "families": [
+          "Aboreto",
+          "Pinyon Script",
+          "Rosarivo"
+        ],
+        "pages": 3,
+        "ownLines": 173
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1294,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 130200,
+          "alt": "Opening page 1: Imogen Achterberg."
+        },
+        {
+          "n": 2,
+          "label": "2",
+          "role": "opener",
+          "w": 1000,
+          "h": 1294,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 128102,
+          "alt": "Opening page 2: Tomás Okafor."
+        },
+        {
+          "n": 3,
+          "label": "3",
+          "role": "opener",
+          "w": 1000,
+          "h": 1294,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 127320,
+          "alt": "Opening page 3: Ruth Adair."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "page"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "pdf": {
+        "file": "certificate-single-page.pdf",
+        "bytes": 259503,
+        "pages": 3
+      },
+      "sandbox": {
+        "file": "certificate-single-page.postext",
+        "bytes": 40209,
+        "folio": "a05bb7c0",
+        "chapters": [
+          {
+            "pages": 3,
+            "hash": "922a15aa0752e44e",
+            "lines": "6a7f4811b369573b"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "decompressWoff2",
+          "extractFrontmatter",
+          "registerResourceImage",
+          "renderPageToCanvas",
+          "renderToPdf"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.paragraphSpacing",
+          "bodyText.textAlign",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "header",
+          "header.elements",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.minHeight",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].footer",
+          "headingStyles[].footer.elements",
+          "headingStyles[].header",
+          "headingStyles[].header.elements",
+          "headingStyles[].id",
+          "headingStyles[].marginBottom",
+          "headingStyles[].margins",
+          "headingStyles[].margins.bottom",
+          "headingStyles[].margins.left",
+          "headingStyles[].margins.right",
+          "headings",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].breakBefore",
+          "headings.levels[].level",
+          "layout",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.backgroundColor",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.right",
+          "page.margins.top",
+          "page.width"
+        ],
+        "configSections": [
+          "bodyText",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "page"
+        ],
+        "configLeaves": 237,
+        "designElements": 16,
+        "directives": [],
+        "inline": [
+          "{attrs}"
+        ],
+        "resources": {
+          "svg": 2,
+          "bitmap": 0,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Aboreto",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Pinyon Script",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Rosarivo",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Rosarivo",
+            "weight": 400,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "heading-attributes",
+          "heading-styles",
+          "opener-design",
+          "page-background",
+          "pdf-export",
+          "pdf-fonts",
+          "resources",
+          "section-geometry",
+          "section-running-heads"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 1,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 0
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 155.0.8059.85, the committed capture used 155.0.8059.82: pixels may differ"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: en, es"
+          }
+        ]
+      }
+    },
+    "es": {
+      "hash8": "5af19a1f",
+      "vdtHash": "f89d7783c5c82acb318507363bd71fa7dfc00a82",
+      "timings": {
+        "importMs": 215,
+        "fontsMs": 30,
+        "buildMs": 33,
+        "totalMs": 907,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          210,
+          297
+        ],
+        "dpi": 150,
+        "layoutType": "single",
+        "mirror": false,
+        "body": {
+          "family": "Rosarivo",
+          "sizePt": 11.5,
+          "leadingPt": 17
+        },
+        "families": [
+          "Aboreto",
+          "Pinyon Script",
+          "Rosarivo"
+        ],
+        "pages": 3,
+        "ownLines": 173
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1414,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 137104,
+          "alt": "Página de apertura 1: Lucía Beltrán Ochoa."
+        },
+        {
+          "n": 2,
+          "label": "2",
+          "role": "opener",
+          "w": 1000,
+          "h": 1414,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 134508,
+          "alt": "Página de apertura 2: Íñigo Sarasola."
+        },
+        {
+          "n": 3,
+          "label": "3",
+          "role": "opener",
+          "w": 1000,
+          "h": 1414,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 132602,
+          "alt": "Página de apertura 3: Ana Rius."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "page"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "pdf": {
+        "file": "certificate-single-page.pdf",
+        "bytes": 251241,
+        "pages": 3
+      },
+      "sandbox": {
+        "file": "certificate-single-page.postext",
+        "bytes": 38517,
+        "folio": "a05bb7c0",
+        "chapters": [
+          {
+            "pages": 3,
+            "hash": "98ce9d47fda2e587",
+            "lines": "d1b82089d218cd05"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "decompressWoff2",
+          "extractFrontmatter",
+          "registerResourceImage",
+          "renderPageToCanvas",
+          "renderToPdf"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.paragraphSpacing",
+          "bodyText.textAlign",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "header",
+          "header.elements",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.minHeight",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].footer",
+          "headingStyles[].footer.elements",
+          "headingStyles[].header",
+          "headingStyles[].header.elements",
+          "headingStyles[].id",
+          "headingStyles[].marginBottom",
+          "headingStyles[].margins",
+          "headingStyles[].margins.bottom",
+          "headingStyles[].margins.left",
+          "headingStyles[].margins.right",
+          "headings",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].breakBefore",
+          "headings.levels[].level",
+          "layout",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.backgroundColor",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.right",
+          "page.margins.top",
+          "page.width"
+        ],
+        "configSections": [
+          "bodyText",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "page"
+        ],
+        "configLeaves": 237,
+        "designElements": 16,
+        "directives": [],
+        "inline": [
+          "{attrs}"
+        ],
+        "resources": {
+          "svg": 2,
+          "bitmap": 0,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Aboreto",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Pinyon Script",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Rosarivo",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Rosarivo",
+            "weight": 400,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "heading-attributes",
+          "heading-styles",
+          "opener-design",
+          "page-background",
+          "pdf-export",
+          "pdf-fonts",
+          "resources",
+          "section-geometry",
+          "section-running-heads"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 1,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 0
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 155.0.8059.85, the committed capture used 155.0.8059.82: pixels may differ"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: es, en"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "schemaVersion": 1,
+  "slug": "front-matter-roman-to-arabic",
+  "sourceHash": "e3d1476ac2a2aa5913d4baffa3dde18f61c45ac7adf916837f5c585614080691",
+  "engine": {
+    "postext": "1.57.1",
+    "postextPdf": "1.57.1",
+    "source": "npm"
+  },
+  "chrome": "155.0.8059.85",
+  "capturedAt": "2026-10-23T07:36:51.226Z",
+  "verified": {
+    "postext": "1.65.0",
+    "postextPdf": "1.65.0",
+    "chrome": "156.0.8078.76",
+    "at": "2026-10-31T17:10:25.938Z"
+  },
+  "variants": {
+    "en": {
+      "hash8": "5a8fb585",
+      "vdtHash": "782d96fdaadab180c625a3cf0c8de908c464fa48",
+      "timings": {
+        "importMs": 554,
+        "fontsMs": 65,
+        "buildMs": 88,
+        "totalMs": 3267,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          129,
+          198
+        ],
+        "dpi": 150,
+        "layoutType": "single",
+        "mirror": true,
+        "body": {
+          "family": "Fanwood Text",
+          "sizePt": 10.5,
+          "leadingPt": 14
+        },
+        "families": [
+          "Cinzel",
+          "Fanwood Text",
+          "Playfair Display SC"
+        ],
+        "pages": 14,
+        "ownLines": 245
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "i",
+          "role": "opener",
+          "w": 1000,
+          "h": 1535,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 142128,
+          "alt": "Opening page i: Cover."
+        },
+        {
+          "n": 3,
+          "label": "iii",
+          "role": "opener",
+          "w": 1000,
+          "h": 1535,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 6720,
+          "alt": "Opening page iii: Half title."
+        },
+        {
+          "n": 4,
+          "label": "iv",
+          "role": "opener",
+          "w": 1000,
+          "h": 1535,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 110820,
+          "alt": "Opening page iv: Frontispiece."
+        },
+        {
+          "n": 5,
+          "label": "v",
+          "role": "opener",
+          "w": 1000,
+          "h": 1535,
+          "file": "p05.webp",
+          "strip": "p05.s.webp",
+          "bytes": 19154,
+          "alt": "Opening page v: Title page."
+        },
+        {
+          "n": 6,
+          "label": "vi",
+          "role": "opener",
+          "w": 1000,
+          "h": 1535,
+          "file": "p06.webp",
+          "strip": "p06.s.webp",
+          "bytes": 36256,
+          "alt": "Opening page vi: Imprint."
+        },
+        {
+          "n": 7,
+          "label": "vii",
+          "role": "opener",
+          "w": 1000,
+          "h": 1535,
+          "file": "p07.webp",
+          "strip": "p07.s.webp",
+          "bytes": 26886,
+          "alt": "Opening page vii: Dedication."
+        },
+        {
+          "n": 8,
+          "label": "viii",
+          "role": "opener",
+          "w": 1000,
+          "h": 1535,
+          "file": "p08.webp",
+          "strip": "p08.s.webp",
+          "bytes": 11592,
+          "alt": "Opening page viii: Contents."
+        },
+        {
+          "n": 9,
+          "label": "ix",
+          "role": "opener",
+          "w": 1000,
+          "h": 1535,
+          "file": "p09.webp",
+          "strip": "p09.s.webp",
+          "bytes": 114898,
+          "alt": "Opening page ix: Preface."
+        },
+        {
+          "n": 10,
+          "label": "x",
+          "role": "body",
+          "w": 1000,
+          "h": 1535,
+          "file": "p10.webp",
+          "strip": "p10.s.webp",
+          "bytes": 126112,
+          "alt": "Page x."
+        },
+        {
+          "n": 11,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1535,
+          "file": "p11.webp",
+          "strip": "p11.s.webp",
+          "bytes": 127940,
+          "alt": "Opening page 1: Letter I."
+        },
+        {
+          "n": 13,
+          "label": "3",
+          "role": "body",
+          "w": 1000,
+          "h": 1535,
+          "file": "p13.webp",
+          "strip": "p13.s.webp",
+          "bytes": 163068,
+          "alt": "Page 3."
+        },
+        {
+          "n": 14,
+          "label": "4",
+          "role": "body",
+          "w": 1000,
+          "h": 1535,
+          "file": "p14.webp",
+          "strip": "p14.s.webp",
+          "bytes": 136594,
+          "alt": "Page 4."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          null,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          null,
+          10
+        ],
+        [
+          11,
+          null
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "crop"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "pdf": {
+        "file": "front-matter-roman-to-arabic.pdf",
+        "bytes": 814128,
+        "pages": 14
+      },
+      "sandbox": {
+        "file": "front-matter-roman-to-arabic.postext",
+        "bytes": 713708,
+        "folio": "ba949066",
+        "chapters": [
+          {
+            "pages": 14,
+            "hash": "d9357d8d7f2afa23",
+            "lines": "0b3a5080e38fafa2"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "decompressWoff2",
+          "registerResourceImage",
+          "renderPageToCanvas",
+          "renderToPdf"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.maxWordSpacing",
+          "bodyText.minWordSpacing",
+          "bodyText.referenceColor",
+          "bodyText.runtMinCharacters",
+          "bodyText.runtPenalty",
+          "checks",
+          "checks.contentInConfig",
+          "checks.contentInConfig.allow",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].align",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].letterSpacing",
+          "footer.elements[].overflow",
+          "footer.elements[].pages",
+          "footer.elements[].placement",
+          "header",
+          "header.elements",
+          "header.elements[].align",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].overflow",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.minHeight",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].bodyStyle",
+          "headingStyles[].bodyStyle.fontSize",
+          "headingStyles[].bodyStyle.lineHeight",
+          "headingStyles[].breakBefore",
+          "headingStyles[].breakBefore.enabled",
+          "headingStyles[].breakBefore.parity",
+          "headingStyles[].footer",
+          "headingStyles[].footer.elements",
+          "headingStyles[].header",
+          "headingStyles[].header.elements",
+          "headingStyles[].hidden",
+          "headingStyles[].id",
+          "headingStyles[].margins",
+          "headingStyles[].margins.left",
+          "headingStyles[].margins.top",
+          "headingStyles[].numbered",
+          "headingStyles[].toc",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].level",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "headings.levels[].span",
+          "layout",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.backgroundColor",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.pageNumbering",
+          "page.pageNumbering.format",
+          "page.pageNumbering.startAt",
+          "page.sizePreset",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].color",
+          "paragraphStyles[].firstLineIndent",
+          "paragraphStyles[].fontFamily",
+          "paragraphStyles[].fontSize",
+          "paragraphStyles[].id",
+          "paragraphStyles[].lineHeight",
+          "paragraphStyles[].marginTop",
+          "paragraphStyles[].spaceBetween",
+          "paragraphStyles[].textAlign",
+          "toc",
+          "toc.leader",
+          "toc.leader.char",
+          "toc.leader.gap",
+          "toc.levels",
+          "toc.levels[].fontSize",
+          "toc.levels[].level",
+          "toc.levels[].lineHeight",
+          "toc.pageNumber",
+          "toc.pageNumber.color",
+          "toc.pageNumber.fontFamily",
+          "toc.pageNumber.fontSize",
+          "toc.pageNumber.width",
+          "toc.subtitle",
+          "toc.subtitle.attr",
+          "toc.subtitle.color",
+          "toc.subtitle.enabled",
+          "toc.subtitle.fontSize"
+        ],
+        "configSections": [
+          "bodyText",
+          "checks",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "paragraphStyles",
+          "toc"
+        ],
+        "configLeaves": 546,
+        "designElements": 29,
+        "directives": [
+          ":::paragraphs",
+          ":::toc",
+          ":::pagebreak",
+          ":::numbering"
+        ],
+        "inline": [
+          "{attrs}"
+        ],
+        "resources": {
+          "svg": 2,
+          "bitmap": 3,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Cinzel",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Cinzel",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Fanwood Text",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Fanwood Text",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Playfair Display SC",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Playfair Display SC",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Playfair Display SC",
+            "weight": 700,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "heading-attributes",
+          "heading-styles",
+          "opener-band",
+          "opener-design",
+          "page-background",
+          "page-breaks",
+          "page-role-filters",
+          "paragraph-styles",
+          "pdf-export",
+          "pdf-fonts",
+          "resources",
+          "roman-front-matter",
+          "section-geometry",
+          "section-running-heads",
+          "toc",
+          "unnumbered-headings"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 1,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 1.74
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "runtFixes": {
+          "count": 1,
+          "tracked": 1,
+          "worst": 5
+        },
+        "findings": [
+          {
+            "check": "C35",
+            "severity": "info",
+            "detail": "1 paragraph set a line short with tracking (worst −5‰): p. 14 −5‰ “This is the most favourable period for travellin…”"
+          },
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 155.0.8059.85, the committed capture used 155.0.8059.82: pixels may differ"
+          }
+        ]
+      }
+    }
+  }
+}

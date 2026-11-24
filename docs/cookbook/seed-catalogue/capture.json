@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 1,
+  "slug": "seed-catalogue",
+  "sourceHash": "443f623502987a6e5e6a173c1a99c7793616bba38dbd9d29b6090424438dee13",
+  "engine": {
+    "postext": "1.57.1",
+    "source": "npm"
+  },
+  "chrome": "155.0.8059.85",
+  "capturedAt": "2026-10-23T07:41:23.086Z",
+  "verified": {
+    "postext": "1.65.0",
+    "chrome": "156.0.8078.76",
+    "at": "2026-10-31T17:40:34.164Z"
+  },
+  "variants": {
+    "en": {
+      "hash8": "18c58ef7",
+      "vdtHash": "3ccd93ebb4a4b6a4aa9815376b23d2df3d4bbc03",
+      "timings": {
+        "importMs": 477,
+        "fontsMs": 529,
+        "buildMs": 66,
+        "totalMs": 1856,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          190,
+          250
+        ],
+        "dpi": 150,
+        "layoutType": "double",
+        "gutterMm": 7,
+        "mirror": true,
+        "body": {
+          "family": "Gelasio",
+          "sizePt": 9.5,
+          "leadingPt": 13
+        },
+        "families": [
+          "Alfa Slab One",
+          "Cabin Condensed",
+          "Gelasio"
+        ],
+        "pages": 4,
+        "ownLines": 227
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1316,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 156748,
+          "alt": "Opening page 1: Spring Seeds."
+        },
+        {
+          "n": 2,
+          "label": "2",
+          "role": "body",
+          "w": 1000,
+          "h": 1316,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 80584,
+          "alt": "Page 2. Vegetable Seeds."
+        },
+        {
+          "n": 3,
+          "label": "3",
+          "role": "body",
+          "w": 1000,
+          "h": 1316,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 101202,
+          "alt": "Page 3: From Our Trial Garden. Vegetable Seeds (continued)."
+        },
+        {
+          "n": 4,
+          "label": "4",
+          "role": "opener",
+          "w": 1000,
+          "h": 1316,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 38354,
+          "alt": "Opening page 4: Order Sheet."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          null
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "crop"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "sandbox": {
+        "file": "seed-catalogue.postext",
+        "bytes": 713566,
+        "folio": "d45f6f65",
+        "chapters": [
+          {
+            "pages": 4,
+            "hash": "751d135baf504435",
+            "lines": "b0cb2c9194959ad5"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "mergeCells",
+          "parseTSV",
+          "prepareFonts",
+          "registerResourceImage",
+          "renderPageToCanvas",
+          "setAlignment",
+          "setCellBackground",
+          "setCellContent",
+          "setCellImage"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.maxWordSpacing",
+          "bodyText.referenceBold",
+          "bodyText.referenceItalic",
+          "captionStyle",
+          "captionStyle.background",
+          "captionStyle.backgroundEnabled",
+          "captionStyle.color",
+          "captionStyle.fontSize",
+          "captionStyle.gap",
+          "captionStyle.note",
+          "captionStyle.note.color",
+          "captionStyle.note.fontSize",
+          "captionStyle.padding",
+          "captionStyle.position",
+          "chipStyles",
+          "chipStyles[].background",
+          "chipStyles[].backgroundEnabled",
+          "chipStyles[].bold",
+          "chipStyles[].borderColor",
+          "chipStyles[].borderRadius",
+          "chipStyles[].borderWidth",
+          "chipStyles[].color",
+          "chipStyles[].fontFamily",
+          "chipStyles[].fontSize",
+          "chipStyles[].id",
+          "chipStyles[].paddingX",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].letterSpacing",
+          "footer.elements[].pages",
+          "footer.elements[].parity",
+          "footer.elements[].placement",
+          "footer.elements[].textTransform",
+          "header",
+          "header.elements",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.minHeight",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].footer",
+          "headingStyles[].footer.elements",
+          "headingStyles[].id",
+          "headingStyles[].layout",
+          "headingStyles[].layout.layoutType",
+          "headingStyles[].span",
+          "headings",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].level",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "layout",
+          "layout.gutterWidth",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.backgroundColor",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].color",
+          "paragraphStyles[].firstLineIndent",
+          "paragraphStyles[].fontSize",
+          "paragraphStyles[].id",
+          "paragraphStyles[].lineHeight",
+          "paragraphStyles[].marginTop",
+          "paragraphStyles[].textAlign",
+          "resourceTypes",
+          "resourceTypes[].captionPrefix",
+          "resourceTypes[].counterFormat",
+          "resourceTypes[].id",
+          "resourceTypes[].name",
+          "resourceTypes[].numberingTemplate",
+          "resourceTypes[].resetOn",
+          "resourceTypes[].shortLabel",
+          "tableStyle",
+          "tableStyle.bodyFontSize",
+          "tableStyle.borderColor",
+          "tableStyle.borderWidth",
+          "tableStyle.cellPadding",
+          "tableStyle.continuedSuffix",
+          "tableStyle.continuesMarker",
+          "tableStyle.headerBackground",
+          "tableStyle.headerColor",
+          "tableStyle.headerFontFamily",
+          "tableStyle.headerFontSize",
+          "tableStyle.overflow",
+          "tableStyle.rules",
+          "tableStyles",
+          "tableStyles[].bodyBackground",
+          "tableStyles[].bodyBackgroundEnabled",
+          "tableStyles[].bodyFontFamily",
+          "tableStyles[].bodyFontSize",
+          "tableStyles[].borderColor",
+          "tableStyles[].borderRadius",
+          "tableStyles[].borderWidth",
+          "tableStyles[].cellPadding",
+          "tableStyles[].headerBackground",
+          "tableStyles[].id",
+          "tableStyles[].rules"
+        ],
+        "configSections": [
+          "bodyText",
+          "captionStyle",
+          "chipStyles",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "paragraphStyles",
+          "resourceTypes",
+          "tableStyle",
+          "tableStyles"
+        ],
+        "configLeaves": 374,
+        "designElements": 18,
+        "directives": [
+          ":::paragraphs",
+          "::resource"
+        ],
+        "inline": [
+          "{attrs}",
+          ":ref",
+          ":chip"
+        ],
+        "resources": {
+          "svg": 0,
+          "bitmap": 10,
+          "table": 3
+        },
+        "fonts": [
+          {
+            "family": "Alfa Slab One",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Cabin Condensed",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Cabin Condensed",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Cabin Condensed",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Gelasio",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Gelasio",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Gelasio",
+            "weight": 700,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "cell-fills",
+          "cell-images",
+          "chips",
+          "figure-citations",
+          "heading-attributes",
+          "heading-styles",
+          "inline-embeds",
+          "opener-design",
+          "page-background",
+          "page-role-filters",
+          "paragraph-styles",
+          "resource-types",
+          "resources",
+          "section-geometry",
+          "section-running-heads",
+          "table-model",
+          "table-split",
+          "table-styles"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 1,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 1.33
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 155.0.8059.85, the committed capture used 154.0.8037.98: pixels may differ"
+          }
+        ]
+      }
+    }
+  }
+}
