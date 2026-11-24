@@ -635,775 +635,6 @@
         }
       },
       {
-        "id": "rg-idea-lead",
-        "name": "Blue lead column with two image-and-caption cards",
-        "area": "trim",
-        "header": false,
-        "footer": false,
-        "frames": [
-          {
-            "name": "folio",
-            "placement": {
-              "anchor": {
-                "to": "container",
-                "edge": "top-left"
-              },
-              "offset": {
-                "x": {
-                  "value": 5,
-                  "unit": "mm"
-                },
-                "y": {
-                  "value": 3,
-                  "unit": "mm"
-                }
-              },
-              "size": {
-                "width": {
-                  "value": 16,
-                  "unit": "mm"
-                },
-                "height": {
-                  "value": 7,
-                  "unit": "mm"
-                }
-              }
-            },
-            "style": "sg-white-folio"
-          },
-          {
-            "name": "head",
-            "placement": {
-              "anchor": {
-                "to": "container",
-                "edge": "top-left"
-              },
-              "offset": {
-                "x": {
-                  "value": 6,
-                  "unit": "mm"
-                },
-                "y": {
-                  "value": 14,
-                  "unit": "mm"
-                }
-              },
-              "size": {
-                "width": {
-                  "value": 37,
-                  "unit": "mm"
-                },
-                "height": {
-                  "value": 12,
-                  "unit": "mm"
-                }
-              }
-            },
-            "style": "sg-white-head"
-          },
-          {
-            "name": "intro",
-            "placement": {
-              "anchor": {
-                "to": "container",
-                "edge": "top-left"
-              },
-              "offset": {
-                "x": {
-                  "value": 6,
-                  "unit": "mm"
-                },
-                "y": {
-                  "value": 30,
-                  "unit": "mm"
-                }
-              },
-              "size": {
-                "width": {
-                  "value": 37,
-                  "unit": "mm"
-                },
-                "height": {
-                  "value": 66,
-                  "unit": "mm"
-                }
-              }
-            },
-            "style": "sg-white-copy"
-          },
-          {
-            "name": "leftart",
-            "placement": {
-              "anchor": {
-                "to": "container",
-                "edge": "top-left"
-              },
-              "offset": {
-                "x": {
-                  "value": 0,
-                  "unit": "mm"
-                },
-                "y": {
-                  "value": 99,
-                  "unit": "mm"
-                }
-              },
-              "size": {
-                "width": {
-                  "value": 48,
-                  "unit": "mm"
-                },
-                "height": {
-                  "value": 83,
-                  "unit": "mm"
-                }
-              }
-            }
-          },
-          {
-            "name": "rightart1",
-            "placement": {
-              "anchor": {
-                "to": "container",
-                "edge": "top-left"
-              },
-              "offset": {
-                "x": {
-                  "value": 48,
-                  "unit": "mm"
-                },
-                "y": {
-                  "value": 0,
-                  "unit": "mm"
-                }
-              },
-              "size": {
-                "width": {
-                  "value": 56,
-                  "unit": "mm"
-                },
-                "height": {
-                  "value": 90,
-                  "unit": "mm"
-                }
-              }
-            }
-          },
-          {
-            "name": "rightcopy1",
-            "placement": {
-              "anchor": {
-                "to": "container",
-                "edge": "top-left"
-              },
-              "offset": {
-                "x": {
-                  "value": 51,
-                  "unit": "mm"
-                },
-                "y": {
-                  "value": 92,
-                  "unit": "mm"
-                }
-              },
-              "size": {
-                "width": {
-                  "value": 51,
-                  "unit": "mm"
-                },
-                "height": {
-                  "value": 20,
-                  "unit": "mm"
-                }
-              }
-            },
-            "style": "sg-card-copy"
-          },
-          {
-            "name": "rightart2",
-            "placement": {
-              "anchor": {
-                "to": "container",
-                "edge": "top-left"
-              },
-              "offset": {
-                "x": {
-                  "value": 48,
-                  "unit": "mm"
-                },
-                "y": {
-                  "value": 116,
-                  "unit": "mm"
-                }
-              },
-              "size": {
-                "width": {
-                  "value": 56,
-                  "unit": "mm"
-                },
-                "height": {
-                  "value": 40,
-                  "unit": "mm"
-                }
-              }
-            }
-          },
-          {
-            "name": "rightcopy2",
-            "placement": {
-              "anchor": {
-                "to": "container",
-                "edge": "top-left"
-              },
-              "offset": {
-                "x": {
-                  "value": 51,
-                  "unit": "mm"
-                },
-                "y": {
-                  "value": 158,
-                  "unit": "mm"
-                }
-              },
-              "size": {
-                "width": {
-                  "value": 51,
-                  "unit": "mm"
-                },
-                "height": {
-                  "value": 21,
-                  "unit": "mm"
-                }
-              }
-            },
-            "style": "sg-card-copy"
-          },
-          {
-            "name": "nav",
-            "placement": {
-              "anchor": {
-                "to": "container",
-                "edge": "top-left"
-              },
-              "offset": {
-                "x": {
-                  "value": 5,
-                  "unit": "mm"
-                },
-                "y": {
-                  "value": 184,
-                  "unit": "mm"
-                }
-              },
-              "size": {
-                "width": {
-                  "value": 94,
-                  "unit": "mm"
-                },
-                "height": {
-                  "value": 5,
-                  "unit": "mm"
-                }
-              }
-            },
-            "style": "sg-nav"
-          }
-        ],
-        "decoration": {
-          "elements": [
-            {
-              "kind": "box",
-              "id": "left-blue",
-              "placement": {
-                "anchor": {
-                  "to": "container",
-                  "edge": "top-left"
-                },
-                "offset": {
-                  "x": {
-                    "value": 0,
-                    "unit": "mm"
-                  },
-                  "y": {
-                    "value": 0,
-                    "unit": "mm"
-                  }
-                },
-                "size": {
-                  "width": {
-                    "value": 48,
-                    "unit": "mm"
-                  },
-                  "height": {
-                    "value": 99,
-                    "unit": "mm"
-                  }
-                }
-              },
-              "style": {
-                "backgroundColor": {
-                  "hex": "#345BA7",
-                  "model": "hex"
-                }
-              }
-            },
-            {
-              "kind": "box",
-              "id": "paper",
-              "placement": {
-                "anchor": {
-                  "to": "container",
-                  "edge": "top-left"
-                },
-                "offset": {
-                  "x": {
-                    "value": 48,
-                    "unit": "mm"
-                  },
-                  "y": {
-                    "value": 0,
-                    "unit": "mm"
-                  }
-                },
-                "size": {
-                  "width": {
-                    "value": 56,
-                    "unit": "mm"
-                  },
-                  "height": {
-                    "value": 182,
-                    "unit": "mm"
-                  }
-                }
-              },
-              "style": {
-                "backgroundColor": {
-                  "hex": "#FFFFFF",
-                  "model": "hex"
-                }
-              }
-            },
-            {
-              "kind": "box",
-              "id": "foot",
-              "placement": {
-                "anchor": {
-                  "to": "container",
-                  "edge": "top-left"
-                },
-                "offset": {
-                  "x": {
-                    "value": 0,
-                    "unit": "mm"
-                  },
-                  "y": {
-                    "value": 182,
-                    "unit": "mm"
-                  }
-                },
-                "size": {
-                  "width": {
-                    "value": 104,
-                    "unit": "mm"
-                  },
-                  "height": {
-                    "value": 9,
-                    "unit": "mm"
-                  }
-                }
-              },
-              "style": {
-                "backgroundColor": {
-                  "hex": "#FFFFFF",
-                  "model": "hex"
-                }
-              }
-            }
-          ]
-        }
-      },
-      {
-        "id": "rg-idea-tiles",
-        "name": "Four mixed-size photo cards on white",
-        "area": "trim",
-        "header": false,
-        "footer": false,
-        "frames": [
-          {
-            "name": "folio",
-            "placement": {
-              "anchor": {
-                "to": "container",
-                "edge": "top-left"
-              },
-              "offset": {
-                "x": {
-                  "value": 94,
-                  "unit": "mm"
-                },
-                "y": {
-                  "value": 2,
-                  "unit": "mm"
-                }
-              },
-              "size": {
-                "width": {
-                  "value": 8,
-                  "unit": "mm"
-                },
-                "height": {
-                  "value": 7,
-                  "unit": "mm"
-                }
-              }
-            },
-            "style": "sg-folio"
-          },
-          {
-            "name": "art1",
-            "placement": {
-              "anchor": {
-                "to": "container",
-                "edge": "top-left"
-              },
-              "offset": {
-                "x": {
-                  "value": 10,
-                  "unit": "mm"
-                },
-                "y": {
-                  "value": 10,
-                  "unit": "mm"
-                }
-              },
-              "size": {
-                "width": {
-                  "value": 88,
-                  "unit": "mm"
-                },
-                "height": {
-                  "value": 37,
-                  "unit": "mm"
-                }
-              }
-            }
-          },
-          {
-            "name": "caption1",
-            "placement": {
-              "anchor": {
-                "to": "container",
-                "edge": "top-left"
-              },
-              "offset": {
-                "x": {
-                  "value": 10,
-                  "unit": "mm"
-                },
-                "y": {
-                  "value": 48,
-                  "unit": "mm"
-                }
-              },
-              "size": {
-                "width": {
-                  "value": 89,
-                  "unit": "mm"
-                },
-                "height": {
-                  "value": 23,
-                  "unit": "mm"
-                }
-              }
-            },
-            "style": "sg-card-copy"
-          },
-          {
-            "name": "art2",
-            "placement": {
-              "anchor": {
-                "to": "container",
-                "edge": "top-left"
-              },
-              "offset": {
-                "x": {
-                  "value": 4,
-                  "unit": "mm"
-                },
-                "y": {
-                  "value": 78,
-                  "unit": "mm"
-                }
-              },
-              "size": {
-                "width": {
-                  "value": 43,
-                  "unit": "mm"
-                },
-                "height": {
-                  "value": 28,
-                  "unit": "mm"
-                }
-              }
-            }
-          },
-          {
-            "name": "caption2",
-            "placement": {
-              "anchor": {
-                "to": "container",
-                "edge": "top-left"
-              },
-              "offset": {
-                "x": {
-                  "value": 4,
-                  "unit": "mm"
-                },
-                "y": {
-                  "value": 108,
-                  "unit": "mm"
-                }
-              },
-              "size": {
-                "width": {
-                  "value": 43,
-                  "unit": "mm"
-                },
-                "height": {
-                  "value": 28,
-                  "unit": "mm"
-                }
-              }
-            },
-            "style": "sg-card-copy"
-          },
-          {
-            "name": "art3",
-            "placement": {
-              "anchor": {
-                "to": "container",
-                "edge": "top-left"
-              },
-              "offset": {
-                "x": {
-                  "value": 53,
-                  "unit": "mm"
-                },
-                "y": {
-                  "value": 78,
-                  "unit": "mm"
-                }
-              },
-              "size": {
-                "width": {
-                  "value": 45,
-                  "unit": "mm"
-                },
-                "height": {
-                  "value": 28,
-                  "unit": "mm"
-                }
-              }
-            }
-          },
-          {
-            "name": "caption3",
-            "placement": {
-              "anchor": {
-                "to": "container",
-                "edge": "top-left"
-              },
-              "offset": {
-                "x": {
-                  "value": 53,
-                  "unit": "mm"
-                },
-                "y": {
-                  "value": 108,
-                  "unit": "mm"
-                }
-              },
-              "size": {
-                "width": {
-                  "value": 45,
-                  "unit": "mm"
-                },
-                "height": {
-                  "value": 18,
-                  "unit": "mm"
-                }
-              }
-            },
-            "style": "sg-card-copy"
-          },
-          {
-            "name": "art4",
-            "placement": {
-              "anchor": {
-                "to": "container",
-                "edge": "top-left"
-              },
-              "offset": {
-                "x": {
-                  "value": 5,
-                  "unit": "mm"
-                },
-                "y": {
-                  "value": 145,
-                  "unit": "mm"
-                }
-              },
-              "size": {
-                "width": {
-                  "value": 93,
-                  "unit": "mm"
-                },
-                "height": {
-                  "value": 31,
-                  "unit": "mm"
-                }
-              }
-            }
-          },
-          {
-            "name": "nav",
-            "placement": {
-              "anchor": {
-                "to": "container",
-                "edge": "top-left"
-              },
-              "offset": {
-                "x": {
-                  "value": 5,
-                  "unit": "mm"
-                },
-                "y": {
-                  "value": 184,
-                  "unit": "mm"
-                }
-              },
-              "size": {
-                "width": {
-                  "value": 94,
-                  "unit": "mm"
-                },
-                "height": {
-                  "value": 5,
-                  "unit": "mm"
-                }
-              }
-            },
-            "style": "sg-nav"
-          },
-          {
-            "name": "caption4",
-            "placement": {
-              "anchor": {
-                "to": "container",
-                "edge": "top-left"
-              },
-              "offset": {
-                "x": {
-                  "value": 53,
-                  "unit": "mm"
-                },
-                "y": {
-                  "value": 128,
-                  "unit": "mm"
-                }
-              },
-              "size": {
-                "width": {
-                  "value": 45,
-                  "unit": "mm"
-                },
-                "height": {
-                  "value": 15,
-                  "unit": "mm"
-                }
-              }
-            },
-            "style": "sg-card-copy"
-          }
-        ],
-        "decoration": {
-          "elements": [
-            {
-              "kind": "box",
-              "id": "background",
-              "placement": {
-                "anchor": {
-                  "to": "container",
-                  "edge": "top-left"
-                },
-                "offset": {
-                  "x": {
-                    "value": 0,
-                    "unit": "mm"
-                  },
-                  "y": {
-                    "value": 0,
-                    "unit": "mm"
-                  }
-                },
-                "size": {
-                  "width": {
-                    "value": 104,
-                    "unit": "mm"
-                  },
-                  "height": {
-                    "value": 182,
-                    "unit": "mm"
-                  }
-                }
-              },
-              "style": {
-                "backgroundColor": {
-                  "hex": "#FFFFFF",
-                  "model": "hex"
-                }
-              }
-            },
-            {
-              "kind": "box",
-              "id": "foot",
-              "placement": {
-                "anchor": {
-                  "to": "container",
-                  "edge": "top-left"
-                },
-                "offset": {
-                  "x": {
-                    "value": 0,
-                    "unit": "mm"
-                  },
-                  "y": {
-                    "value": 182,
-                    "unit": "mm"
-                  }
-                },
-                "size": {
-                  "width": {
-                    "value": 104,
-                    "unit": "mm"
-                  },
-                  "height": {
-                    "value": 9,
-                    "unit": "mm"
-                  }
-                }
-              },
-              "style": {
-                "backgroundColor": {
-                  "hex": "#FFFFFF",
-                  "model": "hex"
-                }
-              }
-            }
-          ]
-        }
-      },
-      {
         "id": "rg-viewpoints",
         "name": "Viewpoints picture sequence",
         "area": "trim",
@@ -2770,6 +2001,1361 @@
             }
           }
         ]
+      },
+      {
+        "id": "rg-idea-lead",
+        "name": "Ideas lead · blue introduction and two photographs",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "folio",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 6,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 4,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 8,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 5,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "rg-ideas-folio-white",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "head",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": -11,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 29,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 42,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 8,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "rg-ideas-title",
+            "fit": {
+              "shrinkText": false
+            },
+            "rotate": -90
+          },
+          {
+            "name": "intro",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 16,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 10,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 29.5,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 49,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "rg-ideas-intro",
+            "fit": {
+              "shrinkText": false
+            },
+            "next": "intro-bottom"
+          },
+          {
+            "name": "intro-bottom",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 6,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 59,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 39,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 38,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "rg-ideas-intro",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "leftart",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 0,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 99,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 43,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 83,
+                  "unit": "mm"
+                }
+              }
+            },
+            "fit": {
+              "scaleImages": true,
+              "imageMinScale": 0.25,
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "rightart1",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 48,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 12,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 49.5,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 79,
+                  "unit": "mm"
+                }
+              }
+            },
+            "fit": {
+              "scaleImages": true,
+              "imageMinScale": 0.25,
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "rightcopy1",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 51.5,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 92,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 46,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 14.5,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "rg-ideas-caption",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "rightref1",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 51.5,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 106.5,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 46,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 4.5,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "rg-ideas-link",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "rightart2",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 48,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 113.5,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 46,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 46,
+                  "unit": "mm"
+                }
+              }
+            },
+            "fit": {
+              "scaleImages": true,
+              "imageMinScale": 0.25,
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "rightcopy2",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 51.5,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 160,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 46,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 17,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "rg-ideas-caption",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "rightref2",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 51.5,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 177,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 46,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 4.5,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "rg-ideas-link",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "contents",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 6,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 185,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 17,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 5,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "rg-ideas-nav",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "nav",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 34,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 185,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 12,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 5,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "rg-ideas-nav",
+            "fit": {
+              "shrinkText": false
+            }
+          }
+        ],
+        "decoration": {
+          "elements": [
+            {
+              "kind": "box",
+              "id": "blue",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 0,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 47.8,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 99,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#345BA7",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "ref-one",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 51.5,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 106.5,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 46,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 4.5,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#DCE2EF",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "ref-two",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 51.5,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 177,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 46,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 4.5,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#DCE2EF",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "nav-contents",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 6,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 185,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 17,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 4.5,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FCE7CF",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "nav-ideas",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 34,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 185,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 12,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 4.5,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FCE7CF",
+                  "model": "hex"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "rg-idea-tiles",
+        "name": "Ideas continuation · four mixed-size photo cards",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "folio",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 94,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 2,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 7,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 5,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "rg-ideas-folio-dark",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "art1",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 10,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 9,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 88,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 37,
+                  "unit": "mm"
+                }
+              }
+            },
+            "fit": {
+              "scaleImages": true,
+              "imageMinScale": 0.25,
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "caption1",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 10,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 48,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 44,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 18,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "rg-ideas-caption",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "ref1",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 10,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 66,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 44,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 4.5,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "rg-ideas-link",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "art2",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 0,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 73,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 52,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 37,
+                  "unit": "mm"
+                }
+              }
+            },
+            "fit": {
+              "scaleImages": true,
+              "imageMinScale": 0.25,
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "caption2",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 10,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 112,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 44,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 17.5,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "rg-ideas-caption",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "ref2",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 10,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 130,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 44,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 7,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "rg-ideas-link",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "art3",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 56,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 49,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 42,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 40,
+                  "unit": "mm"
+                }
+              }
+            },
+            "fit": {
+              "scaleImages": true,
+              "imageMinScale": 0.25,
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "caption3",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 56,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 91,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 42,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 21,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "rg-ideas-caption",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "ref3",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 56,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 112,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 42,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 4.5,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "rg-ideas-link",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "caption4",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 56,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 118,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 42,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 17,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "rg-ideas-caption",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "ref4",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 56,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 135,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 42,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 4.5,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "rg-ideas-link",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "art4",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 10,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 142,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 88,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 40,
+                  "unit": "mm"
+                }
+              }
+            },
+            "fit": {
+              "scaleImages": true,
+              "imageMinScale": 0.25,
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "contents",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 10,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 185,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 17,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 5,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "rg-ideas-nav",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "nav",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 38,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 185,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 12,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 5,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "rg-ideas-nav",
+            "fit": {
+              "shrinkText": false
+            }
+          }
+        ],
+        "decoration": {
+          "elements": [
+            {
+              "kind": "box",
+              "id": "ref-one",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 10,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 66,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 44,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 4.5,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#DCE2EF",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "ref-two",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 10,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 130,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 44,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 7,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#DCE2EF",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "ref-three",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 56,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 112,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 42,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 4.5,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#DCE2EF",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "ref-four",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 56,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 135,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 42,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 4.5,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#DCE2EF",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "nav-contents",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 10,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 185,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 17,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 4.5,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FCE7CF",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "nav-ideas",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 38,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 185,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 12,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 4.5,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FCE7CF",
+                  "model": "hex"
+                }
+              }
+            }
+          ]
+        }
       }
     ],
     "calloutStyles": [
@@ -3500,6 +4086,398 @@
             "unit": "pt"
           }
         }
+      },
+      {
+        "id": "rg-ideas-title",
+        "name": "rg-ideas-title",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Open Sans",
+          "fontSize": {
+            "value": 12,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 14,
+            "unit": "pt"
+          },
+          "color": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "fontWeight": 700,
+          "boldFontWeight": 700,
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 0,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "rg-ideas-intro",
+        "name": "rg-ideas-intro",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Open Sans",
+          "fontSize": {
+            "value": 7,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 9,
+            "unit": "pt"
+          },
+          "color": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "fontWeight": 400,
+          "boldFontWeight": 700,
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 0,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "rg-ideas-caption",
+        "name": "rg-ideas-caption",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Open Sans",
+          "fontSize": {
+            "value": 6.3,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 7.6,
+            "unit": "pt"
+          },
+          "color": {
+            "hex": "#171717",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#171717",
+            "model": "hex"
+          },
+          "fontWeight": 400,
+          "boldFontWeight": 700,
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 0,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "rg-ideas-folio-white",
+        "name": "rg-ideas-folio-white",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Open Sans",
+          "fontSize": {
+            "value": 6.5,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 7.5,
+            "unit": "pt"
+          },
+          "color": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "fontWeight": 700,
+          "boldFontWeight": 700,
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 0,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "rg-ideas-folio-dark",
+        "name": "rg-ideas-folio-dark",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Open Sans",
+          "fontSize": {
+            "value": 6.5,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 7.5,
+            "unit": "pt"
+          },
+          "color": {
+            "hex": "#171717",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#171717",
+            "model": "hex"
+          },
+          "fontWeight": 700,
+          "boldFontWeight": 700,
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 0,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "rg-ideas-link",
+        "name": "rg-ideas-link",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Open Sans",
+          "fontSize": {
+            "value": 6,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 7,
+            "unit": "pt"
+          },
+          "color": {
+            "hex": "#345BA7",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#345BA7",
+            "model": "hex"
+          },
+          "fontWeight": 700,
+          "boldFontWeight": 700,
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 0,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "rg-ideas-nav",
+        "name": "rg-ideas-nav",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Open Sans",
+          "fontSize": {
+            "value": 6,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 7,
+            "unit": "pt"
+          },
+          "color": {
+            "hex": "#713F25",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#713F25",
+            "model": "hex"
+          },
+          "fontWeight": 700,
+          "boldFontWeight": 700,
+          "textAlign": "center",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 0,
+            "unit": "pt"
+          }
+        }
       }
     ],
     "resourceTypes": [
@@ -3510,6 +4488,35 @@
           "position": "here",
           "span": "page"
         }
+      }
+    ],
+    "headingStyles": [
+      {
+        "id": "rg-idea-heading",
+        "name": "Ideas chapter title",
+        "fontFamily": "Open Sans",
+        "fontWeight": 700,
+        "fontSize": {
+          "value": 12,
+          "unit": "pt"
+        },
+        "lineHeight": {
+          "value": 14,
+          "unit": "pt"
+        },
+        "color": {
+          "hex": "#FFFFFF",
+          "model": "hex"
+        },
+        "marginTop": {
+          "value": 0,
+          "unit": "pt"
+        },
+        "marginBottom": {
+          "value": 0,
+          "unit": "pt"
+        },
+        "numbered": false
       }
     ]
   },
@@ -3840,7 +4847,33 @@
       }
     }
   ],
-  "fonts": [],
+  "fonts": [
+    {
+      "name": "Open Sans",
+      "variants": [
+        {
+          "weight": 400,
+          "style": "normal",
+          "file": "fonts/OpenSans-Regular.ttf"
+        },
+        {
+          "weight": 700,
+          "style": "normal",
+          "file": "fonts/OpenSans-Bold.ttf"
+        },
+        {
+          "weight": 400,
+          "style": "italic",
+          "file": "fonts/OpenSans-Italic.ttf"
+        },
+        {
+          "weight": 700,
+          "style": "italic",
+          "file": "fonts/OpenSans-BoldItalic.ttf"
+        }
+      ]
+    }
+  ],
   "license": "© Rough Guides. Reference-source permission asserted by project owner.",
   "credits": "Mark Lewis · Rough Guides",
   "thumbnail": "thumbnail.jpg"
