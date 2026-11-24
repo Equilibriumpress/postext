@@ -9,6 +9,9 @@ const here = (path: string): string => fileURLToPath(new URL(path, import.meta.u
 export default defineConfig({
   base: '/postext/',
   plugins: [react()],
+  // The Postext layout worker uses lazy-loaded chunks for citations.
+  // Vite's IIFE default cannot package a code-splitting worker.
+  worker: { format: 'es' },
   publicDir: here('./public'),
   optimizeDeps: {
     // The Sandbox starts a module worker through import.meta.url. Let Vite
