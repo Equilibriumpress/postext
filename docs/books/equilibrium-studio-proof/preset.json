@@ -70,8 +70,8 @@
       "typeId": "figure",
       "kind": "svg",
       "file": "resources/studio-workflow.svg",
-      "width": 500,
-      "height": 170,
+      "width": 440,
+      "height": 127.1,
       "caption": "Book content and source assets pass through the same browser-based publishing workflow.",
       "altText": "Three steps from GitHub, through Postext, to PDF and EPUB."
     }
