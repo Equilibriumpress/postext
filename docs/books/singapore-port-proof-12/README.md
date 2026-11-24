@@ -25,7 +25,7 @@ This branch makes a **real, inspectable native Postext proof**, not a verified p
 1. Get the **exact original PDF binary** into the local checkout's `source/` folder without committing the copyrighted file. Check page dimensions, typefaces, text blocks and image bboxes with the skill scripts.
 2. Run `postext check docs/books/singapore-port-proof-12 --json`, inspect frameOverflow, image warnings and contentInConfig.
 3. Run `postext images docs/books/singapore-port-proof-12 --pages '#1-#12' --dpi 150 -f jpeg -o /tmp/sg-proof`, then compare each selected source PDF page with the corresponding ordered proof image. Do not compare proof page position 4 with original PDF page 4, since the proof is deliberately noncontiguous.
-4. Run `scripts/compare_pages.py` and adjust the common templates, real fonts, photo crops and text flow until the twelve page pairs are visually satisfactory.
+4. Run `python3 compare_source.py --source /private/path/rough-guide-singapore.pdf` from the local checkout. It records the real PDF MediaBoxes, text blocks and fonts, then renders source and Postext pages and writes twelve side-by-side PNGs, twelve difference maps and `comparison.json`. Use the original skill's `scripts/compare_pages.py` as a second comparison and adjust templates until each page is accepted.
 5. Once the 12-page acceptance passes, apply the same measured templates to all 194 pages. Do not promote the provisional proof into a claim of finished publication.
 
 ## Page inventory
