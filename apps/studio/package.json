@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "stage": "node scripts/stage-public.mjs",
-    "dev": "pnpm stage && vite --host 0.0.0.0",
-    "build": "pnpm stage && vite build",
+    "dev": "pnpm run stage && vite --host 0.0.0.0",
+    "build": "pnpm run stage && vite build",
     "preview": "vite preview --host 0.0.0.0",
     "check-types": "tsc --noEmit"
   },
