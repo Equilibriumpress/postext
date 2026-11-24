@@ -203,7 +203,7 @@
       "layoutType": "single"
     },
     "bodyText": {
-      "fontFamily": "Arial",
+      "fontFamily": "Archivo",
       "fontSize": {
         "value": 8.8,
         "unit": "pt"
