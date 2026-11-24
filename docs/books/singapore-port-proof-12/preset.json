@@ -553,7 +553,8 @@
               "style": {
                 "backgroundColor": {
                   "hex": "#3A328F",
-                  "model": "hex"
+                  "model": "hex",
+                  "paletteId": "sg-main"
                 }
               }
             },
@@ -589,7 +590,8 @@
               "style": {
                 "backgroundColor": {
                   "hex": "#A29ACD",
-                  "model": "hex"
+                  "model": "hex",
+                  "paletteId": "sg-pale"
                 }
               }
             },

@@ -1,0 +1,327 @@
+[
+  {
+    "id": "photo-001-01",
+    "typeId": "figure",
+    "kind": "bitmap",
+    "file": "resources/photo-001-01.jpeg",
+    "width": 619,
+    "height": 1134,
+    "altText": "Original source image for PDF page 001",
+    "placement": {
+      "position": "here",
+      "span": "page"
+    }
+  },
+  {
+    "id": "photo-002-01",
+    "typeId": "figure",
+    "kind": "bitmap",
+    "file": "resources/photo-002-01.jpeg",
+    "width": 296,
+    "height": 541,
+    "altText": "Original source image for PDF page 002",
+    "placement": {
+      "position": "here",
+      "span": "page"
+    }
+  },
+  {
+    "id": "photo-011-01",
+    "typeId": "figure",
+    "kind": "bitmap",
+    "file": "resources/photo-011-01.jpeg",
+    "width": 77,
+    "height": 76,
+    "altText": "Original source image for PDF page 011",
+    "placement": {
+      "position": "here",
+      "span": "page"
+    }
+  },
+  {
+    "id": "photo-011-02",
+    "typeId": "figure",
+    "kind": "bitmap",
+    "file": "resources/photo-011-02.jpeg",
+    "width": 77,
+    "height": 76,
+    "altText": "Original source image for PDF page 011",
+    "placement": {
+      "position": "here",
+      "span": "page"
+    }
+  },
+  {
+    "id": "photo-011-03",
+    "typeId": "figure",
+    "kind": "bitmap",
+    "file": "resources/photo-011-03.jpeg",
+    "width": 76,
+    "height": 77,
+    "altText": "Original source image for PDF page 011",
+    "placement": {
+      "position": "here",
+      "span": "page"
+    }
+  },
+  {
+    "id": "photo-011-04",
+    "typeId": "figure",
+    "kind": "bitmap",
+    "file": "resources/photo-011-04.jpeg",
+    "width": 76,
+    "height": 75,
+    "altText": "Original source image for PDF page 011",
+    "placement": {
+      "position": "here",
+      "span": "page"
+    }
+  },
+  {
+    "id": "photo-012-02",
+    "typeId": "figure",
+    "kind": "bitmap",
+    "file": "resources/photo-012-02.jpeg",
+    "width": 162,
+    "height": 225,
+    "altText": "Original source image for PDF page 012",
+    "placement": {
+      "position": "here",
+      "span": "page"
+    }
+  },
+  {
+    "id": "photo-012-03",
+    "typeId": "figure",
+    "kind": "bitmap",
+    "file": "resources/photo-012-03.jpeg",
+    "width": 138,
+    "height": 235,
+    "altText": "Original source image for PDF page 012",
+    "placement": {
+      "position": "here",
+      "span": "page"
+    }
+  },
+  {
+    "id": "photo-012-01",
+    "typeId": "figure",
+    "kind": "bitmap",
+    "file": "resources/photo-012-01.jpeg",
+    "width": 133,
+    "height": 133,
+    "altText": "Original source image for PDF page 012",
+    "placement": {
+      "position": "here",
+      "span": "page"
+    }
+  },
+  {
+    "id": "photo-013-01",
+    "typeId": "figure",
+    "kind": "bitmap",
+    "file": "resources/photo-013-01.jpeg",
+    "width": 250,
+    "height": 105,
+    "altText": "Original source image for PDF page 013",
+    "placement": {
+      "position": "here",
+      "span": "page"
+    }
+  },
+  {
+    "id": "photo-013-02",
+    "typeId": "figure",
+    "kind": "bitmap",
+    "file": "resources/photo-013-02.jpeg",
+    "width": 250,
+    "height": 112,
+    "altText": "Original source image for PDF page 013",
+    "placement": {
+      "position": "here",
+      "span": "page"
+    }
+  },
+  {
+    "id": "photo-013-03",
+    "typeId": "figure",
+    "kind": "bitmap",
+    "file": "resources/photo-013-03.jpeg",
+    "width": 138,
+    "height": 113,
+    "altText": "Original source image for PDF page 013",
+    "placement": {
+      "position": "here",
+      "span": "page"
+    }
+  },
+  {
+    "id": "photo-013-04",
+    "typeId": "figure",
+    "kind": "bitmap",
+    "file": "resources/photo-013-04.jpeg",
+    "width": 150,
+    "height": 104,
+    "altText": "Original source image for PDF page 013",
+    "placement": {
+      "position": "here",
+      "span": "page"
+    }
+  },
+  {
+    "id": "photo-049-01",
+    "typeId": "figure",
+    "kind": "bitmap",
+    "file": "resources/photo-049-01.jpeg",
+    "width": 267,
+    "height": 174,
+    "altText": "Original source image for PDF page 049",
+    "placement": {
+      "position": "here",
+      "span": "page"
+    }
+  },
+  {
+    "id": "photo-049-02",
+    "typeId": "figure",
+    "kind": "bitmap",
+    "file": "resources/photo-049-02.jpeg",
+    "width": 250,
+    "height": 144,
+    "altText": "Original source image for PDF page 049",
+    "placement": {
+      "position": "here",
+      "span": "page"
+    }
+  },
+  {
+    "id": "photo-049-03",
+    "typeId": "figure",
+    "kind": "bitmap",
+    "file": "resources/photo-049-03.jpeg",
+    "width": 181,
+    "height": 118,
+    "altText": "Original source image for PDF page 049",
+    "placement": {
+      "position": "here",
+      "span": "page"
+    }
+  },
+  {
+    "id": "photo-051-02",
+    "typeId": "figure",
+    "kind": "bitmap",
+    "file": "resources/photo-051-02.jpeg",
+    "width": 77,
+    "height": 77,
+    "altText": "Original source image for PDF page 051",
+    "placement": {
+      "position": "here",
+      "span": "page"
+    }
+  },
+  {
+    "id": "photo-051-03",
+    "typeId": "figure",
+    "kind": "bitmap",
+    "file": "resources/photo-051-03.jpeg",
+    "width": 77,
+    "height": 77,
+    "altText": "Original source image for PDF page 051",
+    "placement": {
+      "position": "here",
+      "span": "page"
+    }
+  },
+  {
+    "id": "photo-051-04",
+    "typeId": "figure",
+    "kind": "bitmap",
+    "file": "resources/photo-051-04.jpeg",
+    "width": 76,
+    "height": 76,
+    "altText": "Original source image for PDF page 051",
+    "placement": {
+      "position": "here",
+      "span": "page"
+    }
+  },
+  {
+    "id": "photo-051-01",
+    "typeId": "figure",
+    "kind": "bitmap",
+    "file": "resources/photo-051-01.jpeg",
+    "width": 77,
+    "height": 76,
+    "altText": "Original source image for PDF page 051",
+    "placement": {
+      "position": "here",
+      "span": "page"
+    }
+  },
+  {
+    "id": "photo-052-01",
+    "typeId": "figure",
+    "kind": "bitmap",
+    "file": "resources/photo-052-01.jpeg",
+    "width": 297,
+    "height": 516,
+    "altText": "Original source image for PDF page 052",
+    "placement": {
+      "position": "here",
+      "span": "page"
+    }
+  },
+  {
+    "id": "map-054",
+    "typeId": "figure",
+    "kind": "svg",
+    "file": "resources/map-054.svg",
+    "width": 239,
+    "height": 305,
+    "altText": "Original source image for PDF page ap-",
+    "placement": {
+      "position": "here",
+      "span": "page"
+    }
+  },
+  {
+    "id": "photo-095-01",
+    "typeId": "figure",
+    "kind": "bitmap",
+    "file": "resources/photo-095-01.jpeg",
+    "width": 231,
+    "height": 147,
+    "altText": "Original source image for PDF page 095",
+    "placement": {
+      "position": "here",
+      "span": "page"
+    }
+  },
+  {
+    "id": "photo-100-01",
+    "typeId": "figure",
+    "kind": "bitmap",
+    "file": "resources/photo-100-01.jpeg",
+    "width": 269,
+    "height": 178,
+    "altText": "Original source image for PDF page 100",
+    "placement": {
+      "position": "here",
+      "span": "page"
+    }
+  },
+  {
+    "id": "map-180",
+    "typeId": "figure",
+    "kind": "svg",
+    "file": "resources/map-180.svg",
+    "width": 295,
+    "height": 541,
+    "altText": "Original source image for PDF page ap-",
+    "placement": {
+      "position": "here",
+      "span": "page"
+    }
+  }
+]
