@@ -13,7 +13,7 @@ Rough Guide DIRECTIONS
 :::
 ::::
 
-::::page{template="rg-full-photo" id="source-002"}
+::::page{template="rg-photo-plate" id="source-002"}
 :::frame{slot="art"}
 ::resource{id="photo-002-01"}
 :::
@@ -114,6 +114,11 @@ P.70 Fort Canning Park and the western quays
 This ingeniously designed centre creates a true portrait of life in old Chinatown, complete with opium dens, Fifties' Chinese crooners and clan associations.
 
 P.89 Chinatown
+:::
+:::frame{slot="caption4"}
+**Singapore Zoological Gardens**
+
+The animals are contained by moats and glass, not bars. P.117 Northern Singapore
 :::
 :::frame{slot="art4"}
 ::resource{id="photo-013-04"}

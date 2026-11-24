@@ -36,8 +36,8 @@ def build() -> dict:
         "license": "© Rough Guides. Reference-source permission asserted by project owner.",
         "credits": "Mark Lewis · Rough Guides",
     }
-    if len(config["pageTemplates"]) != 10:
-        raise ValueError("Expected ten reusable source-page templates")
+    if len(config["pageTemplates"]) != 11:
+        raise ValueError("Expected eleven source-page types in the pilot")
     if len(resources) != 25:
         raise ValueError("Expected twenty-five original source assets")
     for resource in resources:

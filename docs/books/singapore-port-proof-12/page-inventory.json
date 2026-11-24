@@ -23,8 +23,8 @@
     {
       "pdfPage": 2,
       "role": "full-page photo",
-      "template": "rg-full-photo",
-      "reference": "Original photo-002-01"
+      "template": "rg-photo-plate",
+      "reference": "Original full-bleed photo-002-01 without a footer"
     },
     {
       "pdfPage": 11,
@@ -305,14 +305,14 @@
           "xMm": 53,
           "yMm": 108,
           "widthMm": 45,
-          "heightMm": 28
+          "heightMm": 18
         },
         {
           "slot": "art4",
           "xMm": 5,
-          "yMm": 139,
+          "yMm": 145,
           "widthMm": 93,
-          "heightMm": 36
+          "heightMm": 31
         },
         {
           "slot": "nav",
@@ -320,6 +320,13 @@
           "yMm": 184,
           "widthMm": 94,
           "heightMm": 5
+        },
+        {
+          "slot": "caption4",
+          "xMm": 53,
+          "yMm": 128,
+          "widthMm": 45,
+          "heightMm": 15
         }
       ]
     },
@@ -541,6 +548,18 @@
           "yMm": 184,
           "widthMm": 94,
           "heightMm": 5
+        }
+      ]
+    },
+    {
+      "template": "rg-photo-plate",
+      "frames": [
+        {
+          "slot": "art",
+          "xMm": 0,
+          "yMm": 0,
+          "widthMm": 104,
+          "heightMm": 191
         }
       ]
     }

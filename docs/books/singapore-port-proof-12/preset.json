@@ -1229,7 +1229,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 28,
+                  "value": 18,
                   "unit": "mm"
                 }
               }
@@ -1249,7 +1249,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 139,
+                  "value": 145,
                   "unit": "mm"
                 }
               },
@@ -1259,7 +1259,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 36,
+                  "value": 31,
                   "unit": "mm"
                 }
               }
@@ -1294,6 +1294,36 @@
               }
             },
             "style": "sg-nav"
+          },
+          {
+            "name": "caption4",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 53,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 128,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 45,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 15,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "sg-card-copy"
           }
         ],
         "decoration": {
@@ -2702,6 +2732,44 @@
             }
           ]
         }
+      },
+      {
+        "id": "rg-photo-plate",
+        "name": "Uninterrupted full-bleed photograph",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "art",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 0,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 0,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 104,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 191,
+                  "unit": "mm"
+                }
+              }
+            }
+          }
+        ]
       }
     ],
     "calloutStyles": [

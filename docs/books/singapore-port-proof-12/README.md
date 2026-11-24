@@ -8,7 +8,7 @@ Source pages, in PDF page order: **1, 2, 11, 12, 13, 49, 51, 52, 54, 95, 100 and
 
 ## What is genuinely implemented
 
-- Twelve native `::::page` objects using **ten shared page-kind templates**, fixed positions in mm and source text as Markdown frame content. Pages are editable, rather than scanned-page facsimiles.
+- Twelve native `::::page` objects using **eleven source page-kind templates**, fixed positions in mm and source text as Markdown frame content. Pages are editable, rather than scanned-page facsimiles.
 - The source's **104 × 191 mm** vertical form is retained from the existing book preset. The original embedded cover JPEG (619 × 1134 px) and map asset (295 × 541 px) have the corresponding portrait aspect ratio. This corroborates the aspect ratio but does **not** constitute a measurement of the source PDF MediaBox.
 - Twenty-five original raster/vector resources are reused by immutable Git blob SHA. The 194-page reconstruction and its assets remain untouched.
 - Map 054 and full map plate 180 remain native SVG (but their existing embedded lettering is not yet separated into editable Postext map labels).
@@ -33,7 +33,7 @@ This branch makes a **real, inspectable native Postext proof**, not a verified p
 | Original PDF page | Role | Template | Reference |
 |---:|---|---|---|
 | 1 | cover | `rg-cover` | Image and live title overlay |
-| 2 | full-page photo | `rg-full-photo` | Original photo-002-01 |
+| 2 | full-page photo | `rg-photo-plate` | Original full-bleed photo-002-01 without a footer |
 | 11 | section opener | `rg-section-opener` | Ideas, four-photo strip and violet ground |
 | 12 | ideas lead | `rg-idea-lead` | The Big Six, lead column, Changi Museum and Newton Circus |
 | 13 | ideas photo cards | `rg-idea-tiles` | Jurong, Chinatown, National Museum, zoo illustration |
