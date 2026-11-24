@@ -107,6 +107,62 @@
       "license": "© Rough Guides",
       "credits": "Mark Lewis · Rough Guides",
       "thumbnail": "thumbnail.jpg"
+    },
+    {
+      "id": "template-photo-magazine",
+      "dir": "template-photo-magazine",
+      "name": "Template · Photo Magazine",
+      "description": "Editable native layout starter based on deep-sky; original sample text.",
+      "locale": "en",
+      "locales": [
+        "en"
+      ],
+      "tags": [
+        "template",
+        "layout-proof"
+      ]
+    },
+    {
+      "id": "template-science-textbook",
+      "dir": "template-science-textbook",
+      "name": "Template · Science Textbook",
+      "description": "Editable native layout starter based on bioquimica-feduchi; original sample text.",
+      "locale": "en",
+      "locales": [
+        "en"
+      ],
+      "tags": [
+        "template",
+        "layout-proof"
+      ]
+    },
+    {
+      "id": "template-visual-atlas",
+      "dir": "template-visual-atlas",
+      "name": "Template · Visual Atlas",
+      "description": "Editable native layout starter based on pintura-espanola; original sample text.",
+      "locale": "en",
+      "locales": [
+        "en"
+      ],
+      "tags": [
+        "template",
+        "layout-proof"
+      ]
+    },
+    {
+      "id": "template-data-editorial",
+      "dir": "template-data-editorial",
+      "name": "Template · Data Editorial",
+      "description": "Editable native layout starter based on senales; original sample text.",
+      "locale": "en",
+      "locales": [
+        "en"
+      ],
+      "tags": [
+        "template",
+        "layout-proof"
+      ]
     }
   ]
 }
