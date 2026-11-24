@@ -18,7 +18,7 @@
   ],
   "config": {
     "page": {
-      "sizePreset": "A4",
+      "sizePreset": "custom",
       "margins": {
         "top": {
           "value": 20,
@@ -36,6 +36,14 @@
           "value": 20,
           "unit": "mm"
         }
+      },
+      "width": {
+        "value": 210,
+        "unit": "mm"
+      },
+      "height": {
+        "value": 297,
+        "unit": "mm"
       }
     },
     "layout": {
