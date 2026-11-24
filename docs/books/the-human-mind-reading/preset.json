@@ -248,7 +248,8 @@
       "placement": {
         "position": "here",
         "span": "page"
-      }
+      },
+      "caption": "THE HUMAN MIND"
     },
     {
       "id": "thm-thinking-fast-and-slow",
