@@ -1,0 +1,91 @@
+name: Build Postext Studio static site
+
+# Only the dedicated studio branch starts this build. Book changes in
+# docs/books/ never invoke a build: the Sandbox loads them as static presets.
+on:
+  push:
+    branches:
+      - feature/postext-studio-pages
+    paths:
+      - 'apps/studio/**'
+      - 'packages/postext/**'
+      - 'packages/postext-sandbox/**'
+      - 'packages/postext-pdf/**'
+      - 'packages/postext-epub/**'
+      - 'packages/postext-folio/**'
+      - 'pnpm-lock.yaml'
+      - '.github/workflows/studio-pages-build.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: postext-studio-build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  static:
+    if: github.ref == 'refs/heads/feature/postext-studio-pages' && !contains(github.event.head_commit.message, '[skip ci]')
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      NODE_OPTIONS: --max-old-space-size=6144
+      NEXT_TELEMETRY_DISABLED: '1'
+      TURBO_TELEMETRY_DISABLED: '1'
+    steps:
+      - name: Checkout only the current branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Node 22 (Postext repository requirement)
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+
+      - name: pnpm 12.4.1
+        uses: pnpm/action-setup@v4
+        with:
+          version: 12.4.1
+
+      - name: Install workspaces
+        run: pnpm install --no-frozen-lockfile
+
+      - name: Build Postext packages and the static Sandbox host
+        run: pnpm turbo run build --filter=postext-studio
+
+      - name: Verify output and source-backed books
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s docs/index.html
+          test -s docs/books/index.json
+          test -s docs/books/pembrokeshire-map-proof/preset.json
+          test -s docs/books/pembrokeshire-map-proof/resources/dinas-island.svg
+          test -s docs/books/pembrokeshire-map-proof/source/dinas-island.geojson
+          test -s docs/presets/index.json
+          test -d docs/icc
+          test -n "$(find docs/assets -type f -name '*.js' -print -quit)"
+          grep -q '/postext/assets/' docs/index.html
+          node -e "const fs=require('fs'); const c=JSON.parse(fs.readFileSync('docs/books/index.json','utf8')); if(c.presets.length<2) process.exit(1); const x=JSON.parse(fs.readFileSync('docs/books/pembrokeshire-map-proof/preset.json','utf8')); if(!x.resources.some(r=>r.kind==='svg')) process.exit(1); const geo=JSON.parse(fs.readFileSync('docs/books/pembrokeshire-map-proof/source/dinas-island.geojson','utf8')); if(geo.type!=='FeatureCollection') process.exit(1)"
+          if find docs/presets docs/assets -type f -size +95M -print | grep -q .; then
+            echo 'Generated asset above GitHub 100 MB file limit'
+            exit 1
+          fi
+          echo 'Static site structure, book manifest, resources and route data verified.'
+
+      - name: Commit generated Pages build to the source branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          touch docs/.nojekyll
+          git add -f docs/index.html docs/assets docs/presets docs/icc docs/.nojekyll pnpm-lock.yaml
+          if git diff --cached --quiet; then
+            echo 'Published bundle is already current.'
+          else
+            git commit -m "build(studio): publish static Pages bundle [skip ci]"
+            git push origin HEAD:feature/postext-studio-pages
+          fi
