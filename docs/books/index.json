@@ -75,7 +75,7 @@
       "id": "singapore-directions",
       "dir": "singapore-directions",
       "name": "Singapore · Rough Guide Directions (work in progress)",
-      "description": "Reconstruction draft from the supplied 194-page PDF, with editable text and separate illustrations.",
+      "description": "Reconstruction draft of the 194-page source edition, with 41 editable Markdown chapters and separate illustration and map resources.",
       "locale": "en",
       "locales": [
         "en"
