@@ -1,0 +1,86 @@
+{
+  "trimMm": [
+    170,
+    235
+  ],
+  "inner": 16,
+  "outer": 18,
+  "grid": {
+    "columns": 6,
+    "gutterMm": 4
+  },
+  "spread": {
+    "widthMm": 340,
+    "gutterMm": 12
+  },
+  "type": {
+    "display": "Newsreader 37/39",
+    "darkDisplay": "Newsreader 42/44",
+    "deck": "Newsreader 18/23",
+    "body": "Newsreader 11/15.5",
+    "caption": "Archivo 8.5/11",
+    "eyebrow": "Archivo 9/11"
+  },
+  "palette": {
+    "ink": "#252925",
+    "paper": "#F5F1E8",
+    "white": "#FFFFFF",
+    "atlantic": "#172F30",
+    "grass": "#8D9B79",
+    "copper": "#B36A48",
+    "muted": "#53645F",
+    "rule": "#D2CABE",
+    "light": "#DDE7E1",
+    "pale": "#E8E4D8"
+  },
+  "sequence": [
+    [
+      "cover",
+      1
+    ],
+    [
+      "contents",
+      1
+    ],
+    [
+      "introduction",
+      1
+    ],
+    [
+      "panorama",
+      2
+    ],
+    [
+      "atlas",
+      2
+    ],
+    [
+      "route",
+      2
+    ],
+    [
+      "annotated",
+      1
+    ],
+    [
+      "explanation",
+      1
+    ],
+    [
+      "gallery",
+      2
+    ],
+    [
+      "flow-opener",
+      1
+    ],
+    [
+      "credits",
+      1
+    ],
+    [
+      "back",
+      1
+    ]
+  ]
+}

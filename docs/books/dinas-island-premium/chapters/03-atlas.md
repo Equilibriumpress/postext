@@ -1,0 +1,77 @@
+::::page{template="atlas" id="atlas" spread}
+
+:::frame{slot="kicker"}
+
+03 / ATLAS
+
+:::
+
+# The coastal circuit {style="display-heading"}
+
+:::frame{slot="map"}
+
+::resource{id="dinas-island-map"}
+
+:::
+
+:::frame{slot="map-credit"}
+
+Map © OpenStreetMap contributors / OpenFreeMap.
+
+:::
+
+:::frame{slot="right-title"}
+
+A circuit of two bays
+
+:::
+
+:::frame{slot="distance"}
+
+4.91 km
+
+:::
+
+:::frame{slot="distance-label"}
+
+CIRCULAR DISTANCE
+
+:::
+
+:::frame{slot="ascent"}
+
+152 m
+
+:::
+
+:::frame{slot="ascent-label"}
+
+APPROX. ASCENT
+
+:::
+
+:::frame{slot="duration"}
+
+1 hr 50 min
+
+:::
+
+:::frame{slot="duration-label"}
+
+SOURCE GUIDE ESTIMATE
+
+:::
+
+:::frame{slot="story"}
+
+Start and finish at Cwm-yr-Eglwys. Cross the sheltered valley towards Pwllgwaelod, then follow the established coast path around the headland. The five stages on the following spread come from the existing Pembrokeshire walking guide.
+
+:::
+
+:::frame{slot="note"}
+
+The route is a pinned map, not live navigation. Check conditions, access and official advice before walking.
+
+:::
+
+::::
