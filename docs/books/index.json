@@ -54,6 +54,23 @@
         "illustrated",
         "visual-edition"
       ]
+    },
+    {
+      "id": "bakewell-and-river-wye",
+      "dir": "bakewell-and-river-wye",
+      "name": "Bakewell and the River Wye",
+      "description": "Two-page Peak District National Park Family Walk 3, reconstructed with editable Postext Composed Pages and the original map and photography.",
+      "locale": "en",
+      "locales": [
+        "en"
+      ],
+      "tags": [
+        "walking",
+        "Peak District",
+        "family walk",
+        "cartography",
+        "composed pages"
+      ]
     }
   ]
 }

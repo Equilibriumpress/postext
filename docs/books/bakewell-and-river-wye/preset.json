@@ -1,0 +1,75 @@
+{
+  "version": 2,
+  "configVersion": 22,
+  "id": "bakewell-and-river-wye",
+  "name": "Bakewell and the River Wye",
+  "description": "Two-page Peak District National Park family walk, reconstructed from the original PDF.",
+  "locale": "en",
+  "tags": [
+    "walking",
+    "cartography",
+    "Peak District",
+    "family walk"
+  ],
+  "view": {
+    "canvasScope": "book"
+  },
+  "chapters": [
+    {
+      "title": "Outside Â· Walk details and park information",
+      "file": "chapters/01-outside.md"
+    },
+    {
+      "title": "Inside Â· Map and walking directions",
+      "file": "chapters/02-route.md"
+    }
+  ],
+  "config": {
+    "locale": "en",
+    "page": {
+      "sizePreset": "custom",
+      "width": {
+        "value": 297,
+        "unit": "mm"
+      },
+      "height": {
+        "value": 210,
+        "unit": "mm"
+      },
+      "margins": {
+        "top": {
+          "value": 0,
+          "unit": "mm"
+        },
+        "right": {
+          "value": 0,
+          "unit": "mm"
+        },
+        "bottom": {
+          "value": 0,
+          "unit": "mm"
+        },
+        "left": {
+          "value": 0,
+          "unit": "mm"
+        }
+      },
+      "mirror": false
+    },
+    "layout": {
+      "layoutType": "single"
+    },
+    "bodyText": {
+      "fontFamily": "Open Sans",
+      "fontSize": {
+        "value": 9,
+        "unit": "pt"
+      },
+      "lineHeight": {
+        "value": 11,
+        "unit": "pt"
+      },
+      "textAlign": "left"
+    },
+    "headings": {
+      "fontFamily":¶»§q«^
