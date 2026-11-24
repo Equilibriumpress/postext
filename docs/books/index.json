@@ -54,6 +54,22 @@
         "illustrated",
         "visual-edition"
       ]
+    },
+    {
+      "id": "singapore",
+      "dir": "singapore",
+      "name": "SINGAPORE · A Visual City Guide",
+      "description": "29-page independent travel-guide design proof.",
+      "locale": "en",
+      "locales": [
+        "en"
+      ],
+      "thumbnail": "thumbnail.svg",
+      "tags": [
+        "travel",
+        "city-guide",
+        "composed-pages"
+      ]
     }
   ]
 }

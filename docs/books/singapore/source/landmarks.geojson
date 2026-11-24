@@ -1,0 +1,213 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "p1",
+      "properties": {
+        "name": "Merlion Park",
+        "number": 1,
+        "precision": "approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8545,
+          1.2868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "p2",
+      "properties": {
+        "name": "Marina Bay Sands",
+        "number": 2,
+        "precision": "approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8589,
+          1.2837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "p3",
+      "properties": {
+        "name": "Supertree Grove",
+        "number": 3,
+        "precision": "approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8636,
+          1.2816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "p4",
+      "properties": {
+        "name": "National Gallery",
+        "number": 4,
+        "precision": "approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8515,
+          1.2903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "p5",
+      "properties": {
+        "name": "Buddha Tooth Relic Temple",
+        "number": 5,
+        "precision": "approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8442,
+          1.2819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "p6",
+      "properties": {
+        "name": "Sultan Mosque",
+        "number": 6,
+        "precision": "approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8592,
+          1.3021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "p7",
+      "properties": {
+        "name": "Tekka Centre",
+        "number": 7,
+        "precision": "approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8507,
+          1.3065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "p8",
+      "properties": {
+        "name": "Botanic Gardens",
+        "number": 8,
+        "precision": "approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8157,
+          1.3138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "p9",
+      "properties": {
+        "name": "Orchard Road",
+        "number": 9,
+        "precision": "approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.835,
+          1.304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "p10",
+      "properties": {
+        "name": "Tiong Bahru",
+        "number": 10,
+        "precision": "approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8315,
+          1.2837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "p11",
+      "properties": {
+        "name": "Katong",
+        "number": 11,
+        "precision": "approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.905,
+          1.306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "p12",
+      "properties": {
+        "name": "Sentosa",
+        "number": 12,
+        "precision": "approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8307,
+          1.2494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "p13",
+      "properties": {
+        "name": "East Coast Park",
+        "number": 13,
+        "precision": "approximate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.93,
+          1.302
+        ]
+      }
+    }
+  ]
+}
