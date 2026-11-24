@@ -33,6 +33,7 @@ def build() -> dict:
         "config": config,
         "resources": resources,
         "fonts": [],
+        "thumbnail": "thumbnail.jpg",
         "license": "© Rough Guides. Reference-source permission asserted by project owner.",
         "credits": "Mark Lewis · Rough Guides",
     }

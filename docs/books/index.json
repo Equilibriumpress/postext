@@ -105,7 +105,8 @@
         "composed-pages"
       ],
       "license": "© Rough Guides",
-      "credits": "Mark Lewis · Rough Guides"
+      "credits": "Mark Lewis · Rough Guides",
+      "thumbnail": "thumbnail.jpg"
     }
   ]
 }
