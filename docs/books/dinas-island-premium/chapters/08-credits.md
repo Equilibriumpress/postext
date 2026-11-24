@@ -52,7 +52,7 @@ Type: Newsreader and Archivo, open font families.
 
 ::::
 
-::::page{template="back" id="back"}
+::::page{template="back" id="back" photo="church"}
 
 :::frame{slot="kicker"}
 
@@ -65,6 +65,12 @@ COASTAL FIELD NOTES / 01
 :::frame{slot="copy"}
 
 An illustrated field guide to Dinas Island and the wider Pembrokeshire coast. A map, photographs and field observations invite a closer reading of the landscape.
+
+:::
+
+:::frame{slot="back-credit"}
+
+Cwm-yr-Eglwys. John H Darch, CC BY-SA 2.0.
 
 :::
 

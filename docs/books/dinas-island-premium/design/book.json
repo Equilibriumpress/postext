@@ -1,0 +1,368 @@
+{
+  "version": 2,
+  "configVersion": 22,
+  "id": "dinas-island-premium",
+  "name": "DINAS ISLAND · Premium Edition",
+  "description": "Premium editorial field guide, designed as sixteen leaves with four native facing-page spreads, six licensed photographs, atlas, annotated landscape, decision diagram and flowing essay. Visual proof.",
+  "locale": "en",
+  "locales": [
+    "en"
+  ],
+  "view": {
+    "canvasScope": "book"
+  },
+  "chapters": [
+    {
+      "title": "Opening",
+      "file": "chapters/01-opening.md"
+    },
+    {
+      "title": "Landscape",
+      "file": "chapters/02-landscape.md"
+    },
+    {
+      "title": "Atlas",
+      "file": "chapters/03-atlas.md"
+    },
+    {
+      "title": "Walking",
+      "file": "chapters/04-route.md"
+    },
+    {
+      "title": "Field observations",
+      "file": "chapters/05-field.md"
+    },
+    {
+      "title": "Regional photo essay",
+      "file": "chapters/06-region.md"
+    },
+    {
+      "title": "Reflection",
+      "file": "chapters/07-reading.md"
+    },
+    {
+      "title": "Sources",
+      "file": "chapters/08-credits.md"
+    }
+  ],
+  "resources": [
+    {
+      "id": "church",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/church.jpg",
+      "width": 1920,
+      "height": 1398,
+      "altText": "The surviving stone church wall and bellcote at Cwm-yr-Eglwys",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      },
+      "caption": "",
+      "resolution": 240
+    },
+    {
+      "id": "headland",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/headland.jpg",
+      "width": 1920,
+      "height": 1280,
+      "altText": "Dinas Island's green headland and cliffs seen across blue water",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      },
+      "caption": "",
+      "resolution": 240
+    },
+    {
+      "id": "dinas-island-map",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/dinas-island-editorial.svg",
+      "width": 1520,
+      "height": 1680,
+      "caption": "",
+      "altText": "Dinas Island circuit, with five numbered editorial reference points on the original mapped route.",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      },
+      "anchors": [
+        {
+          "id": "stage-1",
+          "x": 0.8456184210526315,
+          "y": 0.7294464285714286,
+          "width": 0.05,
+          "style": "route-marker",
+          "align": "center",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "stage-2",
+          "x": 0.29290789473684214,
+          "y": 0.8140238095238095,
+          "width": 0.05,
+          "style": "route-marker",
+          "align": "center",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "stage-3",
+          "x": 0.1261907894736842,
+          "y": 0.4273214285714286,
+          "width": 0.05,
+          "style": "route-marker",
+          "align": "center",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "stage-4",
+          "x": 0.4008026315789474,
+          "y": 0.17290476190476192,
+          "width": 0.05,
+          "style": "route-marker",
+          "align": "center",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "stage-5",
+          "x": 0.8794473684210526,
+          "y": 0.5728690476190476,
+          "width": 0.05,
+          "style": "route-marker",
+          "align": "center",
+          "verticalAlign": "middle"
+        }
+      ]
+    },
+    {
+      "id": "headland-diagram",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/headland-diagram-editorial.svg",
+      "width": 1000,
+      "height": 650,
+      "altText": "Conceptual coastal cross-section with a raised headland, steep cliff and sheltered low ground; not a surveyed profile",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      },
+      "anchors": [
+        {
+          "id": "high",
+          "x": 0.654,
+          "y": 0.257,
+          "labelAt": {
+            "x": 0.55,
+            "y": 0.085
+          },
+          "width": 0.35,
+          "style": "diagram-label",
+          "leader": true
+        },
+        {
+          "id": "cliff",
+          "x": 0.79,
+          "y": 0.51,
+          "labelAt": {
+            "x": 0.85,
+            "y": 0.24
+          },
+          "width": 0.27,
+          "style": "diagram-label",
+          "leader": true
+        },
+        {
+          "id": "valley",
+          "x": 0.135,
+          "y": 0.595,
+          "labelAt": {
+            "x": 0.17,
+            "y": 0.4
+          },
+          "width": 0.33,
+          "style": "diagram-label",
+          "leader": true
+        },
+        {
+          "id": "sea",
+          "x": 0.5,
+          "y": 0.89,
+          "width": 0.28,
+          "style": "diagram-label"
+        }
+      ],
+      "caption": ""
+    },
+    {
+      "id": "strumble",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/strumble.jpg",
+      "width": 1024,
+      "height": 723,
+      "altText": "Strumble Head lighthouse",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      },
+      "caption": "",
+      "resolution": 190
+    },
+    {
+      "id": "carningli",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/carningli.jpg",
+      "width": 1920,
+      "height": 1280,
+      "altText": "Carn Ingli above Newport",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      },
+      "caption": "",
+      "resolution": 240
+    },
+    {
+      "id": "preseli",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/preseli.jpg",
+      "width": 1920,
+      "height": 1440,
+      "altText": "Ridgeway towards Foel Drygarn",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      },
+      "caption": "",
+      "resolution": 240
+    },
+    {
+      "id": "st-davids",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/st-davids.jpg",
+      "width": 1920,
+      "height": 1280,
+      "altText": "St David’s Head",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      },
+      "caption": "",
+      "resolution": 240
+    },
+    {
+      "id": "annotated-headland",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/headland.jpg",
+      "width": 1920,
+      "height": 1280,
+      "altText": "Dinas Island's green headland and cliffs seen across blue water",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      },
+      "anchors": [
+        {
+          "id": "grass",
+          "x": 0.29,
+          "y": 0.49,
+          "labelAt": {
+            "x": 0.2,
+            "y": 0.23
+          },
+          "width": 0.32,
+          "style": "photo-label",
+          "leader": true
+        },
+        {
+          "id": "cliff",
+          "x": 0.46,
+          "y": 0.57,
+          "labelAt": {
+            "x": 0.66,
+            "y": 0.3
+          },
+          "width": 0.32,
+          "style": "photo-label",
+          "leader": true
+        },
+        {
+          "id": "water",
+          "x": 0.79,
+          "y": 0.68,
+          "labelAt": {
+            "x": 0.78,
+            "y": 0.83
+          },
+          "width": 0.3,
+          "style": "photo-label",
+          "leader": true
+        }
+      ],
+      "caption": "",
+      "resolution": 240
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Archivo",
+      "variants": [
+        {
+          "weight": 400,
+          "style": "normal",
+          "file": "fonts/Archivo-Regular.ttf"
+        },
+        {
+          "weight": 700,
+          "style": "normal",
+          "file": "fonts/Archivo-Bold.ttf"
+        },
+        {
+          "weight": 400,
+          "style": "italic",
+          "file": "fonts/Archivo-Italic.ttf"
+        }
+      ]
+    },
+    {
+      "name": "Newsreader",
+      "variants": [
+        {
+          "weight": 400,
+          "style": "normal",
+          "file": "fonts/Newsreader-Regular.ttf"
+        },
+        {
+          "weight": 400,
+          "style": "italic",
+          "file": "fonts/Newsreader-Italic.ttf"
+        },
+        {
+          "weight": 700,
+          "style": "normal",
+          "file": "fonts/Newsreader-Bold.ttf"
+        },
+        {
+          "weight": 700,
+          "style": "italic",
+          "file": "fonts/Newsreader-BoldItalic.ttf"
+        }
+      ]
+    }
+  ],
+  "thumbnail": "thumbnail.svg",
+  "tags": [
+    "travel",
+    "premium",
+    "composed-pages",
+    "spreads",
+    "layout-proof"
+  ]
+}

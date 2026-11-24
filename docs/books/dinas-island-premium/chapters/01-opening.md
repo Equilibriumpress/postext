@@ -65,16 +65,6 @@ One narrow valley, two sheltered beaches and a high path above the sea.
 
 :::
 
-:::frame{slot="story"}
-
-Dinas Island is a peninsula, connected to the mainland between Cwm-yr-Eglwys and Pwllgwaelod. The low inland crossing and the outer coast path make the relationship between terrain and movement unusually clear.
-
-The church remains beside the eastern bay offer a second perspective: the coast as a place where people have lived with the sea for centuries.
-
-Read the map before setting out. The short circuit includes exposed and stepped ground.
-
-:::
-
 :::frame{slot="photo"}
 
 ::resource{id="church"}
@@ -84,6 +74,16 @@ Read the map before setting out. The short circuit includes exposed and stepped 
 :::frame{slot="caption"}
 
 Cwm-yr-Eglwys. John H Darch, CC BY-SA 2.0.
+
+:::
+
+:::frame{slot="story"}
+
+Dinas Island is a peninsula, connected to the mainland between Cwm-yr-Eglwys and Pwllgwaelod. The low inland crossing and the outer coast path make the relationship between terrain and movement unusually clear.
+
+The church remains beside the eastern bay offer a second perspective: the coast as a place where people have lived with the sea for centuries.
+
+Read the map before setting out. The short circuit includes exposed and stepped ground.
 
 :::
 

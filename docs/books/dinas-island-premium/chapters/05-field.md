@@ -47,25 +47,25 @@ Notice the difference between the open slopes and the steep edge of the land. A 
 
 :::frame{slot="caption"}
 
-Conceptual cross-section, not a surveyed elevation profile.
+Conceptual cross-section. The dashed line suggests the higher path. Rock layers are illustrative, not a geological survey.
 
 :::
 
 :::frame{slot="root"}
 
-Check the conditions
+Terrain and exposure
 
 :::
 
 :::frame{slot="left"}
 
-Suitable: follow the planned route.
+Lower ground: more shelter in the valley.
 
 :::
 
 :::frame{slot="right"}
 
-Uncertain: choose shelter or postpone.
+Higher ground: greater exposure on the coast.
 
 :::
 
