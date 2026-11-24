@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "id": "pw-02-dinas-island",
+  "type": "walking",
+  "title": "Dinas Island from Cwm-yr-Eglwys",
+  "source": "pw-02-dinas-island.geojson",
+  "sourceLicense": "Publisher permission (not an open licence)",
+  "attribution": "Map data © OpenStreetMap contributors / OpenFreeMap",
+  "style": "pembrokeshire-walking-atlas",
+  "frame": {
+    "width": 760,
+    "height": 840,
+    "fitToFrame": true,
+    "padding": 0.1
+  },
+  "showNorthArrow": true,
+  "showScale": true,
+  "routeHalo": true,
+  "includeRoadLabels": true,
+  "requireBasemap": true,
+  "maxTiles": 24,
+  "maxLabels": 28,
+  "sourceGeometryStatus": "geometry_ready_for_cartography",
+  "showAttribution": true,
+  "snapshot": "pw-02-dinas-island.svg",
+  "snapshotStatus": "verified_source_backed_svg"
+}

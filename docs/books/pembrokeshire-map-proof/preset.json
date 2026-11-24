@@ -1,0 +1,73 @@
+{
+  "version": 2,
+  "id": "pembrokeshire-map-proof",
+  "name": "Pembrokeshire · Dinas Island map proof",
+  "description": "Existing source-backed PagedPress DesignCraft walking map as a Postext SVG resource.",
+  "locale": "en",
+  "view": {
+    "canvasScope": "book"
+  },
+  "chapters": [
+    {
+      "title": "Map",
+      "file": "chapters/01-map.md"
+    }
+  ],
+  "config": {
+    "page": {
+      "sizePreset": "custom",
+      "width": {
+        "value": 210,
+        "unit": "mm"
+      },
+      "height": {
+        "value": 297,
+        "unit": "mm"
+      },
+      "margins": {
+        "top": {
+          "value": 15,
+          "unit": "mm"
+        },
+        "bottom": {
+          "value": 17,
+          "unit": "mm"
+        },
+        "left": {
+          "value": 18,
+          "unit": "mm"
+        },
+        "right": {
+          "value": 18,
+          "unit": "mm"
+        }
+      }
+    },
+    "layout": {
+      "layoutType": "single"
+    },
+    "bodyText": {
+      "fontFamily": "EB Garamond",
+      "fontSize": {
+        "value": 10,
+        "unit": "pt"
+      },
+      "lineHeight": {
+        "value": 13,
+        "unit": "pt"
+      }
+    }
+  },
+  "resources": [
+    {
+      "id": "dinas-island-map",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/dinas-island.svg",
+      "width": 1520,
+      "height": 1680,
+      "caption": "Dinas Island from Cwm-yr-Eglwys. Map data © OpenStreetMap contributors / OpenFreeMap.",
+      "altText": "Source-backed DesignCraft map showing the Dinas Island walking route and mapped paths."
+    }
+  ]
+}

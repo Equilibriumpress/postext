@@ -15,6 +15,21 @@
         "proof",
         "svg"
       ]
+    },
+    {
+      "id": "pembrokeshire-map-proof",
+      "dir": "pembrokeshire-map-proof",
+      "name": "Pembrokeshire · Dinas Island",
+      "description": "Existing DesignCraft walking map from PagedPress; SVG and its original GeoJSON are kept together.",
+      "locale": "en",
+      "locales": [
+        "en"
+      ],
+      "tags": [
+        "walking",
+        "map",
+        "svg"
+      ]
     }
   ]
 }
