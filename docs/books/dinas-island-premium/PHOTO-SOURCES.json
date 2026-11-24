@@ -1,0 +1,58 @@
+[
+  {
+    "id": "headland",
+    "author": "Bill Harrison",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Long_look_at_Dinas_Island_-_geograph.org.uk_-_8408563.jpg"
+  },
+  {
+    "id": "church",
+    "author": "John H Darch",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Cwm-yr-Eglwys_-_geograph.org.uk_-_6305775.jpg"
+  },
+  {
+    "id": "strumble",
+    "file": "photos/strumble-st-davids.jpg",
+    "title": "Strumble Head lighthouse",
+    "author": "Athena Flickr",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Strumble_Head_Lighthouse.jpg",
+    "width": 1024,
+    "height": 723,
+    "sha": "e047977397dc7ea15a7e3bdd3946f6db460e7d8e"
+  },
+  {
+    "id": "carningli",
+    "file": "photos/walk-pw-03-mynydd-carningli.jpg",
+    "title": "Carn Ingli above Newport",
+    "author": "Ian Medcalf",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Carn_Ingli_-_geograph.org.uk_-_4029743.jpg",
+    "width": 1920,
+    "height": 1280,
+    "sha": "258180878097261f9a4fa9478dd024568f048a23"
+  },
+  {
+    "id": "preseli",
+    "file": "photos/walk-pw-04-preseli-golden-road.jpg",
+    "title": "Ridgeway towards Foel Drygarn",
+    "author": "Alan Hughes",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Ridgeway_path_towards_Foel_Drygarn_(geograph_7177404).jpg",
+    "width": 1920,
+    "height": 1440,
+    "sha": "7e58cb874d277d91ec5cdba98d5a62b204947267"
+  },
+  {
+    "id": "st-davids",
+    "file": "proof/photos/st-davids.jpg",
+    "title": "St David’s Head",
+    "author": "Alan Hughes",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:St_Davids_Head_-_geograph.org.uk_-_4672543.jpg",
+    "width": 1920,
+    "height": 1280,
+    "sha": "1c7253546af395e995bdd93c4fb7320e73b48a85"
+  }
+]
