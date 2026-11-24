@@ -1,0 +1,606 @@
+{
+  "version": 2,
+  "configVersion": 22,
+  "id": "template-photo-magazine",
+  "name": "Template · Photo Magazine",
+  "locale": "en",
+  "locales": [
+    "en"
+  ],
+  "description": "Editable native layout starter based on deep-sky; original sample text.",
+  "view": {
+    "canvasScope": "book"
+  },
+  "chapters": [
+    {
+      "title": "A place worth looking at",
+      "file": "chapters/01-layout-sample.md"
+    }
+  ],
+  "config": {
+    "page": {
+      "sizePreset": "custom",
+      "width": {
+        "value": 225,
+        "unit": "mm"
+      },
+      "height": {
+        "value": 297,
+        "unit": "mm"
+      },
+      "margins": {
+        "top": {
+          "value": 24,
+          "unit": "mm"
+        },
+        "bottom": {
+          "value": 20,
+          "unit": "mm"
+        },
+        "left": {
+          "value": 16,
+          "unit": "mm"
+        },
+        "right": {
+          "value": 14,
+          "unit": "mm"
+        },
+        "mirror": true
+      },
+      "baselineGrid": {
+        "enabled": false
+      },
+      "pageNumbering": {
+        "format": "decimal",
+        "startAt": 1
+      }
+    },
+    "layout": {
+      "layoutType": "double",
+      "gutterWidth": {
+        "value": 6,
+        "unit": "mm"
+      },
+      "inlineResourceGap": "above",
+      "boxChildSplitMinLines": 1,
+      "flowColumns": false,
+      "floatsUnderOpener": false
+    },
+    "bodyText": {
+      "fontFamily": "Newsreader",
+      "fontSize": {
+        "value": 12.35,
+        "unit": "pt"
+      },
+      "lineHeight": {
+        "value": 16.9,
+        "unit": "pt"
+      },
+      "textAlign": "justify",
+      "firstLineIndent": {
+        "value": 4,
+        "unit": "mm"
+      },
+      "indentAfterHeading": false,
+      "paragraphSpacing": false,
+      "color": {
+        "hex": "#14181d",
+        "model": "hex",
+        "paletteId": "ink"
+      },
+      "boldColor": {
+        "hex": "#14181d",
+        "model": "hex",
+        "paletteId": "ink"
+      },
+      "italicColor": {
+        "hex": "#14181d",
+        "model": "hex",
+        "paletteId": "ink"
+      },
+      "referenceColor": {
+        "hex": "#2a7f97",
+        "model": "hex",
+        "paletteId": "band"
+      },
+      "referenceBold": false,
+      "referenceItalic": true,
+      "hyphenation": {
+        "enabled": true,
+        "locale": "en"
+      },
+      "avoidWidows": true,
+      "avoidOrphans": true,
+      "optimalLineBreaking": true,
+      "breakAfterDashes": false,
+      "optimalRagged": false,
+      "paragraphContainerSpacing": "add",
+      "breakAfterHyphens": false,
+      "scriptContext": false,
+      "shapingLanguage": "host",
+      "paragraphStylesInBoxes": "document",
+      "breakAfterSlashes": false
+    },
+    "headings": {
+      "fontFamily": "Archivo",
+      "color": {
+        "hex": "#14181d",
+        "model": "hex",
+        "paletteId": "ink"
+      },
+      "keepWithNext": true,
+      "balancing": {
+        "fillShortColumns": true,
+        "maxLinesBeforeLoose": 4,
+        "stretchAfterWideFloats": "always",
+        "trailingStep": "grid"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "fontSize": {
+            "value": 28.6,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 33.8,
+            "unit": "pt"
+          },
+          "span": "page",
+          "breakBefore": {
+            "enabled": true,
+            "parity": "any"
+          }
+        },
+        {
+          "level": 2,
+          "fontSize": {
+            "value": 28.6,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 33.8,
+            "unit": "pt"
+          },
+          "numberingTemplate": "{2}",
+          "span": "page",
+          "breakBefore": {
+            "enabled": true,
+            "parity": "any"
+          }
+        },
+        {
+          "level": 3,
+          "fontSize": {
+            "value": 15.6,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 19.5,
+            "unit": "pt"
+          },
+          "fontWeight": 700,
+          "marginTop": {
+            "value": 15.6,
+            "unit": "pt"
+          },
+          "marginBottom": {
+            "value": 5.2,
+            "unit": "pt"
+          }
+        }
+      ],
+      "keepWithNextSplit": "fill"
+    },
+    "colorPalette": [
+      {
+        "id": "ink",
+        "name": "Tinta y fondos oscuros",
+        "value": {
+          "hex": "#14181d",
+          "model": "hex"
+        }
+      },
+      {
+        "id": "paper",
+        "name": "Papel",
+        "value": {
+          "hex": "#ffffff",
+          "model": "hex"
+        }
+      },
+      {
+        "id": "white",
+        "name": "Blanco",
+        "value": {
+          "hex": "#ffffff",
+          "model": "hex"
+        }
+      },
+      {
+        "id": "band",
+        "name": "Color de sección",
+        "value": {
+          "hex": "#2a7f97",
+          "model": "hex"
+        }
+      },
+      {
+        "id": "grey",
+        "name": "Gris de recuadros",
+        "value": {
+          "hex": "#f0efeb",
+          "model": "hex"
+        }
+      },
+      {
+        "id": "rule",
+        "name": "Filetes",
+        "value": {
+          "hex": "#c9c6bf",
+          "model": "hex"
+        }
+      },
+      {
+        "id": "muted",
+        "name": "Gris de notas",
+        "value": {
+          "hex": "#666b73",
+          "model": "hex"
+        }
+      },
+      {
+        "id": "solar",
+        "name": "Sistema solar",
+        "value": {
+          "hex": "#c9702a",
+          "model": "hex"
+        }
+      },
+      {
+        "id": "stars",
+        "name": "Estrellas",
+        "value": {
+          "hex": "#b8413d",
+          "model": "hex"
+        }
+      },
+      {
+        "id": "galaxies",
+        "name": "Galaxias",
+        "value": {
+          "hex": "#2a7f97",
+          "model": "hex"
+        }
+      },
+      {
+        "id": "cosmos",
+        "name": "Cosmos",
+        "value": {
+          "hex": "#5b4a9c",
+          "model": "hex"
+        }
+      },
+      {
+        "id": "night",
+        "name": "Negro de contraportada",
+        "value": {
+          "hex": "#000000",
+          "model": "hex"
+        }
+      },
+      {
+        "id": "solarTint",
+        "name": "Sistema solar, celda",
+        "value": {
+          "hex": "#eed1bb",
+          "model": "hex"
+        }
+      },
+      {
+        "id": "starsTint",
+        "name": "Estrellas, celda",
+        "value": {
+          "hex": "#e8c2c1",
+          "model": "hex"
+        }
+      },
+      {
+        "id": "galaxiesTint",
+        "name": "Galaxias, celda",
+        "value": {
+          "hex": "#bbd6de",
+          "model": "hex"
+        }
+      },
+      {
+        "id": "cosmosTint",
+        "name": "Cosmos, celda",
+        "value": {
+          "hex": "#cbc5df",
+          "model": "hex"
+        }
+      }
+    ],
+    "captionStyle": {
+      "fontFamily": "Archivo",
+      "fontSize": {
+        "value": 9.75,
+        "unit": "pt"
+      },
+      "color": {
+        "hex": "#14181d",
+        "model": "hex",
+        "paletteId": "ink"
+      },
+      "align": "left",
+      "gap": {
+        "value": 1.6,
+        "unit": "mm"
+      },
+      "labelBold": true,
+      "labelColor": {
+        "hex": "#2a7f97",
+        "model": "hex",
+        "paletteId": "band"
+      },
+      "descriptionItalic": false,
+      "note": {
+        "fontSize": {
+          "value": 8.19,
+          "unit": "pt"
+        },
+        "color": {
+          "hex": "#666b73",
+          "model": "hex",
+          "paletteId": "muted"
+        },
+        "italic": false,
+        "gap": {
+          "value": 0.6,
+          "unit": "mm"
+        }
+      }
+    },
+    "tableStyle": {
+      "bodyFontFamily": "Chivo",
+      "bodyFontSize": {
+        "value": 11.05,
+        "unit": "pt"
+      },
+      "bodyLineHeight": {
+        "value": 14.3,
+        "unit": "pt"
+      },
+      "bodyColor": {
+        "hex": "#14181d",
+        "model": "hex",
+        "paletteId": "ink"
+      },
+      "headerFontFamily": "Chivo",
+      "headerFontSize": {
+        "value": 10.4,
+        "unit": "pt"
+      },
+      "headerBold": true,
+      "headerColor": {
+        "hex": "#ffffff",
+        "model": "hex",
+        "paletteId": "white"
+      },
+      "headerBackgroundEnabled": true,
+      "headerBackground": {
+        "hex": "#14181d",
+        "model": "hex",
+        "paletteId": "ink"
+      },
+      "borderColor": {
+        "hex": "#c9c6bf",
+        "model": "hex",
+        "paletteId": "rule"
+      },
+      "borderWidth": {
+        "value": 0.5,
+        "unit": "pt"
+      },
+      "cellPadding": {
+        "value": 1,
+        "unit": "mm"
+      },
+      "rules": "horizontal",
+      "splitInline": false
+    },
+    "unorderedLists": {
+      "bulletChar": "•",
+      "color": {
+        "hex": "#2a7f97",
+        "model": "hex",
+        "paletteId": "band"
+      }
+    },
+    "orderedLists": {
+      "color": {
+        "hex": "#2a7f97",
+        "model": "hex",
+        "paletteId": "band"
+      }
+    },
+    "links": {
+      "print": "notes",
+      "show": "both",
+      "urlDisplay": "short",
+      "qr": {
+        "size": {
+          "value": 14,
+          "unit": "mm"
+        }
+      }
+    },
+    "locale": "en",
+    "calloutStyles": [
+      {
+        "id": "ficha",
+        "name": "De un vistazo",
+        "span": "column",
+        "placement": "top",
+        "backgroundEnabled": true,
+        "background": {
+          "hex": "#f0efeb",
+          "model": "hex",
+          "paletteId": "grey"
+        },
+        "border": {
+          "enabled": false
+        },
+        "borderRadius": {
+          "value": 0,
+          "unit": "mm"
+        },
+        "padding": {
+          "top": {
+            "value": 3,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 3.5,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 2.5,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 3.5,
+            "unit": "mm"
+          }
+        },
+        "stripe": {
+          "enabled": true,
+          "side": "top",
+          "width": {
+            "value": 2.5,
+            "unit": "pt"
+          },
+          "color": {
+            "hex": "#2a7f97",
+            "model": "hex",
+            "paletteId": "band"
+          }
+        },
+        "icon": {
+          "kind": "none"
+        },
+        "titleStyle": {
+          "fontFamily": "Archivo",
+          "fontSize": {
+            "value": 9.75,
+            "unit": "pt"
+          },
+          "fontWeight": 700,
+          "color": {
+            "hex": "#2a7f97",
+            "model": "hex",
+            "paletteId": "band"
+          },
+          "textTransform": "uppercase",
+          "letterSpacing": {
+            "value": 2.08,
+            "unit": "pt"
+          },
+          "gap": {
+            "value": 1.8,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Newsreader",
+          "fontSize": {
+            "value": 11.05,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 14.95,
+            "unit": "pt"
+          },
+          "color": {
+            "hex": "#14181d",
+            "model": "hex",
+            "paletteId": "ink"
+          },
+          "boldColor": {
+            "hex": "#14181d",
+            "model": "hex",
+            "paletteId": "ink"
+          },
+          "textAlign": "left",
+          "hyphenation": false,
+          "paragraphSpacing": {
+            "value": 6.5,
+            "unit": "pt"
+          },
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "marginTop": {
+          "value": 5.2,
+          "unit": "pt"
+        },
+        "marginBottom": {
+          "value": 13,
+          "unit": "pt"
+        },
+        "keepTogether": true
+      }
+    ]
+  },
+  "resources": [],
+  "fonts": [
+    {
+      "name": "Archivo",
+      "variants": [
+        {
+          "weight": 400,
+          "style": "normal",
+          "file": "fonts/Archivo-Regular.ttf"
+        },
+        {
+          "weight": 700,
+          "style": "normal",
+          "file": "fonts/Archivo-Bold.ttf"
+        },
+        {
+          "weight": 400,
+          "style": "italic",
+          "file": "fonts/Archivo-Italic.ttf"
+        }
+      ]
+    },
+    {
+      "name": "Newsreader",
+      "variants": [
+        {
+          "weight": 400,
+          "style": "normal",
+          "file": "fonts/Newsreader-Regular.ttf"
+        },
+        {
+          "weight": 400,
+          "style": "italic",
+          "file": "fonts/Newsreader-Italic.ttf"
+        },
+        {
+          "weight": 700,
+          "style": "normal",
+          "file": "fonts/Newsreader-Bold.ttf"
+        },
+        {
+          "weight": 700,
+          "style": "italic",
+          "file": "fonts/Newsreader-BoldItalic.ttf"
+        }
+      ]
+    }
+  ]
+}

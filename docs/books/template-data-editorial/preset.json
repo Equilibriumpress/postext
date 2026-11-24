@@ -1,0 +1,544 @@
+{
+  "version": 2,
+  "configVersion": 22,
+  "id": "template-data-editorial",
+  "name": "Template · Data Editorial",
+  "locale": "en",
+  "locales": [
+    "en"
+  ],
+  "description": "Editable native layout starter based on senales; original sample text.",
+  "view": {
+    "canvasScope": "book"
+  },
+  "chapters": [
+    {
+      "title": "Making evidence readable",
+      "file": "chapters/01-layout-sample.md"
+    }
+  ],
+  "config": {
+    "page": {
+      "sizePreset": "custom",
+      "width": {
+        "value": 168,
+        "unit": "mm"
+      },
+      "height": {
+        "value": 237,
+        "unit": "mm"
+      },
+      "margins": {
+        "top": {
+          "value": 22,
+          "unit": "mm"
+        },
+        "bottom": {
+          "value": 20,
+          "unit": "mm"
+        },
+        "left": {
+          "value": 16,
+          "unit": "mm"
+        },
+        "right": {
+          "value": 14,
+          "unit": "mm"
+        },
+        "mirror": true
+      },
+      "baselineGrid": {
+        "enabled": false
+      },
+      "pageNumbering": {
+        "format": "decimal",
+        "startAt": 1
+      }
+    },
+    "layout": {
+      "layoutType": "double",
+      "gutterWidth": {
+        "value": 6,
+        "unit": "mm"
+      },
+      "inlineResourceGap": "above",
+      "boxChildSplitMinLines": 1,
+      "flowColumns": false,
+      "floatsUnderOpener": false
+    },
+    "bodyText": {
+      "fontFamily": "Archivo",
+      "fontSize": {
+        "value": 9.3,
+        "unit": "pt"
+      },
+      "lineHeight": {
+        "value": 13.2,
+        "unit": "pt"
+      },
+      "textAlign": "left",
+      "firstLineIndent": {
+        "value": 0,
+        "unit": "mm"
+      },
+      "indentAfterHeading": false,
+      "paragraphSpacing": true,
+      "color": {
+        "hex": "#1c1f22",
+        "model": "hex",
+        "paletteId": "ink"
+      },
+      "boldColor": {
+        "hex": "#1c1f22",
+        "model": "hex",
+        "paletteId": "ink"
+      },
+      "italicColor": {
+        "hex": "#1c1f22",
+        "model": "hex",
+        "paletteId": "ink"
+      },
+      "referenceColor": {
+        "hex": "#1f6f8b",
+        "model": "hex",
+        "paletteId": "band"
+      },
+      "referenceBold": false,
+      "referenceItalic": true,
+      "hyphenation": {
+        "enabled": true,
+        "locale": "en"
+      },
+      "avoidWidows": true,
+      "avoidOrphans": true,
+      "optimalLineBreaking": true,
+      "colonListRoom": "line",
+      "optimalRagged": false,
+      "paragraphContainerSpacing": "add",
+      "breakAfterHyphens": false,
+      "scriptContext": false,
+      "shapingLanguage": "host",
+      "paragraphStylesInBoxes": "document",
+      "breakAfterSlashes": false
+    },
+    "headings": {
+      "fontFamily": "Archivo",
+      "color": {
+        "hex": "#1c1f22",
+        "model": "hex",
+        "paletteId": "ink"
+      },
+      "keepWithNext": true,
+      "balancing": {
+        "fillShortColumns": true,
+        "maxLinesBeforeLoose": 4,
+        "stretchAfterWideFloats": "always",
+        "trailingStep": "grid"
+      },
+      "levels": [
+        {
+          "level": 1,
+          "fontSize": {
+            "value": 23,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 26,
+            "unit": "pt"
+          },
+          "span": "page",
+          "breakBefore": {
+            "enabled": true,
+            "parity": "any"
+          },
+          "numberingTemplate": "{1}"
+        },
+        {
+          "level": 2,
+          "fontSize": {
+            "value": 11.5,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 14,
+            "unit": "pt"
+          },
+          "fontWeight": 700,
+          "color": {
+            "hex": "#1f6f8b",
+            "model": "hex",
+            "paletteId": "band"
+          },
+          "marginTop": {
+            "value": 12,
+            "unit": "pt"
+          },
+          "marginBottom": {
+            "value": 3,
+            "unit": "pt"
+          }
+        }
+      ],
+      "keepWithNextSplit": "fill"
+    },
+    "colorPalette": [
+      {
+        "id": "ink",
+        "name": "Tinta",
+        "value": {
+          "hex": "#1c1f22",
+          "model": "hex"
+        }
+      },
+      {
+        "id": "paper",
+        "name": "Papel",
+        "value": {
+          "hex": "#ffffff",
+          "model": "hex"
+        }
+      },
+      {
+        "id": "white",
+        "name": "Blanco",
+        "value": {
+          "hex": "#ffffff",
+          "model": "hex"
+        }
+      },
+      {
+        "id": "band",
+        "name": "Color de la revista",
+        "value": {
+          "hex": "#1f6f8b",
+          "model": "hex"
+        }
+      },
+      {
+        "id": "tint",
+        "name": "Fondo de recuadros",
+        "value": {
+          "hex": "#e8f0f3",
+          "model": "hex"
+        }
+      },
+      {
+        "id": "grey",
+        "name": "Fondo de datos",
+        "value": {
+          "hex": "#f2f1ed",
+          "model": "hex"
+        }
+      },
+      {
+        "id": "rule",
+        "name": "Filetes",
+        "value": {
+          "hex": "#cfd4d8",
+          "model": "hex"
+        }
+      },
+      {
+        "id": "muted",
+        "name": "Gris de notas",
+        "value": {
+          "hex": "#676c72",
+          "model": "hex"
+        }
+      },
+      {
+        "id": "bandLight",
+        "name": "Color de la revista sobre fondo oscuro",
+        "value": {
+          "hex": "#5aa9c4",
+          "model": "hex"
+        }
+      },
+      {
+        "id": "mutedLight",
+        "name": "Gris sobre fondo oscuro",
+        "value": {
+          "hex": "#9aa0a6",
+          "model": "hex"
+        }
+      }
+    ],
+    "captionStyle": {
+      "fontFamily": "Archivo",
+      "fontSize": {
+        "value": 7.5,
+        "unit": "pt"
+      },
+      "color": {
+        "hex": "#1c1f22",
+        "model": "hex",
+        "paletteId": "ink"
+      },
+      "align": "left",
+      "gap": {
+        "value": 1.6,
+        "unit": "mm"
+      },
+      "labelBold": true,
+      "labelColor": {
+        "hex": "#1f6f8b",
+        "model": "hex",
+        "paletteId": "band"
+      },
+      "descriptionItalic": false,
+      "note": {
+        "fontSize": {
+          "value": 6.3,
+          "unit": "pt"
+        },
+        "color": {
+          "hex": "#676c72",
+          "model": "hex",
+          "paletteId": "muted"
+        },
+        "italic": false,
+        "gap": {
+          "value": 0.6,
+          "unit": "mm"
+        }
+      }
+    },
+    "tableStyle": {
+      "bodyFontFamily": "Open Sans",
+      "bodyFontSize": {
+        "value": 8.5,
+        "unit": "pt"
+      },
+      "bodyLineHeight": {
+        "value": 11.5,
+        "unit": "pt"
+      },
+      "bodyColor": {
+        "hex": "#1c1f22",
+        "model": "hex",
+        "paletteId": "ink"
+      },
+      "headerFontFamily": "Outfit",
+      "headerFontSize": {
+        "value": 8.5,
+        "unit": "pt"
+      },
+      "headerBold": true,
+      "headerBackgroundEnabled": true,
+      "headerBackground": {
+        "hex": "#1f6f8b",
+        "model": "hex",
+        "paletteId": "band"
+      },
+      "headerColor": {
+        "hex": "#ffffff",
+        "model": "hex",
+        "paletteId": "white"
+      },
+      "borderColor": {
+        "hex": "#cfd4d8",
+        "model": "hex",
+        "paletteId": "rule"
+      },
+      "borderWidth": {
+        "value": 0.5,
+        "unit": "pt"
+      },
+      "cellPadding": {
+        "value": 1.8,
+        "unit": "mm"
+      },
+      "rules": "horizontal",
+      "splitInline": false
+    },
+    "unorderedLists": {
+      "bulletChar": "•",
+      "color": {
+        "hex": "#1f6f8b",
+        "model": "hex",
+        "paletteId": "band"
+      }
+    },
+    "orderedLists": {
+      "color": {
+        "hex": "#1f6f8b",
+        "model": "hex",
+        "paletteId": "band"
+      }
+    },
+    "links": {
+      "print": "notes",
+      "show": "both",
+      "urlDisplay": "short",
+      "repeat": "first",
+      "qr": {
+        "size": {
+          "value": 14,
+          "unit": "mm"
+        }
+      }
+    },
+    "locale": "en",
+    "calloutStyles": [
+      {
+        "id": "recuadro",
+        "name": "Recuadro",
+        "span": "page",
+        "placement": "here",
+        "backgroundEnabled": true,
+        "background": {
+          "hex": "#e8f0f3",
+          "model": "hex",
+          "paletteId": "tint"
+        },
+        "border": {
+          "enabled": false
+        },
+        "borderRadius": {
+          "value": 0,
+          "unit": "mm"
+        },
+        "padding": {
+          "top": {
+            "value": 4,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 5,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 3.5,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 5,
+            "unit": "mm"
+          }
+        },
+        "stripe": {
+          "enabled": true,
+          "side": "left",
+          "width": {
+            "value": 3,
+            "unit": "pt"
+          },
+          "color": {
+            "hex": "#1f6f8b",
+            "model": "hex",
+            "paletteId": "band"
+          }
+        },
+        "icon": {
+          "kind": "none"
+        },
+        "columnGap": {
+          "value": 6,
+          "unit": "mm"
+        },
+        "titleStyle": {
+          "fontFamily": "Archivo",
+          "fontSize": {
+            "value": 11,
+            "unit": "pt"
+          },
+          "fontWeight": 700,
+          "color": {
+            "hex": "#1f6f8b",
+            "model": "hex",
+            "paletteId": "band"
+          },
+          "gap": {
+            "value": 2,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Archivo",
+          "fontSize": {
+            "value": 9,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 12.5,
+            "unit": "pt"
+          },
+          "color": {
+            "hex": "#1c1f22",
+            "model": "hex",
+            "paletteId": "ink"
+          },
+          "boldColor": {
+            "hex": "#1c1f22",
+            "model": "hex",
+            "paletteId": "ink"
+          },
+          "textAlign": "left",
+          "hyphenation": true,
+          "paragraphSpacing": true,
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "marginTop": {
+          "value": 6,
+          "unit": "pt"
+        },
+        "marginBottom": {
+          "value": 10,
+          "unit": "pt"
+        },
+        "keepTogether": false
+      }
+    ]
+  },
+  "resources": [],
+  "fonts": [
+    {
+      "name": "Archivo",
+      "variants": [
+        {
+          "weight": 400,
+          "style": "normal",
+          "file": "fonts/Archivo-Regular.ttf"
+        },
+        {
+          "weight": 700,
+          "style": "normal",
+          "file": "fonts/Archivo-Bold.ttf"
+        },
+        {
+          "weight": 400,
+          "style": "italic",
+          "file": "fonts/Archivo-Italic.ttf"
+        }
+      ]
+    },
+    {
+      "name": "Newsreader",
+      "variants": [
+        {
+          "weight": 400,
+          "style": "normal",
+          "file": "fonts/Newsreader-Regular.ttf"
+        },
+        {
+          "weight": 400,
+          "style": "italic",
+          "file": "fonts/Newsreader-Italic.ttf"
+        },
+        {
+          "weight": 700,
+          "style": "normal",
+          "file": "fonts/Newsreader-Bold.ttf"
+        },
+        {
+          "weight": 700,
+          "style": "italic",
+          "file": "fonts/Newsreader-BoldItalic.ttf"
+        }
+      ]
+    }
+  ]
+}
