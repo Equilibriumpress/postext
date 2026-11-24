@@ -1,0 +1,674 @@
+{
+  "version": 2,
+  "configVersion": 22,
+  "id": "the-human-mind-reading",
+  "name": "THE HUMAN MIND · Complete Reading Edition",
+  "locale": "en",
+  "description": "Expanded text with six thematic essays, thirty book readings, 300 ideas and thirty original illustrations.",
+  "tags": [
+    "psychology",
+    "illustrated",
+    "expanded-reading"
+  ],
+  "view": {
+    "canvasScope": "book"
+  },
+  "chapters": [
+    {
+      "title": "Cover",
+      "file": "chapters/00-cover.md"
+    },
+    {
+      "title": "Introduction",
+      "file": "chapters/01-introduction.md"
+    },
+    {
+      "title": "How We Think",
+      "file": "chapters/02-theme-thinking.md"
+    },
+    {
+      "title": "01. Thinking, Fast and Slow",
+      "file": "chapters/03-thinking-fast-and-slow.md"
+    },
+    {
+      "title": "02. The Invisible Gorilla",
+      "file": "chapters/04-the-invisible-gorilla.md"
+    },
+    {
+      "title": "03. Noise",
+      "file": "chapters/05-noise.md"
+    },
+    {
+      "title": "04. The Scout Mindset",
+      "file": "chapters/06-the-scout-mindset.md"
+    },
+    {
+      "title": "05. How Minds Change",
+      "file": "chapters/07-how-minds-change.md"
+    },
+    {
+      "title": "Memory & Learning",
+      "file": "chapters/08-theme-learning.md"
+    },
+    {
+      "title": "06. Make It Stick",
+      "file": "chapters/09-make-it-stick.md"
+    },
+    {
+      "title": "07. Remember",
+      "file": "chapters/10-remember.md"
+    },
+    {
+      "title": "08. The Organized Mind",
+      "file": "chapters/11-the-organized-mind.md"
+    },
+    {
+      "title": "09. The Extended Mind",
+      "file": "chapters/12-the-extended-mind.md"
+    },
+    {
+      "title": "10. Why Don't Students Like School?",
+      "file": "chapters/13-why-dont-students-like-school.md"
+    },
+    {
+      "title": "Emotions & Happiness",
+      "file": "chapters/14-theme-emotions.md"
+    },
+    {
+      "title": "11. How Emotions Are Made",
+      "file": "chapters/15-how-emotions-are-made.md"
+    },
+    {
+      "title": "12. Emotional Agility",
+      "file": "chapters/16-emotional-agility.md"
+    },
+    {
+      "title": "13. Stumbling on Happiness",
+      "file": "chapters/17-stumbling-on-happiness.md"
+    },
+    {
+      "title": "14. The Happiness Hypothesis",
+      "file": "chapters/18-the-happiness-hypothesis.md"
+    },
+    {
+      "title": "15. The Upside of Stress",
+      "file": "chapters/19-the-upside-of-stress.md"
+    },
+    {
+      "title": "Habits & Motivation",
+      "file": "chapters/20-theme-habits.md"
+    },
+    {
+      "title": "16. Atomic Habits",
+      "file": "chapters/21-atomic-habits.md"
+    },
+    {
+      "title": "17. Tiny Habits",
+      "file": "chapters/22-tiny-habits.md"
+    },
+    {
+      "title": "18. The Expectation Effect",
+      "file": "chapters/23-the-expectation-effect.md"
+    },
+    {
+      "title": "19. Drive",
+      "file": "chapters/24-drive.md"
+    },
+    {
+      "title": "20. Scarcity",
+      "file": "chapters/25-scarcity.md"
+    },
+    {
+      "title": "The Social Mind",
+      "file": "chapters/26-theme-social.md"
+    },
+    {
+      "title": "21. Influence",
+      "file": "chapters/27-influence.md"
+    },
+    {
+      "title": "22. The Person and the Situation",
+      "file": "chapters/28-the-person-and-the-situation.md"
+    },
+    {
+      "title": "23. Mistakes Were Made (But Not by Me)",
+      "file": "chapters/29-mistakes-were-made.md"
+    },
+    {
+      "title": "24. The Righteous Mind",
+      "file": "chapters/30-the-righteous-mind.md"
+    },
+    {
+      "title": "25. Social",
+      "file": "chapters/31-social.md"
+    },
+    {
+      "title": "The Brain & The Self",
+      "file": "chapters/32-theme-brain.md"
+    },
+    {
+      "title": "26. Being You",
+      "file": "chapters/33-being-you.md"
+    },
+    {
+      "title": "27. Livewired",
+      "file": "chapters/34-livewired.md"
+    },
+    {
+      "title": "28. Behave",
+      "file": "chapters/35-behave.md"
+    },
+    {
+      "title": "29. The Man Who Mistook His Wife for a Hat",
+      "file": "chapters/36-the-man-who-mistook.md"
+    },
+    {
+      "title": "30. The Neuroscience of You",
+      "file": "chapters/37-the-neuroscience-of-you.md"
+    },
+    {
+      "title": "Sources and editorial limits",
+      "file": "chapters/38-sources.md"
+    }
+  ],
+  "config": {
+    "locale": "en",
+    "page": {
+      "sizePreset": "custom",
+      "width": {
+        "value": 210,
+        "unit": "mm"
+      },
+      "height": {
+        "value": 297,
+        "unit": "mm"
+      },
+      "margins": {
+        "top": {
+          "value": 18,
+          "unit": "mm"
+        },
+        "bottom": {
+          "value": 18,
+          "unit": "mm"
+        },
+        "left": {
+          "value": 18,
+          "unit": "mm"
+        },
+        "right": {
+          "value": 18,
+          "unit": "mm"
+        },
+        "mirror": true
+      }
+    },
+    "layout": {
+      "layoutType": "single"
+    },
+    "bodyText": {
+      "fontFamily": "Lora",
+      "fontSize": {
+        "value": 10,
+        "unit": "pt"
+      },
+      "lineHeight": {
+        "value": 15,
+        "unit": "pt"
+      },
+      "textAlign": "left",
+      "hyphenation": {
+        "enabled": true,
+        "locale": "en"
+      }
+    },
+    "headings": {
+      "fontFamily": "Archivo",
+      "keepWithNext": true
+    },
+    "resourceTypes": [
+      {
+        "id": "figure",
+        "numberingTemplate": "",
+        "defaultPlacement": {
+          "position": "here",
+          "span": "page"
+        }
+      }
+    ]
+  },
+  "resources": [
+    {
+      "id": "thm-cover",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/cover.svg",
+      "width": 430,
+      "height": 608,
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-thinking-fast-and-slow",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/thinking-fast-and-slow.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for thinking fast and slow",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-the-invisible-gorilla",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/the-invisible-gorilla.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for the invisible gorilla",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-noise",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/noise.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for noise",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-the-scout-mindset",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/the-scout-mindset.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for the scout mindset",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-how-minds-change",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/how-minds-change.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for how minds change",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-make-it-stick",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/make-it-stick.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for make it stick",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-remember",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/remember.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for remember",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-the-organized-mind",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/the-organized-mind.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for the organized mind",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-the-extended-mind",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/the-extended-mind.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for the extended mind",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-why-dont-students-like-school",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/why-dont-students-like-school.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for why dont students like school",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-how-emotions-are-made",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/how-emotions-are-made.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for how emotions are made",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-emotional-agility",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/emotional-agility.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for emotional agility",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-stumbling-on-happiness",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/stumbling-on-happiness.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for stumbling on happiness",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-the-happiness-hypothesis",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/the-happiness-hypothesis.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for the happiness hypothesis",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-the-upside-of-stress",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/the-upside-of-stress.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for the upside of stress",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-atomic-habits",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/atomic-habits.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for atomic habits",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-tiny-habits",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/tiny-habits.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for tiny habits",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-the-expectation-effect",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/the-expectation-effect.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for the expectation effect",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-drive",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/drive.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for drive",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-scarcity",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/scarcity.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for scarcity",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-influence",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/influence.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for influence",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-the-person-and-the-situation",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/the-person-and-the-situation.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for the person and the situation",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-mistakes-were-made",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/mistakes-were-made.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for mistakes were made",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-the-righteous-mind",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/the-righteous-mind.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for the righteous mind",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-social",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/social.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for social",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-being-you",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/being-you.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for being you",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-livewired",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/livewired.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for livewired",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-behave",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/behave.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for behave",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-the-man-who-mistook",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/the-man-who-mistook.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for the man who mistook",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    },
+    {
+      "id": "thm-the-neuroscience-of-you",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/the-neuroscience-of-you.svg",
+      "width": 475,
+      "height": 348,
+      "caption": "Original editorial concept illustration",
+      "altText": "Diagram for the neuroscience of you",
+      "placement": {
+        "position": "here",
+        "span": "page"
+      }
+    }
+  ]
+}

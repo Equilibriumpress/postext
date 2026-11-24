@@ -30,6 +30,18 @@
         "map",
         "svg"
       ]
+    },
+    {
+      "id": "the-human-mind-reading",
+      "dir": "the-human-mind-reading",
+      "name": "THE HUMAN MIND · Complete Reading Edition",
+      "locale": "en",
+      "description": "Expanded text with six thematic essays, thirty book readings, 300 ideas and thirty original illustrations.",
+      "tags": [
+        "psychology",
+        "illustrated",
+        "expanded-reading"
+      ]
     }
   ]
 }
