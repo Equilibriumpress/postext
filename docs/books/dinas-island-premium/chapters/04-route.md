@@ -14,6 +14,18 @@ Five stages describe the circuit from the eastern bay, through the valley and ar
 
 :::
 
+:::frame{slot="route-photo-a"}
+
+::resource{id="church"}
+
+:::
+
+:::frame{slot="route-caption-a"}
+
+Cwm-yr-Eglwys, the starting bay. John H Darch, CC BY-SA 2.0.
+
+:::
+
 :::frame{slot="n1"}
 
 01
@@ -81,6 +93,18 @@ Keep the sea outside the circuit as the path turns towards Newport Bay. Follow t
 **Eastern descent**
 
 Descend the established steps and cross the footbridge towards Cwm-yr-Eglwys. The church ruins mark the return to the starting bay.
+
+:::
+
+:::frame{slot="route-photo-b"}
+
+::resource{id="headland"}
+
+:::
+
+:::frame{slot="route-caption-b"}
+
+Dinas Island from across the water. Bill Harrison.
 
 :::
 

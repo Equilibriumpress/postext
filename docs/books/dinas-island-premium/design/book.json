@@ -308,22 +308,6 @@
       ],
       "caption": "",
       "resolution": 240
-    },
-    {
-      "id": "essay-church",
-      "typeId": "figure",
-      "kind": "bitmap",
-      "file": "resources/church.jpg",
-      "width": 1920,
-      "height": 1398,
-      "altText": "The surviving stone church wall and bellcote at Cwm-yr-Eglwys",
-      "placement": {
-        "position": "side",
-        "span": "column",
-        "width": 1
-      },
-      "caption": "The church ruins at Cwm-yr-Eglwys. John H Darch, CC BY-SA 2.0.",
-      "resolution": 240
     }
   ],
   "fonts": [

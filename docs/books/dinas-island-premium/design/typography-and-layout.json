@@ -1631,9 +1631,9 @@
         "model": "hex",
         "paletteId": "pale"
       },
-      "placement": {
-        "position": "side"
-      }
+      "placement": "here",
+      "span": "side",
+      "keepTogether": true
     }
   ],
   "labelStyles": [

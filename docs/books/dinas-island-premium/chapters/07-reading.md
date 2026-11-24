@@ -2,6 +2,16 @@
 
 Dinas Island is a good place to practise reading the coast. The valley, two bays, high path and church remains bring several different landscapes into one short outing. Start with the map, then pay attention to the changes in the ground as you walk.
 
+:::callout{type="essay-side" title="At the eastern bay"}
+
+::resource{id="church"}
+
+The church at Cwm-yr-Eglwys. John H Darch, CC BY-SA 2.0.
+
+Notice the relationship between the remains, the beach and the sea.
+
+:::
+
 ## Before leaving
 
 Read current route advice and check the weather. Carry suitable footwear, water and a charged phone. Decide whether the exposed circuit suits your group. The sheltered crossing between the bays is a useful alternative.

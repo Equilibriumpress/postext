@@ -756,7 +756,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 177,
+              "value": 173,
               "unit": "mm"
             }
           },
@@ -766,7 +766,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 40,
+              "value": 44,
               "unit": "mm"
             }
           }
@@ -789,17 +789,17 @@
               "unit": "mm"
             },
             "y": {
-              "value": 69,
+              "value": 68,
               "unit": "mm"
             }
           },
           "size": {
             "width": {
-              "value": 132,
+              "value": 128,
               "unit": "mm"
             },
             "height": {
-              "value": 96.2,
+              "value": 93.3,
               "unit": "mm"
             }
           }
@@ -823,7 +823,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 167,
+              "value": 163,
               "unit": "mm"
             }
           },
@@ -3462,7 +3462,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 94.7,
+              "value": 96,
               "unit": "mm"
             }
           }
@@ -3486,7 +3486,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 151,
+              "value": 152,
               "unit": "mm"
             }
           },
@@ -4208,6 +4208,39 @@
           }
         },
         "style": "eyebrow-light",
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "back-credit",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 18,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 207,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 134,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 7,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "caption-light",
         "fit": {
           "shrinkText": false
         }
