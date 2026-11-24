@@ -50,7 +50,7 @@ jobs:
           version: 12.4.1
 
       - name: Install workspaces
-        run: pnpm install --no-frozen-lockfile
+        run: pnpm install --no-frozen-lockfile --ignore-scripts
 
       - name: Build Postext packages and the static Sandbox host
         run: pnpm turbo run build --filter=postext-studio
