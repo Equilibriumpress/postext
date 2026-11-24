@@ -180,6 +180,24 @@
         "composed-pages",
         "layout-proof"
       ]
+    },
+    {
+      "id": "dinas-island-premium",
+      "dir": "dinas-island-premium",
+      "name": "DINAS ISLAND · Premium Edition",
+      "description": "Premium editorial field guide, designed as sixteen leaves with four native facing-page spreads, six licensed photographs, atlas, annotated landscape, decision diagram and flowing essay. Visual proof.",
+      "locale": "en",
+      "locales": [
+        "en"
+      ],
+      "thumbnail": "thumbnail.svg",
+      "tags": [
+        "travel",
+        "premium",
+        "composed-pages",
+        "spreads",
+        "layout-proof"
+      ]
     }
   ]
 }
