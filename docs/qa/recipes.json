@@ -1,0 +1,106 @@
+[
+  {
+    "number": 3,
+    "slug": "chapter-opener-bleed-band",
+    "category": "Openers",
+    "technique": "Bleed band",
+    "staged": true,
+    "source": "cookbook/chapter-opener-bleed-band/script.js"
+  },
+  {
+    "number": 4,
+    "slug": "magazine-feature-opener",
+    "category": "Openers",
+    "technique": "Photo opener",
+    "staged": true,
+    "source": "cookbook/magazine-feature-opener/script.js"
+  },
+  {
+    "number": 23,
+    "slug": "magazine-cover-and-contents",
+    "category": "Book structure",
+    "technique": "Cover and contents",
+    "staged": true,
+    "source": "cookbook/magazine-cover-and-contents/script.js"
+  },
+  {
+    "number": 24,
+    "slug": "print-ready-pdf",
+    "category": "Production",
+    "technique": "Bleed and PDF/X preparation",
+    "staged": false,
+    "source": "cookbook/print-ready-pdf/script.js"
+  },
+  {
+    "number": 47,
+    "slug": "walking-guide-thumb-tabs",
+    "category": "Travel",
+    "technique": "Route tabs and parity",
+    "staged": true,
+    "source": "cookbook/walking-guide-thumb-tabs/script.js"
+  },
+  {
+    "number": 68,
+    "slug": "photo-essay-full-bleed",
+    "category": "Photography",
+    "technique": "Full-trim plates and spreads",
+    "staged": true,
+    "source": "cookbook/photo-essay-full-bleed/script.js"
+  },
+  {
+    "number": 135,
+    "slug": "magazine-three-column-feature",
+    "category": "Flow",
+    "technique": "Three columns",
+    "staged": true,
+    "source": "cookbook/magazine-three-column-feature/script.js"
+  },
+  {
+    "number": 156,
+    "slug": "children-textbook-pages",
+    "category": "Modules",
+    "technique": "Page modules and grids",
+    "staged": true,
+    "source": "cookbook/children-textbook-pages/script.js"
+  },
+  {
+    "number": 157,
+    "slug": "school-atlas-labelled-maps",
+    "category": "Maps",
+    "technique": "Anchored labels and leaders",
+    "staged": true,
+    "source": "cookbook/school-atlas-labelled-maps/script.js"
+  },
+  {
+    "number": 158,
+    "slug": "illustrated-timeline-spread",
+    "category": "Modules",
+    "technique": "Timeline and connectors",
+    "staged": true,
+    "source": "cookbook/illustrated-timeline-spread/script.js"
+  },
+  {
+    "number": 160,
+    "slug": "magazine-threaded-frames",
+    "category": "Flow",
+    "technique": "Threaded frames",
+    "staged": true,
+    "source": "cookbook/magazine-threaded-frames/script.js"
+  },
+  {
+    "number": 162,
+    "slug": "org-chart-from-modules",
+    "category": "Modules",
+    "technique": "Repeat grids and connectors",
+    "staged": true,
+    "source": "cookbook/org-chart-from-modules/script.js"
+  },
+  {
+    "number": 177,
+    "slug": "filling-short-columns",
+    "category": "Typography",
+    "technique": "Balanced columns",
+    "staged": true,
+    "source": "cookbook/filling-short-columns/script.js"
+  }
+]
