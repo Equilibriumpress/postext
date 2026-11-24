@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 1,
+  "slug": "boxes-split-float-pin",
+  "sourceHash": "0581d514808ed923053b1aae48a3323d1f979ac66d881ae519d6790d4d97ab5e",
+  "engine": {
+    "postext": "1.57.1",
+    "source": "npm"
+  },
+  "chrome": "155.0.8059.85",
+  "capturedAt": "2026-10-23T07:31:43.272Z",
+  "verified": {
+    "postext": "1.65.0",
+    "chrome": "156.0.8078.76",
+    "at": "2026-10-31T16:54:48.378Z"
+  },
+  "variants": {
+    "es": {
+      "hash8": "ebb22685",
+      "vdtHash": "731766a34e54522c0cbf634b2c7f9ff4a2b60ec3",
+      "timings": {
+        "importMs": 155,
+        "fontsMs": 3141,
+        "buildMs": 101,
+        "totalMs": 4031,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          195,
+          255
+        ],
+        "dpi": 150,
+        "layoutType": "double",
+        "gutterMm": 7,
+        "mirror": true,
+        "body": {
+          "family": "Host Grotesk",
+          "sizePt": 9.4,
+          "leadingPt": 13.6
+        },
+        "families": [
+          "Commit Mono",
+          "Host Grotesk"
+        ],
+        "pages": 4,
+        "ownLines": 222
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "41",
+          "role": "opener",
+          "w": 1000,
+          "h": 1308,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 134160,
+          "alt": "Página de apertura 41: Construye un reloj de sol."
+        },
+        {
+          "n": 2,
+          "label": "42",
+          "role": "body",
+          "w": 1000,
+          "h": 1308,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 162068,
+          "alt": "Página 42: 4.2 Una esfera con dos caras."
+        },
+        {
+          "n": 3,
+          "label": "43",
+          "role": "body",
+          "w": 1000,
+          "h": 1308,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 147444,
+          "alt": "Página 43: 4.4 Hora solar y hora oficial. Tabla 4.1. Mediodía solar en Madrid, día 15 de cada mes de 2026. De abril a octubre rige el horario de verano."
+        },
+        {
+          "n": 4,
+          "label": "44",
+          "role": "body",
+          "w": 1000,
+          "h": 1308,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 72628,
+          "alt": "Página 44. Figura 4.1. El reloj visto desde el este. A mediodía, el Sol ilumina la cara superior en verano (izquierda) y la inferior en invierno. · Tabla 4.2. Tus lecturas. La primera fila es la del ejemplo."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          null
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "loupe"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "sandbox": {
+        "file": "boxes-split-float-pin.postext",
+        "bytes": 34665,
+        "folio": "bcf271e0",
+        "chapters": [
+          {
+            "pages": 4,
+            "hash": "02878e1d96b3b551",
+            "lines": "5a5494a0220693be"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "prepareFonts",
+          "registerResourceImage",
+          "renderPageToCanvas"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.paragraphSpacing",
+          "bodyText.textAlign",
+          "calloutStyles",
+          "calloutStyles[].background",
+          "calloutStyles[].backgroundEnabled",
+          "calloutStyles[].body",
+          "calloutStyles[].body.fontSize",
+          "calloutStyles[].body.lineHeight",
+          "calloutStyles[].body.paragraphSpacing",
+          "calloutStyles[].borderRadius",
+          "calloutStyles[].columnGap",
+          "calloutStyles[].fixed",
+          "calloutStyles[].fixed.offset",
+          "calloutStyles[].icon",
+          "calloutStyles[].icon.cornerSide",
+          "calloutStyles[].icon.kind",
+          "calloutStyles[].icon.position",
+          "calloutStyles[].icon.resourceId",
+          "calloutStyles[].icon.size",
+          "calloutStyles[].id",
+          "calloutStyles[].keepTogether",
+          "calloutStyles[].lists",
+          "calloutStyles[].lists.color",
+          "calloutStyles[].lists.gap",
+          "calloutStyles[].lists.itemSpacing",
+          "calloutStyles[].marginBottom",
+          "calloutStyles[].marker",
+          "calloutStyles[].marker.gap",
+          "calloutStyles[].marker.kind",
+          "calloutStyles[].marker.resourceId",
+          "calloutStyles[].marker.rule",
+          "calloutStyles[].marker.size",
+          "calloutStyles[].padding",
+          "calloutStyles[].padding.bottom",
+          "calloutStyles[].padding.left",
+          "calloutStyles[].padding.right",
+          "calloutStyles[].padding.top",
+          "calloutStyles[].placement",
+          "calloutStyles[].span",
+          "calloutStyles[].stripe",
+          "calloutStyles[].stripe.color",
+          "calloutStyles[].stripe.enabled",
+          "calloutStyles[].stripe.side",
+          "calloutStyles[].stripe.width",
+          "calloutStyles[].titleStyle",
+          "calloutStyles[].titleStyle.color",
+          "calloutStyles[].titleStyle.fontFamily",
+          "calloutStyles[].titleStyle.fontSize",
+          "calloutStyles[].titleStyle.gap",
+          "calloutStyles[].titleStyle.letterSpacing",
+          "calloutStyles[].titleStyle.textTransform",
+          "calloutStyles[].width",
+          "captionStyle",
+          "captionStyle.color",
+          "captionStyle.fontSize",
+          "captionStyle.gap",
+          "captionStyle.labelColor",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].letterSpacing",
+          "footer.elements[].pages",
+          "footer.elements[].parity",
+          "footer.elements[].placement",
+          "footer.elements[].textTransform",
+          "header",
+          "header.elements",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].fontSize",
+          "headings.levels[].level",
+          "headings.levels[].lineHeight",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "headings.levels[].numberingTemplate",
+          "headings.levels[].span",
+          "layout",
+          "layout.gutterWidth",
+          "layout.inlineResourceGapInBoxes",
+          "layout.layoutType",
+          "locale",
+          "orderedLists",
+          "orderedLists.color",
+          "orderedLists.fontFamily",
+          "orderedLists.fontWeight",
+          "page",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].color",
+          "paragraphStyles[].fontFamily",
+          "paragraphStyles[].fontSize",
+          "paragraphStyles[].id",
+          "paragraphStyles[].lineHeight",
+          "tableStyle",
+          "tableStyle.bodyColor",
+          "tableStyle.bodyFontFamily",
+          "tableStyle.bodyFontSize",
+          "tableStyle.borderColor",
+          "tableStyle.borderWidth",
+          "tableStyle.cellPadding",
+          "tableStyle.headerBackground",
+          "tableStyle.headerColor",
+          "tableStyle.headerFontFamily",
+          "tableStyle.headerFontSize",
+          "tableStyle.rules",
+          "tableStyles",
+          "tableStyles[].bodyFontSize",
+          "tableStyles[].cellPadding",
+          "tableStyles[].id",
+          "unorderedLists",
+          "unorderedLists.color",
+          "unorderedLists.marginBottom",
+          "unorderedLists.marginTop"
+        ],
+        "configSections": [
+          "bodyText",
+          "calloutStyles",
+          "captionStyle",
+          "colorPalette",
+          "footer",
+          "header",
+          "headings",
+          "layout",
+          "locale",
+          "orderedLists",
+          "page",
+          "paragraphStyles",
+          "tableStyle",
+          "tableStyles",
+          "unorderedLists"
+        ],
+        "configLeaves": 361,
+        "designElements": 11,
+        "directives": [
+          ":::callout",
+          ":::columns",
+          ":::space",
+          "::resource",
+          ":::paragraphs"
+        ],
+        "inline": [
+          "{attrs}",
+          ":ref"
+        ],
+        "resources": {
+          "svg": 5,
+          "bitmap": 0,
+          "table": 2
+        },
+        "fonts": [
+          {
+            "family": "Commit Mono",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Commit Mono",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Host Grotesk",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Host Grotesk",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Host Grotesk",
+            "weight": 800,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "callout-columns",
+          "callout-icons",
+          "callout-marker",
+          "callout-splitting",
+          "callout-styles",
+          "figure-citations",
+          "fixed-callouts",
+          "floated-callouts",
+          "heading-attributes",
+          "heading-numbering",
+          "inline-embeds",
+          "opener-band",
+          "opener-design",
+          "page-role-filters",
+          "paragraph-styles",
+          "resources",
+          "table-styles",
+          "vertical-space"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 5,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 0
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 155.0.8059.85, the committed capture used 154.0.8037.98: pixels may differ"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "continuation carried as the bundle's start: pageNumbering, headings"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,846 @@
+{
+  "schemaVersion": 1,
+  "slug": "five-chapter-openers",
+  "sourceHash": "d27e0b25a431b4e307aa1d49e020b0ee081e358c7e61a608368c5a7ddc194797",
+  "engine": {
+    "postext": "1.57.1",
+    "source": "npm"
+  },
+  "chrome": "155.0.8059.85",
+  "capturedAt": "2026-10-23T07:35:36.708Z",
+  "verified": {
+    "postext": "1.65.0",
+    "chrome": "156.0.8078.76",
+    "at": "2026-10-31T17:02:39.817Z"
+  },
+  "variants": {
+    "en": {
+      "hash8": "6619c3cc",
+      "vdtHash": "9014e810a9d2abb1b961f39c19095bd6d85ff851",
+      "timings": {
+        "importMs": 183,
+        "fontsMs": 3,
+        "buildMs": 72,
+        "totalMs": 2870,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          180,
+          240
+        ],
+        "dpi": 150,
+        "layoutType": "single",
+        "mirror": true,
+        "body": {
+          "family": "Lora",
+          "sizePt": 10.8,
+          "leadingPt": 14.5
+        },
+        "families": [
+          "Fraunces",
+          "Geist",
+          "Geist Mono",
+          "Lora"
+        ],
+        "pages": 7,
+        "ownLines": 249
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 100966,
+          "alt": "Opening page 1: The Voice."
+        },
+        {
+          "n": 2,
+          "label": "2",
+          "role": "body",
+          "w": 1000,
+          "h": 1333,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 161646,
+          "alt": "Page 2."
+        },
+        {
+          "n": 3,
+          "label": "3",
+          "role": "body",
+          "w": 1000,
+          "h": 1333,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 32390,
+          "alt": "Page 3."
+        },
+        {
+          "n": 4,
+          "label": "4",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 95610,
+          "alt": "Opening page 4: The Frame."
+        },
+        {
+          "n": 5,
+          "label": "5",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p05.webp",
+          "strip": "p05.s.webp",
+          "bytes": 67274,
+          "alt": "Opening page 5: Say it out loud."
+        },
+        {
+          "n": 6,
+          "label": "6",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p06.webp",
+          "strip": "p06.s.webp",
+          "bytes": 137896,
+          "alt": "Opening page 6: Number Everything."
+        },
+        {
+          "n": 7,
+          "label": "7",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p07.webp",
+          "strip": "p07.s.webp",
+          "bytes": 30798,
+          "alt": "Opening page 7: Leave Room."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "spread"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "sandbox": {
+        "file": "five-chapter-openers.postext",
+        "bytes": 33281,
+        "folio": "8cdc51df",
+        "chapters": [
+          {
+            "pages": 7,
+            "hash": "dbb1cf6044b0f56c",
+            "lines": "a834fcb395b104b5"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "registerResourceImage",
+          "renderPageToCanvas"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.maxWordSpacing",
+          "bodyText.minWordSpacing",
+          "bodyText.referenceColor",
+          "bodyText.textAlign",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].align",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].letterSpacing",
+          "footer.elements[].overflow",
+          "footer.elements[].pages",
+          "footer.elements[].placement",
+          "header",
+          "header.elements",
+          "header.elements[].align",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].overflow",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].bodyStyle",
+          "headingStyles[].bodyStyle.fontFamily",
+          "headingStyles[].bodyStyle.fontSize",
+          "headingStyles[].bodyStyle.lineHeight",
+          "headingStyles[].bodyStyle.textAlign",
+          "headingStyles[].dropCap",
+          "headingStyles[].dropCap.color",
+          "headingStyles[].dropCap.fontFamily",
+          "headingStyles[].dropCap.fontSize",
+          "headingStyles[].dropCap.fontWeight",
+          "headingStyles[].dropCap.gap",
+          "headingStyles[].dropCap.lines",
+          "headingStyles[].footer",
+          "headingStyles[].footer.elements",
+          "headingStyles[].header",
+          "headingStyles[].header.elements",
+          "headingStyles[].id",
+          "headingStyles[].layout",
+          "headingStyles[].layout.gutterWidth",
+          "headingStyles[].layout.layoutType",
+          "headingStyles[].marginBottom",
+          "headingStyles[].margins",
+          "headingStyles[].margins.left",
+          "headingStyles[].margins.right",
+          "headingStyles[].numbered",
+          "headingStyles[].palette",
+          "headingStyles[].palette.accent",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].dropCap",
+          "headings.levels[].fontSize",
+          "headings.levels[].fontWeight",
+          "headings.levels[].level",
+          "headings.levels[].lineHeight",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "headings.levels[].numberingTemplate",
+          "headings.levels[].span",
+          "layout",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].color",
+          "paragraphStyles[].firstLineIndent",
+          "paragraphStyles[].fontFamily",
+          "paragraphStyles[].fontSize",
+          "paragraphStyles[].id",
+          "paragraphStyles[].lineHeight",
+          "paragraphStyles[].marginTop",
+          "paragraphStyles[].textAlign"
+        ],
+        "configSections": [
+          "bodyText",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "paragraphStyles"
+        ],
+        "configLeaves": 591,
+        "designElements": 34,
+        "directives": [
+          ":::paragraphs",
+          ":::space"
+        ],
+        "inline": [
+          "{attrs}",
+          "\\\\"
+        ],
+        "resources": {
+          "svg": 1,
+          "bitmap": 0,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Fraunces",
+            "weight": 300,
+            "style": "italic"
+          },
+          {
+            "family": "Fraunces",
+            "weight": 300,
+            "style": "normal"
+          },
+          {
+            "family": "Fraunces",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Fraunces",
+            "weight": 900,
+            "style": "normal"
+          },
+          {
+            "family": "Geist Mono",
+            "weight": 500,
+            "style": "normal"
+          },
+          {
+            "family": "Geist Mono",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Geist",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Geist",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Geist",
+            "weight": 500,
+            "style": "normal"
+          },
+          {
+            "family": "Geist",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Geist",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Lora",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Lora",
+            "weight": 400,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "body-drop-caps",
+          "heading-attributes",
+          "heading-numbering",
+          "heading-styles",
+          "opener-band",
+          "opener-design",
+          "page-role-filters",
+          "paragraph-styles",
+          "part-palettes",
+          "resources",
+          "section-geometry",
+          "section-running-heads",
+          "title-line-breaks",
+          "unnumbered-headings",
+          "vertical-space"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 1,
+        "looseLines": {
+          "count": 1,
+          "share": 0.0143,
+          "worst": 1.62
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 155.0.8059.85, the committed capture used 154.0.8037.98: pixels may differ"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: en, es"
+          }
+        ]
+      }
+    },
+    "es": {
+      "hash8": "b5ce1205",
+      "vdtHash": "11fa061433c14e9f590b12dcc4d32349775405f4",
+      "timings": {
+        "importMs": 164,
+        "fontsMs": 2,
+        "buildMs": 79,
+        "totalMs": 2338,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          180,
+          240
+        ],
+        "dpi": 150,
+        "layoutType": "single",
+        "mirror": true,
+        "body": {
+          "family": "Lora",
+          "sizePt": 10.8,
+          "leadingPt": 14.5
+        },
+        "families": [
+          "Fraunces",
+          "Geist",
+          "Geist Mono",
+          "Lora"
+        ],
+        "pages": 7,
+        "ownLines": 249
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 98782,
+          "alt": "Página de apertura 1: La voz."
+        },
+        {
+          "n": 2,
+          "label": "2",
+          "role": "body",
+          "w": 1000,
+          "h": 1333,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 159928,
+          "alt": "Página 2."
+        },
+        {
+          "n": 3,
+          "label": "3",
+          "role": "body",
+          "w": 1000,
+          "h": 1333,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 50246,
+          "alt": "Página 3."
+        },
+        {
+          "n": 4,
+          "label": "4",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 88062,
+          "alt": "Página de apertura 4: El marco."
+        },
+        {
+          "n": 5,
+          "label": "5",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p05.webp",
+          "strip": "p05.s.webp",
+          "bytes": 71568,
+          "alt": "Página de apertura 5: Salta a la vista."
+        },
+        {
+          "n": 6,
+          "label": "6",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p06.webp",
+          "strip": "p06.s.webp",
+          "bytes": 136078,
+          "alt": "Página de apertura 6: Numéralo todo."
+        },
+        {
+          "n": 7,
+          "label": "7",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p07.webp",
+          "strip": "p07.s.webp",
+          "bytes": 33322,
+          "alt": "Página de apertura 7: Deja aire."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "spread"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "sandbox": {
+        "file": "five-chapter-openers.postext",
+        "bytes": 32839,
+        "folio": "8cdc51df",
+        "chapters": [
+          {
+            "pages": 7,
+            "hash": "a0cfdbd88f73abbc",
+            "lines": "e68890a66a732478"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "registerResourceImage",
+          "renderPageToCanvas"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.maxWordSpacing",
+          "bodyText.minWordSpacing",
+          "bodyText.referenceColor",
+          "bodyText.textAlign",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].align",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].letterSpacing",
+          "footer.elements[].overflow",
+          "footer.elements[].pages",
+          "footer.elements[].placement",
+          "header",
+          "header.elements",
+          "header.elements[].align",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].overflow",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].bodyStyle",
+          "headingStyles[].bodyStyle.fontFamily",
+          "headingStyles[].bodyStyle.fontSize",
+          "headingStyles[].bodyStyle.lineHeight",
+          "headingStyles[].bodyStyle.textAlign",
+          "headingStyles[].dropCap",
+          "headingStyles[].dropCap.color",
+          "headingStyles[].dropCap.fontFamily",
+          "headingStyles[].dropCap.fontSize",
+          "headingStyles[].dropCap.fontWeight",
+          "headingStyles[].dropCap.gap",
+          "headingStyles[].dropCap.lines",
+          "headingStyles[].footer",
+          "headingStyles[].footer.elements",
+          "headingStyles[].header",
+          "headingStyles[].header.elements",
+          "headingStyles[].id",
+          "headingStyles[].layout",
+          "headingStyles[].layout.gutterWidth",
+          "headingStyles[].layout.layoutType",
+          "headingStyles[].marginBottom",
+          "headingStyles[].margins",
+          "headingStyles[].margins.left",
+          "headingStyles[].margins.right",
+          "headingStyles[].numbered",
+          "headingStyles[].palette",
+          "headingStyles[].palette.accent",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].dropCap",
+          "headings.levels[].fontSize",
+          "headings.levels[].fontWeight",
+          "headings.levels[].level",
+          "headings.levels[].lineHeight",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "headings.levels[].numberingTemplate",
+          "headings.levels[].span",
+          "layout",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].color",
+          "paragraphStyles[].firstLineIndent",
+          "paragraphStyles[].fontFamily",
+          "paragraphStyles[].fontSize",
+          "paragraphStyles[].id",
+          "paragraphStyles[].lineHeight",
+          "paragraphStyles[].marginTop",
+          "paragraphStyles[].textAlign"
+        ],
+        "configSections": [
+          "bodyText",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "paragraphStyles"
+        ],
+        "configLeaves": 591,
+        "designElements": 34,
+        "directives": [
+          ":::paragraphs",
+          ":::space"
+        ],
+        "inline": [
+          "{attrs}",
+          "\\\\"
+        ],
+        "resources": {
+          "svg": 1,
+          "bitmap": 0,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Fraunces",
+            "weight": 300,
+            "style": "italic"
+          },
+          {
+            "family": "Fraunces",
+            "weight": 300,
+            "style": "normal"
+          },
+          {
+            "family": "Fraunces",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Fraunces",
+            "weight": 900,
+            "style": "normal"
+          },
+          {
+            "family": "Geist Mono",
+            "weight": 500,
+            "style": "normal"
+          },
+          {
+            "family": "Geist Mono",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Geist",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Geist",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Geist",
+            "weight": 500,
+            "style": "normal"
+          },
+          {
+            "family": "Geist",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Geist",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Lora",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Lora",
+            "weight": 400,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "body-drop-caps",
+          "heading-attributes",
+          "heading-numbering",
+          "heading-styles",
+          "opener-band",
+          "opener-design",
+          "page-role-filters",
+          "paragraph-styles",
+          "part-palettes",
+          "resources",
+          "section-geometry",
+          "section-running-heads",
+          "title-line-breaks",
+          "unnumbered-headings",
+          "vertical-space"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 2,
+        "looseLines": {
+          "count": 1,
+          "share": 0.0139,
+          "worst": 1.6
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 155.0.8059.85, the committed capture used 154.0.8037.98: pixels may differ"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: es, en"
+          }
+        ]
+      }
+    }
+  }
+}

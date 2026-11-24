@@ -1,0 +1,728 @@
+{
+  "schemaVersion": 1,
+  "slug": "bunko-novel-furigana",
+  "sourceHash": "b027c1916add7a27e0dec59f6454c1f12cd5c37661bd027c3ff244af679dcfb5",
+  "engine": {
+    "postext": "1.65.0",
+    "postextPdf": "1.65.0",
+    "source": "npm"
+  },
+  "chrome": "156.0.8078.76",
+  "capturedAt": "2026-10-31T16:50:27.292Z",
+  "variants": {
+    "en": {
+      "hash8": "b54cf144",
+      "vdtHash": "4bc3ba62eaf3420823d9125f756f27f3becbd4c4",
+      "timings": {
+        "importMs": 1388,
+        "fontsMs": 986,
+        "buildMs": 74,
+        "totalMs": 3179,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          105,
+          148
+        ],
+        "dpi": 200,
+        "layoutType": "single",
+        "mirror": true,
+        "body": {
+          "family": "Shippori Mincho B1",
+          "sizePt": 9,
+          "leadingPt": 15.8
+        },
+        "families": [
+          "Noto Sans JP",
+          "Shippori Mincho B1"
+        ],
+        "pages": 9,
+        "ownLines": 145
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "一",
+          "role": "opener",
+          "w": 1000,
+          "h": 1410,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 16118,
+          "alt": "Opening page 一: 夢十夜."
+        },
+        {
+          "n": 2,
+          "label": "二",
+          "role": "body",
+          "w": 1000,
+          "h": 1410,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 94616,
+          "alt": "Page 二: 第一夜."
+        },
+        {
+          "n": 3,
+          "label": "三",
+          "role": "body",
+          "w": 1000,
+          "h": 1410,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 84610,
+          "alt": "Page 三."
+        },
+        {
+          "n": 4,
+          "label": "四",
+          "role": "body",
+          "w": 1000,
+          "h": 1410,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 119340,
+          "alt": "Page 四."
+        },
+        {
+          "n": 5,
+          "label": "五",
+          "role": "body",
+          "w": 1000,
+          "h": 1410,
+          "file": "p05.webp",
+          "strip": "p05.s.webp",
+          "bytes": 92008,
+          "alt": "Page 五."
+        },
+        {
+          "n": 6,
+          "label": "六",
+          "role": "body",
+          "w": 1000,
+          "h": 1410,
+          "file": "p06.webp",
+          "strip": "p06.s.webp",
+          "bytes": 91866,
+          "alt": "Page 六: 第二夜."
+        },
+        {
+          "n": 7,
+          "label": "七",
+          "role": "body",
+          "w": 1000,
+          "h": 1410,
+          "file": "p07.webp",
+          "strip": "p07.s.webp",
+          "bytes": 111466,
+          "alt": "Page 七."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "binding": "right",
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "spread"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "pdf": {
+        "file": "bunko-novel-furigana.pdf",
+        "bytes": 331401,
+        "pages": 9
+      },
+      "sandbox": {
+        "file": "bunko-novel-furigana.postext",
+        "bytes": 34174,
+        "folio": "c397d9a7",
+        "chapters": [
+          {
+            "pages": 9,
+            "hash": "9ea70dde5f8d5da0",
+            "lines": "35a6fde4c823dcb6"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocument",
+          "decompressWoff2",
+          "loadVerticalAlternates",
+          "renderPageToCanvas",
+          "renderToPdf",
+          "withLoadedFonts"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.referenceColor",
+          "bodyText.textAlign",
+          "cjk",
+          "cjk.grid",
+          "cjk.grid.charsPerLine",
+          "cjk.grid.enabled",
+          "cjk.grid.linesPerPage",
+          "cjk.hangingPunctuation",
+          "cjk.lineBreak",
+          "cjk.paragraphStartBracket",
+          "cjk.ruby",
+          "cjk.ruby.align",
+          "cjk.ruby.overhang",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "header",
+          "header.elements",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].overflow",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].writingMode",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.minHeight",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].breakBefore",
+          "headingStyles[].breakBefore.enabled",
+          "headingStyles[].breakBefore.parity",
+          "headingStyles[].footer",
+          "headingStyles[].footer.elements",
+          "headingStyles[].header",
+          "headingStyles[].header.elements",
+          "headingStyles[].id",
+          "headingStyles[].numbered",
+          "headingStyles[].span",
+          "headingStyles[].toc",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.levels",
+          "headings.levels[].breakBefore",
+          "headings.levels[].fontFamily",
+          "headings.levels[].fontSize",
+          "headings.levels[].fontWeight",
+          "headings.levels[].indent",
+          "headings.levels[].level",
+          "headings.levels[].lineSpan",
+          "layout",
+          "layout.layoutType",
+          "layout.writingMode",
+          "locale",
+          "page",
+          "page.backgroundColor",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.pageNumbering",
+          "page.pageNumbering.format",
+          "page.sizePreset",
+          "page.width"
+        ],
+        "configSections": [
+          "bodyText",
+          "cjk",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "page"
+        ],
+        "configLeaves": 141,
+        "designElements": 6,
+        "directives": [],
+        "inline": [
+          "{attrs}"
+        ],
+        "resources": {
+          "svg": 0,
+          "bitmap": 0,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Noto Sans JP",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Shippori Mincho B1",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Shippori Mincho B1",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Shippori Mincho B1",
+            "weight": 800,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "character-grid",
+          "cjk-line-breaking",
+          "cjk-punctuation",
+          "furigana",
+          "gyodori-headings",
+          "heading-attributes",
+          "heading-styles",
+          "opener-design",
+          "page-background",
+          "page-role-filters",
+          "pdf-export",
+          "pdf-fonts",
+          "right-binding",
+          "roman-front-matter",
+          "ruby",
+          "section-running-heads",
+          "unnumbered-headings",
+          "vertical-writing"
+        ],
+        "suggestedLevel": 2
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 1,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 0
+        },
+        "cjkLooseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 0.25
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 156.0.8078.76, the committed capture used 155.0.8059.85: pixels may differ"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: en, es"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: en, es"
+          }
+        ]
+      }
+    },
+    "es": {
+      "hash8": "2f9f827d",
+      "vdtHash": "7b77b0391d2637313d9067388ea8db7ee6456beb",
+      "timings": {
+        "importMs": 1181,
+        "fontsMs": 470,
+        "buildMs": 88,
+        "totalMs": 2438,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          105,
+          148
+        ],
+        "dpi": 200,
+        "layoutType": "single",
+        "mirror": true,
+        "body": {
+          "family": "Shippori Mincho B1",
+          "sizePt": 9,
+          "leadingPt": 15.8
+        },
+        "families": [
+          "Noto Sans JP",
+          "Shippori Mincho B1"
+        ],
+        "pages": 9,
+        "ownLines": 145
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "一",
+          "role": "opener",
+          "w": 1000,
+          "h": 1410,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 17066,
+          "alt": "Página de apertura 一: 夢十夜."
+        },
+        {
+          "n": 2,
+          "label": "二",
+          "role": "body",
+          "w": 1000,
+          "h": 1410,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 94616,
+          "alt": "Página 二: 第一夜."
+        },
+        {
+          "n": 3,
+          "label": "三",
+          "role": "body",
+          "w": 1000,
+          "h": 1410,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 84610,
+          "alt": "Página 三."
+        },
+        {
+          "n": 4,
+          "label": "四",
+          "role": "body",
+          "w": 1000,
+          "h": 1410,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 119340,
+          "alt": "Página 四."
+        },
+        {
+          "n": 5,
+          "label": "五",
+          "role": "body",
+          "w": 1000,
+          "h": 1410,
+          "file": "p05.webp",
+          "strip": "p05.s.webp",
+          "bytes": 92008,
+          "alt": "Página 五."
+        },
+        {
+          "n": 6,
+          "label": "六",
+          "role": "body",
+          "w": 1000,
+          "h": 1410,
+          "file": "p06.webp",
+          "strip": "p06.s.webp",
+          "bytes": 91866,
+          "alt": "Página 六: 第二夜."
+        },
+        {
+          "n": 7,
+          "label": "七",
+          "role": "body",
+          "w": 1000,
+          "h": 1410,
+          "file": "p07.webp",
+          "strip": "p07.s.webp",
+          "bytes": 111466,
+          "alt": "Página 七."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "binding": "right",
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "spread"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "pdf": {
+        "file": "bunko-novel-furigana.pdf",
+        "bytes": 331539,
+        "pages": 9
+      },
+      "sandbox": {
+        "file": "bunko-novel-furigana.postext",
+        "bytes": 34178,
+        "folio": "c397d9a7",
+        "chapters": [
+          {
+            "pages": 9,
+            "hash": "4c2334b9095582b7",
+            "lines": "3e056ecd780d18fd"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocument",
+          "decompressWoff2",
+          "loadVerticalAlternates",
+          "renderPageToCanvas",
+          "renderToPdf",
+          "withLoadedFonts"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.referenceColor",
+          "bodyText.textAlign",
+          "cjk",
+          "cjk.grid",
+          "cjk.grid.charsPerLine",
+          "cjk.grid.enabled",
+          "cjk.grid.linesPerPage",
+          "cjk.hangingPunctuation",
+          "cjk.lineBreak",
+          "cjk.paragraphStartBracket",
+          "cjk.ruby",
+          "cjk.ruby.align",
+          "cjk.ruby.overhang",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "header",
+          "header.elements",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].overflow",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].writingMode",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.minHeight",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].breakBefore",
+          "headingStyles[].breakBefore.enabled",
+          "headingStyles[].breakBefore.parity",
+          "headingStyles[].footer",
+          "headingStyles[].footer.elements",
+          "headingStyles[].header",
+          "headingStyles[].header.elements",
+          "headingStyles[].id",
+          "headingStyles[].numbered",
+          "headingStyles[].span",
+          "headingStyles[].toc",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.levels",
+          "headings.levels[].breakBefore",
+          "headings.levels[].fontFamily",
+          "headings.levels[].fontSize",
+          "headings.levels[].fontWeight",
+          "headings.levels[].indent",
+          "headings.levels[].level",
+          "headings.levels[].lineSpan",
+          "layout",
+          "layout.layoutType",
+          "layout.writingMode",
+          "locale",
+          "page",
+          "page.backgroundColor",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.pageNumbering",
+          "page.pageNumbering.format",
+          "page.sizePreset",
+          "page.width"
+        ],
+        "configSections": [
+          "bodyText",
+          "cjk",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "page"
+        ],
+        "configLeaves": 141,
+        "designElements": 6,
+        "directives": [],
+        "inline": [
+          "{attrs}"
+        ],
+        "resources": {
+          "svg": 0,
+          "bitmap": 0,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Noto Sans JP",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Shippori Mincho B1",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Shippori Mincho B1",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Shippori Mincho B1",
+            "weight": 800,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "character-grid",
+          "cjk-line-breaking",
+          "cjk-punctuation",
+          "furigana",
+          "gyodori-headings",
+          "heading-attributes",
+          "heading-styles",
+          "opener-design",
+          "page-background",
+          "page-role-filters",
+          "pdf-export",
+          "pdf-fonts",
+          "right-binding",
+          "roman-front-matter",
+          "ruby",
+          "section-running-heads",
+          "unnumbered-headings",
+          "vertical-writing"
+        ],
+        "suggestedLevel": 2
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 1,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 0
+        },
+        "cjkLooseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 0.25
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 156.0.8078.76, the committed capture used 155.0.8059.85: pixels may differ"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: es, en"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: es, en"
+          }
+        ]
+      }
+    }
+  }
+}

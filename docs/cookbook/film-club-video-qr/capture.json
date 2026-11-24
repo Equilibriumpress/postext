@@ -1,0 +1,836 @@
+{
+  "schemaVersion": 1,
+  "slug": "film-club-video-qr",
+  "sourceHash": "30b0f696ff91a372602de8f34bd0e05bcfe3dbe23e6fbbc881e3fe2dc1941902",
+  "engine": {
+    "postext": "1.57.1",
+    "postextPdf": "1.57.1",
+    "source": "npm"
+  },
+  "chrome": "155.0.8059.85",
+  "capturedAt": "2026-10-23T07:35:36.685Z",
+  "verified": {
+    "postext": "1.65.0",
+    "postextPdf": "1.65.0",
+    "chrome": "156.0.8078.76",
+    "at": "2026-10-31T17:31:17.673Z"
+  },
+  "variants": {
+    "en": {
+      "hash8": "a05db6b1",
+      "vdtHash": "630cbf7abaf55b5d4f608ef89bdffd8a81f53da9",
+      "timings": {
+        "importMs": 399,
+        "fontsMs": 118,
+        "buildMs": 65,
+        "totalMs": 1305,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          165,
+          235
+        ],
+        "dpi": 150,
+        "layoutType": "single",
+        "mirror": true,
+        "body": {
+          "family": "Literata",
+          "sizePt": 9.8,
+          "leadingPt": 14
+        },
+        "families": [
+          "Barlow Semi Condensed",
+          "Big Shoulders Display",
+          "Literata"
+        ],
+        "pages": 6,
+        "ownLines": 180
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1424,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 84154,
+          "alt": "Opening page 1: Open Movies."
+        },
+        {
+          "n": 2,
+          "label": "2",
+          "role": "opener",
+          "w": 1000,
+          "h": 1424,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 94908,
+          "alt": "Opening page 2: Elephants Dream. Film 1. Elephants Dream. Project Orange, Blender Foundation."
+        },
+        {
+          "n": 3,
+          "label": "3",
+          "role": "opener",
+          "w": 1000,
+          "h": 1424,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 84170,
+          "alt": "Opening page 3: Big Buck Bunny. Film 2. Big Buck Bunny. Project Peach, Blender Institute."
+        },
+        {
+          "n": 4,
+          "label": "4",
+          "role": "opener",
+          "w": 1000,
+          "h": 1424,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 81558,
+          "alt": "Opening page 4: Tears of Steel. Film 3. Tears of Steel. Project Mango, Blender Institute."
+        },
+        {
+          "n": 5,
+          "label": "5",
+          "role": "opener",
+          "w": 1000,
+          "h": 1424,
+          "file": "p05.webp",
+          "strip": "p05.s.webp",
+          "bytes": 78924,
+          "alt": "Opening page 5: Spring. Film 4. Spring. Blender Studio."
+        },
+        {
+          "n": 6,
+          "label": "6",
+          "role": "opener",
+          "w": 1000,
+          "h": 1424,
+          "file": "p06.webp",
+          "strip": "p06.s.webp",
+          "bytes": 86294,
+          "alt": "Opening page 6: At the Club."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          null
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "spread"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "pdf": {
+        "file": "film-club-video-qr.pdf",
+        "bytes": 304475,
+        "pages": 6
+      },
+      "sandbox": {
+        "file": "film-club-video-qr.postext",
+        "bytes": 445247,
+        "folio": "edbbafa0",
+        "chapters": [
+          {
+            "pages": 6,
+            "hash": "6c09874f414373ad",
+            "lines": "64ecd8171b8e7681"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "decompressWoff2",
+          "defaultResourceTypes",
+          "parseVideoUrl",
+          "prepareFonts",
+          "registerResourceImage",
+          "renderPageToCanvas",
+          "renderToPdf",
+          "videoWatchUrl"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.avoidOrphans",
+          "bodyText.avoidRunts",
+          "bodyText.avoidWidows",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.hyphenation",
+          "bodyText.hyphenation.enabled",
+          "bodyText.hyphenation.exceptions",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.optimalLineBreaking",
+          "bodyText.referenceColor",
+          "bodyText.textAlign",
+          "captionStyle",
+          "captionStyle.color",
+          "captionStyle.fontFamily",
+          "captionStyle.fontSize",
+          "captionStyle.gap",
+          "captionStyle.labelBold",
+          "captionStyle.labelColor",
+          "captionStyle.note",
+          "captionStyle.note.color",
+          "captionStyle.note.fontSize",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].align",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].letterSpacing",
+          "footer.elements[].overflow",
+          "footer.elements[].pages",
+          "footer.elements[].parity",
+          "footer.elements[].placement",
+          "footer.elements[].textTransform",
+          "header",
+          "header.elements",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.minHeight",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].footer",
+          "headingStyles[].footer.elements",
+          "headingStyles[].id",
+          "headingStyles[].marginBottom",
+          "headingStyles[].numbered",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].fontSize",
+          "headings.levels[].letterSpacing",
+          "headings.levels[].level",
+          "headings.levels[].lineHeight",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "headings.levels[].textTransform",
+          "layout",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.backgroundColor",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.sizePreset",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].boldColor",
+          "paragraphStyles[].color",
+          "paragraphStyles[].firstLineIndent",
+          "paragraphStyles[].fontFamily",
+          "paragraphStyles[].fontSize",
+          "paragraphStyles[].fontWeight",
+          "paragraphStyles[].hyphenation",
+          "paragraphStyles[].id",
+          "paragraphStyles[].lineHeight",
+          "paragraphStyles[].marginTop",
+          "paragraphStyles[].spaceBetween",
+          "paragraphStyles[].textAlign",
+          "resourceTypes",
+          "resourceTypes[].captionPrefix",
+          "resourceTypes[].counterFormat",
+          "resourceTypes[].id",
+          "resourceTypes[].name",
+          "resourceTypes[].namePlural",
+          "resourceTypes[].numberingTemplate",
+          "resourceTypes[].resetOn",
+          "resourceTypes[].shortLabel",
+          "videoStyle",
+          "videoStyle.linkPoster",
+          "videoStyle.playMark",
+          "videoStyle.playMark.background",
+          "videoStyle.playMark.backgroundOpacity",
+          "videoStyle.playMark.color",
+          "videoStyle.playMark.inset",
+          "videoStyle.playMark.position",
+          "videoStyle.playMark.shape",
+          "videoStyle.playMark.size",
+          "videoStyle.qr",
+          "videoStyle.qr.background",
+          "videoStyle.qr.color",
+          "videoStyle.qr.errorCorrection",
+          "videoStyle.qr.inset",
+          "videoStyle.qr.position",
+          "videoStyle.qr.quietZone",
+          "videoStyle.qr.radius",
+          "videoStyle.qr.size"
+        ],
+        "configSections": [
+          "bodyText",
+          "captionStyle",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "paragraphStyles",
+          "resourceTypes",
+          "videoStyle"
+        ],
+        "configLeaves": 433,
+        "designElements": 20,
+        "directives": [
+          "::resource",
+          ":::paragraphs"
+        ],
+        "inline": [
+          "{attrs}",
+          ":ref"
+        ],
+        "resources": {
+          "svg": 0,
+          "bitmap": 0,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Barlow Semi Condensed",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Barlow Semi Condensed",
+            "weight": 500,
+            "style": "normal"
+          },
+          {
+            "family": "Barlow Semi Condensed",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Barlow Semi Condensed",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Big Shoulders Display",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Big Shoulders Display",
+            "weight": 800,
+            "style": "normal"
+          },
+          {
+            "family": "Literata",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Literata",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Literata",
+            "weight": 700,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "figure-citations",
+          "heading-attributes",
+          "heading-styles",
+          "inline-embeds",
+          "localised-labels",
+          "opener-design",
+          "page-background",
+          "page-role-filters",
+          "paragraph-styles",
+          "pdf-export",
+          "pdf-fonts",
+          "resource-types",
+          "resources",
+          "section-running-heads",
+          "unnumbered-headings",
+          "video-resources",
+          "video-style"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 1,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 1.79
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: es left out (the resources differ when read back)"
+          }
+        ]
+      }
+    },
+    "es": {
+      "hash8": "5fe9e1bc",
+      "vdtHash": "afb8c4d66816e2f6e82c4c1c381f187fe3503f7c",
+      "timings": {
+        "importMs": 270,
+        "fontsMs": 287,
+        "buildMs": 71,
+        "totalMs": 1269,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          165,
+          235
+        ],
+        "dpi": 150,
+        "layoutType": "single",
+        "mirror": true,
+        "body": {
+          "family": "Literata",
+          "sizePt": 9.8,
+          "leadingPt": 14
+        },
+        "families": [
+          "Barlow Semi Condensed",
+          "Big Shoulders Display",
+          "Literata"
+        ],
+        "pages": 6,
+        "ownLines": 180
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1424,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 95278,
+          "alt": "Página de apertura 1: Películas abiertas."
+        },
+        {
+          "n": 2,
+          "label": "2",
+          "role": "opener",
+          "w": 1000,
+          "h": 1424,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 102074,
+          "alt": "Página de apertura 2: Elephants Dream. Película 1. Elephants Dream. Proyecto Orange, Blender Foundation."
+        },
+        {
+          "n": 3,
+          "label": "3",
+          "role": "opener",
+          "w": 1000,
+          "h": 1424,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 90390,
+          "alt": "Página de apertura 3: Big Buck Bunny. Película 2. Big Buck Bunny. Proyecto Peach, Blender Institute."
+        },
+        {
+          "n": 4,
+          "label": "4",
+          "role": "opener",
+          "w": 1000,
+          "h": 1424,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 91922,
+          "alt": "Página de apertura 4: Tears of Steel. Película 3. Tears of Steel. Proyecto Mango, Blender Institute."
+        },
+        {
+          "n": 5,
+          "label": "5",
+          "role": "opener",
+          "w": 1000,
+          "h": 1424,
+          "file": "p05.webp",
+          "strip": "p05.s.webp",
+          "bytes": 82276,
+          "alt": "Página de apertura 5: Spring. Película 4. Spring. Blender Studio."
+        },
+        {
+          "n": 6,
+          "label": "6",
+          "role": "opener",
+          "w": 1000,
+          "h": 1424,
+          "file": "p06.webp",
+          "strip": "p06.s.webp",
+          "bytes": 95552,
+          "alt": "Página de apertura 6: En el cineclub."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          null
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "spread"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "pdf": {
+        "file": "film-club-video-qr.pdf",
+        "bytes": 312980,
+        "pages": 6
+      },
+      "sandbox": {
+        "file": "film-club-video-qr.postext",
+        "bytes": 453366,
+        "folio": "edbbafa0",
+        "chapters": [
+          {
+            "pages": 6,
+            "hash": "ad3296eb655c0ca5",
+            "lines": "a828c40b2bd1bc1d"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "decompressWoff2",
+          "defaultResourceTypes",
+          "parseVideoUrl",
+          "prepareFonts",
+          "registerResourceImage",
+          "renderPageToCanvas",
+          "renderToPdf",
+          "videoWatchUrl"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.avoidOrphans",
+          "bodyText.avoidRunts",
+          "bodyText.avoidWidows",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.hyphenation",
+          "bodyText.hyphenation.enabled",
+          "bodyText.hyphenation.exceptions",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.optimalLineBreaking",
+          "bodyText.referenceColor",
+          "bodyText.textAlign",
+          "captionStyle",
+          "captionStyle.color",
+          "captionStyle.fontFamily",
+          "captionStyle.fontSize",
+          "captionStyle.gap",
+          "captionStyle.labelBold",
+          "captionStyle.labelColor",
+          "captionStyle.note",
+          "captionStyle.note.color",
+          "captionStyle.note.fontSize",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].align",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].letterSpacing",
+          "footer.elements[].overflow",
+          "footer.elements[].pages",
+          "footer.elements[].parity",
+          "footer.elements[].placement",
+          "footer.elements[].textTransform",
+          "header",
+          "header.elements",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.minHeight",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].footer",
+          "headingStyles[].footer.elements",
+          "headingStyles[].id",
+          "headingStyles[].marginBottom",
+          "headingStyles[].numbered",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].fontSize",
+          "headings.levels[].letterSpacing",
+          "headings.levels[].level",
+          "headings.levels[].lineHeight",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "headings.levels[].textTransform",
+          "layout",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.backgroundColor",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.sizePreset",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].boldColor",
+          "paragraphStyles[].color",
+          "paragraphStyles[].firstLineIndent",
+          "paragraphStyles[].fontFamily",
+          "paragraphStyles[].fontSize",
+          "paragraphStyles[].fontWeight",
+          "paragraphStyles[].hyphenation",
+          "paragraphStyles[].id",
+          "paragraphStyles[].lineHeight",
+          "paragraphStyles[].marginTop",
+          "paragraphStyles[].spaceBetween",
+          "paragraphStyles[].textAlign",
+          "resourceTypes",
+          "resourceTypes[].captionPrefix",
+          "resourceTypes[].counterFormat",
+          "resourceTypes[].id",
+          "resourceTypes[].name",
+          "resourceTypes[].namePlural",
+          "resourceTypes[].numberingTemplate",
+          "resourceTypes[].resetOn",
+          "resourceTypes[].shortLabel",
+          "videoStyle",
+          "videoStyle.linkPoster",
+          "videoStyle.playMark",
+          "videoStyle.playMark.background",
+          "videoStyle.playMark.backgroundOpacity",
+          "videoStyle.playMark.color",
+          "videoStyle.playMark.inset",
+          "videoStyle.playMark.position",
+          "videoStyle.playMark.shape",
+          "videoStyle.playMark.size",
+          "videoStyle.qr",
+          "videoStyle.qr.background",
+          "videoStyle.qr.color",
+          "videoStyle.qr.errorCorrection",
+          "videoStyle.qr.inset",
+          "videoStyle.qr.position",
+          "videoStyle.qr.quietZone",
+          "videoStyle.qr.radius",
+          "videoStyle.qr.size"
+        ],
+        "configSections": [
+          "bodyText",
+          "captionStyle",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "paragraphStyles",
+          "resourceTypes",
+          "videoStyle"
+        ],
+        "configLeaves": 433,
+        "designElements": 20,
+        "directives": [
+          "::resource",
+          ":::paragraphs"
+        ],
+        "inline": [
+          "{attrs}",
+          ":ref"
+        ],
+        "resources": {
+          "svg": 0,
+          "bitmap": 0,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Barlow Semi Condensed",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Barlow Semi Condensed",
+            "weight": 500,
+            "style": "normal"
+          },
+          {
+            "family": "Barlow Semi Condensed",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Barlow Semi Condensed",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Big Shoulders Display",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Big Shoulders Display",
+            "weight": 800,
+            "style": "normal"
+          },
+          {
+            "family": "Literata",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Literata",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Literata",
+            "weight": 700,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "figure-citations",
+          "heading-attributes",
+          "heading-styles",
+          "inline-embeds",
+          "localised-labels",
+          "opener-design",
+          "page-background",
+          "page-role-filters",
+          "paragraph-styles",
+          "pdf-export",
+          "pdf-fonts",
+          "resource-types",
+          "resources",
+          "section-running-heads",
+          "unnumbered-headings",
+          "video-resources",
+          "video-style"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 1,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 1.75
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: en left out (the resources differ when read back)"
+          }
+        ]
+      }
+    }
+  }
+}

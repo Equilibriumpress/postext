@@ -1,0 +1,742 @@
+{
+  "schemaVersion": 1,
+  "slug": "short-chapters-run-on",
+  "sourceHash": "dd523cceebd320658d6c11d7aee36489ca9523c39fe0b9d844b680770ffa8283",
+  "engine": {
+    "postext": "1.57.1",
+    "source": "npm"
+  },
+  "chrome": "155.0.8059.85",
+  "capturedAt": "2026-10-23T07:41:23.098Z",
+  "verified": {
+    "postext": "1.65.0",
+    "chrome": "156.0.8078.76",
+    "at": "2026-10-31T17:06:06.271Z"
+  },
+  "variants": {
+    "en": {
+      "hash8": "d303a0f1",
+      "vdtHash": "ab112423bc99922fae874651579bb0aa31ba51f1",
+      "timings": {
+        "importMs": 222,
+        "fontsMs": 33,
+        "buildMs": 68,
+        "totalMs": 3047,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          110,
+          178
+        ],
+        "dpi": 150,
+        "layoutType": "single",
+        "mirror": true,
+        "body": {
+          "family": "Tinos",
+          "sizePt": 9.5,
+          "leadingPt": 12.6
+        },
+        "families": [
+          "Abril Fatface",
+          "League Spartan",
+          "Tinos"
+        ],
+        "pages": 7,
+        "ownLines": 167
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1618,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 21590,
+          "alt": "Opening page 1: Dom Casmurro."
+        },
+        {
+          "n": 2,
+          "label": "212",
+          "role": "opener",
+          "w": 1000,
+          "h": 1618,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 161548,
+          "alt": "Opening page 212: Capítulo CXXIII."
+        },
+        {
+          "n": 3,
+          "label": "213",
+          "role": "body",
+          "w": 1000,
+          "h": 1618,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 155878,
+          "alt": "Page 213: CXIX Não faça isso, querida."
+        },
+        {
+          "n": 4,
+          "label": "214",
+          "role": "body",
+          "w": 1000,
+          "h": 1618,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 126762,
+          "alt": "Page 214: CXX Os autos."
+        },
+        {
+          "n": 5,
+          "label": "215",
+          "role": "body",
+          "w": 1000,
+          "h": 1618,
+          "file": "p05.webp",
+          "strip": "p05.s.webp",
+          "bytes": 139952,
+          "alt": "Page 215: CXXII O enterro."
+        },
+        {
+          "n": 6,
+          "label": "216",
+          "role": "body",
+          "w": 1000,
+          "h": 1618,
+          "file": "p06.webp",
+          "strip": "p06.s.webp",
+          "bytes": 147264,
+          "alt": "Page 216: CXXIII Olhos de ressaca."
+        },
+        {
+          "n": 7,
+          "label": "217",
+          "role": "body",
+          "w": 1000,
+          "h": 1618,
+          "file": "p07.webp",
+          "strip": "p07.s.webp",
+          "bytes": 52572,
+          "alt": "Page 217."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "spread"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "sandbox": {
+        "file": "short-chapters-run-on.postext",
+        "bytes": 322271,
+        "folio": "badc8643",
+        "chapters": [
+          {
+            "pages": 7,
+            "hash": "03a3ca6ca6b0b89a",
+            "lines": "d96e5640de5a94c2"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "registerResourceImage",
+          "renderPageToCanvas"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.lineHeight",
+          "bodyText.referenceColor",
+          "calloutStyles",
+          "calloutStyles[].backgroundEnabled",
+          "calloutStyles[].body",
+          "calloutStyles[].body.color",
+          "calloutStyles[].body.firstLineIndent",
+          "calloutStyles[].body.fontFamily",
+          "calloutStyles[].body.fontSize",
+          "calloutStyles[].body.italicColor",
+          "calloutStyles[].body.lineHeight",
+          "calloutStyles[].body.textAlign",
+          "calloutStyles[].icon",
+          "calloutStyles[].icon.kind",
+          "calloutStyles[].icon.resourceId",
+          "calloutStyles[].icon.size",
+          "calloutStyles[].id",
+          "calloutStyles[].marginBottom",
+          "calloutStyles[].padding",
+          "calloutStyles[].padding.bottom",
+          "calloutStyles[].padding.left",
+          "calloutStyles[].padding.right",
+          "calloutStyles[].padding.top",
+          "calloutStyles[].placement",
+          "calloutStyles[].titleStyle",
+          "calloutStyles[].titleStyle.gap",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].align",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].letterSpacing",
+          "footer.elements[].pages",
+          "footer.elements[].parity",
+          "footer.elements[].placement",
+          "footer.elements[].textTransform",
+          "header",
+          "header.elements",
+          "header.elements[].align",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].id",
+          "headingStyles[].numbered",
+          "headingStyles[].span",
+          "headings",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].fontSize",
+          "headings.levels[].level",
+          "headings.levels[].marginTop",
+          "headings.levels[].numberingTemplate",
+          "layout",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.backgroundColor",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.sizePreset",
+          "page.width"
+        ],
+        "configSections": [
+          "bodyText",
+          "calloutStyles",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "page"
+        ],
+        "configLeaves": 288,
+        "designElements": 17,
+        "directives": [
+          ":::numbering",
+          ":::callout"
+        ],
+        "inline": [
+          "{attrs}",
+          "\\\\"
+        ],
+        "resources": {
+          "svg": 1,
+          "bitmap": 1,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Abril Fatface",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "League Spartan",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Tinos",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Tinos",
+            "weight": 400,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "callout-icons",
+          "callout-styles",
+          "heading-attributes",
+          "heading-numbering",
+          "heading-styles",
+          "opener-design",
+          "page-background",
+          "page-role-filters",
+          "resources",
+          "roman-front-matter",
+          "title-line-breaks",
+          "unnumbered-headings"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 2,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 1.78
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "C20",
+            "severity": "warn",
+            "detail": "the edition's images weigh 0.98 MB (warning at 0.9 MB for 7 pages; capture.expect.imageMb states the figure of a book of paintings)"
+          },
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 155.0.8059.85, the committed capture used 154.0.8037.98: pixels may differ"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "bundle locale pt, the document's language: en names its resource types otherwise"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "continuation carried as the bundle's start: headings"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: es left out (its bundle is in pt, as another edition's)"
+          }
+        ]
+      }
+    },
+    "es": {
+      "hash8": "00754fb8",
+      "vdtHash": "ab112423bc99922fae874651579bb0aa31ba51f1",
+      "timings": {
+        "importMs": 303,
+        "fontsMs": 35,
+        "buildMs": 67,
+        "totalMs": 2053,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          110,
+          178
+        ],
+        "dpi": 150,
+        "layoutType": "single",
+        "mirror": true,
+        "body": {
+          "family": "Tinos",
+          "sizePt": 9.5,
+          "leadingPt": 12.6
+        },
+        "families": [
+          "Abril Fatface",
+          "League Spartan",
+          "Tinos"
+        ],
+        "pages": 7,
+        "ownLines": 167
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1618,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 21590,
+          "alt": "Página de apertura 1: Dom Casmurro."
+        },
+        {
+          "n": 2,
+          "label": "212",
+          "role": "opener",
+          "w": 1000,
+          "h": 1618,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 161548,
+          "alt": "Página de apertura 212: Capítulo CXXIII."
+        },
+        {
+          "n": 3,
+          "label": "213",
+          "role": "body",
+          "w": 1000,
+          "h": 1618,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 155878,
+          "alt": "Página 213: CXIX Não faça isso, querida."
+        },
+        {
+          "n": 4,
+          "label": "214",
+          "role": "body",
+          "w": 1000,
+          "h": 1618,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 126762,
+          "alt": "Página 214: CXX Os autos."
+        },
+        {
+          "n": 5,
+          "label": "215",
+          "role": "body",
+          "w": 1000,
+          "h": 1618,
+          "file": "p05.webp",
+          "strip": "p05.s.webp",
+          "bytes": 139952,
+          "alt": "Página 215: CXXII O enterro."
+        },
+        {
+          "n": 6,
+          "label": "216",
+          "role": "body",
+          "w": 1000,
+          "h": 1618,
+          "file": "p06.webp",
+          "strip": "p06.s.webp",
+          "bytes": 147264,
+          "alt": "Página 216: CXXIII Olhos de ressaca."
+        },
+        {
+          "n": 7,
+          "label": "217",
+          "role": "body",
+          "w": 1000,
+          "h": 1618,
+          "file": "p07.webp",
+          "strip": "p07.s.webp",
+          "bytes": 52572,
+          "alt": "Página 217."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "spread"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "sandbox": {
+        "file": "short-chapters-run-on.postext",
+        "bytes": 322284,
+        "folio": "badc8643",
+        "chapters": [
+          {
+            "pages": 7,
+            "hash": "03a3ca6ca6b0b89a",
+            "lines": "d96e5640de5a94c2"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "registerResourceImage",
+          "renderPageToCanvas"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.lineHeight",
+          "bodyText.referenceColor",
+          "calloutStyles",
+          "calloutStyles[].backgroundEnabled",
+          "calloutStyles[].body",
+          "calloutStyles[].body.color",
+          "calloutStyles[].body.firstLineIndent",
+          "calloutStyles[].body.fontFamily",
+          "calloutStyles[].body.fontSize",
+          "calloutStyles[].body.italicColor",
+          "calloutStyles[].body.lineHeight",
+          "calloutStyles[].body.textAlign",
+          "calloutStyles[].icon",
+          "calloutStyles[].icon.kind",
+          "calloutStyles[].icon.resourceId",
+          "calloutStyles[].icon.size",
+          "calloutStyles[].id",
+          "calloutStyles[].marginBottom",
+          "calloutStyles[].padding",
+          "calloutStyles[].padding.bottom",
+          "calloutStyles[].padding.left",
+          "calloutStyles[].padding.right",
+          "calloutStyles[].padding.top",
+          "calloutStyles[].placement",
+          "calloutStyles[].titleStyle",
+          "calloutStyles[].titleStyle.gap",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].align",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].letterSpacing",
+          "footer.elements[].pages",
+          "footer.elements[].parity",
+          "footer.elements[].placement",
+          "footer.elements[].textTransform",
+          "header",
+          "header.elements",
+          "header.elements[].align",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].id",
+          "headingStyles[].numbered",
+          "headingStyles[].span",
+          "headings",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].fontSize",
+          "headings.levels[].level",
+          "headings.levels[].marginTop",
+          "headings.levels[].numberingTemplate",
+          "layout",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.backgroundColor",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.sizePreset",
+          "page.width"
+        ],
+        "configSections": [
+          "bodyText",
+          "calloutStyles",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "page"
+        ],
+        "configLeaves": 288,
+        "designElements": 17,
+        "directives": [
+          ":::numbering",
+          ":::callout"
+        ],
+        "inline": [
+          "{attrs}",
+          "\\\\"
+        ],
+        "resources": {
+          "svg": 1,
+          "bitmap": 1,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Abril Fatface",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "League Spartan",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Tinos",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Tinos",
+            "weight": 400,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "callout-icons",
+          "callout-styles",
+          "heading-attributes",
+          "heading-numbering",
+          "heading-styles",
+          "opener-design",
+          "page-background",
+          "page-role-filters",
+          "resources",
+          "roman-front-matter",
+          "title-line-breaks",
+          "unnumbered-headings"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 2,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 1.78
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "C20",
+            "severity": "warn",
+            "detail": "the edition's images weigh 0.98 MB (warning at 0.9 MB for 7 pages; capture.expect.imageMb states the figure of a book of paintings)"
+          },
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 155.0.8059.85, the committed capture used 154.0.8037.98: pixels may differ"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "bundle locale pt, the document's language: es names its resource types otherwise"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "continuation carried as the bundle's start: headings"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: en left out (its bundle is in pt, as another edition's)"
+          }
+        ]
+      }
+    }
+  }
+}

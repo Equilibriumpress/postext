@@ -1,0 +1,698 @@
+{
+  "schemaVersion": 1,
+  "slug": "section-heads-field-manual",
+  "sourceHash": "5309583d25f78e8491ed2433691ec6af90ceae951e25eb826073457971b45bbb",
+  "engine": {
+    "postext": "1.57.1",
+    "source": "npm"
+  },
+  "chrome": "155.0.8059.85",
+  "capturedAt": "2026-10-23T07:41:23.081Z",
+  "verified": {
+    "postext": "1.65.0",
+    "chrome": "156.0.8078.76",
+    "at": "2026-10-31T17:03:08.963Z"
+  },
+  "variants": {
+    "en": {
+      "hash8": "00c2643d",
+      "vdtHash": "d4bdd8df407020ad381dadc37004fdc31437106e",
+      "timings": {
+        "importMs": 572,
+        "fontsMs": 5,
+        "buildMs": 89,
+        "totalMs": 1372,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          176,
+          250
+        ],
+        "dpi": 150,
+        "layoutType": "double",
+        "gutterMm": 6,
+        "mirror": true,
+        "body": {
+          "family": "IBM Plex Serif",
+          "sizePt": 9.4,
+          "leadingPt": 13.2
+        },
+        "families": [
+          "IBM Plex Mono",
+          "IBM Plex Sans Condensed",
+          "IBM Plex Serif"
+        ],
+        "pages": 3,
+        "ownLines": 178
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1420,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 126412,
+          "alt": "Opening page 1: 1 Drainage."
+        },
+        {
+          "n": 2,
+          "label": "2",
+          "role": "body",
+          "w": 1000,
+          "h": 1420,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 167550,
+          "alt": "Page 2: 1.4 Grade dips."
+        },
+        {
+          "n": 3,
+          "label": "3",
+          "role": "body",
+          "w": 1000,
+          "h": 1420,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 132492,
+          "alt": "Page 3: 1.8 Lead-off ditches."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "crop"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "sandbox": {
+        "file": "section-heads-field-manual.postext",
+        "bytes": 35507,
+        "folio": "0260efa6",
+        "chapters": [
+          {
+            "pages": 3,
+            "hash": "3dc745c751c3a9ed",
+            "lines": "7e521f7fc175811f"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "registerResourceImage",
+          "renderPageToCanvas"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.maxWordSpacing",
+          "bodyText.minWordSpacing",
+          "bodyText.referenceColor",
+          "bodyText.textAlign",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].letterSpacing",
+          "footer.elements[].pages",
+          "footer.elements[].placement",
+          "footer.elements[].textTransform",
+          "header",
+          "header.elements",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].color",
+          "headingStyles[].fontFamily",
+          "headingStyles[].fontSize",
+          "headingStyles[].fontWeight",
+          "headingStyles[].id",
+          "headingStyles[].italic",
+          "headingStyles[].numbered",
+          "headingStyles[].textTransform",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].color",
+          "headings.levels[].fontFamily",
+          "headings.levels[].fontSize",
+          "headings.levels[].fontWeight",
+          "headings.levels[].italic",
+          "headings.levels[].level",
+          "headings.levels[].numberingTemplate",
+          "headings.levels[].span",
+          "headings.levels[].textTransform",
+          "headings.lineHeight",
+          "headings.marginBottom",
+          "headings.marginTop",
+          "layout",
+          "layout.gutterWidth",
+          "layout.layoutType",
+          "locale",
+          "orderedLists",
+          "orderedLists.color",
+          "orderedLists.fontFamily",
+          "orderedLists.gap",
+          "orderedLists.levels",
+          "orderedLists.levels[].color",
+          "orderedLists.levels[].level",
+          "orderedLists.levels[].numberFormat",
+          "orderedLists.levels[].separator",
+          "orderedLists.marginBottom",
+          "orderedLists.marginTop",
+          "page",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.sizePreset",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].boldColor",
+          "paragraphStyles[].color",
+          "paragraphStyles[].firstLineIndent",
+          "paragraphStyles[].fontFamily",
+          "paragraphStyles[].fontSize",
+          "paragraphStyles[].id",
+          "paragraphStyles[].lineHeight",
+          "paragraphStyles[].marginTop",
+          "paragraphStyles[].textAlign",
+          "unorderedLists",
+          "unorderedLists.color",
+          "unorderedLists.gap",
+          "unorderedLists.levels",
+          "unorderedLists.levels[].bulletChar",
+          "unorderedLists.levels[].color",
+          "unorderedLists.levels[].level",
+          "unorderedLists.marginBottom",
+          "unorderedLists.marginTop"
+        ],
+        "configSections": [
+          "bodyText",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "orderedLists",
+          "page",
+          "paragraphStyles",
+          "unorderedLists"
+        ],
+        "configLeaves": 336,
+        "designElements": 17,
+        "directives": [
+          ":::paragraphs"
+        ],
+        "inline": [
+          "{attrs}"
+        ],
+        "resources": {
+          "svg": 1,
+          "bitmap": 0,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "IBM Plex Mono",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": 500,
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Sans Condensed",
+            "weight": 500,
+            "style": "italic"
+          },
+          {
+            "family": "IBM Plex Sans Condensed",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Sans Condensed",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Serif",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "IBM Plex Serif",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Serif",
+            "weight": 700,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "heading-attributes",
+          "heading-numbering",
+          "heading-styles",
+          "opener-band",
+          "opener-design",
+          "page-role-filters",
+          "paragraph-styles",
+          "resources",
+          "unnumbered-headings"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 2,
+        "looseLines": {
+          "count": 2,
+          "share": 0.0194,
+          "worst": 1.78
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 155.0.8059.85, the committed capture used 154.0.8037.98: pixels may differ"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: en, es"
+          }
+        ]
+      }
+    },
+    "es": {
+      "hash8": "08a179c8",
+      "vdtHash": "cb42f1692eacdaa1bf7c25d093febd21f717d3d5",
+      "timings": {
+        "importMs": 478,
+        "fontsMs": 4,
+        "buildMs": 61,
+        "totalMs": 1366,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          176,
+          250
+        ],
+        "dpi": 150,
+        "layoutType": "double",
+        "gutterMm": 6,
+        "mirror": true,
+        "body": {
+          "family": "IBM Plex Serif",
+          "sizePt": 9.4,
+          "leadingPt": 13.2
+        },
+        "families": [
+          "IBM Plex Mono",
+          "IBM Plex Sans Condensed",
+          "IBM Plex Serif"
+        ],
+        "pages": 3,
+        "ownLines": 178
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1420,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 129132,
+          "alt": "Página de apertura 1: 1 Drenaje."
+        },
+        {
+          "n": 2,
+          "label": "2",
+          "role": "body",
+          "w": 1000,
+          "h": 1420,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 171332,
+          "alt": "Página 2: 1.4 Badenes."
+        },
+        {
+          "n": 3,
+          "label": "3",
+          "role": "body",
+          "w": 1000,
+          "h": 1420,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 169598,
+          "alt": "Página 3: 1.7 Escalones de retención."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "crop"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "sandbox": {
+        "file": "section-heads-field-manual.postext",
+        "bytes": 35561,
+        "folio": "0260efa6",
+        "chapters": [
+          {
+            "pages": 3,
+            "hash": "3f9508214daa1c29",
+            "lines": "6494cf66c4968c06"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "registerResourceImage",
+          "renderPageToCanvas"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.maxWordSpacing",
+          "bodyText.minWordSpacing",
+          "bodyText.referenceColor",
+          "bodyText.textAlign",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].letterSpacing",
+          "footer.elements[].pages",
+          "footer.elements[].placement",
+          "footer.elements[].textTransform",
+          "header",
+          "header.elements",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].color",
+          "headingStyles[].fontFamily",
+          "headingStyles[].fontSize",
+          "headingStyles[].fontWeight",
+          "headingStyles[].id",
+          "headingStyles[].italic",
+          "headingStyles[].numbered",
+          "headingStyles[].textTransform",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].color",
+          "headings.levels[].fontFamily",
+          "headings.levels[].fontSize",
+          "headings.levels[].fontWeight",
+          "headings.levels[].italic",
+          "headings.levels[].level",
+          "headings.levels[].numberingTemplate",
+          "headings.levels[].span",
+          "headings.levels[].textTransform",
+          "headings.lineHeight",
+          "headings.marginBottom",
+          "headings.marginTop",
+          "layout",
+          "layout.gutterWidth",
+          "layout.layoutType",
+          "locale",
+          "orderedLists",
+          "orderedLists.color",
+          "orderedLists.fontFamily",
+          "orderedLists.gap",
+          "orderedLists.levels",
+          "orderedLists.levels[].color",
+          "orderedLists.levels[].level",
+          "orderedLists.levels[].numberFormat",
+          "orderedLists.levels[].separator",
+          "orderedLists.marginBottom",
+          "orderedLists.marginTop",
+          "page",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.sizePreset",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].boldColor",
+          "paragraphStyles[].color",
+          "paragraphStyles[].firstLineIndent",
+          "paragraphStyles[].fontFamily",
+          "paragraphStyles[].fontSize",
+          "paragraphStyles[].id",
+          "paragraphStyles[].lineHeight",
+          "paragraphStyles[].marginTop",
+          "paragraphStyles[].textAlign",
+          "unorderedLists",
+          "unorderedLists.color",
+          "unorderedLists.gap",
+          "unorderedLists.levels",
+          "unorderedLists.levels[].bulletChar",
+          "unorderedLists.levels[].color",
+          "unorderedLists.levels[].level",
+          "unorderedLists.marginBottom",
+          "unorderedLists.marginTop"
+        ],
+        "configSections": [
+          "bodyText",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "orderedLists",
+          "page",
+          "paragraphStyles",
+          "unorderedLists"
+        ],
+        "configLeaves": 336,
+        "designElements": 17,
+        "directives": [
+          ":::paragraphs"
+        ],
+        "inline": [
+          "{attrs}"
+        ],
+        "resources": {
+          "svg": 1,
+          "bitmap": 0,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "IBM Plex Mono",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": 500,
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Sans Condensed",
+            "weight": 500,
+            "style": "italic"
+          },
+          {
+            "family": "IBM Plex Sans Condensed",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Sans Condensed",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Serif",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "IBM Plex Serif",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Serif",
+            "weight": 700,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "heading-attributes",
+          "heading-numbering",
+          "heading-styles",
+          "opener-band",
+          "opener-design",
+          "page-role-filters",
+          "paragraph-styles",
+          "resources",
+          "unnumbered-headings"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 1,
+        "looseLines": {
+          "count": 2,
+          "share": 0.0172,
+          "worst": 1.46
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 155.0.8059.85, the committed capture used 154.0.8037.98: pixels may differ"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: es, en"
+          }
+        ]
+      }
+    }
+  }
+}

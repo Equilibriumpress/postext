@@ -1,0 +1,634 @@
+{
+  "schemaVersion": 1,
+  "slug": "research-poster",
+  "sourceHash": "cc03a6f79c01e6f4c148f9fb416a0b912e8ad516b9b9f81db4952d8c7bc02cd6",
+  "engine": {
+    "postext": "1.57.1",
+    "source": "npm"
+  },
+  "chrome": "155.0.8059.85",
+  "capturedAt": "2026-10-23T07:40:58.460Z",
+  "verified": {
+    "postext": "1.65.0",
+    "chrome": "156.0.8078.76",
+    "at": "2026-10-31T16:49:21.824Z"
+  },
+  "variants": {
+    "en": {
+      "hash8": "3126e5ca",
+      "vdtHash": "152bbae97cbf2ff3c7d0228699c51b639930e246",
+      "timings": {
+        "importMs": 492,
+        "fontsMs": 35,
+        "buildMs": 63,
+        "totalMs": 1563,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          600,
+          800
+        ],
+        "dpi": 72,
+        "layoutType": "double",
+        "gutterMm": 12,
+        "mirror": false,
+        "body": {
+          "family": "Rethink Sans",
+          "sizePt": 28,
+          "leadingPt": 38
+        },
+        "families": [
+          "Bitter",
+          "Rethink Sans",
+          "Saira Condensed"
+        ],
+        "pages": 1,
+        "ownLines": 203
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 174868,
+          "alt": "Opening page 1: Street trees and sidewalk heat. Figure 1. Ashby Road, schematic plan: crowns from the canopy survey and the 16 loggers (orange). Widths across the street are not to scale. · Figure 2. Canopy cover per block (bars, %) and the air at head height against the stree…"
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "loupe"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "sandbox": {
+        "file": "research-poster.postext",
+        "bytes": 158965,
+        "folio": "7c6d9248",
+        "chapters": [
+          {
+            "pages": 1,
+            "hash": "3454c1ee0144e228",
+            "lines": "bd6bfe10c8a55110"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "defaultResourceTypes",
+          "inlineSvgFonts",
+          "registerResourceImage",
+          "renderPage",
+          "renderPageToCanvas"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.paragraphSpacing",
+          "bodyText.textAlign",
+          "calloutStyles",
+          "calloutStyles[].background",
+          "calloutStyles[].backgroundEnabled",
+          "calloutStyles[].body",
+          "calloutStyles[].body.fontSize",
+          "calloutStyles[].body.lineHeight",
+          "calloutStyles[].columnGap",
+          "calloutStyles[].id",
+          "calloutStyles[].marginTop",
+          "calloutStyles[].padding",
+          "calloutStyles[].padding.bottom",
+          "calloutStyles[].padding.left",
+          "calloutStyles[].padding.right",
+          "calloutStyles[].padding.top",
+          "calloutStyles[].stripe",
+          "calloutStyles[].stripe.color",
+          "calloutStyles[].stripe.enabled",
+          "calloutStyles[].stripe.side",
+          "calloutStyles[].stripe.width",
+          "calloutStyles[].titleStyle",
+          "calloutStyles[].titleStyle.color",
+          "calloutStyles[].titleStyle.fontFamily",
+          "calloutStyles[].titleStyle.fontSize",
+          "calloutStyles[].titleStyle.fontWeight",
+          "calloutStyles[].titleStyle.gap",
+          "calloutStyles[].titleStyle.letterSpacing",
+          "calloutStyles[].titleStyle.textTransform",
+          "captionStyle",
+          "captionStyle.fontSize",
+          "captionStyle.gap",
+          "captionStyle.labelColor",
+          "captionStyle.note",
+          "captionStyle.note.color",
+          "captionStyle.note.fontSize",
+          "chipStyles",
+          "chipStyles[].background",
+          "chipStyles[].bold",
+          "chipStyles[].borderColor",
+          "chipStyles[].borderRadius",
+          "chipStyles[].borderWidth",
+          "chipStyles[].color",
+          "chipStyles[].gap",
+          "chipStyles[].id",
+          "chipStyles[].paddingX",
+          "chipStyles[].paddingY",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "header",
+          "header.elements",
+          "headings",
+          "headings.fontFamily",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].level",
+          "headings.levels[].marginBottom",
+          "headings.levels[].span",
+          "layout",
+          "layout.gutterWidth",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.backgroundColor",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.right",
+          "page.margins.top",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].boldColor",
+          "paragraphStyles[].containerSpacing",
+          "paragraphStyles[].fontFamily",
+          "paragraphStyles[].fontSize",
+          "paragraphStyles[].hangingIndent",
+          "paragraphStyles[].id",
+          "paragraphStyles[].lineHeight",
+          "paragraphStyles[].spaceBetween",
+          "resourceTypes",
+          "resourceTypes[].captionPrefix",
+          "resourceTypes[].counterFormat",
+          "resourceTypes[].id",
+          "resourceTypes[].name",
+          "resourceTypes[].namePlural",
+          "resourceTypes[].numberingTemplate",
+          "resourceTypes[].resetOn",
+          "resourceTypes[].shortLabel"
+        ],
+        "configSections": [
+          "bodyText",
+          "calloutStyles",
+          "captionStyle",
+          "chipStyles",
+          "colorPalette",
+          "footer",
+          "header",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "paragraphStyles",
+          "resourceTypes"
+        ],
+        "configLeaves": 247,
+        "designElements": 7,
+        "directives": [
+          ":::columns",
+          ":::callout",
+          "::resource",
+          ":::paragraphs",
+          ":::space"
+        ],
+        "inline": [
+          "{attrs}",
+          ":ref",
+          ":swatch",
+          ":chip"
+        ],
+        "resources": {
+          "svg": 4,
+          "bitmap": 0,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Bitter",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Bitter",
+            "weight": 800,
+            "style": "normal"
+          },
+          {
+            "family": "Rethink Sans",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Rethink Sans",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Rethink Sans",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Saira Condensed",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Saira Condensed",
+            "weight": 700,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "bibliography",
+          "callout-columns",
+          "callout-styles",
+          "chips",
+          "figure-citations",
+          "floated-callouts",
+          "heading-attributes",
+          "inline-embeds",
+          "localised-labels",
+          "opener-band",
+          "opener-design",
+          "page-background",
+          "paragraph-styles",
+          "resource-types",
+          "resources",
+          "span-boxes",
+          "swatches",
+          "vertical-space"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 2,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 0
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 155.0.8059.85, the committed capture used 154.0.8037.98: pixels may differ"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: en, es"
+          }
+        ]
+      }
+    },
+    "es": {
+      "hash8": "3d832f04",
+      "vdtHash": "565a8c265171499f754da27b53b2f58943f172da",
+      "timings": {
+        "importMs": 314,
+        "fontsMs": 76,
+        "buildMs": 65,
+        "totalMs": 1146,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          600,
+          800
+        ],
+        "dpi": 72,
+        "layoutType": "double",
+        "gutterMm": 12,
+        "mirror": false,
+        "body": {
+          "family": "Rethink Sans",
+          "sizePt": 28,
+          "leadingPt": 38
+        },
+        "families": [
+          "Bitter",
+          "Rethink Sans",
+          "Saira Condensed"
+        ],
+        "pages": 1,
+        "ownLines": 203
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 181824,
+          "alt": "Página de apertura 1: Arbolado viario y calor en la acera. Figura 1. La avenida en plano esquemático: las copas del inventario de arbolado y los 16 registradores (naranja). Los anchos transversales no están a escala. · Figura 2. Copa por manzana (barras, %) y aire a la altura…"
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "loupe"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "sandbox": {
+        "file": "research-poster.postext",
+        "bytes": 159505,
+        "folio": "7c6d9248",
+        "chapters": [
+          {
+            "pages": 1,
+            "hash": "04e868a177eea0d5",
+            "lines": "01ec626821ea6ed8"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "defaultResourceTypes",
+          "inlineSvgFonts",
+          "registerResourceImage",
+          "renderPage",
+          "renderPageToCanvas"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.paragraphSpacing",
+          "bodyText.textAlign",
+          "calloutStyles",
+          "calloutStyles[].background",
+          "calloutStyles[].backgroundEnabled",
+          "calloutStyles[].body",
+          "calloutStyles[].body.fontSize",
+          "calloutStyles[].body.lineHeight",
+          "calloutStyles[].columnGap",
+          "calloutStyles[].id",
+          "calloutStyles[].marginTop",
+          "calloutStyles[].padding",
+          "calloutStyles[].padding.bottom",
+          "calloutStyles[].padding.left",
+          "calloutStyles[].padding.right",
+          "calloutStyles[].padding.top",
+          "calloutStyles[].stripe",
+          "calloutStyles[].stripe.color",
+          "calloutStyles[].stripe.enabled",
+          "calloutStyles[].stripe.side",
+          "calloutStyles[].stripe.width",
+          "calloutStyles[].titleStyle",
+          "calloutStyles[].titleStyle.color",
+          "calloutStyles[].titleStyle.fontFamily",
+          "calloutStyles[].titleStyle.fontSize",
+          "calloutStyles[].titleStyle.fontWeight",
+          "calloutStyles[].titleStyle.gap",
+          "calloutStyles[].titleStyle.letterSpacing",
+          "calloutStyles[].titleStyle.textTransform",
+          "captionStyle",
+          "captionStyle.fontSize",
+          "captionStyle.gap",
+          "captionStyle.labelColor",
+          "captionStyle.note",
+          "captionStyle.note.color",
+          "captionStyle.note.fontSize",
+          "chipStyles",
+          "chipStyles[].background",
+          "chipStyles[].bold",
+          "chipStyles[].borderColor",
+          "chipStyles[].borderRadius",
+          "chipStyles[].borderWidth",
+          "chipStyles[].color",
+          "chipStyles[].gap",
+          "chipStyles[].id",
+          "chipStyles[].paddingX",
+          "chipStyles[].paddingY",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "header",
+          "header.elements",
+          "headings",
+          "headings.fontFamily",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].level",
+          "headings.levels[].marginBottom",
+          "headings.levels[].span",
+          "layout",
+          "layout.gutterWidth",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.backgroundColor",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.right",
+          "page.margins.top",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].boldColor",
+          "paragraphStyles[].containerSpacing",
+          "paragraphStyles[].fontFamily",
+          "paragraphStyles[].fontSize",
+          "paragraphStyles[].hangingIndent",
+          "paragraphStyles[].id",
+          "paragraphStyles[].lineHeight",
+          "paragraphStyles[].spaceBetween",
+          "resourceTypes",
+          "resourceTypes[].captionPrefix",
+          "resourceTypes[].counterFormat",
+          "resourceTypes[].id",
+          "resourceTypes[].name",
+          "resourceTypes[].namePlural",
+          "resourceTypes[].numberingTemplate",
+          "resourceTypes[].resetOn",
+          "resourceTypes[].shortLabel"
+        ],
+        "configSections": [
+          "bodyText",
+          "calloutStyles",
+          "captionStyle",
+          "chipStyles",
+          "colorPalette",
+          "footer",
+          "header",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "paragraphStyles",
+          "resourceTypes"
+        ],
+        "configLeaves": 247,
+        "designElements": 7,
+        "directives": [
+          ":::columns",
+          ":::callout",
+          "::resource",
+          ":::paragraphs",
+          ":::space"
+        ],
+        "inline": [
+          "{attrs}",
+          ":ref",
+          ":swatch",
+          ":chip"
+        ],
+        "resources": {
+          "svg": 4,
+          "bitmap": 0,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Bitter",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Bitter",
+            "weight": 800,
+            "style": "normal"
+          },
+          {
+            "family": "Rethink Sans",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Rethink Sans",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Rethink Sans",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Saira Condensed",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Saira Condensed",
+            "weight": 700,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "bibliography",
+          "callout-columns",
+          "callout-styles",
+          "chips",
+          "figure-citations",
+          "floated-callouts",
+          "heading-attributes",
+          "inline-embeds",
+          "localised-labels",
+          "opener-band",
+          "opener-design",
+          "page-background",
+          "paragraph-styles",
+          "resource-types",
+          "resources",
+          "span-boxes",
+          "swatches",
+          "vertical-space"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 2,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 0
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 155.0.8059.85, the committed capture used 154.0.8037.98: pixels may differ"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: es, en"
+          }
+        ]
+      }
+    }
+  }
+}

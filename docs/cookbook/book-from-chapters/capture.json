@@ -1,0 +1,998 @@
+{
+  "schemaVersion": 1,
+  "slug": "book-from-chapters",
+  "sourceHash": "50e6792dc052746ceca9ce205c01a56e629f5ca3ac11ec793303456256164bd3",
+  "engine": {
+    "postext": "1.57.1",
+    "postextPdf": "1.57.1",
+    "source": "npm"
+  },
+  "chrome": "155.0.8059.85",
+  "capturedAt": "2026-10-23T07:31:43.258Z",
+  "verified": {
+    "postext": "1.65.0",
+    "postextPdf": "1.65.0",
+    "chrome": "156.0.8078.76",
+    "at": "2026-10-31T17:12:07.125Z"
+  },
+  "variants": {
+    "en": {
+      "hash8": "f237fe15",
+      "vdtHash": "24d82cacdebf87b8ec0b6f2ae99b8598807ffd51",
+      "timings": {
+        "importMs": 200,
+        "fontsMs": 1529,
+        "buildMs": 95,
+        "totalMs": 2416,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          150,
+          200
+        ],
+        "dpi": 150,
+        "layoutType": "single",
+        "mirror": true,
+        "body": {
+          "family": "Andada Pro",
+          "sizePt": 10.4,
+          "leadingPt": 14.2
+        },
+        "families": [
+          "Andada Pro",
+          "Figtree",
+          "Rozha One"
+        ],
+        "pages": 11,
+        "ownLines": 229
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 42246,
+          "alt": "Opening page 1: A Beekeeper’s Year."
+        },
+        {
+          "n": 2,
+          "label": "2",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 44712,
+          "alt": "Opening page 2: Contents."
+        },
+        {
+          "n": 3,
+          "label": "3",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 109606,
+          "alt": "Opening page 3: 1 Autumn."
+        },
+        {
+          "n": 4,
+          "label": "4",
+          "role": "body",
+          "w": 1000,
+          "h": 1333,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 100130,
+          "alt": "Page 4: Stores for winter. Figure 1.1. A frame in October: honey (gold) round the last brood (brown) and pollen (russet)."
+        },
+        {
+          "n": 5,
+          "label": "5",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p05.webp",
+          "strip": "p05.s.webp",
+          "bytes": 79674,
+          "alt": "Opening page 5: 2 Winter. Figure 2.1. The same frame in January: the cluster (dark) eats its way up from empty comb (pale)."
+        },
+        {
+          "n": 6,
+          "label": "6",
+          "role": "blank",
+          "w": 1000,
+          "h": 1333,
+          "file": "p06.webp",
+          "strip": "p06.s.webp",
+          "bytes": 2960,
+          "alt": "Blank page 6."
+        },
+        {
+          "n": 7,
+          "label": "7",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p07.webp",
+          "strip": "p07.s.webp",
+          "bytes": 108998,
+          "alt": "Opening page 7: 3 Spring."
+        },
+        {
+          "n": 8,
+          "label": "8",
+          "role": "body",
+          "w": 1000,
+          "h": 1333,
+          "file": "p08.webp",
+          "strip": "p08.s.webp",
+          "bytes": 93950,
+          "alt": "Page 8: Room to grow. Figure 3.1. The same frame in late April: brood across the middle, the winter honey nearly gone."
+        },
+        {
+          "n": 9,
+          "label": "9",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p09.webp",
+          "strip": "p09.s.webp",
+          "bytes": 83920,
+          "alt": "Opening page 9: 4 Summer. Figure 4.1. The same frame in July: an arch of new honey presses down on the brood."
+        },
+        {
+          "n": 10,
+          "label": "10",
+          "role": "body",
+          "w": 1000,
+          "h": 1333,
+          "file": "p10.webp",
+          "strip": "p10.s.webp",
+          "bytes": 126586,
+          "alt": "Page 10: Swarm season."
+        },
+        {
+          "n": 11,
+          "label": "11",
+          "role": "body",
+          "w": 1000,
+          "h": 1333,
+          "file": "p11.webp",
+          "strip": "p11.s.webp",
+          "bytes": 76190,
+          "alt": "Page 11."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "crop"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "pdf": {
+        "file": "book-from-chapters.pdf",
+        "bytes": 121216,
+        "pages": 11
+      },
+      "sandbox": {
+        "file": "book-from-chapters.postext",
+        "bytes": 52962,
+        "folio": "0459f0ab",
+        "chapters": [
+          {
+            "pages": 2,
+            "hash": "54fa19f380e728ab",
+            "lines": "f16b2adb8024f5f9"
+          },
+          {
+            "pages": 2,
+            "hash": "611f837b4bb7109b",
+            "lines": "931235badc9ce328"
+          },
+          {
+            "pages": 1,
+            "hash": "45a9f4a6fae72222",
+            "lines": "b4ddca13579c6759"
+          },
+          {
+            "pages": 3,
+            "hash": "f3f112fbc14b6a03",
+            "lines": "183cb1dcd4c9f6de"
+          },
+          {
+            "pages": 3,
+            "hash": "4e541d9a1b81e456",
+            "lines": "0e814b858c4f7ca1"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildBundle",
+          "decompressWoff2",
+          "prepareFonts",
+          "registerResourceImage",
+          "renderPageToCanvas",
+          "renderToPdf",
+          "withLoadedFonts"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.maxWordSpacing",
+          "bodyText.referenceColor",
+          "calloutStyles",
+          "calloutStyles[].backgroundEnabled",
+          "calloutStyles[].body",
+          "calloutStyles[].body.color",
+          "calloutStyles[].body.firstLineIndent",
+          "calloutStyles[].body.fontFamily",
+          "calloutStyles[].body.fontSize",
+          "calloutStyles[].body.lineHeight",
+          "calloutStyles[].body.textAlign",
+          "calloutStyles[].id",
+          "calloutStyles[].marginBottom",
+          "calloutStyles[].padding",
+          "calloutStyles[].padding.bottom",
+          "calloutStyles[].padding.left",
+          "calloutStyles[].padding.right",
+          "calloutStyles[].padding.top",
+          "calloutStyles[].placement",
+          "captionStyle",
+          "captionStyle.fontFamily",
+          "captionStyle.fontSize",
+          "captionStyle.gap",
+          "captionStyle.labelColor",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].letterSpacing",
+          "footer.elements[].pages",
+          "footer.elements[].parity",
+          "footer.elements[].placement",
+          "footer.elements[].textTransform",
+          "header",
+          "header.elements",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.minHeight",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].breakBefore",
+          "headingStyles[].breakBefore.enabled",
+          "headingStyles[].footer",
+          "headingStyles[].footer.elements",
+          "headingStyles[].header",
+          "headingStyles[].header.elements",
+          "headingStyles[].id",
+          "headingStyles[].numbered",
+          "headingStyles[].toc",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].color",
+          "headings.levels[].fontFamily",
+          "headings.levels[].fontSize",
+          "headings.levels[].fontWeight",
+          "headings.levels[].level",
+          "headings.levels[].lineHeight",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "headings.levels[].numberingTemplate",
+          "headings.levels[].span",
+          "layout",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.backgroundColor",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.sizePreset",
+          "page.width",
+          "toc",
+          "toc.leader",
+          "toc.leader.char",
+          "toc.leader.gap",
+          "toc.levels",
+          "toc.levels[].color",
+          "toc.levels[].fontFamily",
+          "toc.levels[].fontSize",
+          "toc.levels[].indent",
+          "toc.levels[].level",
+          "toc.levels[].lineHeight",
+          "toc.levels[].marginTop",
+          "toc.levels[].numberColor",
+          "toc.levels[].numberFontFamily",
+          "toc.levels[].numberFontSize",
+          "toc.levels[].numberFontWeight",
+          "toc.levels[].numberGap",
+          "toc.levels[].numberWidth",
+          "toc.pageNumber",
+          "toc.pageNumber.fontFamily",
+          "toc.pageNumber.fontSize",
+          "toc.pageNumber.fontWeight",
+          "toc.pageNumber.width",
+          "toc.subtitle",
+          "toc.subtitle.attr",
+          "toc.subtitle.color",
+          "toc.subtitle.enabled",
+          "toc.subtitle.fontFamily",
+          "toc.subtitle.fontSize"
+        ],
+        "configSections": [
+          "bodyText",
+          "calloutStyles",
+          "captionStyle",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "toc"
+        ],
+        "configLeaves": 357,
+        "designElements": 18,
+        "directives": [
+          ":::toc",
+          ":::callout"
+        ],
+        "inline": [
+          "{attrs}",
+          "\\\\",
+          ":ref"
+        ],
+        "resources": {
+          "svg": 7,
+          "bitmap": 0,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Andada Pro",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Andada Pro",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Andada Pro",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Figtree",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Figtree",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Figtree",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Rozha One",
+            "weight": 400,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "callout-styles",
+          "figure-citations",
+          "heading-attributes",
+          "heading-numbering",
+          "heading-styles",
+          "multi-chapter-books",
+          "opener-band",
+          "opener-design",
+          "page-background",
+          "page-role-filters",
+          "pdf-export",
+          "pdf-fonts",
+          "resources",
+          "section-running-heads",
+          "title-line-breaks",
+          "toc",
+          "unnumbered-headings"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 1,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 1.54
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: en, es"
+          }
+        ]
+      }
+    },
+    "es": {
+      "hash8": "55dd6db3",
+      "vdtHash": "035013c15b611e53a364b8e803e9801bd71b5fd0",
+      "timings": {
+        "importMs": 191,
+        "fontsMs": 59,
+        "buildMs": 85,
+        "totalMs": 922,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          150,
+          200
+        ],
+        "dpi": 150,
+        "layoutType": "single",
+        "mirror": true,
+        "body": {
+          "family": "Andada Pro",
+          "sizePt": 10.4,
+          "leadingPt": 14.2
+        },
+        "families": [
+          "Andada Pro",
+          "Figtree",
+          "Rozha One"
+        ],
+        "pages": 11,
+        "ownLines": 229
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 41796,
+          "alt": "Página de apertura 1: Un año de colmenar."
+        },
+        {
+          "n": 2,
+          "label": "2",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 43894,
+          "alt": "Página de apertura 2: Índice."
+        },
+        {
+          "n": 3,
+          "label": "3",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 107346,
+          "alt": "Página de apertura 3: 1 Otoño."
+        },
+        {
+          "n": 4,
+          "label": "4",
+          "role": "body",
+          "w": 1000,
+          "h": 1333,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 114912,
+          "alt": "Página 4: Reservas para el invierno. Figura 1.1. Un cuadro en octubre: la miel (dorada) rodea la última cría (marrón) y el polen (rojizo)."
+        },
+        {
+          "n": 5,
+          "label": "5",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p05.webp",
+          "strip": "p05.s.webp",
+          "bytes": 86420,
+          "alt": "Página de apertura 5: 2 Invierno. Figura 2.1. El mismo cuadro en enero: el racimo (oscuro) deja la cera vacía (clara) y sube."
+        },
+        {
+          "n": 6,
+          "label": "6",
+          "role": "blank",
+          "w": 1000,
+          "h": 1333,
+          "file": "p06.webp",
+          "strip": "p06.s.webp",
+          "bytes": 2960,
+          "alt": "Página en blanco 6."
+        },
+        {
+          "n": 7,
+          "label": "7",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p07.webp",
+          "strip": "p07.s.webp",
+          "bytes": 109396,
+          "alt": "Página de apertura 7: 3 Primavera."
+        },
+        {
+          "n": 8,
+          "label": "8",
+          "role": "body",
+          "w": 1000,
+          "h": 1333,
+          "file": "p08.webp",
+          "strip": "p08.s.webp",
+          "bytes": 102740,
+          "alt": "Página 8: Sitio para crecer. Figura 3.1. El mismo cuadro a finales de abril: cría en el centro; queda poca miel del invierno."
+        },
+        {
+          "n": 9,
+          "label": "9",
+          "role": "opener",
+          "w": 1000,
+          "h": 1333,
+          "file": "p09.webp",
+          "strip": "p09.s.webp",
+          "bytes": 91208,
+          "alt": "Página de apertura 9: 4 Verano. Figura 4.1. El mismo cuadro en julio: un arco de miel nueva aprieta la cría hacia abajo."
+        },
+        {
+          "n": 10,
+          "label": "10",
+          "role": "body",
+          "w": 1000,
+          "h": 1333,
+          "file": "p10.webp",
+          "strip": "p10.s.webp",
+          "bytes": 137818,
+          "alt": "Página 10: La enjambrazón."
+        },
+        {
+          "n": 11,
+          "label": "11",
+          "role": "body",
+          "w": 1000,
+          "h": 1333,
+          "file": "p11.webp",
+          "strip": "p11.s.webp",
+          "bytes": 89264,
+          "alt": "Página 11: Del panal al tarro."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "crop"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "pdf": {
+        "file": "book-from-chapters.pdf",
+        "bytes": 130236,
+        "pages": 11
+      },
+      "sandbox": {
+        "file": "book-from-chapters.postext",
+        "bytes": 52650,
+        "folio": "0459f0ab",
+        "chapters": [
+          {
+            "pages": 2,
+            "hash": "94f86b7a92d382aa",
+            "lines": "819990388d4d7c06"
+          },
+          {
+            "pages": 2,
+            "hash": "442d3de87327e304",
+            "lines": "005e3c7b3198c395"
+          },
+          {
+            "pages": 1,
+            "hash": "d2ac6a65151e39df",
+            "lines": "828f3459e4bcc55b"
+          },
+          {
+            "pages": 3,
+            "hash": "1875b3802d4c10e2",
+            "lines": "76e91d499d872953"
+          },
+          {
+            "pages": 3,
+            "hash": "3ecee2a6427da532",
+            "lines": "fd89ef56d37e1f98"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildBundle",
+          "decompressWoff2",
+          "prepareFonts",
+          "registerResourceImage",
+          "renderPageToCanvas",
+          "renderToPdf",
+          "withLoadedFonts"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.maxWordSpacing",
+          "bodyText.referenceColor",
+          "calloutStyles",
+          "calloutStyles[].backgroundEnabled",
+          "calloutStyles[].body",
+          "calloutStyles[].body.color",
+          "calloutStyles[].body.firstLineIndent",
+          "calloutStyles[].body.fontFamily",
+          "calloutStyles[].body.fontSize",
+          "calloutStyles[].body.lineHeight",
+          "calloutStyles[].body.textAlign",
+          "calloutStyles[].id",
+          "calloutStyles[].marginBottom",
+          "calloutStyles[].padding",
+          "calloutStyles[].padding.bottom",
+          "calloutStyles[].padding.left",
+          "calloutStyles[].padding.right",
+          "calloutStyles[].padding.top",
+          "calloutStyles[].placement",
+          "captionStyle",
+          "captionStyle.fontFamily",
+          "captionStyle.fontSize",
+          "captionStyle.gap",
+          "captionStyle.labelColor",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].letterSpacing",
+          "footer.elements[].pages",
+          "footer.elements[].parity",
+          "footer.elements[].placement",
+          "footer.elements[].textTransform",
+          "header",
+          "header.elements",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.minHeight",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].breakBefore",
+          "headingStyles[].breakBefore.enabled",
+          "headingStyles[].footer",
+          "headingStyles[].footer.elements",
+          "headingStyles[].header",
+          "headingStyles[].header.elements",
+          "headingStyles[].id",
+          "headingStyles[].numbered",
+          "headingStyles[].toc",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].color",
+          "headings.levels[].fontFamily",
+          "headings.levels[].fontSize",
+          "headings.levels[].fontWeight",
+          "headings.levels[].level",
+          "headings.levels[].lineHeight",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "headings.levels[].numberingTemplate",
+          "headings.levels[].span",
+          "layout",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.backgroundColor",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.sizePreset",
+          "page.width",
+          "toc",
+          "toc.leader",
+          "toc.leader.char",
+          "toc.leader.gap",
+          "toc.levels",
+          "toc.levels[].color",
+          "toc.levels[].fontFamily",
+          "toc.levels[].fontSize",
+          "toc.levels[].indent",
+          "toc.levels[].level",
+          "toc.levels[].lineHeight",
+          "toc.levels[].marginTop",
+          "toc.levels[].numberColor",
+          "toc.levels[].numberFontFamily",
+          "toc.levels[].numberFontSize",
+          "toc.levels[].numberFontWeight",
+          "toc.levels[].numberGap",
+          "toc.levels[].numberWidth",
+          "toc.pageNumber",
+          "toc.pageNumber.fontFamily",
+          "toc.pageNumber.fontSize",
+          "toc.pageNumber.fontWeight",
+          "toc.pageNumber.width",
+          "toc.subtitle",
+          "toc.subtitle.attr",
+          "toc.subtitle.color",
+          "toc.subtitle.enabled",
+          "toc.subtitle.fontFamily",
+          "toc.subtitle.fontSize"
+        ],
+        "configSections": [
+          "bodyText",
+          "calloutStyles",
+          "captionStyle",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "toc"
+        ],
+        "configLeaves": 357,
+        "designElements": 18,
+        "directives": [
+          ":::toc",
+          ":::callout"
+        ],
+        "inline": [
+          "{attrs}",
+          "\\\\",
+          ":ref"
+        ],
+        "resources": {
+          "svg": 7,
+          "bitmap": 0,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Andada Pro",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Andada Pro",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Andada Pro",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Figtree",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Figtree",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Figtree",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Rozha One",
+            "weight": 400,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "callout-styles",
+          "figure-citations",
+          "heading-attributes",
+          "heading-numbering",
+          "heading-styles",
+          "multi-chapter-books",
+          "opener-band",
+          "opener-design",
+          "page-background",
+          "page-role-filters",
+          "pdf-export",
+          "pdf-fonts",
+          "resources",
+          "section-running-heads",
+          "title-line-breaks",
+          "toc",
+          "unnumbered-headings"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 1,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 1.61
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: es, en"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,742 @@
+{
+  "schemaVersion": 1,
+  "slug": "haiku-and-tanka",
+  "sourceHash": "7722c1910efd52624b593ced711390486dfe5af66fc0174684d7ac2c2e4d3088",
+  "engine": {
+    "postext": "1.65.0",
+    "postextPdf": "1.65.0",
+    "source": "npm"
+  },
+  "chrome": "156.0.8078.76",
+  "capturedAt": "2026-10-31T17:24:17.527Z",
+  "variants": {
+    "en": {
+      "hash8": "53e4359a",
+      "vdtHash": "351aa50ad42f719591ada45f71b4b1a8ff2d4369",
+      "timings": {
+        "importMs": 3520,
+        "fontsMs": 2028,
+        "buildMs": 91,
+        "totalMs": 6683,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          127,
+          188
+        ],
+        "dpi": 150,
+        "layoutType": "single",
+        "mirror": true,
+        "body": {
+          "family": "Shippori Mincho",
+          "sizePt": 10,
+          "leadingPt": 19
+        },
+        "families": [
+          "Noto Sans JP",
+          "Shippori Mincho"
+        ],
+        "pages": 8,
+        "ownLines": 155
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "一",
+          "role": "opener",
+          "w": 1000,
+          "h": 1480,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 65894,
+          "alt": "Opening page 一: おくのほそ道."
+        },
+        {
+          "n": 2,
+          "label": "二",
+          "role": "body",
+          "w": 1000,
+          "h": 1480,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 65646,
+          "alt": "Page 二: 旅立."
+        },
+        {
+          "n": 3,
+          "label": "三",
+          "role": "body",
+          "w": 1000,
+          "h": 1480,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 55544,
+          "alt": "Page 三: 立石寺."
+        },
+        {
+          "n": 4,
+          "label": "四",
+          "role": "body",
+          "w": 1000,
+          "h": 1480,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 14550,
+          "alt": "Page 四: 越後路."
+        },
+        {
+          "n": 5,
+          "label": "五",
+          "role": "opener",
+          "w": 1000,
+          "h": 1480,
+          "file": "p05.webp",
+          "strip": "p05.s.webp",
+          "bytes": 18794,
+          "alt": "Opening page 五: 一握の砂."
+        },
+        {
+          "n": 6,
+          "label": "六",
+          "role": "body",
+          "w": 1000,
+          "h": 1480,
+          "file": "p06.webp",
+          "strip": "p06.s.webp",
+          "bytes": 21850,
+          "alt": "Page 六."
+        },
+        {
+          "n": 7,
+          "label": "七",
+          "role": "body",
+          "w": 1000,
+          "h": 1480,
+          "file": "p07.webp",
+          "strip": "p07.s.webp",
+          "bytes": 20758,
+          "alt": "Page 七."
+        },
+        {
+          "n": 8,
+          "label": "八",
+          "role": "body",
+          "w": 1000,
+          "h": 1480,
+          "file": "p08.webp",
+          "strip": "p08.s.webp",
+          "bytes": 20870,
+          "alt": "Page 八."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          null
+        ]
+      ],
+      "binding": "right",
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "spread"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "pdf": {
+        "file": "haiku-and-tanka.pdf",
+        "bytes": 221209,
+        "pages": 8
+      },
+      "sandbox": {
+        "file": "haiku-and-tanka.postext",
+        "bytes": 21221,
+        "folio": "7e0edbf5",
+        "chapters": [
+          {
+            "pages": 8,
+            "hash": "bfde3b2cf8c32b2e",
+            "lines": "6d7724e49ca5dee0"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocument",
+          "decompressWoff2",
+          "loadVerticalAlternates",
+          "renderPageToCanvas",
+          "renderToPdf",
+          "withLoadedFonts"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.referenceColor",
+          "bodyText.textAlign",
+          "cjk",
+          "cjk.grid",
+          "cjk.grid.charsPerLine",
+          "cjk.grid.enabled",
+          "cjk.grid.linesPerPage",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "header",
+          "header.elements",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].overflow",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].writingMode",
+          "headingStyles",
+          "headingStyles[].footer",
+          "headingStyles[].footer.elements",
+          "headingStyles[].id",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].fontFamily",
+          "headings.levels[].fontSize",
+          "headings.levels[].fontWeight",
+          "headings.levels[].indent",
+          "headings.levels[].jidori",
+          "headings.levels[].level",
+          "headings.levels[].lineSpan",
+          "layout",
+          "layout.layoutType",
+          "layout.writingMode",
+          "locale",
+          "page",
+          "page.backgroundColor",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.pageNumbering",
+          "page.pageNumbering.format",
+          "page.sizePreset",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].color",
+          "paragraphStyles[].endIndent",
+          "paragraphStyles[].firstLineIndent",
+          "paragraphStyles[].id",
+          "paragraphStyles[].indent",
+          "paragraphStyles[].marginBottom",
+          "paragraphStyles[].marginTop",
+          "paragraphStyles[].textAlign"
+        ],
+        "configSections": [
+          "bodyText",
+          "cjk",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "paragraphStyles"
+        ],
+        "configLeaves": 176,
+        "designElements": 8,
+        "directives": [
+          ":::paragraphs",
+          ":::verse"
+        ],
+        "inline": [
+          "{attrs}"
+        ],
+        "resources": {
+          "svg": 0,
+          "bitmap": 0,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Noto Sans JP",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Shippori Mincho",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Shippori Mincho",
+            "weight": 700,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "character-grid",
+          "cjk-line-breaking",
+          "furigana",
+          "gyodori-headings",
+          "heading-attributes",
+          "heading-styles",
+          "opener-design",
+          "page-background",
+          "page-role-filters",
+          "paragraph-styles",
+          "pdf-export",
+          "pdf-fonts",
+          "right-binding",
+          "roman-front-matter",
+          "ruby",
+          "section-running-heads",
+          "verse",
+          "vertical-writing"
+        ],
+        "suggestedLevel": 2
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 1,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 0
+        },
+        "cjkLooseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 0.25
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 156.0.8078.76, the committed capture used 155.0.8059.85: pixels may differ"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: en, es"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: en, es"
+          }
+        ]
+      }
+    },
+    "es": {
+      "hash8": "6479e6e4",
+      "vdtHash": "a5d3308460805ad0d7f0cc310898046450ac8fc0",
+      "timings": {
+        "importMs": 6224,
+        "fontsMs": 2157,
+        "buildMs": 73,
+        "totalMs": 9229,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          127,
+          188
+        ],
+        "dpi": 150,
+        "layoutType": "single",
+        "mirror": true,
+        "body": {
+          "family": "Shippori Mincho",
+          "sizePt": 10,
+          "leadingPt": 19
+        },
+        "families": [
+          "Noto Sans JP",
+          "Shippori Mincho"
+        ],
+        "pages": 8,
+        "ownLines": 155
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "一",
+          "role": "opener",
+          "w": 1000,
+          "h": 1480,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 65836,
+          "alt": "Página de apertura 一: おくのほそ道."
+        },
+        {
+          "n": 2,
+          "label": "二",
+          "role": "body",
+          "w": 1000,
+          "h": 1480,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 65646,
+          "alt": "Página 二: 旅立."
+        },
+        {
+          "n": 3,
+          "label": "三",
+          "role": "body",
+          "w": 1000,
+          "h": 1480,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 55544,
+          "alt": "Página 三: 立石寺."
+        },
+        {
+          "n": 4,
+          "label": "四",
+          "role": "body",
+          "w": 1000,
+          "h": 1480,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 14550,
+          "alt": "Página 四: 越後路."
+        },
+        {
+          "n": 5,
+          "label": "五",
+          "role": "opener",
+          "w": 1000,
+          "h": 1480,
+          "file": "p05.webp",
+          "strip": "p05.s.webp",
+          "bytes": 18794,
+          "alt": "Página de apertura 五: 一握の砂."
+        },
+        {
+          "n": 6,
+          "label": "六",
+          "role": "body",
+          "w": 1000,
+          "h": 1480,
+          "file": "p06.webp",
+          "strip": "p06.s.webp",
+          "bytes": 21850,
+          "alt": "Página 六."
+        },
+        {
+          "n": 7,
+          "label": "七",
+          "role": "body",
+          "w": 1000,
+          "h": 1480,
+          "file": "p07.webp",
+          "strip": "p07.s.webp",
+          "bytes": 20758,
+          "alt": "Página 七."
+        },
+        {
+          "n": 8,
+          "label": "八",
+          "role": "body",
+          "w": 1000,
+          "h": 1480,
+          "file": "p08.webp",
+          "strip": "p08.s.webp",
+          "bytes": 20870,
+          "alt": "Página 八."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          null
+        ]
+      ],
+      "binding": "right",
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "spread"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "pdf": {
+        "file": "haiku-and-tanka.pdf",
+        "bytes": 220564,
+        "pages": 8
+      },
+      "sandbox": {
+        "file": "haiku-and-tanka.postext",
+        "bytes": 21216,
+        "folio": "7e0edbf5",
+        "chapters": [
+          {
+            "pages": 8,
+            "hash": "cd51100d520e2fbd",
+            "lines": "83d15c273e46aec7"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocument",
+          "decompressWoff2",
+          "loadVerticalAlternates",
+          "renderPageToCanvas",
+          "renderToPdf",
+          "withLoadedFonts"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.referenceColor",
+          "bodyText.textAlign",
+          "cjk",
+          "cjk.grid",
+          "cjk.grid.charsPerLine",
+          "cjk.grid.enabled",
+          "cjk.grid.linesPerPage",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "header",
+          "header.elements",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].overflow",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].writingMode",
+          "headingStyles",
+          "headingStyles[].footer",
+          "headingStyles[].footer.elements",
+          "headingStyles[].id",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].fontFamily",
+          "headings.levels[].fontSize",
+          "headings.levels[].fontWeight",
+          "headings.levels[].indent",
+          "headings.levels[].jidori",
+          "headings.levels[].level",
+          "headings.levels[].lineSpan",
+          "layout",
+          "layout.layoutType",
+          "layout.writingMode",
+          "locale",
+          "page",
+          "page.backgroundColor",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.pageNumbering",
+          "page.pageNumbering.format",
+          "page.sizePreset",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].color",
+          "paragraphStyles[].endIndent",
+          "paragraphStyles[].firstLineIndent",
+          "paragraphStyles[].id",
+          "paragraphStyles[].indent",
+          "paragraphStyles[].marginBottom",
+          "paragraphStyles[].marginTop",
+          "paragraphStyles[].textAlign"
+        ],
+        "configSections": [
+          "bodyText",
+          "cjk",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "paragraphStyles"
+        ],
+        "configLeaves": 176,
+        "designElements": 8,
+        "directives": [
+          ":::paragraphs",
+          ":::verse"
+        ],
+        "inline": [
+          "{attrs}"
+        ],
+        "resources": {
+          "svg": 0,
+          "bitmap": 0,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Noto Sans JP",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Shippori Mincho",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Shippori Mincho",
+            "weight": 700,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "character-grid",
+          "cjk-line-breaking",
+          "furigana",
+          "gyodori-headings",
+          "heading-attributes",
+          "heading-styles",
+          "opener-design",
+          "page-background",
+          "page-role-filters",
+          "paragraph-styles",
+          "pdf-export",
+          "pdf-fonts",
+          "right-binding",
+          "roman-front-matter",
+          "ruby",
+          "section-running-heads",
+          "verse",
+          "vertical-writing"
+        ],
+        "suggestedLevel": 2
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 1,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 0
+        },
+        "cjkLooseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 0.25
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 156.0.8078.76, the committed capture used 155.0.8059.85: pixels may differ"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: es, en"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: es, en"
+          }
+        ]
+      }
+    }
+  }
+}

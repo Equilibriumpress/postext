@@ -1,0 +1,337 @@
+{
+  "schemaVersion": 1,
+  "slug": "annotated-classic-glosses",
+  "sourceHash": "621db3d5f785f1c3d6dda37f6bd4b00588329d11c9a7e8002c6b3f638f8c7f6e",
+  "engine": {
+    "postext": "1.57.1",
+    "source": "npm"
+  },
+  "chrome": "155.0.8059.85",
+  "capturedAt": "2026-10-23T07:30:46.654Z",
+  "verified": {
+    "postext": "1.65.0",
+    "chrome": "156.0.8078.76",
+    "at": "2026-10-31T16:56:47.694Z"
+  },
+  "variants": {
+    "en": {
+      "hash8": "e49bbaba",
+      "vdtHash": "21e93e766392625747416e728c8115b81fd94dff",
+      "timings": {
+        "importMs": 372,
+        "fontsMs": 28,
+        "buildMs": 68,
+        "totalMs": 1541,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          156,
+          234
+        ],
+        "dpi": 150,
+        "layoutType": "oneAndHalf",
+        "gutterMm": 4.5,
+        "mirror": true,
+        "body": {
+          "family": "Unna",
+          "sizePt": 9.5,
+          "leadingPt": 14
+        },
+        "families": [
+          "Cormorant SC",
+          "Rozha One",
+          "Unna"
+        ],
+        "pages": 3,
+        "ownLines": 207
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "81",
+          "role": "opener",
+          "w": 1000,
+          "h": 1500,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 204082,
+          "alt": "Opening page 81: A Mad Tea-Party."
+        },
+        {
+          "n": 2,
+          "label": "82",
+          "role": "body",
+          "w": 1000,
+          "h": 1500,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 142124,
+          "alt": "Page 82."
+        },
+        {
+          "n": 3,
+          "label": "83",
+          "role": "body",
+          "w": 1000,
+          "h": 1500,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 116262,
+          "alt": "Page 83."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "crop"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "sandbox": {
+        "file": "annotated-classic-glosses.postext",
+        "bytes": 319055,
+        "folio": "923d57f4",
+        "chapters": [
+          {
+            "pages": 3,
+            "hash": "11d7ff6ef931af66",
+            "lines": "62632aed41ecee55"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "registerResourceImage",
+          "renderPageToCanvas"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.hyphenation",
+          "bodyText.hyphenation.exceptions",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.minWordSpacing",
+          "calloutStyles",
+          "calloutStyles[].backgroundEnabled",
+          "calloutStyles[].body",
+          "calloutStyles[].body.firstLineIndent",
+          "calloutStyles[].body.fontSize",
+          "calloutStyles[].body.lineHeight",
+          "calloutStyles[].body.textAlign",
+          "calloutStyles[].id",
+          "calloutStyles[].padding",
+          "calloutStyles[].padding.bottom",
+          "calloutStyles[].padding.left",
+          "calloutStyles[].padding.right",
+          "calloutStyles[].padding.top",
+          "calloutStyles[].stripe",
+          "calloutStyles[].stripe.color",
+          "calloutStyles[].stripe.enabled",
+          "calloutStyles[].stripe.side",
+          "calloutStyles[].stripe.width",
+          "calloutStyles[].titleStyle",
+          "calloutStyles[].titleStyle.color",
+          "calloutStyles[].titleStyle.fontFamily",
+          "calloutStyles[].titleStyle.fontSize",
+          "calloutStyles[].titleStyle.fontWeight",
+          "calloutStyles[].titleStyle.gap",
+          "calloutStyles[].titleStyle.letterSpacing",
+          "chipStyles",
+          "chipStyles[].backgroundEnabled",
+          "chipStyles[].bold",
+          "chipStyles[].borderWidth",
+          "chipStyles[].color",
+          "chipStyles[].gap",
+          "chipStyles[].id",
+          "chipStyles[].paddingX",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].letterSpacing",
+          "footer.elements[].pages",
+          "footer.elements[].parity",
+          "footer.elements[].placement",
+          "footer.elements[].textTransform",
+          "header",
+          "header.elements",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].level",
+          "headings.levels[].span",
+          "layout",
+          "layout.gutterWidth",
+          "layout.layoutType",
+          "layout.sideColumnPercent",
+          "layout.sideColumnRole",
+          "layout.sideColumnSide",
+          "locale",
+          "page",
+          "page.backgroundColor",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.width"
+        ],
+        "configSections": [
+          "bodyText",
+          "calloutStyles",
+          "chipStyles",
+          "colorPalette",
+          "footer",
+          "header",
+          "headings",
+          "layout",
+          "locale",
+          "page"
+        ],
+        "configLeaves": 254,
+        "designElements": 11,
+        "directives": [
+          ":::callout"
+        ],
+        "inline": [
+          "{attrs}",
+          ":chip",
+          "^…^"
+        ],
+        "resources": {
+          "svg": 0,
+          "bitmap": 1,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Cormorant SC",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Rozha One",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Unna",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Unna",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Unna",
+            "weight": 700,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "callout-styles",
+          "chips",
+          "column-and-a-half",
+          "drop-caps",
+          "footnotes",
+          "heading-attributes",
+          "opener-band",
+          "opener-design",
+          "page-background",
+          "page-role-filters",
+          "resources",
+          "side-boxes",
+          "side-column-floats"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 2,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 1.88
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "C20",
+            "severity": "warn",
+            "detail": "card.webp weighs 93 KB (aim for ≤ 90 KB; capture.expect.cardKb states the figure of a painted card)"
+          },
+          {
+            "check": "C20",
+            "severity": "warn",
+            "detail": "card.480.webp weighs 36 KB (aim for ≤ 35 KB; capture.expect.cardKb states the figure of a painted card)"
+          },
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 155.0.8059.85, the committed capture used 154.0.8037.98: pixels may differ"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "continuation carried as the bundle's start: pageNumbering"
+          }
+        ]
+      }
+    }
+  }
+}

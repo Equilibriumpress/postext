@@ -1,0 +1,869 @@
+{
+  "schemaVersion": 1,
+  "slug": "conference-programme",
+  "sourceHash": "59509d32c3a71596967ff7b517f8e1bf0837a543a0a38d80cbac5ba76620844e",
+  "engine": {
+    "postext": "1.65.0",
+    "source": "npm"
+  },
+  "chrome": "156.0.8078.76",
+  "capturedAt": "2026-10-31T17:42:25.402Z",
+  "variants": {
+    "en": {
+      "hash8": "bbe90ed2",
+      "vdtHash": "fbf26c1d1d0343d958acdc0c2156d312cbb6b4a3",
+      "timings": {
+        "importMs": 4880,
+        "fontsMs": 317,
+        "buildMs": 131,
+        "totalMs": 6511,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          170,
+          240
+        ],
+        "dpi": 150,
+        "layoutType": "double",
+        "gutterMm": 6,
+        "mirror": true,
+        "body": {
+          "family": "Schibsted Grotesk",
+          "sizePt": 9.4,
+          "leadingPt": 13
+        },
+        "families": [
+          "Chivo Mono",
+          "Schibsted Grotesk",
+          "Unbounded"
+        ],
+        "pages": 6,
+        "ownLines": 214
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1412,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 23180,
+          "alt": "Opening page 1: Jornades de Tipografia i Edició Digital."
+        },
+        {
+          "n": 2,
+          "label": "2",
+          "role": "opener",
+          "w": 1000,
+          "h": 1412,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 131956,
+          "alt": "Opening page 2: Dijous."
+        },
+        {
+          "n": 3,
+          "label": "3",
+          "role": "body",
+          "w": 1000,
+          "h": 1412,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 75854,
+          "alt": "Page 3. Taula 1. Dijous 12 de novembre. ⁤ Tipografia · ⁤ Digital · ⁤ Edició."
+        },
+        {
+          "n": 4,
+          "label": "4",
+          "role": "body",
+          "w": 1000,
+          "h": 1412,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 121046,
+          "alt": "Page 4: Al vespre. Taula 1. Dijous 12 de novembre. ⁤ Tipografia · ⁤ Digital · ⁤ Edició (continuació)."
+        },
+        {
+          "n": 5,
+          "label": "5",
+          "role": "opener",
+          "w": 1000,
+          "h": 1412,
+          "file": "p05.webp",
+          "strip": "p05.s.webp",
+          "bytes": 81332,
+          "alt": "Opening page 5: Divendres. Taula 2. Divendres 13 de novembre. ⁤ Tipografia · ⁤ Digital · ⁤ Edició."
+        },
+        {
+          "n": 6,
+          "label": "6",
+          "role": "body",
+          "w": 1000,
+          "h": 1412,
+          "file": "p06.webp",
+          "strip": "p06.s.webp",
+          "bytes": 97528,
+          "alt": "Page 6: Com arribar. Figura 1. La Impremta, planta baixa."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          null
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "spread"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "sandbox": {
+        "file": "conference-programme.postext",
+        "bytes": 36447,
+        "folio": "1751ca77",
+        "chapters": [
+          {
+            "pages": 6,
+            "hash": "2aac228dd445be05",
+            "lines": "2026a63134bf4023"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "defaultResourceTypes",
+          "mergeCells",
+          "prepareFonts",
+          "registerResourceImage",
+          "renderPageToCanvas",
+          "setAlignment",
+          "setCellBackground",
+          "setCellContent"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.paragraphSpacing",
+          "bodyText.referenceColor",
+          "bodyText.textAlign",
+          "captionStyle",
+          "captionStyle.fontFamily",
+          "captionStyle.fontSize",
+          "captionStyle.gap",
+          "captionStyle.labelColor",
+          "captionStyle.note",
+          "captionStyle.note.color",
+          "captionStyle.note.fontSize",
+          "chipStyles",
+          "chipStyles[].backgroundEnabled",
+          "chipStyles[].bold",
+          "chipStyles[].borderWidth",
+          "chipStyles[].color",
+          "chipStyles[].fontFamily",
+          "chipStyles[].fontSize",
+          "chipStyles[].id",
+          "chipStyles[].paddingX",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].align",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].letterSpacing",
+          "footer.elements[].overflow",
+          "footer.elements[].pages",
+          "footer.elements[].placement",
+          "header",
+          "header.elements",
+          "header.elements[].align",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].overflow",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.minHeight",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].footer",
+          "headingStyles[].footer.elements",
+          "headingStyles[].header",
+          "headingStyles[].header.elements",
+          "headingStyles[].id",
+          "headingStyles[].numbered",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].fontSize",
+          "headings.levels[].level",
+          "headings.levels[].lineHeight",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "headings.levels[].span",
+          "layout",
+          "layout.gutterWidth",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].color",
+          "paragraphStyles[].firstLineIndent",
+          "paragraphStyles[].fontFamily",
+          "paragraphStyles[].fontSize",
+          "paragraphStyles[].hangingIndent",
+          "paragraphStyles[].id",
+          "paragraphStyles[].lineHeight",
+          "paragraphStyles[].marginTop",
+          "paragraphStyles[].textAlign",
+          "resourceTypes",
+          "resourceTypes[].captionPrefix",
+          "resourceTypes[].captionStyle",
+          "resourceTypes[].captionStyle.position",
+          "resourceTypes[].counterFormat",
+          "resourceTypes[].id",
+          "resourceTypes[].name",
+          "resourceTypes[].namePlural",
+          "resourceTypes[].numberingTemplate",
+          "resourceTypes[].resetOn",
+          "resourceTypes[].shortLabel",
+          "tableStyle",
+          "tableStyle.bodyFontSize",
+          "tableStyle.borderColor",
+          "tableStyle.borderWidth",
+          "tableStyle.cellPadding",
+          "tableStyle.continuedSuffix",
+          "tableStyle.continuesMarker",
+          "tableStyle.headerBackground",
+          "tableStyle.headerColor",
+          "tableStyle.headerFontFamily",
+          "tableStyle.headerFontSize",
+          "tableStyle.overflow"
+        ],
+        "configSections": [
+          "bodyText",
+          "captionStyle",
+          "chipStyles",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "paragraphStyles",
+          "resourceTypes",
+          "tableStyle"
+        ],
+        "configLeaves": 366,
+        "designElements": 16,
+        "directives": [
+          ":::paragraphs"
+        ],
+        "inline": [
+          "{attrs}",
+          ":ref",
+          ":swatch"
+        ],
+        "resources": {
+          "svg": 3,
+          "bitmap": 0,
+          "table": 2
+        },
+        "fonts": [
+          {
+            "family": "Chivo Mono",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Chivo Mono",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Chivo Mono",
+            "weight": 500,
+            "style": "normal"
+          },
+          {
+            "family": "Chivo Mono",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Schibsted Grotesk",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Schibsted Grotesk",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Schibsted Grotesk",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Unbounded",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Unbounded",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Unbounded",
+            "weight": 800,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "bibliography",
+          "cell-fills",
+          "figure-citations",
+          "heading-attributes",
+          "heading-styles",
+          "localised-labels",
+          "opener-band",
+          "opener-design",
+          "page-role-filters",
+          "paragraph-styles",
+          "resource-types",
+          "resources",
+          "section-running-heads",
+          "swatches",
+          "table-model",
+          "table-split",
+          "unnumbered-headings"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 2,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 0
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 156.0.8078.76, the committed capture used 155.0.8059.85: pixels may differ"
+          },
+          {
+            "check": "vdt",
+            "severity": "warn",
+            "detail": "the layout changed with the same sources (engine or font regression?)"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: en, es"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: en, es"
+          }
+        ]
+      }
+    },
+    "es": {
+      "hash8": "549aa759",
+      "vdtHash": "fbf26c1d1d0343d958acdc0c2156d312cbb6b4a3",
+      "timings": {
+        "importMs": 5724,
+        "fontsMs": 288,
+        "buildMs": 106,
+        "totalMs": 8716,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          170,
+          240
+        ],
+        "dpi": 150,
+        "layoutType": "double",
+        "gutterMm": 6,
+        "mirror": true,
+        "body": {
+          "family": "Schibsted Grotesk",
+          "sizePt": 9.4,
+          "leadingPt": 13
+        },
+        "families": [
+          "Chivo Mono",
+          "Schibsted Grotesk",
+          "Unbounded"
+        ],
+        "pages": 6,
+        "ownLines": 214
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1412,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 23180,
+          "alt": "Página de apertura 1: Jornades de Tipografia i Edició Digital."
+        },
+        {
+          "n": 2,
+          "label": "2",
+          "role": "opener",
+          "w": 1000,
+          "h": 1412,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 131956,
+          "alt": "Página de apertura 2: Dijous."
+        },
+        {
+          "n": 3,
+          "label": "3",
+          "role": "body",
+          "w": 1000,
+          "h": 1412,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 75854,
+          "alt": "Página 3. Taula 1. Dijous 12 de novembre. ⁤ Tipografia · ⁤ Digital · ⁤ Edició."
+        },
+        {
+          "n": 4,
+          "label": "4",
+          "role": "body",
+          "w": 1000,
+          "h": 1412,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 121046,
+          "alt": "Página 4: Al vespre. Taula 1. Dijous 12 de novembre. ⁤ Tipografia · ⁤ Digital · ⁤ Edició (continuació)."
+        },
+        {
+          "n": 5,
+          "label": "5",
+          "role": "opener",
+          "w": 1000,
+          "h": 1412,
+          "file": "p05.webp",
+          "strip": "p05.s.webp",
+          "bytes": 81332,
+          "alt": "Página de apertura 5: Divendres. Taula 2. Divendres 13 de novembre. ⁤ Tipografia · ⁤ Digital · ⁤ Edició."
+        },
+        {
+          "n": 6,
+          "label": "6",
+          "role": "body",
+          "w": 1000,
+          "h": 1412,
+          "file": "p06.webp",
+          "strip": "p06.s.webp",
+          "bytes": 97528,
+          "alt": "Página 6: Com arribar. Figura 1. La Impremta, planta baixa."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          null
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "spread"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "sandbox": {
+        "file": "conference-programme.postext",
+        "bytes": 36452,
+        "folio": "1751ca77",
+        "chapters": [
+          {
+            "pages": 6,
+            "hash": "2aac228dd445be05",
+            "lines": "2026a63134bf4023"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "defaultResourceTypes",
+          "mergeCells",
+          "prepareFonts",
+          "registerResourceImage",
+          "renderPageToCanvas",
+          "setAlignment",
+          "setCellBackground",
+          "setCellContent"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.paragraphSpacing",
+          "bodyText.referenceColor",
+          "bodyText.textAlign",
+          "captionStyle",
+          "captionStyle.fontFamily",
+          "captionStyle.fontSize",
+          "captionStyle.gap",
+          "captionStyle.labelColor",
+          "captionStyle.note",
+          "captionStyle.note.color",
+          "captionStyle.note.fontSize",
+          "chipStyles",
+          "chipStyles[].backgroundEnabled",
+          "chipStyles[].bold",
+          "chipStyles[].borderWidth",
+          "chipStyles[].color",
+          "chipStyles[].fontFamily",
+          "chipStyles[].fontSize",
+          "chipStyles[].id",
+          "chipStyles[].paddingX",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].align",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].letterSpacing",
+          "footer.elements[].overflow",
+          "footer.elements[].pages",
+          "footer.elements[].placement",
+          "header",
+          "header.elements",
+          "header.elements[].align",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].overflow",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.minHeight",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].footer",
+          "headingStyles[].footer.elements",
+          "headingStyles[].header",
+          "headingStyles[].header.elements",
+          "headingStyles[].id",
+          "headingStyles[].numbered",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].fontSize",
+          "headings.levels[].level",
+          "headings.levels[].lineHeight",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "headings.levels[].span",
+          "layout",
+          "layout.gutterWidth",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].color",
+          "paragraphStyles[].firstLineIndent",
+          "paragraphStyles[].fontFamily",
+          "paragraphStyles[].fontSize",
+          "paragraphStyles[].hangingIndent",
+          "paragraphStyles[].id",
+          "paragraphStyles[].lineHeight",
+          "paragraphStyles[].marginTop",
+          "paragraphStyles[].textAlign",
+          "resourceTypes",
+          "resourceTypes[].captionPrefix",
+          "resourceTypes[].captionStyle",
+          "resourceTypes[].captionStyle.position",
+          "resourceTypes[].counterFormat",
+          "resourceTypes[].id",
+          "resourceTypes[].name",
+          "resourceTypes[].namePlural",
+          "resourceTypes[].numberingTemplate",
+          "resourceTypes[].resetOn",
+          "resourceTypes[].shortLabel",
+          "tableStyle",
+          "tableStyle.bodyFontSize",
+          "tableStyle.borderColor",
+          "tableStyle.borderWidth",
+          "tableStyle.cellPadding",
+          "tableStyle.continuedSuffix",
+          "tableStyle.continuesMarker",
+          "tableStyle.headerBackground",
+          "tableStyle.headerColor",
+          "tableStyle.headerFontFamily",
+          "tableStyle.headerFontSize",
+          "tableStyle.overflow"
+        ],
+        "configSections": [
+          "bodyText",
+          "captionStyle",
+          "chipStyles",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "paragraphStyles",
+          "resourceTypes",
+          "tableStyle"
+        ],
+        "configLeaves": 366,
+        "designElements": 16,
+        "directives": [
+          ":::paragraphs"
+        ],
+        "inline": [
+          "{attrs}",
+          ":ref",
+          ":swatch"
+        ],
+        "resources": {
+          "svg": 3,
+          "bitmap": 0,
+          "table": 2
+        },
+        "fonts": [
+          {
+            "family": "Chivo Mono",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Chivo Mono",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Chivo Mono",
+            "weight": 500,
+            "style": "normal"
+          },
+          {
+            "family": "Chivo Mono",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Schibsted Grotesk",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Schibsted Grotesk",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Schibsted Grotesk",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Unbounded",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Unbounded",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Unbounded",
+            "weight": 800,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "bibliography",
+          "cell-fills",
+          "figure-citations",
+          "heading-attributes",
+          "heading-styles",
+          "localised-labels",
+          "opener-band",
+          "opener-design",
+          "page-role-filters",
+          "paragraph-styles",
+          "resource-types",
+          "resources",
+          "section-running-heads",
+          "swatches",
+          "table-model",
+          "table-split",
+          "unnumbered-headings"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 2,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 0
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 156.0.8078.76, the committed capture used 155.0.8059.85: pixels may differ"
+          },
+          {
+            "check": "vdt",
+            "severity": "warn",
+            "detail": "the layout changed with the same sources (engine or font regression?)"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: es, en"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: es, en"
+          }
+        ]
+      }
+    }
+  }
+}

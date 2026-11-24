@@ -1,0 +1,723 @@
+{
+  "schemaVersion": 1,
+  "slug": "org-chart-from-modules",
+  "sourceHash": "b9e5e783f414728607e0777a7517dc68c14b4fd3b7916b9a9c4024413bb88d43",
+  "engine": {
+    "postext": "1.65.0",
+    "postextPdf": "1.65.0",
+    "source": "npm"
+  },
+  "chrome": "156.0.8078.76",
+  "capturedAt": "2026-10-31T18:53:15.557Z",
+  "variants": {
+    "en": {
+      "hash8": "d7c1aec9",
+      "vdtHash": "9f540fbd13646f80eddfdf601261d6c36af92087",
+      "timings": {
+        "importMs": 4614,
+        "fontsMs": 582,
+        "buildMs": 169,
+        "totalMs": 6173,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          210,
+          297
+        ],
+        "dpi": 150,
+        "layoutType": "single",
+        "mirror": true,
+        "body": {
+          "family": "Source Serif 4",
+          "sizePt": 10.5,
+          "leadingPt": 15
+        },
+        "families": [
+          "Public Sans",
+          "Source Serif 4"
+        ],
+        "pages": 2,
+        "ownLines": 174
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "composed",
+          "w": 1000,
+          "h": 1414,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 59214,
+          "alt": "Page 1: How your town hall is run."
+        },
+        {
+          "n": 2,
+          "label": "2",
+          "role": "composed",
+          "w": 1000,
+          "h": 1414,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 142274,
+          "alt": "Page 2: Where to find us."
+        }
+      ],
+      "spreads": [
+        [
+          0,
+          1
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "spread"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "pdf": {
+        "file": "org-chart-from-modules.pdf",
+        "bytes": 995459,
+        "pages": 2
+      },
+      "sandbox": {
+        "file": "org-chart-from-modules.postext",
+        "bytes": 986240,
+        "folio": "90508e83",
+        "chapters": [
+          {
+            "pages": 2,
+            "hash": "2d9e5c6deb4019e5",
+            "lines": "71a1db5b63c18a87"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocument",
+          "decompressWoff2",
+          "registerResourceImage",
+          "renderPageToCanvas",
+          "renderToPdf",
+          "withLoadedFonts"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.hyphenation",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.paragraphSpacing",
+          "bodyText.textAlign",
+          "calloutStyles",
+          "calloutStyles[].background",
+          "calloutStyles[].backgroundEnabled",
+          "calloutStyles[].body",
+          "calloutStyles[].body.boldColor",
+          "calloutStyles[].body.color",
+          "calloutStyles[].body.firstLineIndent",
+          "calloutStyles[].body.fontFamily",
+          "calloutStyles[].body.fontSize",
+          "calloutStyles[].body.hyphenation",
+          "calloutStyles[].body.italicColor",
+          "calloutStyles[].body.lineHeight",
+          "calloutStyles[].body.textAlign",
+          "calloutStyles[].border",
+          "calloutStyles[].border.color",
+          "calloutStyles[].border.enabled",
+          "calloutStyles[].border.width",
+          "calloutStyles[].borderRadius",
+          "calloutStyles[].id",
+          "calloutStyles[].label",
+          "calloutStyles[].label.color",
+          "calloutStyles[].label.fontFamily",
+          "calloutStyles[].label.fontSize",
+          "calloutStyles[].label.fontWeight",
+          "calloutStyles[].label.height",
+          "calloutStyles[].label.inset",
+          "calloutStyles[].label.joined",
+          "calloutStyles[].label.offset",
+          "calloutStyles[].label.paddingX",
+          "calloutStyles[].label.position",
+          "calloutStyles[].label.rule",
+          "calloutStyles[].padding",
+          "calloutStyles[].padding.bottom",
+          "calloutStyles[].padding.left",
+          "calloutStyles[].padding.right",
+          "calloutStyles[].padding.top",
+          "canvasViewer",
+          "canvasViewer.pageGap",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].align",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].parity",
+          "footer.elements[].placement",
+          "header",
+          "header.elements",
+          "header.elements[].align",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].breakBefore",
+          "headings.levels[].color",
+          "headings.levels[].fontFamily",
+          "headings.levels[].fontSize",
+          "headings.levels[].fontWeight",
+          "headings.levels[].letterSpacing",
+          "headings.levels[].level",
+          "headings.levels[].lineHeight",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "headings.levels[].textTransform",
+          "layout",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.sizePreset",
+          "page.width",
+          "pageTemplates",
+          "pageTemplates[].decoration",
+          "pageTemplates[].decoration.elements",
+          "pageTemplates[].frames",
+          "pageTemplates[].frames[].flow",
+          "pageTemplates[].frames[].name",
+          "pageTemplates[].frames[].optional",
+          "pageTemplates[].frames[].placement",
+          "pageTemplates[].frames[].style",
+          "pageTemplates[].frames[].takes",
+          "pageTemplates[].frames[].width",
+          "pageTemplates[].groups",
+          "pageTemplates[].groups[].columnGap",
+          "pageTemplates[].groups[].columns",
+          "pageTemplates[].groups[].frames",
+          "pageTemplates[].groups[].gap",
+          "pageTemplates[].groups[].kind",
+          "pageTemplates[].groups[].modules",
+          "pageTemplates[].groups[].name",
+          "pageTemplates[].groups[].placement",
+          "pageTemplates[].groups[].repeat",
+          "pageTemplates[].groups[].rowAlign",
+          "pageTemplates[].groups[].rowGap",
+          "pageTemplates[].id",
+          "pageTemplates[].role",
+          "resourceTypes",
+          "resourceTypes[].captionPrefix",
+          "resourceTypes[].counterFormat",
+          "resourceTypes[].defaultPlacement",
+          "resourceTypes[].defaultPlacement.position",
+          "resourceTypes[].id",
+          "resourceTypes[].name",
+          "resourceTypes[].numberingTemplate",
+          "resourceTypes[].resetOn",
+          "resourceTypes[].shortLabel"
+        ],
+        "configSections": [
+          "bodyText",
+          "calloutStyles",
+          "canvasViewer",
+          "colorPalette",
+          "footer",
+          "header",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "pageTemplates",
+          "resourceTypes"
+        ],
+        "configLeaves": 409,
+        "designElements": 7,
+        "directives": [
+          "::::page",
+          ":::frame",
+          ":::module",
+          "::resource"
+        ],
+        "inline": [],
+        "resources": {
+          "svg": 0,
+          "bitmap": 6,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Public Sans",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Public Sans",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Public Sans",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Source Serif 4",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Source Serif 4",
+            "weight": 700,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "callout-label-tabs",
+          "composed-pages",
+          "frame-decoration",
+          "frame-groups",
+          "inline-embeds",
+          "pdf-export",
+          "pdf-fonts",
+          "resource-types",
+          "resources"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 1,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 0
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "runtFixes": {
+          "count": 1,
+          "tracked": 1,
+          "worst": 10
+        },
+        "findings": [
+          {
+            "check": "C40",
+            "severity": "info",
+            "detail": "every element came back to its source: 36 block, 36 frame, 67 line"
+          },
+          {
+            "check": "C35",
+            "severity": "info",
+            "detail": "1 paragraph set a line short with tracking (worst −10‰, the cap): p. 1 −10‰ “Day centre Lunches, workshops and a minibus”"
+          },
+          {
+            "check": "vdt",
+            "severity": "info",
+            "detail": "the layout changed since the committed capture"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "continuation carried as the bundle's start: pageIndexOffset"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: en, es"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: en, es"
+          }
+        ]
+      }
+    },
+    "es": {
+      "hash8": "302f558d",
+      "vdtHash": "1365c78b792ced450f4ceefe68c0ab8642c2605e",
+      "timings": {
+        "importMs": 4647,
+        "fontsMs": 626,
+        "buildMs": 161,
+        "totalMs": 6257,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          210,
+          297
+        ],
+        "dpi": 150,
+        "layoutType": "single",
+        "mirror": true,
+        "body": {
+          "family": "Source Serif 4",
+          "sizePt": 10.5,
+          "leadingPt": 15
+        },
+        "families": [
+          "Public Sans",
+          "Source Serif 4"
+        ],
+        "pages": 2,
+        "ownLines": 174
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "composed",
+          "w": 1000,
+          "h": 1414,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 63772,
+          "alt": "Página 1: Así se organiza tu ayuntamiento."
+        },
+        {
+          "n": 2,
+          "label": "2",
+          "role": "composed",
+          "w": 1000,
+          "h": 1414,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 146170,
+          "alt": "Página 2: Dónde encontrarnos."
+        }
+      ],
+      "spreads": [
+        [
+          0,
+          1
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "spread"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "pdf": {
+        "file": "org-chart-from-modules.pdf",
+        "bytes": 995431,
+        "pages": 2
+      },
+      "sandbox": {
+        "file": "org-chart-from-modules.postext",
+        "bytes": 986874,
+        "folio": "90508e83",
+        "chapters": [
+          {
+            "pages": 2,
+            "hash": "be075a59112f0a93",
+            "lines": "3f68b73ecbe56972"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocument",
+          "decompressWoff2",
+          "registerResourceImage",
+          "renderPageToCanvas",
+          "renderToPdf",
+          "withLoadedFonts"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.hyphenation",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.paragraphSpacing",
+          "bodyText.textAlign",
+          "calloutStyles",
+          "calloutStyles[].background",
+          "calloutStyles[].backgroundEnabled",
+          "calloutStyles[].body",
+          "calloutStyles[].body.boldColor",
+          "calloutStyles[].body.color",
+          "calloutStyles[].body.firstLineIndent",
+          "calloutStyles[].body.fontFamily",
+          "calloutStyles[].body.fontSize",
+          "calloutStyles[].body.hyphenation",
+          "calloutStyles[].body.italicColor",
+          "calloutStyles[].body.lineHeight",
+          "calloutStyles[].body.textAlign",
+          "calloutStyles[].border",
+          "calloutStyles[].border.color",
+          "calloutStyles[].border.enabled",
+          "calloutStyles[].border.width",
+          "calloutStyles[].borderRadius",
+          "calloutStyles[].id",
+          "calloutStyles[].label",
+          "calloutStyles[].label.color",
+          "calloutStyles[].label.fontFamily",
+          "calloutStyles[].label.fontSize",
+          "calloutStyles[].label.fontWeight",
+          "calloutStyles[].label.height",
+          "calloutStyles[].label.inset",
+          "calloutStyles[].label.joined",
+          "calloutStyles[].label.offset",
+          "calloutStyles[].label.paddingX",
+          "calloutStyles[].label.position",
+          "calloutStyles[].label.rule",
+          "calloutStyles[].padding",
+          "calloutStyles[].padding.bottom",
+          "calloutStyles[].padding.left",
+          "calloutStyles[].padding.right",
+          "calloutStyles[].padding.top",
+          "canvasViewer",
+          "canvasViewer.pageGap",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].align",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].parity",
+          "footer.elements[].placement",
+          "header",
+          "header.elements",
+          "header.elements[].align",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].breakBefore",
+          "headings.levels[].color",
+          "headings.levels[].fontFamily",
+          "headings.levels[].fontSize",
+          "headings.levels[].fontWeight",
+          "headings.levels[].letterSpacing",
+          "headings.levels[].level",
+          "headings.levels[].lineHeight",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "headings.levels[].textTransform",
+          "layout",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.sizePreset",
+          "page.width",
+          "pageTemplates",
+          "pageTemplates[].decoration",
+          "pageTemplates[].decoration.elements",
+          "pageTemplates[].frames",
+          "pageTemplates[].frames[].flow",
+          "pageTemplates[].frames[].name",
+          "pageTemplates[].frames[].optional",
+          "pageTemplates[].frames[].placement",
+          "pageTemplates[].frames[].style",
+          "pageTemplates[].frames[].takes",
+          "pageTemplates[].frames[].width",
+          "pageTemplates[].groups",
+          "pageTemplates[].groups[].columnGap",
+          "pageTemplates[].groups[].columns",
+          "pageTemplates[].groups[].frames",
+          "pageTemplates[].groups[].gap",
+          "pageTemplates[].groups[].kind",
+          "pageTemplates[].groups[].modules",
+          "pageTemplates[].groups[].name",
+          "pageTemplates[].groups[].placement",
+          "pageTemplates[].groups[].repeat",
+          "pageTemplates[].groups[].rowAlign",
+          "pageTemplates[].groups[].rowGap",
+          "pageTemplates[].id",
+          "pageTemplates[].role",
+          "resourceTypes",
+          "resourceTypes[].captionPrefix",
+          "resourceTypes[].counterFormat",
+          "resourceTypes[].defaultPlacement",
+          "resourceTypes[].defaultPlacement.position",
+          "resourceTypes[].id",
+          "resourceTypes[].name",
+          "resourceTypes[].numberingTemplate",
+          "resourceTypes[].resetOn",
+          "resourceTypes[].shortLabel"
+        ],
+        "configSections": [
+          "bodyText",
+          "calloutStyles",
+          "canvasViewer",
+          "colorPalette",
+          "footer",
+          "header",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "pageTemplates",
+          "resourceTypes"
+        ],
+        "configLeaves": 409,
+        "designElements": 7,
+        "directives": [
+          "::::page",
+          ":::frame",
+          ":::module",
+          "::resource"
+        ],
+        "inline": [],
+        "resources": {
+          "svg": 0,
+          "bitmap": 6,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Public Sans",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Public Sans",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Public Sans",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Source Serif 4",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Source Serif 4",
+            "weight": 700,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "callout-label-tabs",
+          "composed-pages",
+          "frame-decoration",
+          "frame-groups",
+          "inline-embeds",
+          "pdf-export",
+          "pdf-fonts",
+          "resource-types",
+          "resources"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 1,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 0
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "C40",
+            "severity": "info",
+            "detail": "every element came back to its source: 36 block, 36 frame, 67 line"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "continuation carried as the bundle's start: pageIndexOffset"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: es, en"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: es, en"
+          }
+        ]
+      }
+    }
+  }
+}

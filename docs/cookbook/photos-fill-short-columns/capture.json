@@ -1,0 +1,746 @@
+{
+  "schemaVersion": 1,
+  "slug": "photos-fill-short-columns",
+  "sourceHash": "fe35af3b78be386b602209edcad6c88c3aab23bed12791436201d894445ffd0c",
+  "engine": {
+    "postext": "1.65.0",
+    "postextPdf": "1.65.0",
+    "source": "npm"
+  },
+  "chrome": "156.0.8078.76",
+  "capturedAt": "2026-10-31T17:28:13.351Z",
+  "variants": {
+    "en": {
+      "hash8": "2fd46106",
+      "vdtHash": "815880f6cd59add2361b1907af452588c8fb8b59",
+      "timings": {
+        "importMs": 4327,
+        "fontsMs": 160,
+        "buildMs": 80,
+        "totalMs": 5997,
+        "builds": 2
+      },
+      "specimen": {
+        "trimMm": [
+          225,
+          297
+        ],
+        "dpi": 150,
+        "layoutType": "double",
+        "gutterMm": 7,
+        "mirror": true,
+        "body": {
+          "family": "Newsreader",
+          "sizePt": 9.8,
+          "leadingPt": 13.6
+        },
+        "families": [
+          "Archivo",
+          "Archivo Narrow",
+          "Newsreader"
+        ],
+        "pages": 6,
+        "ownLines": 178
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1320,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 214870,
+          "alt": "Opening page 1: People of the low tide."
+        },
+        {
+          "n": 2,
+          "label": "2",
+          "role": "body",
+          "w": 1000,
+          "h": 1320,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 219872,
+          "alt": "Page 2: The eleven o’clock auction. Figure 1. Carmen Lago sorts cockles on her plot of the estuary at low water. · Figure 2. Rosa Doval mends a purse-seine panel on the quay."
+        },
+        {
+          "n": 3,
+          "label": "3",
+          "role": "body",
+          "w": 1000,
+          "h": 1320,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 185768,
+          "alt": "Page 3: The lighthouse and the path. Figure 5. Lucía Fraga lifts an octopus out of the copper cauldron. · Figure 3. Manuel Barreiro planes the planking of the gamela. · Figure 4. Arnela point: the lighthouse and the coastal path."
+        },
+        {
+          "n": 5,
+          "label": "2",
+          "role": "body",
+          "w": 1000,
+          "h": 1320,
+          "file": "p05.webp",
+          "strip": "p05.s.webp",
+          "bytes": 223402,
+          "alt": "Page 2: The eleven o’clock auction. Figure 1. Carmen Lago sorts cockles on her plot of the estuary at low water. · Figure 2. Rosa Doval mends a purse-seine panel on the quay."
+        },
+        {
+          "n": 6,
+          "label": "3",
+          "role": "body",
+          "w": 1000,
+          "h": 1320,
+          "file": "p06.webp",
+          "strip": "p06.s.webp",
+          "bytes": 185768,
+          "alt": "Page 3: The lighthouse and the path. Figure 5. Lucía Fraga lifts an octopus out of the copper cauldron. · Figure 3. Manuel Barreiro planes the planking of the gamela. · Figure 4. Arnela point: the lighthouse and the coastal path."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "page"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "pdf": {
+        "file": "photos-fill-short-columns.pdf",
+        "bytes": 1971681,
+        "pages": 3
+      },
+      "sandbox": {
+        "file": "photos-fill-short-columns.postext",
+        "bytes": 1924768,
+        "folio": "111a3296",
+        "pages": 3,
+        "chapters": [
+          {
+            "pages": 3,
+            "hash": "ac8d4ad9f296531f",
+            "lines": "c0d8430bc123d981"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "decompressWoff2",
+          "defaultResourceTypes",
+          "registerResourceImage",
+          "renderPageToCanvas",
+          "renderToPdf"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.avoidOrphans",
+          "bodyText.avoidRunts",
+          "bodyText.avoidWidows",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.hyphenation",
+          "bodyText.hyphenation.enabled",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.optimalLineBreaking",
+          "bodyText.referenceColor",
+          "bodyText.textAlign",
+          "captionStyle",
+          "captionStyle.color",
+          "captionStyle.descriptionItalic",
+          "captionStyle.fontFamily",
+          "captionStyle.fontSize",
+          "captionStyle.gap",
+          "captionStyle.labelBold",
+          "captionStyle.labelColor",
+          "captionStyle.note",
+          "captionStyle.note.color",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "header",
+          "header.elements",
+          "header.elements[].align",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].overflow",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headings",
+          "headings.balancing",
+          "headings.balancing.enabled",
+          "headings.balancing.looseParagraphs",
+          "headings.balancing.maxLinesPerHeading",
+          "headings.balancing.stretchAfterFloats",
+          "headings.balancing.stretchAfterLists",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].fontSize",
+          "headings.levels[].level",
+          "headings.levels[].lineHeight",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "headings.levels[].span",
+          "layout",
+          "layout.gutterWidth",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].color",
+          "paragraphStyles[].firstLineIndent",
+          "paragraphStyles[].fontFamily",
+          "paragraphStyles[].fontSize",
+          "paragraphStyles[].id",
+          "paragraphStyles[].lineHeight",
+          "paragraphStyles[].marginTop",
+          "paragraphStyles[].textAlign",
+          "resourceTypes",
+          "resourceTypes[].captionPrefix",
+          "resourceTypes[].counterFormat",
+          "resourceTypes[].id",
+          "resourceTypes[].name",
+          "resourceTypes[].namePlural",
+          "resourceTypes[].numberingTemplate",
+          "resourceTypes[].resetOn",
+          "resourceTypes[].shortLabel"
+        ],
+        "configSections": [
+          "bodyText",
+          "captionStyle",
+          "colorPalette",
+          "footer",
+          "header",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "paragraphStyles",
+          "resourceTypes"
+        ],
+        "configLeaves": 241,
+        "designElements": 9,
+        "directives": [
+          "::resource",
+          ":::paragraphs"
+        ],
+        "inline": [
+          "{attrs}",
+          ":ref"
+        ],
+        "resources": {
+          "svg": 0,
+          "bitmap": 6,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Archivo Narrow",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Archivo Narrow",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Archivo Narrow",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Archivo",
+            "weight": 800,
+            "style": "normal"
+          },
+          {
+            "family": "Newsreader",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Newsreader",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Newsreader",
+            "weight": 700,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "column-balancing",
+          "figure-citations",
+          "heading-attributes",
+          "inline-embeds",
+          "localised-labels",
+          "opener-band",
+          "opener-design",
+          "page-role-filters",
+          "paragraph-styles",
+          "pdf-export",
+          "pdf-fonts",
+          "resource-types",
+          "resources"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 3,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 1.85
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "C20",
+            "severity": "warn",
+            "detail": "the edition's images weigh 1.17 MB (warning at 0.9 MB for 5 pages; capture.expect.imageMb states the figure of a book of paintings)"
+          },
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 156.0.8078.76, the committed capture used 155.0.8059.85: pixels may differ"
+          },
+          {
+            "check": "vdt",
+            "severity": "warn",
+            "detail": "the layout changed with the same sources (engine or font regression?)"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: en, es"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: en, es"
+          }
+        ]
+      }
+    },
+    "es": {
+      "hash8": "1319e09a",
+      "vdtHash": "f1e94d153c444359f34d4f7d7c8e7e4736a02754",
+      "timings": {
+        "importMs": 4118,
+        "fontsMs": 501,
+        "buildMs": 84,
+        "totalMs": 5894,
+        "builds": 2
+      },
+      "specimen": {
+        "trimMm": [
+          225,
+          297
+        ],
+        "dpi": 150,
+        "layoutType": "double",
+        "gutterMm": 7,
+        "mirror": true,
+        "body": {
+          "family": "Newsreader",
+          "sizePt": 9.8,
+          "leadingPt": 13.6
+        },
+        "families": [
+          "Archivo",
+          "Archivo Narrow",
+          "Newsreader"
+        ],
+        "pages": 6,
+        "ownLines": 178
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "1",
+          "role": "opener",
+          "w": 1000,
+          "h": 1320,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 210756,
+          "alt": "Página de apertura 1: Gente de la bajamar."
+        },
+        {
+          "n": 2,
+          "label": "2",
+          "role": "body",
+          "w": 1000,
+          "h": 1320,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 220020,
+          "alt": "Página 2: La subasta de las once. Figura 1. Carmen Lago separa berberechos en su parcela de la ría, en bajamar. · Figura 2. Rosa Doval remienda un paño de cerco en el muelle."
+        },
+        {
+          "n": 3,
+          "label": "3",
+          "role": "body",
+          "w": 1000,
+          "h": 1320,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 195230,
+          "alt": "Página 3: El faro y el camino. Figura 5. Lucía Fraga saca un pulpo del caldero de cobre. · Figura 3. Manuel Barreiro cepilla el forro de la gamela. · Figura 4. La punta de Arnela: el faro y el camino de la costa."
+        },
+        {
+          "n": 5,
+          "label": "2",
+          "role": "body",
+          "w": 1000,
+          "h": 1320,
+          "file": "p05.webp",
+          "strip": "p05.s.webp",
+          "bytes": 222720,
+          "alt": "Página 2: La subasta de las once. Figura 1. Carmen Lago separa berberechos en su parcela de la ría, en bajamar. · Figura 2. Rosa Doval remienda un paño de cerco en el muelle."
+        },
+        {
+          "n": 6,
+          "label": "3",
+          "role": "body",
+          "w": 1000,
+          "h": 1320,
+          "file": "p06.webp",
+          "strip": "p06.s.webp",
+          "bytes": 192418,
+          "alt": "Página 3: El faro y el camino. Figura 5. Lucía Fraga saca un pulpo del caldero de cobre. · Figura 3. Manuel Barreiro cepilla el forro de la gamela. · Figura 4. La punta de Arnela: el faro y el camino de la costa."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "page"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "pdf": {
+        "file": "photos-fill-short-columns.pdf",
+        "bytes": 1980480,
+        "pages": 3
+      },
+      "sandbox": {
+        "file": "photos-fill-short-columns.postext",
+        "bytes": 1924480,
+        "folio": "111a3296",
+        "pages": 3,
+        "chapters": [
+          {
+            "pages": 3,
+            "hash": "8da9876bd28f7a0d",
+            "lines": "afdc1a0d554f6837"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "decompressWoff2",
+          "defaultResourceTypes",
+          "registerResourceImage",
+          "renderPageToCanvas",
+          "renderToPdf"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.avoidOrphans",
+          "bodyText.avoidRunts",
+          "bodyText.avoidWidows",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.hyphenation",
+          "bodyText.hyphenation.enabled",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.optimalLineBreaking",
+          "bodyText.referenceColor",
+          "bodyText.textAlign",
+          "captionStyle",
+          "captionStyle.color",
+          "captionStyle.descriptionItalic",
+          "captionStyle.fontFamily",
+          "captionStyle.fontSize",
+          "captionStyle.gap",
+          "captionStyle.labelBold",
+          "captionStyle.labelColor",
+          "captionStyle.note",
+          "captionStyle.note.color",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "header",
+          "header.elements",
+          "header.elements[].align",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].overflow",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].textTransform",
+          "headings",
+          "headings.balancing",
+          "headings.balancing.enabled",
+          "headings.balancing.looseParagraphs",
+          "headings.balancing.maxLinesPerHeading",
+          "headings.balancing.stretchAfterFloats",
+          "headings.balancing.stretchAfterLists",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].fontSize",
+          "headings.levels[].level",
+          "headings.levels[].lineHeight",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "headings.levels[].span",
+          "layout",
+          "layout.gutterWidth",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].color",
+          "paragraphStyles[].firstLineIndent",
+          "paragraphStyles[].fontFamily",
+          "paragraphStyles[].fontSize",
+          "paragraphStyles[].id",
+          "paragraphStyles[].lineHeight",
+          "paragraphStyles[].marginTop",
+          "paragraphStyles[].textAlign",
+          "resourceTypes",
+          "resourceTypes[].captionPrefix",
+          "resourceTypes[].counterFormat",
+          "resourceTypes[].id",
+          "resourceTypes[].name",
+          "resourceTypes[].namePlural",
+          "resourceTypes[].numberingTemplate",
+          "resourceTypes[].resetOn",
+          "resourceTypes[].shortLabel"
+        ],
+        "configSections": [
+          "bodyText",
+          "captionStyle",
+          "colorPalette",
+          "footer",
+          "header",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "paragraphStyles",
+          "resourceTypes"
+        ],
+        "configLeaves": 241,
+        "designElements": 9,
+        "directives": [
+          "::resource",
+          ":::paragraphs"
+        ],
+        "inline": [
+          "{attrs}",
+          ":ref"
+        ],
+        "resources": {
+          "svg": 0,
+          "bitmap": 6,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Archivo Narrow",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Archivo Narrow",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Archivo Narrow",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Archivo",
+            "weight": 800,
+            "style": "normal"
+          },
+          {
+            "family": "Newsreader",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Newsreader",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Newsreader",
+            "weight": 700,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "column-balancing",
+          "figure-citations",
+          "heading-attributes",
+          "inline-embeds",
+          "localised-labels",
+          "opener-band",
+          "opener-design",
+          "page-role-filters",
+          "paragraph-styles",
+          "pdf-export",
+          "pdf-fonts",
+          "resource-types",
+          "resources"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 4,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 1.81
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "C20",
+            "severity": "warn",
+            "detail": "the edition's images weigh 1.18 MB (warning at 0.9 MB for 5 pages; capture.expect.imageMb states the figure of a book of paintings)"
+          },
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 156.0.8078.76, the committed capture used 155.0.8059.85: pixels may differ"
+          },
+          {
+            "check": "vdt",
+            "severity": "warn",
+            "detail": "the layout changed with the same sources (engine or font regression?)"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: es, en"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: es, en"
+          }
+        ]
+      }
+    }
+  }
+}

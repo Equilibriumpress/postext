@@ -1,0 +1,852 @@
+{
+  "schemaVersion": 1,
+  "slug": "magazine-feature-opener",
+  "sourceHash": "d675ac581ab905d1fc9c39c8b9e1983a4a7104dad31922df0f76fe06494b00e3",
+  "engine": {
+    "postext": "1.57.1",
+    "source": "npm"
+  },
+  "chrome": "155.0.8059.85",
+  "capturedAt": "2026-10-23T07:39:08.042Z",
+  "verified": {
+    "postext": "1.65.0",
+    "chrome": "156.0.8078.76",
+    "at": "2026-10-31T17:02:09.660Z"
+  },
+  "variants": {
+    "en": {
+      "hash8": "6b9a36b4",
+      "vdtHash": "d0437403437ef3e1894f5651371c8d1027c48e10",
+      "timings": {
+        "importMs": 512,
+        "fontsMs": 55,
+        "buildMs": 113,
+        "totalMs": 1464,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          225,
+          297
+        ],
+        "dpi": 150,
+        "layoutType": "double",
+        "gutterMm": 6,
+        "mirror": true,
+        "body": {
+          "family": "Literata",
+          "sizePt": 9.6,
+          "leadingPt": 13.4
+        },
+        "families": [
+          "Instrument Sans",
+          "Instrument Serif",
+          "Literata"
+        ],
+        "pages": 4,
+        "ownLines": 240
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "57",
+          "role": "opener",
+          "w": 1000,
+          "h": 1320,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 172174,
+          "alt": "Opening page 57: The Lake That Keeps Time."
+        },
+        {
+          "n": 2,
+          "label": "58",
+          "role": "body",
+          "w": 1000,
+          "h": 1320,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 237178,
+          "alt": "Page 58: A thermometer with a lid."
+        },
+        {
+          "n": 3,
+          "label": "59",
+          "role": "body",
+          "w": 1000,
+          "h": 1320,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 178834,
+          "alt": "Page 59: 31. Early March in the pine wood above the shore: the snow goes first where the sun reaches the ground, weeks before the ice lets go of the lake."
+        },
+        {
+          "n": 4,
+          "label": "60",
+          "role": "opener",
+          "w": 1000,
+          "h": 1320,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 103776,
+          "alt": "Opening page 60: Five Kinds of Ice."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          null
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "page"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "sandbox": {
+        "file": "magazine-feature-opener.postext",
+        "bytes": 774224,
+        "folio": "da2eb3c6",
+        "chapters": [
+          {
+            "pages": 4,
+            "hash": "abead2abe28ee6a7",
+            "lines": "4afb8793d3c96303"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "registerResourceImage",
+          "renderPageToCanvas"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.minWordSpacing",
+          "bodyText.referenceColor",
+          "bodyText.runtMinCharacters",
+          "bodyText.textAlign",
+          "calloutStyles",
+          "calloutStyles[].background",
+          "calloutStyles[].backgroundEnabled",
+          "calloutStyles[].body",
+          "calloutStyles[].body.color",
+          "calloutStyles[].body.firstLineIndent",
+          "calloutStyles[].body.fontFamily",
+          "calloutStyles[].body.fontSize",
+          "calloutStyles[].body.hyphenation",
+          "calloutStyles[].body.italicColor",
+          "calloutStyles[].body.lineHeight",
+          "calloutStyles[].body.textAlign",
+          "calloutStyles[].columnGap",
+          "calloutStyles[].icon",
+          "calloutStyles[].icon.color",
+          "calloutStyles[].icon.fontFamily",
+          "calloutStyles[].icon.glyph",
+          "calloutStyles[].icon.kind",
+          "calloutStyles[].icon.size",
+          "calloutStyles[].id",
+          "calloutStyles[].marginBottom",
+          "calloutStyles[].marginTop",
+          "calloutStyles[].padding",
+          "calloutStyles[].padding.bottom",
+          "calloutStyles[].padding.left",
+          "calloutStyles[].padding.right",
+          "calloutStyles[].padding.top",
+          "calloutStyles[].placement",
+          "calloutStyles[].span",
+          "calloutStyles[].stripe",
+          "calloutStyles[].stripe.color",
+          "calloutStyles[].stripe.enabled",
+          "calloutStyles[].stripe.side",
+          "calloutStyles[].stripe.width",
+          "calloutStyles[].titleStyle",
+          "calloutStyles[].titleStyle.color",
+          "calloutStyles[].titleStyle.fontFamily",
+          "calloutStyles[].titleStyle.fontSize",
+          "calloutStyles[].titleStyle.fontWeight",
+          "calloutStyles[].titleStyle.gap",
+          "calloutStyles[].titleStyle.letterSpacing",
+          "calloutStyles[].titleStyle.textTransform",
+          "captionStyle",
+          "captionStyle.fontFamily",
+          "captionStyle.fontSize",
+          "captionStyle.gap",
+          "captionStyle.note",
+          "captionStyle.note.color",
+          "captionStyle.note.fontSize",
+          "captionStyle.note.gap",
+          "chipStyles",
+          "chipStyles[].background",
+          "chipStyles[].borderRadius",
+          "chipStyles[].borderWidth",
+          "chipStyles[].fontSize",
+          "chipStyles[].gap",
+          "chipStyles[].id",
+          "chipStyles[].paddingX",
+          "chipStyles[].paddingY",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].align",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].pages",
+          "footer.elements[].parity",
+          "footer.elements[].placement",
+          "header",
+          "header.elements",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].style",
+          "header.elements[].textTransform",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].id",
+          "headingStyles[].palette",
+          "headingStyles[].palette.lake",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].color",
+          "headings.levels[].fontSize",
+          "headings.levels[].italic",
+          "headings.levels[].level",
+          "headings.levels[].lineHeight",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "headings.levels[].span",
+          "layout",
+          "layout.gutterWidth",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].color",
+          "paragraphStyles[].firstLineIndent",
+          "paragraphStyles[].fontFamily",
+          "paragraphStyles[].fontSize",
+          "paragraphStyles[].id",
+          "paragraphStyles[].lineHeight",
+          "paragraphStyles[].marginTop",
+          "paragraphStyles[].textAlign",
+          "resourceTypes",
+          "resourceTypes[].captionPrefix",
+          "resourceTypes[].counterFormat",
+          "resourceTypes[].id",
+          "resourceTypes[].name",
+          "resourceTypes[].numberingTemplate",
+          "resourceTypes[].resetOn",
+          "resourceTypes[].shortLabel"
+        ],
+        "configSections": [
+          "bodyText",
+          "calloutStyles",
+          "captionStyle",
+          "chipStyles",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "paragraphStyles",
+          "resourceTypes"
+        ],
+        "configLeaves": 432,
+        "designElements": 20,
+        "directives": [
+          ":::callout",
+          "::resource",
+          ":::columns",
+          ":::paragraphs"
+        ],
+        "inline": [
+          "{attrs}",
+          "^…^",
+          ":chip"
+        ],
+        "resources": {
+          "svg": 1,
+          "bitmap": 2,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Instrument Sans",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Instrument Sans",
+            "weight": 500,
+            "style": "normal"
+          },
+          {
+            "family": "Instrument Sans",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Instrument Sans",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Instrument Serif",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Instrument Serif",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Literata",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Literata",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Literata",
+            "weight": 700,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "callout-columns",
+          "callout-icons",
+          "callout-styles",
+          "chips",
+          "heading-attributes",
+          "heading-styles",
+          "inline-embeds",
+          "opener-band",
+          "opener-design",
+          "page-role-filters",
+          "paragraph-styles",
+          "part-palettes",
+          "resource-types",
+          "resources",
+          "super-subscripts"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 3,
+        "looseLines": {
+          "count": 1,
+          "share": 0.007,
+          "worst": 2.01
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "runtFixes": {
+          "count": 3,
+          "tracked": 3,
+          "worst": 5
+        },
+        "findings": [
+          {
+            "check": "C35",
+            "severity": "info",
+            "detail": "3 paragraphs set a line short with tracking (worst −5‰): p. 1 −5‰ “The notebook lives in a biscuit tin on the kitch…”, p. 2 −5‰ “The reason lies in an odd habit of water. Most l…”, p. 2 −5‰ “For the first fifty years of the record, the lak…”"
+          },
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 155.0.8059.85, the committed capture used 154.0.8037.98: pixels may differ"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "continuation carried as the bundle's start: pageNumbering"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: en, es"
+          }
+        ]
+      }
+    },
+    "es": {
+      "hash8": "31f5ff3b",
+      "vdtHash": "a9a909ac6b6ecc143981e5d669f5f9e02f29a767",
+      "timings": {
+        "importMs": 218,
+        "fontsMs": 41,
+        "buildMs": 110,
+        "totalMs": 1050,
+        "builds": 1
+      },
+      "specimen": {
+        "trimMm": [
+          225,
+          297
+        ],
+        "dpi": 150,
+        "layoutType": "double",
+        "gutterMm": 6,
+        "mirror": true,
+        "body": {
+          "family": "Literata",
+          "sizePt": 9.6,
+          "leadingPt": 13.4
+        },
+        "families": [
+          "Instrument Sans",
+          "Instrument Serif",
+          "Literata"
+        ],
+        "pages": 4,
+        "ownLines": 240
+      },
+      "pages": [
+        {
+          "n": 1,
+          "label": "57",
+          "role": "opener",
+          "w": 1000,
+          "h": 1320,
+          "file": "p01.webp",
+          "strip": "p01.s.webp",
+          "bytes": 172164,
+          "alt": "Página de apertura 57: El lago que lleva la cuenta."
+        },
+        {
+          "n": 2,
+          "label": "58",
+          "role": "body",
+          "w": 1000,
+          "h": 1320,
+          "file": "p02.webp",
+          "strip": "p02.s.webp",
+          "bytes": 235136,
+          "alt": "Página 58: Un termómetro con tapa."
+        },
+        {
+          "n": 3,
+          "label": "59",
+          "role": "body",
+          "w": 1000,
+          "h": 1320,
+          "file": "p03.webp",
+          "strip": "p03.s.webp",
+          "bytes": 181772,
+          "alt": "Página 59: 31. Principios de marzo en el pinar sobre la orilla: la nieve se retira primero donde el sol llega al suelo, semanas antes de que el hielo suelte el lago."
+        },
+        {
+          "n": 4,
+          "label": "60",
+          "role": "opener",
+          "w": 1000,
+          "h": 1320,
+          "file": "p04.webp",
+          "strip": "p04.s.webp",
+          "bytes": 105608,
+          "alt": "Página de apertura 60: Cinco clases de hielo."
+        }
+      ],
+      "spreads": [
+        [
+          null,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          null
+        ]
+      ],
+      "card": {
+        "file": "card.webp",
+        "file480": "card.480.webp",
+        "w": 960,
+        "h": 720,
+        "mode": "page"
+      },
+      "og": {
+        "file": "og.jpg",
+        "w": 580,
+        "h": 622
+      },
+      "sandbox": {
+        "file": "magazine-feature-opener.postext",
+        "bytes": 774099,
+        "folio": "da2eb3c6",
+        "chapters": [
+          {
+            "pages": 4,
+            "hash": "21f2d19a2f3a33a2",
+            "lines": "397ed71a38e53ffa"
+          }
+        ]
+      },
+      "detected": {
+        "apis": [
+          "buildDocumentWithFonts",
+          "registerResourceImage",
+          "renderPageToCanvas"
+        ],
+        "configKeys": [
+          "bodyText",
+          "bodyText.boldColor",
+          "bodyText.color",
+          "bodyText.firstLineIndent",
+          "bodyText.fontFamily",
+          "bodyText.fontSize",
+          "bodyText.indentAfterHeading",
+          "bodyText.italicColor",
+          "bodyText.lineHeight",
+          "bodyText.minWordSpacing",
+          "bodyText.referenceColor",
+          "bodyText.runtMinCharacters",
+          "bodyText.textAlign",
+          "calloutStyles",
+          "calloutStyles[].background",
+          "calloutStyles[].backgroundEnabled",
+          "calloutStyles[].body",
+          "calloutStyles[].body.color",
+          "calloutStyles[].body.firstLineIndent",
+          "calloutStyles[].body.fontFamily",
+          "calloutStyles[].body.fontSize",
+          "calloutStyles[].body.hyphenation",
+          "calloutStyles[].body.italicColor",
+          "calloutStyles[].body.lineHeight",
+          "calloutStyles[].body.textAlign",
+          "calloutStyles[].columnGap",
+          "calloutStyles[].icon",
+          "calloutStyles[].icon.color",
+          "calloutStyles[].icon.fontFamily",
+          "calloutStyles[].icon.glyph",
+          "calloutStyles[].icon.kind",
+          "calloutStyles[].icon.size",
+          "calloutStyles[].id",
+          "calloutStyles[].marginBottom",
+          "calloutStyles[].marginTop",
+          "calloutStyles[].padding",
+          "calloutStyles[].padding.bottom",
+          "calloutStyles[].padding.left",
+          "calloutStyles[].padding.right",
+          "calloutStyles[].padding.top",
+          "calloutStyles[].placement",
+          "calloutStyles[].span",
+          "calloutStyles[].stripe",
+          "calloutStyles[].stripe.color",
+          "calloutStyles[].stripe.enabled",
+          "calloutStyles[].stripe.side",
+          "calloutStyles[].stripe.width",
+          "calloutStyles[].titleStyle",
+          "calloutStyles[].titleStyle.color",
+          "calloutStyles[].titleStyle.fontFamily",
+          "calloutStyles[].titleStyle.fontSize",
+          "calloutStyles[].titleStyle.fontWeight",
+          "calloutStyles[].titleStyle.gap",
+          "calloutStyles[].titleStyle.letterSpacing",
+          "calloutStyles[].titleStyle.textTransform",
+          "captionStyle",
+          "captionStyle.fontFamily",
+          "captionStyle.fontSize",
+          "captionStyle.gap",
+          "captionStyle.note",
+          "captionStyle.note.color",
+          "captionStyle.note.fontSize",
+          "captionStyle.note.gap",
+          "chipStyles",
+          "chipStyles[].background",
+          "chipStyles[].borderRadius",
+          "chipStyles[].borderWidth",
+          "chipStyles[].fontSize",
+          "chipStyles[].gap",
+          "chipStyles[].id",
+          "chipStyles[].paddingX",
+          "chipStyles[].paddingY",
+          "colorPalette",
+          "colorPalette[].id",
+          "colorPalette[].name",
+          "colorPalette[].value",
+          "footer",
+          "footer.elements",
+          "footer.elements[].align",
+          "footer.elements[].color",
+          "footer.elements[].content",
+          "footer.elements[].fontFamily",
+          "footer.elements[].fontSize",
+          "footer.elements[].fontWeight",
+          "footer.elements[].id",
+          "footer.elements[].kind",
+          "footer.elements[].pages",
+          "footer.elements[].parity",
+          "footer.elements[].placement",
+          "header",
+          "header.elements",
+          "header.elements[].color",
+          "header.elements[].content",
+          "header.elements[].fontFamily",
+          "header.elements[].fontSize",
+          "header.elements[].fontWeight",
+          "header.elements[].id",
+          "header.elements[].kind",
+          "header.elements[].letterSpacing",
+          "header.elements[].pages",
+          "header.elements[].parity",
+          "header.elements[].placement",
+          "header.elements[].style",
+          "header.elements[].textTransform",
+          "headingStyles",
+          "headingStyles[].advancedDesign",
+          "headingStyles[].advancedDesign.enabled",
+          "headingStyles[].advancedDesign.slot",
+          "headingStyles[].id",
+          "headingStyles[].palette",
+          "headingStyles[].palette.lake",
+          "headings",
+          "headings.color",
+          "headings.fontFamily",
+          "headings.fontWeight",
+          "headings.levels",
+          "headings.levels[].advancedDesign",
+          "headings.levels[].breakBefore",
+          "headings.levels[].color",
+          "headings.levels[].fontSize",
+          "headings.levels[].italic",
+          "headings.levels[].level",
+          "headings.levels[].lineHeight",
+          "headings.levels[].marginBottom",
+          "headings.levels[].marginTop",
+          "headings.levels[].span",
+          "layout",
+          "layout.gutterWidth",
+          "layout.layoutType",
+          "locale",
+          "page",
+          "page.dpi",
+          "page.height",
+          "page.margins",
+          "page.margins.bottom",
+          "page.margins.left",
+          "page.margins.mirror",
+          "page.margins.right",
+          "page.margins.top",
+          "page.width",
+          "paragraphStyles",
+          "paragraphStyles[].color",
+          "paragraphStyles[].firstLineIndent",
+          "paragraphStyles[].fontFamily",
+          "paragraphStyles[].fontSize",
+          "paragraphStyles[].id",
+          "paragraphStyles[].lineHeight",
+          "paragraphStyles[].marginTop",
+          "paragraphStyles[].textAlign",
+          "resourceTypes",
+          "resourceTypes[].captionPrefix",
+          "resourceTypes[].counterFormat",
+          "resourceTypes[].id",
+          "resourceTypes[].name",
+          "resourceTypes[].numberingTemplate",
+          "resourceTypes[].resetOn",
+          "resourceTypes[].shortLabel"
+        ],
+        "configSections": [
+          "bodyText",
+          "calloutStyles",
+          "captionStyle",
+          "chipStyles",
+          "colorPalette",
+          "footer",
+          "header",
+          "headingStyles",
+          "headings",
+          "layout",
+          "locale",
+          "page",
+          "paragraphStyles",
+          "resourceTypes"
+        ],
+        "configLeaves": 432,
+        "designElements": 20,
+        "directives": [
+          ":::callout",
+          "::resource",
+          ":::columns",
+          ":::paragraphs"
+        ],
+        "inline": [
+          "{attrs}",
+          "^…^",
+          ":chip",
+          "\\\\"
+        ],
+        "resources": {
+          "svg": 1,
+          "bitmap": 2,
+          "table": 0
+        },
+        "fonts": [
+          {
+            "family": "Instrument Sans",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Instrument Sans",
+            "weight": 500,
+            "style": "normal"
+          },
+          {
+            "family": "Instrument Sans",
+            "weight": 600,
+            "style": "normal"
+          },
+          {
+            "family": "Instrument Sans",
+            "weight": 700,
+            "style": "normal"
+          },
+          {
+            "family": "Instrument Serif",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Instrument Serif",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Literata",
+            "weight": 400,
+            "style": "italic"
+          },
+          {
+            "family": "Literata",
+            "weight": 400,
+            "style": "normal"
+          },
+          {
+            "family": "Literata",
+            "weight": 700,
+            "style": "normal"
+          }
+        ],
+        "features": [
+          "callout-columns",
+          "callout-icons",
+          "callout-styles",
+          "chips",
+          "heading-attributes",
+          "heading-styles",
+          "inline-embeds",
+          "opener-band",
+          "opener-design",
+          "page-role-filters",
+          "paragraph-styles",
+          "part-palettes",
+          "resource-types",
+          "resources",
+          "super-subscripts",
+          "title-line-breaks"
+        ],
+        "suggestedLevel": 3
+      },
+      "diagnostics": {
+        "converged": true,
+        "iterationCount": 3,
+        "looseLines": {
+          "count": 0,
+          "share": 0,
+          "worst": 1.92
+        },
+        "raggedLines": {
+          "count": 0
+        },
+        "findings": [
+          {
+            "check": "chrome",
+            "severity": "warn",
+            "detail": "Chrome 155.0.8059.85, the committed capture used 154.0.8037.98: pixels may differ"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "continuation carried as the bundle's start: pageNumbering"
+          },
+          {
+            "check": "sandbox",
+            "severity": "info",
+            "detail": "book in several languages: es, en"
+          }
+        ]
+      }
+    }
+  }
+}
