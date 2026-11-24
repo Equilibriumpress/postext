@@ -1,0 +1,575 @@
+{
+  "schema": "postext-port-proof/v1",
+  "status": "unverified visual reconstruction",
+  "source": {
+    "title": "Rough Guide Directions Singapore",
+    "totalPages": 194,
+    "sourcePdfAvailableAsReadOnlyProjectReference": true,
+    "sourceBinaryAvailableForLocalTools": false
+  },
+  "page": {
+    "widthMm": 104,
+    "heightMm": 191,
+    "origin": "previous Singapore reconstruction preset; source raster aspect ratio corroborates",
+    "mediaBoxMeasuredFromOriginalPdf": false
+  },
+  "selectedPages": [
+    {
+      "pdfPage": 1,
+      "role": "cover",
+      "template": "rg-cover",
+      "reference": "Image and live title overlay"
+    },
+    {
+      "pdfPage": 2,
+      "role": "full-page photo",
+      "template": "rg-photo-plate",
+      "reference": "Original full-bleed photo-002-01 without a footer"
+    },
+    {
+      "pdfPage": 11,
+      "role": "section opener",
+      "template": "rg-section-opener",
+      "reference": "Ideas, four-photo strip and violet ground"
+    },
+    {
+      "pdfPage": 12,
+      "role": "ideas lead",
+      "template": "rg-idea-lead",
+      "reference": "The Big Six, lead column, Changi Museum and Newton Circus"
+    },
+    {
+      "pdfPage": 13,
+      "role": "ideas photo cards",
+      "template": "rg-idea-tiles",
+      "reference": "Jurong, Chinatown, National Museum, zoo illustration"
+    },
+    {
+      "pdfPage": 49,
+      "role": "viewpoints",
+      "template": "rg-viewpoints",
+      "reference": "Cable Car, Mount Faber, Raffles Place"
+    },
+    {
+      "pdfPage": 51,
+      "role": "section opener",
+      "template": "rg-section-opener",
+      "reference": "Places, four-photo strip and blue ground"
+    },
+    {
+      "pdfPage": 52,
+      "role": "full-page photo",
+      "template": "rg-full-photo",
+      "reference": "Original photo-052-01"
+    },
+    {
+      "pdfPage": 54,
+      "role": "map with running text",
+      "template": "rg-map-article",
+      "reference": "Map 054 native SVG, two-column body"
+    },
+    {
+      "pdfPage": 95,
+      "role": "listing continuation",
+      "template": "rg-listing-continuation",
+      "reference": "Chinatown listings continued plus photo"
+    },
+    {
+      "pdfPage": 100,
+      "role": "listing opener",
+      "template": "rg-listing",
+      "reference": "Boat Quay eating section, two columns and photo"
+    },
+    {
+      "pdfPage": 180,
+      "role": "full-page vector map",
+      "template": "rg-map-plate",
+      "reference": "Map 180 native SVG with source lettering"
+    }
+  ],
+  "geometry": [
+    {
+      "template": "rg-cover",
+      "frames": [
+        {
+          "slot": "art",
+          "xMm": 0,
+          "yMm": 0,
+          "widthMm": 104,
+          "heightMm": 191
+        },
+        {
+          "slot": "imprint",
+          "xMm": 3,
+          "yMm": 1,
+          "widthMm": 21,
+          "heightMm": 11
+        },
+        {
+          "slot": "series",
+          "xMm": 9,
+          "yMm": 118,
+          "widthMm": 92,
+          "heightMm": 12
+        },
+        {
+          "slot": "title",
+          "xMm": 8,
+          "yMm": 134,
+          "widthMm": 95,
+          "heightMm": 27
+        }
+      ]
+    },
+    {
+      "template": "rg-full-photo",
+      "frames": [
+        {
+          "slot": "art",
+          "xMm": 0,
+          "yMm": 0,
+          "widthMm": 104,
+          "heightMm": 182
+        },
+        {
+          "slot": "nav",
+          "xMm": 5,
+          "yMm": 184,
+          "widthMm": 94,
+          "heightMm": 5
+        }
+      ]
+    },
+    {
+      "template": "rg-section-opener",
+      "frames": [
+        {
+          "slot": "title",
+          "xMm": 55,
+          "yMm": 70,
+          "widthMm": 46,
+          "heightMm": 16
+        },
+        {
+          "slot": "tile1",
+          "xMm": 0,
+          "yMm": 85,
+          "widthMm": 26,
+          "heightMm": 25
+        },
+        {
+          "slot": "tile2",
+          "xMm": 26,
+          "yMm": 85,
+          "widthMm": 26,
+          "heightMm": 25
+        },
+        {
+          "slot": "tile3",
+          "xMm": 52,
+          "yMm": 85,
+          "widthMm": 26,
+          "heightMm": 25
+        },
+        {
+          "slot": "tile4",
+          "xMm": 78,
+          "yMm": 85,
+          "widthMm": 26,
+          "heightMm": 25
+        },
+        {
+          "slot": "nav",
+          "xMm": 5,
+          "yMm": 184,
+          "widthMm": 94,
+          "heightMm": 5
+        }
+      ]
+    },
+    {
+      "template": "rg-idea-lead",
+      "frames": [
+        {
+          "slot": "folio",
+          "xMm": 5,
+          "yMm": 3,
+          "widthMm": 16,
+          "heightMm": 7
+        },
+        {
+          "slot": "head",
+          "xMm": 6,
+          "yMm": 14,
+          "widthMm": 37,
+          "heightMm": 12
+        },
+        {
+          "slot": "intro",
+          "xMm": 6,
+          "yMm": 30,
+          "widthMm": 37,
+          "heightMm": 66
+        },
+        {
+          "slot": "leftart",
+          "xMm": 0,
+          "yMm": 99,
+          "widthMm": 48,
+          "heightMm": 83
+        },
+        {
+          "slot": "rightart1",
+          "xMm": 48,
+          "yMm": 0,
+          "widthMm": 56,
+          "heightMm": 90
+        },
+        {
+          "slot": "rightcopy1",
+          "xMm": 51,
+          "yMm": 92,
+          "widthMm": 51,
+          "heightMm": 20
+        },
+        {
+          "slot": "rightart2",
+          "xMm": 48,
+          "yMm": 116,
+          "widthMm": 56,
+          "heightMm": 40
+        },
+        {
+          "slot": "rightcopy2",
+          "xMm": 51,
+          "yMm": 158,
+          "widthMm": 51,
+          "heightMm": 21
+        },
+        {
+          "slot": "nav",
+          "xMm": 5,
+          "yMm": 184,
+          "widthMm": 94,
+          "heightMm": 5
+        }
+      ]
+    },
+    {
+      "template": "rg-idea-tiles",
+      "frames": [
+        {
+          "slot": "folio",
+          "xMm": 94,
+          "yMm": 2,
+          "widthMm": 8,
+          "heightMm": 7
+        },
+        {
+          "slot": "art1",
+          "xMm": 10,
+          "yMm": 10,
+          "widthMm": 88,
+          "heightMm": 37
+        },
+        {
+          "slot": "caption1",
+          "xMm": 10,
+          "yMm": 48,
+          "widthMm": 89,
+          "heightMm": 23
+        },
+        {
+          "slot": "art2",
+          "xMm": 4,
+          "yMm": 78,
+          "widthMm": 43,
+          "heightMm": 28
+        },
+        {
+          "slot": "caption2",
+          "xMm": 4,
+          "yMm": 108,
+          "widthMm": 43,
+          "heightMm": 28
+        },
+        {
+          "slot": "art3",
+          "xMm": 53,
+          "yMm": 78,
+          "widthMm": 45,
+          "heightMm": 28
+        },
+        {
+          "slot": "caption3",
+          "xMm": 53,
+          "yMm": 108,
+          "widthMm": 45,
+          "heightMm": 18
+        },
+        {
+          "slot": "art4",
+          "xMm": 5,
+          "yMm": 145,
+          "widthMm": 93,
+          "heightMm": 31
+        },
+        {
+          "slot": "nav",
+          "xMm": 5,
+          "yMm": 184,
+          "widthMm": 94,
+          "heightMm": 5
+        },
+        {
+          "slot": "caption4",
+          "xMm": 53,
+          "yMm": 128,
+          "widthMm": 45,
+          "heightMm": 15
+        }
+      ]
+    },
+    {
+      "template": "rg-viewpoints",
+      "frames": [
+        {
+          "slot": "folio",
+          "xMm": 94,
+          "yMm": 2,
+          "widthMm": 8,
+          "heightMm": 7
+        },
+        {
+          "slot": "art1",
+          "xMm": 5,
+          "yMm": 9,
+          "widthMm": 94,
+          "heightMm": 52
+        },
+        {
+          "slot": "copy1",
+          "xMm": 5,
+          "yMm": 63,
+          "widthMm": 46,
+          "heightMm": 22
+        },
+        {
+          "slot": "copy2",
+          "xMm": 53,
+          "yMm": 63,
+          "widthMm": 46,
+          "heightMm": 22
+        },
+        {
+          "slot": "art2",
+          "xMm": 5,
+          "yMm": 89,
+          "widthMm": 94,
+          "heightMm": 39
+        },
+        {
+          "slot": "art3",
+          "xMm": 5,
+          "yMm": 133,
+          "widthMm": 66,
+          "heightMm": 41
+        },
+        {
+          "slot": "copy3",
+          "xMm": 73,
+          "yMm": 134,
+          "widthMm": 25,
+          "heightMm": 37
+        },
+        {
+          "slot": "nav",
+          "xMm": 5,
+          "yMm": 184,
+          "widthMm": 94,
+          "heightMm": 5
+        }
+      ]
+    },
+    {
+      "template": "rg-map-article",
+      "frames": [
+        {
+          "slot": "ribbon",
+          "xMm": 1,
+          "yMm": 65,
+          "widthMm": 6,
+          "heightMm": 63
+        },
+        {
+          "slot": "folio",
+          "xMm": 11,
+          "yMm": 4,
+          "widthMm": 12,
+          "heightMm": 8
+        },
+        {
+          "slot": "map",
+          "xMm": 13,
+          "yMm": 12,
+          "widthMm": 84,
+          "heightMm": 91
+        },
+        {
+          "slot": "left",
+          "xMm": 13,
+          "yMm": 113,
+          "widthMm": 41,
+          "heightMm": 63
+        },
+        {
+          "slot": "right",
+          "xMm": 57,
+          "yMm": 113,
+          "widthMm": 40,
+          "heightMm": 63
+        },
+        {
+          "slot": "nav",
+          "xMm": 5,
+          "yMm": 184,
+          "widthMm": 94,
+          "heightMm": 5
+        }
+      ]
+    },
+    {
+      "template": "rg-listing",
+      "frames": [
+        {
+          "slot": "ribbon",
+          "xMm": 1,
+          "yMm": 65,
+          "widthMm": 6,
+          "heightMm": 63
+        },
+        {
+          "slot": "folio",
+          "xMm": 13,
+          "yMm": 4,
+          "widthMm": 18,
+          "heightMm": 8
+        },
+        {
+          "slot": "head",
+          "xMm": 13,
+          "yMm": 16,
+          "widthMm": 84,
+          "heightMm": 9
+        },
+        {
+          "slot": "left",
+          "xMm": 14,
+          "yMm": 29,
+          "widthMm": 39,
+          "heightMm": 89
+        },
+        {
+          "slot": "right",
+          "xMm": 57,
+          "yMm": 29,
+          "widthMm": 39,
+          "heightMm": 89
+        },
+        {
+          "slot": "art",
+          "xMm": 12,
+          "yMm": 122,
+          "widthMm": 88,
+          "heightMm": 55
+        },
+        {
+          "slot": "nav",
+          "xMm": 5,
+          "yMm": 184,
+          "widthMm": 94,
+          "heightMm": 5
+        }
+      ]
+    },
+    {
+      "template": "rg-map-plate",
+      "frames": [
+        {
+          "slot": "map",
+          "xMm": 0,
+          "yMm": 0,
+          "widthMm": 104,
+          "heightMm": 191
+        }
+      ]
+    },
+    {
+      "template": "rg-listing-continuation",
+      "frames": [
+        {
+          "slot": "ribbon",
+          "xMm": 1,
+          "yMm": 65,
+          "widthMm": 6,
+          "heightMm": 63
+        },
+        {
+          "slot": "folio",
+          "xMm": 13,
+          "yMm": 4,
+          "widthMm": 18,
+          "heightMm": 8
+        },
+        {
+          "slot": "left",
+          "xMm": 14,
+          "yMm": 15,
+          "widthMm": 39,
+          "heightMm": 104
+        },
+        {
+          "slot": "right",
+          "xMm": 57,
+          "yMm": 15,
+          "widthMm": 39,
+          "heightMm": 104
+        },
+        {
+          "slot": "art",
+          "xMm": 12,
+          "yMm": 122,
+          "widthMm": 88,
+          "heightMm": 55
+        },
+        {
+          "slot": "nav",
+          "xMm": 5,
+          "yMm": 184,
+          "widthMm": 94,
+          "heightMm": 5
+        }
+      ]
+    },
+    {
+      "template": "rg-photo-plate",
+      "frames": [
+        {
+          "slot": "art",
+          "xMm": 0,
+          "yMm": 0,
+          "widthMm": 104,
+          "heightMm": 191
+        }
+      ]
+    }
+  ],
+  "acceptance": {
+    "sourceSvgAndPhotoResourcesPinned": true,
+    "pageCountSourceContract": 12,
+    "sourcePdfGeometryMeasured": false,
+    "headlessPostextRendered": false,
+    "visualComparisonPassed": false,
+    "exportValidated": false
+  }
+}
