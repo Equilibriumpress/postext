@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+/* Include the actual workspace Sandbox source in Tailwind's class scan. */
+@source "../../../packages/postext-sandbox/src/**/*.tsx";
+@custom-variant dark (&:is(.dark *));
+@custom-variant pt-large (&:where([data-pt-targets="large"] *));
+
+:root {
+  color-scheme: dark;
+  --background: #15171c;
+  --foreground: #f4f1ea;
+  --surface: #1c1f26;
+  --surface-2: #242832;
+  --elevated: #20232b;
+  --slate: #aeb3be;
+  --rule: #2c313c;
+  --rule-strong: #3b424f;
+  --brand: #e1ab2c;
+  --brand-hover: #edbf4a;
+  --brand-contrast: #0e1014;
+  --brand-soft: rgba(216, 162, 26, 0.14);
+  --gilt: #e1ab2c;
+  --accent-blue: #9bb0ff;
+  --destructive: #ff977e;
+  --brand-blue: #2b4acb;
+  --brand-gilt: #d8a21a;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  --font-display: Georgia, serif;
+  --border: var(--rule);
+  --input: var(--rule-strong);
+  --card: var(--surface);
+  --muted: var(--surface-2);
+  --muted-foreground: var(--slate);
+  --popover: var(--elevated);
+  --popover-foreground: var(--foreground);
+  --secondary: var(--surface-2);
+  --secondary-foreground: var(--foreground);
+  --accent: var(--surface-2);
+  --accent-foreground: var(--foreground);
+  --primary: var(--brand);
+  --primary-foreground: var(--brand-contrast);
+  --ring: var(--brand);
+  --radius: .5rem;
+}
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-elevated: var(--elevated);
+  --color-slate: var(--slate);
+  --color-rule: var(--rule);
+  --color-rule-strong: var(--rule-strong);
+  --color-brand: var(--brand);
+  --color-brand-hover: var(--brand-hover);
+  --color-brand-contrast: var(--brand-contrast);
+  --color-brand-soft: var(--brand-soft);
+  --color-gilt: var(--gilt);
+  --color-accent-blue: var(--accent-blue);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-card: var(--card);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --font-sans: ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", Consolas, monospace;
+}
+html, body, #root { width: 100%; height: 100%; margin: 0; overflow: hidden; }
+body { background: var(--background); color: var(--foreground); }

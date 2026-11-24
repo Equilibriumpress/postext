@@ -1,0 +1,71 @@
+{
+  "version": 2,
+  "id": "equilibrium-studio-proof",
+  "name": "Equilibrium Press · Studio Proof",
+  "locale": "en",
+  "view": {
+    "canvasScope": "book"
+  },
+  "chapters": [
+    {
+      "title": "Postext Studio",
+      "file": "chapters/01-introduction.md"
+    },
+    {
+      "title": "Publishing workflow",
+      "file": "chapters/02-workflow.md"
+    }
+  ],
+  "config": {
+    "page": {
+      "sizePreset": "A4",
+      "margins": {
+        "top": {
+          "value": 20,
+          "unit": "mm"
+        },
+        "bottom": {
+          "value": 22,
+          "unit": "mm"
+        },
+        "left": {
+          "value": 20,
+          "unit": "mm"
+        },
+        "right": {
+          "value": 20,
+          "unit": "mm"
+        }
+      }
+    },
+    "layout": {
+      "layoutType": "single"
+    },
+    "bodyText": {
+      "fontFamily": "EB Garamond",
+      "fontSize": {
+        "value": 11,
+        "unit": "pt"
+      },
+      "lineHeight": {
+        "value": 15,
+        "unit": "pt"
+      }
+    },
+    "headings": {
+      "fontFamily": "EB Garamond"
+    }
+  },
+  "resources": [
+    {
+      "id": "studio-workflow",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/studio-workflow.svg",
+      "width": 500,
+      "height": 170,
+      "caption": "Book content and source assets pass through the same browser-based publishing workflow.",
+      "altText": "Three steps from GitHub, through Postext, to PDF and EPUB."
+    }
+  ]
+}

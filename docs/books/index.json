@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "presets": [
+    {
+      "id": "equilibrium-studio-proof",
+      "dir": "equilibrium-studio-proof",
+      "name": "Equilibrium Press · Studio Proof",
+      "description": "Minimal book from GitHub containing Markdown, an SVG infographic and a working external link. Production books follow after conversion.",
+      "locale": "en",
+      "locales": [
+        "en"
+      ],
+      "tags": [
+        "studio",
+        "proof",
+        "svg"
+      ]
+    }
+  ]
+}
