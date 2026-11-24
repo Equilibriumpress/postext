@@ -1,0 +1,4604 @@
+{
+  "version": 2,
+  "configVersion": 22,
+  "id": "dinas-island-field-guide",
+  "name": "DINAS ISLAND · A Coastal Field Guide",
+  "description": "Original illustrated coastal field guide and native Postext design proof: photography, source-backed map, editable diagrams, grid cards, modules and flowing text.",
+  "locale": "en",
+  "locales": [
+    "en"
+  ],
+  "thumbnail": "thumbnail.svg",
+  "tags": [
+    "travel",
+    "coastal",
+    "composed-pages",
+    "layout-proof"
+  ],
+  "view": {
+    "canvasScope": "book"
+  },
+  "chapters": [
+    {
+      "title": "Opening",
+      "file": "chapters/01-opening.md"
+    },
+    {
+      "title": "The place",
+      "file": "chapters/02-place.md"
+    },
+    {
+      "title": "Reading the landscape",
+      "file": "chapters/03-landscape.md"
+    },
+    {
+      "title": "Walking the headland",
+      "file": "chapters/04-walking.md"
+    },
+    {
+      "title": "A place of memory",
+      "file": "chapters/05-heritage.md"
+    },
+    {
+      "title": "A slower walk",
+      "file": "chapters/06-reading.md"
+    },
+    {
+      "title": "Sources",
+      "file": "chapters/07-sources.md"
+    }
+  ],
+  "config": {
+    "locale": "en",
+    "page": {
+      "sizePreset": "custom",
+      "width": {
+        "value": 170,
+        "unit": "mm"
+      },
+      "height": {
+        "value": 235,
+        "unit": "mm"
+      },
+      "margins": {
+        "top": {
+          "value": 18,
+          "unit": "mm"
+        },
+        "bottom": {
+          "value": 17,
+          "unit": "mm"
+        },
+        "left": {
+          "value": 14,
+          "unit": "mm"
+        },
+        "right": {
+          "value": 14,
+          "unit": "mm"
+        },
+        "mirror": true
+      },
+      "pageNumbering": {
+        "format": "decimal",
+        "startAt": 1
+      }
+    },
+    "layout": {
+      "layoutType": "double",
+      "gutterWidth": {
+        "value": 8,
+        "unit": "mm"
+      },
+      "inlineResourceGapInBoxes": false
+    },
+    "bodyText": {
+      "fontFamily": "Newsreader",
+      "fontSize": {
+        "value": 11.5,
+        "unit": "pt"
+      },
+      "lineHeight": {
+        "value": 16,
+        "unit": "pt"
+      },
+      "textAlign": "left",
+      "paragraphSpacing": {
+        "value": 7,
+        "unit": "pt"
+      },
+      "firstLineIndent": {
+        "value": 0,
+        "unit": "pt"
+      },
+      "hyphenation": {
+        "enabled": true,
+        "locale": "en"
+      },
+      "avoidWidows": true,
+      "avoidOrphans": true
+    },
+    "headings": {
+      "fontFamily": "Newsreader",
+      "keepWithNext": true,
+      "levels": [
+        {
+          "level": 1,
+          "fontSize": {
+            "value": 30,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 33,
+            "unit": "pt"
+          },
+          "fontWeight": 700,
+          "span": "page",
+          "marginTop": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "marginBottom": {
+            "value": 5,
+            "unit": "pt"
+          }
+        },
+        {
+          "level": 2,
+          "fontFamily": "Archivo",
+          "fontSize": {
+            "value": 15,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 19,
+            "unit": "pt"
+          },
+          "fontWeight": 700,
+          "marginTop": {
+            "value": 8,
+            "unit": "pt"
+          },
+          "marginBottom": {
+            "value": 4,
+            "unit": "pt"
+          }
+        }
+      ]
+    },
+    "headingStyles": [
+      {
+        "id": "cover-heading",
+        "name": "Cover title",
+        "fontFamily": "Newsreader",
+        "fontSize": {
+          "value": 44,
+          "unit": "pt"
+        },
+        "lineHeight": {
+          "value": 47,
+          "unit": "pt"
+        },
+        "fontWeight": 700,
+        "color": {
+          "hex": "#FFFFFF",
+          "model": "hex"
+        },
+        "marginTop": {
+          "value": 0,
+          "unit": "pt"
+        },
+        "marginBottom": {
+          "value": 0,
+          "unit": "pt"
+        },
+        "numbered": false,
+        "toc": false
+      },
+      {
+        "id": "page-heading",
+        "name": "Editorial page title",
+        "fontFamily": "Newsreader",
+        "fontSize": {
+          "value": 30,
+          "unit": "pt"
+        },
+        "lineHeight": {
+          "value": 33,
+          "unit": "pt"
+        },
+        "fontWeight": 700,
+        "color": {
+          "hex": "#173B3B",
+          "model": "hex"
+        },
+        "marginTop": {
+          "value": 0,
+          "unit": "pt"
+        },
+        "marginBottom": {
+          "value": 0,
+          "unit": "pt"
+        },
+        "numbered": false
+      }
+    ],
+    "toc": {
+      "levels": [
+        {
+          "level": 1,
+          "fontFamily": "Archivo",
+          "fontSize": {
+            "value": 12,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 17,
+            "unit": "pt"
+          },
+          "fontWeight": 700,
+          "color": {
+            "hex": "#173B3B",
+            "model": "hex"
+          },
+          "marginTop": {
+            "value": 5,
+            "unit": "pt"
+          }
+        }
+      ],
+      "pageNumber": {
+        "fontFamily": "Archivo",
+        "fontSize": {
+          "value": 11,
+          "unit": "pt"
+        },
+        "fontWeight": 700,
+        "color": {
+          "hex": "#24737A",
+          "model": "hex"
+        },
+        "width": {
+          "value": 10,
+          "unit": "mm"
+        }
+      },
+      "leader": {
+        "enabled": true
+      }
+    },
+    "resourceTypes": [
+      {
+        "id": "figure",
+        "numberingTemplate": "",
+        "defaultPlacement": {
+          "position": "here",
+          "span": "column"
+        }
+      }
+    ],
+    "calloutStyles": [
+      {
+        "id": "kicker",
+        "name": "kicker",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Archivo",
+          "fontSize": {
+            "value": 10,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 13,
+            "unit": "pt"
+          },
+          "fontWeight": 700,
+          "boldFontWeight": 700,
+          "color": {
+            "hex": "#24737A",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#24737A",
+            "model": "hex"
+          },
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 0,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "kicker-light",
+        "name": "kicker-light",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Archivo",
+          "fontSize": {
+            "value": 10,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 13,
+            "unit": "pt"
+          },
+          "fontWeight": 700,
+          "boldFontWeight": 700,
+          "color": {
+            "hex": "#D5E7DF",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#D5E7DF",
+            "model": "hex"
+          },
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 0,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "display",
+        "name": "display",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Newsreader",
+          "fontSize": {
+            "value": 32,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 35,
+            "unit": "pt"
+          },
+          "fontWeight": 700,
+          "boldFontWeight": 700,
+          "color": {
+            "hex": "#173B3B",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#173B3B",
+            "model": "hex"
+          },
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 4,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "display-light",
+        "name": "display-light",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Newsreader",
+          "fontSize": {
+            "value": 44,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 47,
+            "unit": "pt"
+          },
+          "fontWeight": 700,
+          "boldFontWeight": 700,
+          "color": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 4,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "deck",
+        "name": "deck",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Newsreader",
+          "fontSize": {
+            "value": 16,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 21,
+            "unit": "pt"
+          },
+          "fontWeight": 400,
+          "boldFontWeight": 700,
+          "color": {
+            "hex": "#536A64",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#536A64",
+            "model": "hex"
+          },
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 4,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "deck-light",
+        "name": "deck-light",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Newsreader",
+          "fontSize": {
+            "value": 19,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 24,
+            "unit": "pt"
+          },
+          "fontWeight": 400,
+          "boldFontWeight": 700,
+          "color": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 4,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "body",
+        "name": "body",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Newsreader",
+          "fontSize": {
+            "value": 11.5,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 16,
+            "unit": "pt"
+          },
+          "fontWeight": 400,
+          "boldFontWeight": 700,
+          "color": {
+            "hex": "#173B3B",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#173B3B",
+            "model": "hex"
+          },
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 7,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "small",
+        "name": "small",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Archivo",
+          "fontSize": {
+            "value": 9,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 12,
+            "unit": "pt"
+          },
+          "fontWeight": 400,
+          "boldFontWeight": 700,
+          "color": {
+            "hex": "#536A64",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#536A64",
+            "model": "hex"
+          },
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 3,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "caption",
+        "name": "caption",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Archivo",
+          "fontSize": {
+            "value": 9,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 12,
+            "unit": "pt"
+          },
+          "fontWeight": 400,
+          "boldFontWeight": 700,
+          "color": {
+            "hex": "#536A64",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#536A64",
+            "model": "hex"
+          },
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 3,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "panel",
+        "name": "panel",
+        "backgroundEnabled": true,
+        "background": {
+          "hex": "#F2E9D7",
+          "model": "hex"
+        },
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 5,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 5,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 5,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 5,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Archivo",
+          "fontSize": {
+            "value": 11,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 15,
+            "unit": "pt"
+          },
+          "fontWeight": 400,
+          "boldFontWeight": 700,
+          "color": {
+            "hex": "#173B3B",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#173B3B",
+            "model": "hex"
+          },
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 6,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "metric",
+        "name": "metric",
+        "backgroundEnabled": true,
+        "background": {
+          "hex": "#24737A",
+          "model": "hex"
+        },
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 5,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 5,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 5,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 5,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Archivo",
+          "fontSize": {
+            "value": 18,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 23,
+            "unit": "pt"
+          },
+          "fontWeight": 700,
+          "boldFontWeight": 700,
+          "color": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 4,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "card",
+        "name": "card",
+        "backgroundEnabled": true,
+        "background": {
+          "hex": "#F2E9D7",
+          "model": "hex"
+        },
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 5,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 5,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 5,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 5,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Archivo",
+          "fontSize": {
+            "value": 11,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 15,
+            "unit": "pt"
+          },
+          "fontWeight": 400,
+          "boldFontWeight": 700,
+          "color": {
+            "hex": "#173B3B",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#173B3B",
+            "model": "hex"
+          },
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 5,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "node",
+        "name": "node",
+        "backgroundEnabled": true,
+        "background": {
+          "hex": "#24737A",
+          "model": "hex"
+        },
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 5,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 5,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 5,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 5,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Archivo",
+          "fontSize": {
+            "value": 13,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 17,
+            "unit": "pt"
+          },
+          "fontWeight": 700,
+          "boldFontWeight": 700,
+          "color": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "textAlign": "center",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 4,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "node-light",
+        "name": "node-light",
+        "backgroundEnabled": true,
+        "background": {
+          "hex": "#F2E9D7",
+          "model": "hex"
+        },
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 5,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 5,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 5,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 5,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Archivo",
+          "fontSize": {
+            "value": 11,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 15,
+            "unit": "pt"
+          },
+          "fontWeight": 400,
+          "boldFontWeight": 700,
+          "color": {
+            "hex": "#173B3B",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#173B3B",
+            "model": "hex"
+          },
+          "textAlign": "center",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 4,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "module-note",
+        "name": "module-note",
+        "backgroundEnabled": true,
+        "background": {
+          "hex": "#F2E9D7",
+          "model": "hex"
+        },
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 5,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 5,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 5,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 5,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Archivo",
+          "fontSize": {
+            "value": 11,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 15,
+            "unit": "pt"
+          },
+          "fontWeight": 400,
+          "boldFontWeight": 700,
+          "color": {
+            "hex": "#173B3B",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#173B3B",
+            "model": "hex"
+          },
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 5,
+            "unit": "pt"
+          }
+        }
+      },
+      {
+        "id": "module-text",
+        "name": "module-text",
+        "backgroundEnabled": false,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 0,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Newsreader",
+          "fontSize": {
+            "value": 11,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 15,
+            "unit": "pt"
+          },
+          "fontWeight": 400,
+          "boldFontWeight": 700,
+          "color": {
+            "hex": "#173B3B",
+            "model": "hex"
+          },
+          "boldColor": {
+            "hex": "#173B3B",
+            "model": "hex"
+          },
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 5,
+            "unit": "pt"
+          }
+        }
+      }
+    ],
+    "labelStyles": [
+      {
+        "id": "diagram-label",
+        "fontFamily": "Archivo",
+        "fontSize": {
+          "value": 11,
+          "unit": "pt"
+        },
+        "fontWeight": 700,
+        "color": {
+          "hex": "#173B3B",
+          "model": "hex"
+        },
+        "halo": {
+          "color": {
+            "hex": "#FFFFFF",
+            "model": "hex"
+          },
+          "width": {
+            "value": 0.6,
+            "unit": "pt"
+          }
+        }
+      }
+    ],
+    "pageTemplates": [
+      {
+        "id": "cover",
+        "name": "Photographic cover",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "kicker",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 16,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 8,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "kicker-light",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "title",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 28,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 46,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "display-light",
+            "fit": {
+              "shrinkText": false
+            },
+            "takes": "h1"
+          },
+          {
+            "name": "subtitle",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 80,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 28,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "deck-light",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "photo",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 0,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 112,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 170,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 113.333,
+                  "unit": "mm"
+                }
+              }
+            },
+            "fit": {
+              "shrinkText": false,
+              "scaleImages": true,
+              "imageMinScale": 0.15
+            }
+          },
+          {
+            "name": "imprint",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 226,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 7,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "kicker-light",
+            "fit": {
+              "shrinkText": false
+            }
+          }
+        ],
+        "decoration": {
+          "elements": [
+            {
+              "kind": "box",
+              "id": "cover-ground",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 0,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 170,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 235,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#123D43",
+                  "model": "hex"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "contents",
+        "name": "Automatic table of contents",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "kicker",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 16,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 7,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "kicker",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "title",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 25,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 24,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "display",
+            "fit": {
+              "shrinkText": false
+            },
+            "takes": "h1"
+          },
+          {
+            "name": "toc",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 57,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 139,
+                  "unit": "mm"
+                }
+              }
+            },
+            "takes": "toc",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "note",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 202,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 14,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "small",
+            "fit": {
+              "shrinkText": false
+            }
+          }
+        ],
+        "decoration": {
+          "elements": [
+            {
+              "kind": "box",
+              "id": "paper",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 0,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 170,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 235,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FAF8F2",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "top-rule",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 14,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 12,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 142,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 1.2,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#24737A",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "foot-rule",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 14,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 221,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 142,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 0.4,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#24737A",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "text",
+              "id": "folio",
+              "content": "{pageNumber}",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 151,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 224,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 13,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 5,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "fontFamily": "Archivo",
+              "fontSize": {
+                "value": 9,
+                "unit": "pt"
+              },
+              "fontWeight": 700,
+              "color": {
+                "hex": "#24737A",
+                "model": "hex"
+              },
+              "align": "right",
+              "verticalAlign": "middle",
+              "lineHeight": 1.1,
+              "overflow": "clip"
+            }
+          ]
+        }
+      },
+      {
+        "id": "feature",
+        "name": "Photographic feature",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "kicker",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 16,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 7,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "kicker",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "title",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 25,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 24,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "display",
+            "fit": {
+              "shrinkText": false
+            },
+            "takes": "h1"
+          },
+          {
+            "name": "photo",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 53,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 94.67,
+                  "unit": "mm"
+                }
+              }
+            },
+            "fit": {
+              "shrinkText": false,
+              "scaleImages": true,
+              "imageMinScale": 0.15
+            }
+          },
+          {
+            "name": "caption",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 149,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 8,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "caption",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "story",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 162,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 51,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "body",
+            "fit": {
+              "shrinkText": false
+            }
+          }
+        ],
+        "decoration": {
+          "elements": [
+            {
+              "kind": "box",
+              "id": "paper",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 0,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 170,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 235,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FAF8F2",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "top-rule",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 14,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 12,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 142,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 1.2,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#24737A",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "foot-rule",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 14,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 221,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 142,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 0.4,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#24737A",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "text",
+              "id": "folio",
+              "content": "{pageNumber}",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 151,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 224,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 13,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 5,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "fontFamily": "Archivo",
+              "fontSize": {
+                "value": 9,
+                "unit": "pt"
+              },
+              "fontWeight": 700,
+              "color": {
+                "hex": "#24737A",
+                "model": "hex"
+              },
+              "align": "right",
+              "verticalAlign": "middle",
+              "lineHeight": 1.1,
+              "overflow": "clip"
+            }
+          ]
+        }
+      },
+      {
+        "id": "route-map",
+        "name": "Route atlas",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "kicker",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 16,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 7,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "kicker",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "title",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 25,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 24,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "display",
+            "fit": {
+              "shrinkText": false
+            },
+            "takes": "h1"
+          },
+          {
+            "name": "map",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 23,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 50,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 124,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 137.1,
+                  "unit": "mm"
+                }
+              }
+            },
+            "fit": {
+              "shrinkText": false,
+              "scaleImages": true,
+              "imageMinScale": 0.15
+            }
+          },
+          {
+            "name": "credit",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 188,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 8,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "caption",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "note",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 201,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 16,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "small",
+            "fit": {
+              "shrinkText": false
+            }
+          }
+        ],
+        "decoration": {
+          "elements": [
+            {
+              "kind": "box",
+              "id": "paper",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 0,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 170,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 235,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FAF8F2",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "top-rule",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 14,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 12,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 142,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 1.2,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#24737A",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "foot-rule",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 14,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 221,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 142,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 0.4,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#24737A",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "text",
+              "id": "folio",
+              "content": "{pageNumber}",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 151,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 224,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 13,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 5,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "fontFamily": "Archivo",
+              "fontSize": {
+                "value": 9,
+                "unit": "pt"
+              },
+              "fontWeight": 700,
+              "color": {
+                "hex": "#24737A",
+                "model": "hex"
+              },
+              "align": "right",
+              "verticalAlign": "middle",
+              "lineHeight": 1.1,
+              "overflow": "clip"
+            }
+          ]
+        }
+      },
+      {
+        "id": "essay",
+        "name": "Threaded two-column essay",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "kicker",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 16,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 7,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "kicker",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "title",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 25,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 24,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "display",
+            "fit": {
+              "shrinkText": false
+            },
+            "takes": "h1"
+          },
+          {
+            "name": "lead",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 54,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 28,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "deck",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "column-one",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 88,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 67,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 119,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "body",
+            "fit": {
+              "shrinkText": false
+            },
+            "next": "column-two"
+          },
+          {
+            "name": "column-two",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 89,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 88,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 67,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 119,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "body",
+            "fit": {
+              "shrinkText": false
+            }
+          }
+        ],
+        "decoration": {
+          "elements": [
+            {
+              "kind": "box",
+              "id": "paper",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 0,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 170,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 235,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FAF8F2",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "top-rule",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 14,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 12,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 142,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 1.2,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#24737A",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "foot-rule",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 14,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 221,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 142,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 0.4,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#24737A",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "text",
+              "id": "folio",
+              "content": "{pageNumber}",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 151,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 224,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 13,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 5,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "fontFamily": "Archivo",
+              "fontSize": {
+                "value": 9,
+                "unit": "pt"
+              },
+              "fontWeight": 700,
+              "color": {
+                "hex": "#24737A",
+                "model": "hex"
+              },
+              "align": "right",
+              "verticalAlign": "middle",
+              "lineHeight": 1.1,
+              "overflow": "clip"
+            }
+          ]
+        }
+      },
+      {
+        "id": "cards",
+        "name": "Repeating field cards",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "kicker",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 16,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 7,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "kicker",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "title",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 25,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 24,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "display",
+            "fit": {
+              "shrinkText": false
+            },
+            "takes": "h1"
+          },
+          {
+            "name": "intro",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 53,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 18,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "body",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "card",
+            "style": "card",
+            "width": {
+              "value": 67,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 55,
+              "unit": "mm"
+            },
+            "fit": {
+              "shrinkText": false
+            }
+          }
+        ],
+        "decoration": {
+          "elements": [
+            {
+              "kind": "box",
+              "id": "paper",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 0,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 170,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 235,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FAF8F2",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "top-rule",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 14,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 12,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 142,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 1.2,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#24737A",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "foot-rule",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 14,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 221,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 142,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 0.4,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#24737A",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "text",
+              "id": "folio",
+              "content": "{pageNumber}",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 151,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 224,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 13,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 5,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "fontFamily": "Archivo",
+              "fontSize": {
+                "value": 9,
+                "unit": "pt"
+              },
+              "fontWeight": 700,
+              "color": {
+                "hex": "#24737A",
+                "model": "hex"
+              },
+              "align": "right",
+              "verticalAlign": "middle",
+              "lineHeight": 1.1,
+              "overflow": "clip"
+            }
+          ]
+        },
+        "groups": [
+          {
+            "name": "card-grid",
+            "kind": "grid",
+            "columns": 2,
+            "columnGap": {
+              "value": 8,
+              "unit": "mm"
+            },
+            "rowGap": {
+              "value": 6,
+              "unit": "mm"
+            },
+            "rowAlign": "start",
+            "repeat": {
+              "frames": [
+                "card"
+              ]
+            },
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 79,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 119,
+                  "unit": "mm"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "labelled-figure",
+        "name": "Anchored landscape diagram",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "kicker",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 16,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 7,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "kicker",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "title",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 25,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 24,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "display",
+            "fit": {
+              "shrinkText": false
+            },
+            "takes": "h1"
+          },
+          {
+            "name": "diagram",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 56,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 92.3,
+                  "unit": "mm"
+                }
+              }
+            },
+            "fit": {
+              "shrinkText": false,
+              "scaleImages": true,
+              "imageMinScale": 0.15
+            }
+          },
+          {
+            "name": "caption",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 152,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 11,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "caption",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "story",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 169,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 44,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "body",
+            "fit": {
+              "shrinkText": false
+            }
+          }
+        ],
+        "decoration": {
+          "elements": [
+            {
+              "kind": "box",
+              "id": "paper",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 0,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 170,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 235,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FAF8F2",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "top-rule",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 14,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 12,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 142,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 1.2,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#24737A",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "foot-rule",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 14,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 221,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 142,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 0.4,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#24737A",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "text",
+              "id": "folio",
+              "content": "{pageNumber}",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 151,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 224,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 13,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 5,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "fontFamily": "Archivo",
+              "fontSize": {
+                "value": 9,
+                "unit": "pt"
+              },
+              "fontWeight": 700,
+              "color": {
+                "hex": "#24737A",
+                "model": "hex"
+              },
+              "align": "right",
+              "verticalAlign": "middle",
+              "lineHeight": 1.1,
+              "overflow": "clip"
+            }
+          ]
+        }
+      },
+      {
+        "id": "process",
+        "name": "Native connected diagram",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "kicker",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 16,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 7,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "kicker",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "title",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 25,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 24,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "display",
+            "fit": {
+              "shrinkText": false
+            },
+            "takes": "h1"
+          },
+          {
+            "name": "root",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 45,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 58,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 80,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 26,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "node",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "left",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 105,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 67,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 40,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "node-light",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "right",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 89,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 105,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 67,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 40,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "node-light",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "result",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 45,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 165,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 80,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 34,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "node",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "note",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 205,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 12,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "small",
+            "fit": {
+              "shrinkText": false
+            }
+          }
+        ],
+        "decoration": {
+          "elements": [
+            {
+              "kind": "box",
+              "id": "paper",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 0,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 170,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 235,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FAF8F2",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "top-rule",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 14,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 12,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 142,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 1.2,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#24737A",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "foot-rule",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 14,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 221,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 142,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 0.4,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#24737A",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "text",
+              "id": "folio",
+              "content": "{pageNumber}",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 151,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 224,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 13,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 5,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "fontFamily": "Archivo",
+              "fontSize": {
+                "value": 9,
+                "unit": "pt"
+              },
+              "fontWeight": 700,
+              "color": {
+                "hex": "#24737A",
+                "model": "hex"
+              },
+              "align": "right",
+              "verticalAlign": "middle",
+              "lineHeight": 1.1,
+              "overflow": "clip"
+            },
+            {
+              "kind": "connector",
+              "id": "branch",
+              "routing": "tree",
+              "from": {
+                "to": "#root",
+                "side": "bottom"
+              },
+              "to": [
+                {
+                  "to": "#left",
+                  "side": "top"
+                },
+                {
+                  "to": "#right",
+                  "side": "top"
+                }
+              ],
+              "width": {
+                "value": 1.4,
+                "unit": "pt"
+              },
+              "color": {
+                "hex": "#24737A",
+                "model": "hex"
+              },
+              "endCap": "arrow"
+            },
+            {
+              "kind": "connector",
+              "id": "left-result",
+              "routing": "straight",
+              "from": {
+                "to": "#left",
+                "side": "bottom",
+                "gap": {
+                  "value": 1,
+                  "unit": "mm"
+                }
+              },
+              "to": {
+                "to": "#result",
+                "side": "top",
+                "gap": {
+                  "value": 1,
+                  "unit": "mm"
+                }
+              },
+              "width": {
+                "value": 1.5,
+                "unit": "pt"
+              },
+              "color": {
+                "hex": "#24737A",
+                "model": "hex"
+              },
+              "endCap": "arrow"
+            },
+            {
+              "kind": "connector",
+              "id": "right-result",
+              "routing": "straight",
+              "from": {
+                "to": "#right",
+                "side": "bottom",
+                "gap": {
+                  "value": 1,
+                  "unit": "mm"
+                }
+              },
+              "to": {
+                "to": "#result",
+                "side": "top",
+                "gap": {
+                  "value": 1,
+                  "unit": "mm"
+                }
+              },
+              "width": {
+                "value": 1.5,
+                "unit": "pt"
+              },
+              "color": {
+                "hex": "#24737A",
+                "model": "hex"
+              },
+              "endCap": "arrow"
+            }
+          ]
+        }
+      },
+      {
+        "id": "module-page",
+        "name": "Page with reusable modules",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "kicker",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 16,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 7,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "kicker",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "title",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 25,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 24,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "display",
+            "fit": {
+              "shrinkText": false
+            },
+            "takes": "h1"
+          }
+        ],
+        "decoration": {
+          "elements": [
+            {
+              "kind": "box",
+              "id": "paper",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 0,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 170,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 235,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FAF8F2",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "top-rule",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 14,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 12,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 142,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 1.2,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#24737A",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "foot-rule",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 14,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 221,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 142,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 0.4,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#24737A",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "text",
+              "id": "folio",
+              "content": "{pageNumber}",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 151,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 224,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 13,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 5,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "fontFamily": "Archivo",
+              "fontSize": {
+                "value": 9,
+                "unit": "pt"
+              },
+              "fontWeight": 700,
+              "color": {
+                "hex": "#24737A",
+                "model": "hex"
+              },
+              "align": "right",
+              "verticalAlign": "middle",
+              "lineHeight": 1.1,
+              "overflow": "clip"
+            }
+          ]
+        },
+        "groups": [
+          {
+            "name": "stack",
+            "modules": true,
+            "gap": {
+              "value": 6,
+              "unit": "mm"
+            },
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 56,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 155,
+                  "unit": "mm"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "note-module",
+        "name": "Reusable field note",
+        "role": "module",
+        "frames": [
+          {
+            "name": "text",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 0,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 0,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 34,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "module-note",
+            "fit": {
+              "shrinkText": false
+            }
+          }
+        ]
+      },
+      {
+        "id": "credits",
+        "name": "Sources and colophon",
+        "area": "trim",
+        "header": false,
+        "footer": false,
+        "frames": [
+          {
+            "name": "kicker",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 16,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 7,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "kicker",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "title",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 25,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 24,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "display",
+            "fit": {
+              "shrinkText": false
+            },
+            "takes": "h1"
+          },
+          {
+            "name": "sources",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 14,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 54,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 142,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 159,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "body",
+            "fit": {
+              "shrinkText": false
+            }
+          }
+        ],
+        "decoration": {
+          "elements": [
+            {
+              "kind": "box",
+              "id": "paper",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 0,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 0,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 170,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 235,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#FAF8F2",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "top-rule",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 14,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 12,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 142,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 1.2,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#24737A",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "box",
+              "id": "foot-rule",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 14,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 221,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 142,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 0.4,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "style": {
+                "backgroundColor": {
+                  "hex": "#24737A",
+                  "model": "hex"
+                }
+              }
+            },
+            {
+              "kind": "text",
+              "id": "folio",
+              "content": "{pageNumber}",
+              "placement": {
+                "anchor": {
+                  "to": "container",
+                  "edge": "top-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 151,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": 224,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 13,
+                    "unit": "mm"
+                  },
+                  "height": {
+                    "value": 5,
+                    "unit": "mm"
+                  }
+                }
+              },
+              "fontFamily": "Archivo",
+              "fontSize": {
+                "value": 9,
+                "unit": "pt"
+              },
+              "fontWeight": 700,
+              "color": {
+                "hex": "#24737A",
+                "model": "hex"
+              },
+              "align": "right",
+              "verticalAlign": "middle",
+              "lineHeight": 1.1,
+              "overflow": "clip"
+            }
+          ]
+        }
+      }
+    ],
+    "links": {
+      "color": {
+        "hex": "#24737A",
+        "model": "hex"
+      }
+    }
+  },
+  "resources": [
+    {
+      "id": "church",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/church.jpg",
+      "width": 1920,
+      "height": 1398,
+      "altText": "The surviving stone church wall and bellcote at Cwm-yr-Eglwys",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "headland",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/headland.jpg",
+      "width": 1920,
+      "height": 1280,
+      "altText": "Dinas Island's green headland and cliffs seen across blue water",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "dinas-island-map",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/dinas-island.svg",
+      "width": 450,
+      "height": 497.4,
+      "caption": "",
+      "altText": "Source-backed DesignCraft map showing the Dinas Island walking route and mapped paths.",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "headland-diagram",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/headland-diagram.svg",
+      "width": 1000,
+      "height": 650,
+      "altText": "Conceptual coastal cross-section with a raised headland, steep cliff and sheltered low ground; not a surveyed profile",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      },
+      "anchors": [
+        {
+          "id": "high",
+          "x": 0.62,
+          "y": 0.08,
+          "width": 0.28,
+          "style": "diagram-label"
+        },
+        {
+          "id": "cliff",
+          "x": 0.84,
+          "y": 0.48,
+          "width": 0.25,
+          "style": "diagram-label"
+        },
+        {
+          "id": "valley",
+          "x": 0.18,
+          "y": 0.51,
+          "width": 0.3,
+          "style": "diagram-label"
+        },
+        {
+          "id": "sea",
+          "x": 0.5,
+          "y": 0.91,
+          "width": 0.3,
+          "style": "diagram-label"
+        }
+      ]
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Archivo",
+      "variants": [
+        {
+          "weight": 400,
+          "style": "normal",
+          "file": "fonts/Archivo-Regular.ttf"
+        },
+        {
+          "weight": 700,
+          "style": "normal",
+          "file": "fonts/Archivo-Bold.ttf"
+        },
+        {
+          "weight": 400,
+          "style": "italic",
+          "file": "fonts/Archivo-Italic.ttf"
+        }
+      ]
+    },
+    {
+      "name": "Newsreader",
+      "variants": [
+        {
+          "weight": 400,
+          "style": "normal",
+          "file": "fonts/Newsreader-Regular.ttf"
+        },
+        {
+          "weight": 400,
+          "style": "italic",
+          "file": "fonts/Newsreader-Italic.ttf"
+        },
+        {
+          "weight": 700,
+          "style": "normal",
+          "file": "fonts/Newsreader-Bold.ttf"
+        },
+        {
+          "weight": 700,
+          "style": "italic",
+          "file": "fonts/Newsreader-BoldItalic.ttf"
+        }
+      ]
+    }
+  ]
+}
