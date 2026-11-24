@@ -14,3 +14,6 @@ Read the upstream postext-port skill first. Use the source inventory, layout mea
 
 ## Release and updates
 No automatic build or test actions. A book-only commit requires Pages deployment, not a new engine bundle. Changes to engine/Sandbox/host need a fresh static build and browser comparison before runtime parity is claimed. Preserve all seven pre-existing titles and all original examples. See PST09-13-QA.md and PST14-19-QA.md.
+
+## PST-22–29 browser evidence
+Use `/postext/qa/` for native WebMCP checks, proof images, browser exports and editable Cookbook specimens. See PST22-29-QA.md and templates/SERIES-PRODUCTION.md. Generation is not approval.
