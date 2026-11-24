@@ -12,6 +12,7 @@ mkdirSync(publicDir, { recursive: true });
 for (const [source, dest] of [
   ['apps/web/public/presets', 'presets'],
   ['apps/web/public/icc', 'icc'],
+  ['apps/web/public/designs', 'designs'],
   ['docs/books', 'books'],
 ]) {
   const from = resolve(repo, source);
@@ -21,3 +22,12 @@ for (const [source, dest] of [
   cpSync(from, to, { recursive: true });
   console.log('Staged', source, '→', dest);
 }
+
+ // Only the captured bundles and edition manifests are needed by the Sandbox.
+ const cookbookSource = resolve(repo, 'apps/web/public/cookbook');
+ const cookbookDest = resolve(publicDir, 'cookbook');
+ rmSync(cookbookDest, { recursive: true, force: true });
+ cpSync(cookbookSource, cookbookDest, { recursive: true, filter: (path) =>
+   !/\.[^/]+$/.test(path) || /(?:\.postext|\/capture\.json)$/.test(path)
+ });
+ cpSync(resolve(repo, 'apps/studio/src/host-parity.css'), resolve(publicDir, 'host-parity.css'));

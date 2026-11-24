@@ -1,0 +1,237 @@
+/* Upstream host tokens and sizing, from apps/web/src/app/globals.css.
+   Keep the live static host and the next Vite build in sync. */
+/* ── Brand ─────────────────────────────────────────────────────────────
+   The Postext identity is the one the built-in guide is set in: a night
+   cover with gilt, saturated part colours (Postext blue, gilt, vermilion)
+   on full-bleed bands, Fraunces for display, Lora for reading, Geist for
+   labels and Bricolage Grotesque for section heads. The fixed brand
+   colours never change with the theme; the semantic tokens below map them
+   onto night (dark) and paper (light). The accent follows the guide: gilt
+   on the night cover, Postext blue on the paper pages. */
+:root {
+  --brand-night: #0e1014;
+  --brand-ink: #15171c;
+  --brand-cream: #f4f1ea;
+  --brand-mist: #b9bcc4;
+  --brand-blue: #2b4acb;
+  --brand-blue-deep: #1f38a8;
+  --brand-blue-soft: #3d5bd6;
+  --brand-gilt: #d8a21a;
+  --brand-gilt-deep: #b7820f;
+  --brand-vermilion: #c0452f;
+  --brand-vermilion-deep: #9f3522;
+  /* Vermilion deep enough for white text on it at 7:1 (bands, badges). */
+  --brand-vermilion-band: #a52d18;
+  /* Gilt for display type on paper: 4.5:1 for large text (1.4.6). */
+  --brand-gilt-display: #8a6310;
+  --brand-tint: #f7f1e3;
+  --brand-panel: #f1f3f8;
+  --tri-stripe: linear-gradient(90deg, var(--brand-blue) 0 33.34%, var(--brand-gilt) 33.34% 66.67%, var(--brand-vermilion) 66.67% 100%);
+  /* Han fallbacks the font stacks end with: the generic families outside
+     Chinese pages, Noto SC (then the system's Chinese faces) on them. */
+  --cjk-serif: serif;
+  --cjk-sans: sans-serif;
+  /* The Arabic fallbacks (`--ar-serif`, `--ar-head`, `--ar-sans`) are left
+     undefined outside Arabic pages, so the stacks fall through to the Han
+     ones. */
+}
+
+/* The CJK and Arabic web faces load on zh, ja and ar pages only
+   (components/fonts/ScriptFonts). The CJK ones are declared under these
+   names, cut for the site's text (fonts/cjk); the Arabic ones set these on
+   :root. Elsewhere the names stand for an installed copy, then the system
+   faces after them. */
+html {
+  --font-noto-sans-sc: "Noto Sans SC";
+  --font-noto-serif-sc: "Noto Serif SC";
+  --font-noto-sans-jp: "Noto Sans JP";
+  --font-noto-serif-jp: "Noto Serif JP";
+  --font-noto-naskh-arabic: "Noto Naskh Arabic";
+  --font-noto-sans-arabic: "Noto Sans Arabic";
+  --font-noto-kufi-arabic: "Noto Kufi Arabic";
+}
+
+:root:lang(zh) {
+  --cjk-serif: var(--font-noto-serif-sc), "Songti SC", "STSong", "SimSun", serif;
+  --cjk-sans: var(--font-noto-sans-sc), "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+
+/* Arabic pages: Naskh behind the serifs (display and reading), Kufi behind
+   the section heads, Noto Sans Arabic behind the UI sans and the mono; then
+   the system's Arabic faces. The Latin faces stay first, so Latin words and
+   digits keep the brand type. */
+:root:lang(ar) {
+  --ar-serif: var(--font-noto-naskh-arabic), "Geeza Pro", "Traditional Arabic", serif;
+  --ar-head: var(--font-noto-kufi-arabic), var(--font-noto-sans-arabic), "Geeza Pro", "Segoe UI", sans-serif;
+  --ar-sans: var(--font-noto-sans-arabic), "Geeza Pro", "Segoe UI", "Tahoma", sans-serif;
+}
+
+/* Chinese prose: the gap between Han and Latin letters or digits comes from
+   the browser, not from typed spaces; Han has no italic, so emphasis is set
+   upright with emphasis dots; justified lines break by strict rules. */
+:lang(zh) {
+  text-autospace: normal;
+  line-break: strict;
+}
+
+/* Matched on the element, so a Latin passage marked lang="en" keeps its
+   italic. `:root` lifts these over `.docs-content em` and the other Latin
+   italics, which come later in the sheet. */
+:root :is(em, i):lang(zh) {
+  font-style: normal;
+  text-emphasis: filled dot;
+  text-emphasis-position: under right;
+}
+
+:root :is(code, pre, kbd) em:lang(zh),
+:root :is(.hero-title em, .hero-em):lang(zh) {
+  text-emphasis: none;
+}
+
+/* A Latin italic class (the hero's lead, pull quotes) or the hero's
+   italic accent word would slant Han with a synthesised oblique: Chinese
+   text stays upright. */
+:is(.italic, .hero-title em, .hero-em):lang(zh) {
+  font-style: normal;
+}
+
+/* Japanese: Noto Serif JP and Noto Sans JP (then the system's Japanese
+   faces) behind the Latin ones, on whatever carries lang="ja", the page
+   (the ja locale) or a part of it (a glossary native term, a sample
+   in a docs page), so kanji take their Japanese forms and do not fall to
+   Noto SC on a Chinese page or to Naskh on an Arabic one. A custom
+   property is resolved where it is declared, so the font stacks are
+   restated here too: an element under lang="ja" that sets its own family
+   (a font-* class, .display, .kicker) gets the Japanese stack. One that
+   only inherits keeps its parent's, already resolved; give it a font
+   role to switch faces. */
+:lang(ja) {
+  --cjk-serif: var(--font-noto-serif-jp), "Hiragino Mincho ProN", "Yu Mincho", "YuMincho", serif;
+  --cjk-sans: var(--font-noto-sans-jp), "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "YuGothic", "Meiryo", sans-serif;
+  --font-display: var(--font-fraunces), var(--cjk-serif);
+  --font-head: var(--font-bricolage), var(--cjk-sans);
+  --font-body: var(--font-lora), var(--cjk-serif);
+  --font-mono: var(--font-jetbrains), var(--cjk-sans);
+  --font-sans: var(--font-geist), var(--cjk-sans);
+  text-autospace: normal;
+  line-break: strict;
+}
+
+/* Japanese emphasis is set upright with sesame dots over the letters
+   (to their right in vertical text), JLReq §3.3.9; kanji and kana have no
+   italic. Matched on the element, so an <em> inside a Japanese sample on a
+   Chinese page takes sesame dots, not the Chinese dots under.
+   `:root` lifts these over `.docs-content em` and the other Latin italics,
+   which come later in the sheet. */
+:root :is(em, i):lang(ja) {
+  font-style: normal;
+  text-emphasis: filled sesame;
+  text-emphasis-position: over right;
+}
+
+:root :is(code, pre, kbd) em:lang(ja),
+:root :is(.hero-title em, .hero-em):lang(ja) {
+  text-emphasis: none;
+}
+
+/* A Latin italic class (the hero's lead, pull quotes) or the hero's
+   italic accent word would slant kanji and kana with a synthesised
+   oblique: Japanese text stays upright. */
+:is(.italic, .hero-title em, .hero-em):lang(ja) {
+  font-style: normal;
+}
+
+:root,
+:root.dark,
+.on-night {
+  --background: #15171c;
+  --foreground: #f4f1ea;
+  --surface: #1c1f26;
+  --surface-2: #242832;
+  --elevated: #20232b;
+  --brand: #e1ab2c;
+  --brand-hover: #edbf4a;
+  --brand-contrast: #0e1014;
+  --brand-soft: rgba(216, 162, 26, 0.14);
+  --gilt: #e1ab2c;
+  --gilt-hover: #edbf4a;
+  --accent-blue: #9bb0ff;
+  /* Values one edition of a book sets for itself (Sandbox Design panel,
+     #1209): the accent that is not the brand in this theme. */
+  --edition: var(--accent-blue);
+  --vermilion: #ff977e;
+  --slate: #aeb3be;
+  --rule: #2c313c;
+  --rule-strong: #3b424f;
+  --paper: #1c1f26;
+  --grid-line: rgba(163, 168, 179, 0.055);
+  --card: #1c1f26;
+  --card-foreground: #f4f1ea;
+  --popover: #20232b;
+  --popover-foreground: #f4f1ea;
+  --primary: #e1ab2c;
+  --primary-foreground: #0e1014;
+  --secondary: #242832;
+  --secondary-foreground: #f4f1ea;
+  --muted: #242832;
+  --muted-foreground: #aeb3be;
+  --accent: #242832;
+  --accent-foreground: #f4f1ea;
+  --destructive: #ff977e;
+  --border: #2c313c;
+  --input: #3b424f;
+  --ring: #e1ab2c;
+  --chart-1: #2b4acb;
+  --chart-2: #d8a21a;
+  --chart-3: #c0452f;
+  --chart-4: #8ea2ff;
+  --chart-5: #a3a8b3;
+  --radius: 0.5rem;
+  --sidebar: #111318;
+  --sidebar-foreground: #f4f1ea;
+  --sidebar-primary: #e1ab2c;
+  --sidebar-primary-foreground: #0e1014;
+  --sidebar-accent: #242832;
+  --sidebar-accent-foreground: #f4f1ea;
+  --sidebar-border: #2c313c;
+  --sidebar-ring: #e1ab2c;
+}
+/* Responsive font-size scaling for all displays */
+html { font-size: 18px; }
+@media (min-width: 1536px) {
+  html { font-size: 20px; }
+}
+@media (min-width: 1920px) {
+  html { font-size: 22px; }
+}
+@media (min-width: 2560px) {
+  html { font-size: 26px; }
+}
+@media (min-width: 3840px) {
+  html { font-size: 30px; }
+}
+
+/* Enhanced focus-visible for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+/* Scrollbars stay hidden on every platform. Windows and Linux browsers
+   draw classic bars that take room from the layout (a column, a panel, a
+   toolbar narrows by their width); boxes still scroll by wheel, trackpad,
+   touch and keyboard. The prefixed rule covers engines before the
+   standard property. */
+* {
+  scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+:root {
+  --font-geist: ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-fraunces: Georgia, serif;
+  --font-lora: Georgia, serif;
+  --font-bricolage: ui-sans-serif, system-ui, sans-serif;
+  --font-jetbrains: ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+:root { --font-sans: var(--font-geist); --font-display: var(--font-fraunces); --font-mono: var(--font-jetbrains); }
