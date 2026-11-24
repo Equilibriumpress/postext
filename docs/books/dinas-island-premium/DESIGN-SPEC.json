@@ -82,5 +82,11 @@
       "back",
       1
     ]
+  ],
+  "revision": "DFP-10–19",
+  "notes": [
+    "Native page-local spread footers replace sheet-level folios; runtime confirmation required.",
+    "Photographic natural size governed by per-resource resolution; low-resolution originals not upsampled.",
+    "Route marker points snapped to the existing SVG route path; editorial stage approximations, not surveyed waypoints."
   ]
 }

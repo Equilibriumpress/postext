@@ -82,18 +82,24 @@
       "pageNumbering": {
         "format": "decimal",
         "startAt": 1
+      },
+      "backgroundColor": {
+        "hex": "#F5F1E8",
+        "model": "hex",
+        "paletteId": "paper"
       }
     },
     "layout": {
       "layoutType": "oneAndHalf",
-      "sideColumnPercent": 28,
+      "sideColumnPercent": 30,
       "sideColumnRole": "floats",
       "sideColumnSide": "outer",
       "gutterWidth": {
         "value": 4,
         "unit": "mm"
       },
-      "inlineResourceGapInBoxes": false
+      "inlineResourceGapInBoxes": false,
+      "bitmapResolution": 240
     },
     "colorPalette": [
       {
@@ -398,7 +404,7 @@
         "advancedDesign": {
           "enabled": true,
           "minHeight": {
-            "value": 43,
+            "value": 45,
             "unit": "mm"
           },
           "slot": {
@@ -590,10 +596,15 @@
     "resourceTypes": [
       {
         "id": "figure",
+        "name": "Illustration",
+        "namePlural": "Illustrations",
+        "shortLabel": "",
+        "captionPrefix": "",
         "numberingTemplate": "",
         "defaultPlacement": {
           "position": "here",
-          "span": "column"
+          "span": "column",
+          "width": 1
         }
       }
     ],
@@ -943,11 +954,11 @@
         "body": {
           "fontFamily": "Newsreader",
           "fontSize": {
-            "value": 17,
+            "value": 16,
             "unit": "pt"
           },
           "lineHeight": {
-            "value": 22,
+            "value": 20,
             "unit": "pt"
           },
           "fontWeight": 400,
@@ -1681,6 +1692,77 @@
             "unit": "pt"
           }
         }
+      },
+      {
+        "id": "essay-side",
+        "name": "Field note in outer margin",
+        "backgroundEnabled": true,
+        "border": {
+          "enabled": false
+        },
+        "padding": {
+          "top": {
+            "value": 3,
+            "unit": "mm"
+          },
+          "right": {
+            "value": 3,
+            "unit": "mm"
+          },
+          "bottom": {
+            "value": 3,
+            "unit": "mm"
+          },
+          "left": {
+            "value": 3,
+            "unit": "mm"
+          }
+        },
+        "body": {
+          "fontFamily": "Archivo",
+          "fontSize": {
+            "value": 9,
+            "unit": "pt"
+          },
+          "lineHeight": {
+            "value": 12,
+            "unit": "pt"
+          },
+          "fontWeight": 400,
+          "boldFontWeight": 700,
+          "color": {
+            "hex": "#53645F",
+            "model": "hex",
+            "paletteId": "muted"
+          },
+          "boldColor": {
+            "hex": "#53645F",
+            "model": "hex",
+            "paletteId": "muted"
+          },
+          "italicColor": {
+            "hex": "#53645F",
+            "model": "hex",
+            "paletteId": "muted"
+          },
+          "textAlign": "left",
+          "firstLineIndent": {
+            "value": 0,
+            "unit": "pt"
+          },
+          "paragraphSpacing": {
+            "value": 3,
+            "unit": "pt"
+          }
+        },
+        "background": {
+          "hex": "#E8E4D8",
+          "model": "hex",
+          "paletteId": "pale"
+        },
+        "placement": {
+          "position": "side"
+        }
       }
     ],
     "labelStyles": [
@@ -1759,6 +1841,20 @@
           "endCap": "dot",
           "routing": "elbow"
         }
+      },
+      {
+        "id": "route-marker",
+        "fontFamily": "Archivo",
+        "fontSize": {
+          "value": 10,
+          "unit": "pt"
+        },
+        "fontWeight": 700,
+        "color": {
+          "hex": "#FFFFFF",
+          "model": "hex",
+          "paletteId": "white"
+        }
       }
     ],
     "pageTemplates": [
@@ -1794,7 +1890,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 155,
+                  "value": 158,
                   "unit": "mm"
                 }
               },
@@ -1827,7 +1923,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 165,
+                  "value": 168,
                   "unit": "mm"
                 }
               },
@@ -1837,7 +1933,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 37,
+                  "value": 24,
                   "unit": "mm"
                 }
               }
@@ -1861,7 +1957,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 202,
+                  "value": 195,
                   "unit": "mm"
                 }
               },
@@ -1894,7 +1990,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 225,
+                  "value": 222,
                   "unit": "mm"
                 }
               },
@@ -1904,7 +2000,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 6,
+                  "value": 7,
                   "unit": "mm"
                 }
               }
@@ -1962,7 +2058,7 @@
               "fit": "cover",
               "focus": {
                 "x": 0.35,
-                "y": 0.56
+                "y": 0.78
               },
               "placement": {
                 "anchor": {
@@ -1985,7 +2081,7 @@
                     "unit": "mm"
                   },
                   "height": {
-                    "value": 235,
+                    "value": 151,
                     "unit": "mm"
                   }
                 }
@@ -2036,7 +2132,98 @@
         "name": "Paper editorial shell",
         "area": "trim",
         "header": false,
-        "footer": false,
+        "footer": {
+          "elements": [
+            {
+              "kind": "text",
+              "id": "folio-even",
+              "content": "{pageNumber}",
+              "parity": "even",
+              "placement": {
+                "anchor": {
+                  "to": "page",
+                  "edge": "bottom-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 18,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": -5,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 12,
+                    "unit": "mm"
+                  },
+                  "height": "auto"
+                }
+              },
+              "fontFamily": "Archivo",
+              "fontSize": {
+                "value": 8.5,
+                "unit": "pt"
+              },
+              "fontWeight": 700,
+              "color": {
+                "hex": "#53645F",
+                "model": "hex",
+                "paletteId": "muted"
+              },
+              "align": "left",
+              "verticalAlign": "bottom",
+              "lineHeight": 1.2,
+              "overflow": "ellipsis-end"
+            },
+            {
+              "kind": "text",
+              "id": "folio-odd",
+              "content": "{pageNumber}",
+              "parity": "odd",
+              "placement": {
+                "anchor": {
+                  "to": "page",
+                  "edge": "bottom-right"
+                },
+                "offset": {
+                  "x": {
+                    "value": -18,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": -5,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 12,
+                    "unit": "mm"
+                  },
+                  "height": "auto"
+                }
+              },
+              "fontFamily": "Archivo",
+              "fontSize": {
+                "value": 8.5,
+                "unit": "pt"
+              },
+              "fontWeight": 700,
+              "color": {
+                "hex": "#53645F",
+                "model": "hex",
+                "paletteId": "muted"
+              },
+              "align": "right",
+              "verticalAlign": "bottom",
+              "lineHeight": 1.2,
+              "overflow": "ellipsis-end"
+            }
+          ]
+        },
         "grid": {
           "columns": 6,
           "columnGap": {
@@ -2125,92 +2312,8 @@
                   "paletteId": "rule"
                 }
               }
-            },
-            {
-              "kind": "text",
-              "id": "folio",
-              "content": "{pageNumber}",
-              "placement": {
-                "anchor": {
-                  "to": "container",
-                  "edge": "top-left"
-                },
-                "offset": {
-                  "x": {
-                    "value": 140,
-                    "unit": "mm"
-                  },
-                  "y": {
-                    "value": 224,
-                    "unit": "mm"
-                  }
-                },
-                "size": {
-                  "width": {
-                    "value": 12,
-                    "unit": "mm"
-                  },
-                  "height": {
-                    "value": 5,
-                    "unit": "mm"
-                  }
-                }
-              },
-              "fontFamily": "Archivo",
-              "fontSize": {
-                "value": 9,
-                "unit": "pt"
-              },
-              "fontWeight": 700,
-              "color": {
-                "hex": "#53645F",
-                "model": "hex",
-                "paletteId": "muted"
-              },
-              "align": "right",
-              "verticalAlign": "top",
-              "lineHeight": 1.2,
-              "overflow": "ellipsis-end"
             }
           ]
-        },
-        "variants": {
-          "verso": {
-            "decoration": {
-              "elements": [
-                {
-                  "id": "folio",
-                  "placement": {
-                    "anchor": {
-                      "to": "container",
-                      "edge": "top-left"
-                    },
-                    "offset": {
-                      "x": {
-                        "value": 18,
-                        "unit": "mm"
-                      },
-                      "y": {
-                        "value": 224,
-                        "unit": "mm"
-                      }
-                    },
-                    "size": {
-                      "width": {
-                        "value": 12,
-                        "unit": "mm"
-                      },
-                      "height": {
-                        "value": 5,
-                        "unit": "mm"
-                      }
-                    }
-                  },
-                  "align": "left"
-                }
-              ]
-            }
-          }
         }
       },
       {
@@ -2412,7 +2515,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 22,
+                  "value": 16,
                   "unit": "mm"
                 }
               },
@@ -2445,7 +2548,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 35,
+                  "value": 26,
                   "unit": "mm"
                 }
               },
@@ -2455,7 +2558,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 40,
+                  "value": 20,
                   "unit": "mm"
                 }
               }
@@ -2479,7 +2582,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 81,
+                  "value": 49,
                   "unit": "mm"
                 }
               },
@@ -2489,7 +2592,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 26,
+                  "value": 18,
                   "unit": "mm"
                 }
               }
@@ -2512,17 +2615,17 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 114,
+                  "value": 177,
                   "unit": "mm"
                 }
               },
               "size": {
                 "width": {
-                  "value": 83,
+                  "value": 134,
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 91,
+                  "value": 40,
                   "unit": "mm"
                 }
               }
@@ -2541,28 +2644,28 @@
               },
               "offset": {
                 "x": {
-                  "value": 105,
+                  "value": 18,
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 114,
+                  "value": 69,
                   "unit": "mm"
                 }
               },
               "size": {
                 "width": {
-                  "value": 47,
+                  "value": 132,
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 35,
+                  "value": 96.2,
                   "unit": "mm"
                 }
               }
             },
             "fit": {
-              "scaleImages": true,
-              "imageMinScale": 0.15,
+              "scaleImages": false,
+              "imageMinScale": 0.8,
               "shrinkText": false
             }
           },
@@ -2575,21 +2678,21 @@
               },
               "offset": {
                 "x": {
-                  "value": 105,
+                  "value": 18,
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 152,
+                  "value": 167,
                   "unit": "mm"
                 }
               },
               "size": {
                 "width": {
-                  "value": 47,
+                  "value": 134,
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 30,
+                  "value": 7,
                   "unit": "mm"
                 }
               }
@@ -2601,45 +2704,7 @@
           }
         ],
         "decoration": {
-          "elements": [
-            {
-              "kind": "box",
-              "id": "intro-rule",
-              "placement": {
-                "anchor": {
-                  "to": "container",
-                  "edge": "top-left"
-                },
-                "offset": {
-                  "x": {
-                    "value": 18,
-                    "unit": "mm"
-                  },
-                  "y": {
-                    "value": 108,
-                    "unit": "mm"
-                  }
-                },
-                "size": {
-                  "width": {
-                    "value": 136,
-                    "unit": "mm"
-                  },
-                  "height": {
-                    "value": 0.35,
-                    "unit": "mm"
-                  }
-                }
-              },
-              "style": {
-                "backgroundColor": {
-                  "hex": "#B36A48",
-                  "model": "hex",
-                  "paletteId": "copper"
-                }
-              }
-            }
-          ]
+          "elements": []
         }
       },
       {
@@ -2652,7 +2717,6 @@
           "unit": "mm"
         },
         "header": false,
-        "footer": false,
         "grid": {
           "columns": 12,
           "columnGap": {
@@ -2679,7 +2743,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 159,
+                  "value": 182,
                   "unit": "mm"
                 }
               },
@@ -2712,7 +2776,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 170,
+                  "value": 192,
                   "unit": "mm"
                 }
               },
@@ -2722,7 +2786,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 39,
+                  "value": 25,
                   "unit": "mm"
                 }
               }
@@ -2746,7 +2810,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 165,
+                  "value": 181,
                   "unit": "mm"
                 }
               },
@@ -2756,7 +2820,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 41,
+                  "value": 32,
                   "unit": "mm"
                 }
               }
@@ -2779,7 +2843,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 213,
+                  "value": 215,
                   "unit": "mm"
                 }
               },
@@ -2789,7 +2853,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 13,
+                  "value": 8,
                   "unit": "mm"
                 }
               }
@@ -2846,8 +2910,8 @@
               "decorative": true,
               "fit": "cover",
               "focus": {
-                "x": 0.43,
-                "y": 0.53
+                "x": 0.46,
+                "y": 0.75
               },
               "placement": {
                 "anchor": {
@@ -2870,7 +2934,7 @@
                     "unit": "mm"
                   },
                   "height": {
-                    "value": 151,
+                    "value": 174,
                     "unit": "mm"
                   }
                 }
@@ -2890,7 +2954,7 @@
                     "unit": "mm"
                   },
                   "y": {
-                    "value": 151,
+                    "value": 174,
                     "unit": "mm"
                   }
                 },
@@ -2900,7 +2964,7 @@
                     "unit": "mm"
                   },
                   "height": {
-                    "value": 84,
+                    "value": 61,
                     "unit": "mm"
                   }
                 }
@@ -2912,6 +2976,98 @@
                   "paletteId": "atlantic"
                 }
               }
+            }
+          ]
+        },
+        "footer": {
+          "elements": [
+            {
+              "kind": "text",
+              "id": "folio-even",
+              "content": "{pageNumber}",
+              "parity": "even",
+              "placement": {
+                "anchor": {
+                  "to": "page",
+                  "edge": "bottom-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 18,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": -5,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 12,
+                    "unit": "mm"
+                  },
+                  "height": "auto"
+                }
+              },
+              "fontFamily": "Archivo",
+              "fontSize": {
+                "value": 8.5,
+                "unit": "pt"
+              },
+              "fontWeight": 700,
+              "color": {
+                "hex": "#DDE7E1",
+                "model": "hex",
+                "paletteId": "light"
+              },
+              "align": "left",
+              "verticalAlign": "bottom",
+              "lineHeight": 1.2,
+              "overflow": "ellipsis-end"
+            },
+            {
+              "kind": "text",
+              "id": "folio-odd",
+              "content": "{pageNumber}",
+              "parity": "odd",
+              "placement": {
+                "anchor": {
+                  "to": "page",
+                  "edge": "bottom-right"
+                },
+                "offset": {
+                  "x": {
+                    "value": -18,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": -5,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 12,
+                    "unit": "mm"
+                  },
+                  "height": "auto"
+                }
+              },
+              "fontFamily": "Archivo",
+              "fontSize": {
+                "value": 8.5,
+                "unit": "pt"
+              },
+              "fontWeight": 700,
+              "color": {
+                "hex": "#DDE7E1",
+                "model": "hex",
+                "paletteId": "light"
+              },
+              "align": "right",
+              "verticalAlign": "bottom",
+              "lineHeight": 1.2,
+              "overflow": "ellipsis-end"
             }
           ]
         }
@@ -2926,7 +3082,6 @@
           "unit": "mm"
         },
         "header": false,
-        "footer": false,
         "grid": {
           "columns": 12,
           "columnGap": {
@@ -2953,7 +3108,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 19,
+                  "value": 16,
                   "unit": "mm"
                 }
               },
@@ -2986,7 +3141,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 29,
+                  "value": 26,
                   "unit": "mm"
                 }
               },
@@ -2996,7 +3151,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 32,
+                  "value": 25,
                   "unit": "mm"
                 }
               }
@@ -3016,28 +3171,28 @@
               },
               "offset": {
                 "x": {
-                  "value": 10,
+                  "value": 12,
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 62,
+                  "value": 52,
                   "unit": "mm"
                 }
               },
               "size": {
                 "width": {
-                  "value": 150,
+                  "value": 144,
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 165.8,
+                  "value": 159.2,
                   "unit": "mm"
                 }
               }
             },
             "fit": {
-              "scaleImages": true,
-              "imageMinScale": 0.15,
+              "scaleImages": false,
+              "imageMinScale": 0.8,
               "shrinkText": false
             }
           },
@@ -3054,7 +3209,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 228,
+                  "value": 213,
                   "unit": "mm"
                 }
               },
@@ -3064,7 +3219,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 6,
+                  "value": 8,
                   "unit": "mm"
                 }
               }
@@ -3318,7 +3473,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 137,
+                  "value": 132,
                   "unit": "mm"
                 }
               },
@@ -3328,7 +3483,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 53,
+                  "value": 36,
                   "unit": "mm"
                 }
               }
@@ -3351,7 +3506,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 198,
+                  "value": 199,
                   "unit": "mm"
                 }
               },
@@ -3362,6 +3517,39 @@
                 },
                 "height": {
                   "value": 19,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "small",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "legend",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 188,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 174,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 134,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 21,
                   "unit": "mm"
                 }
               }
@@ -3487,7 +3675,7 @@
             },
             {
               "kind": "box",
-              "id": "atlas-foot",
+              "id": "legend-line",
               "placement": {
                 "anchor": {
                   "to": "container",
@@ -3499,7 +3687,7 @@
                     "unit": "mm"
                   },
                   "y": {
-                    "value": 220,
+                    "value": 171,
                     "unit": "mm"
                   }
                 },
@@ -3516,28 +3704,33 @@
               },
               "style": {
                 "backgroundColor": {
-                  "hex": "#D2CABE",
+                  "hex": "#B36A48",
                   "model": "hex",
-                  "paletteId": "rule"
+                  "paletteId": "copper"
                 }
               }
-            },
+            }
+          ]
+        },
+        "footer": {
+          "elements": [
             {
               "kind": "text",
-              "id": "atlas-folio",
+              "id": "folio-even",
               "content": "{pageNumber}",
+              "parity": "even",
               "placement": {
                 "anchor": {
-                  "to": "container",
-                  "edge": "top-left"
+                  "to": "page",
+                  "edge": "bottom-left"
                 },
                 "offset": {
                   "x": {
-                    "value": 310,
+                    "value": 18,
                     "unit": "mm"
                   },
                   "y": {
-                    "value": 224,
+                    "value": -5,
                     "unit": "mm"
                   }
                 },
@@ -3546,25 +3739,66 @@
                     "value": 12,
                     "unit": "mm"
                   },
-                  "height": {
-                    "value": 5,
-                    "unit": "mm"
-                  }
+                  "height": "auto"
                 }
               },
               "fontFamily": "Archivo",
               "fontSize": {
-                "value": 9,
+                "value": 8.5,
                 "unit": "pt"
               },
-              "fontWeight": 400,
+              "fontWeight": 700,
+              "color": {
+                "hex": "#53645F",
+                "model": "hex",
+                "paletteId": "muted"
+              },
+              "align": "left",
+              "verticalAlign": "bottom",
+              "lineHeight": 1.2,
+              "overflow": "ellipsis-end"
+            },
+            {
+              "kind": "text",
+              "id": "folio-odd",
+              "content": "{pageNumber}",
+              "parity": "odd",
+              "placement": {
+                "anchor": {
+                  "to": "page",
+                  "edge": "bottom-right"
+                },
+                "offset": {
+                  "x": {
+                    "value": -18,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": -5,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 12,
+                    "unit": "mm"
+                  },
+                  "height": "auto"
+                }
+              },
+              "fontFamily": "Archivo",
+              "fontSize": {
+                "value": 8.5,
+                "unit": "pt"
+              },
+              "fontWeight": 700,
               "color": {
                 "hex": "#53645F",
                 "model": "hex",
                 "paletteId": "muted"
               },
               "align": "right",
-              "verticalAlign": "top",
+              "verticalAlign": "bottom",
               "lineHeight": 1.2,
               "overflow": "ellipsis-end"
             }
@@ -3581,7 +3815,6 @@
           "unit": "mm"
         },
         "header": false,
-        "footer": false,
         "grid": {
           "columns": 12,
           "columnGap": {
@@ -3608,7 +3841,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 19,
+                  "value": 16,
                   "unit": "mm"
                 }
               },
@@ -3641,7 +3874,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 30,
+                  "value": 26,
                   "unit": "mm"
                 }
               },
@@ -3651,7 +3884,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 37,
+                  "value": 24,
                   "unit": "mm"
                 }
               }
@@ -3675,7 +3908,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 71,
+                  "value": 53,
                   "unit": "mm"
                 }
               },
@@ -3685,7 +3918,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 24,
+                  "value": 18,
                   "unit": "mm"
                 }
               }
@@ -3708,7 +3941,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 104,
+                  "value": 140,
                   "unit": "mm"
                 }
               },
@@ -3741,7 +3974,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 104,
+                  "value": 140,
                   "unit": "mm"
                 }
               },
@@ -3751,7 +3984,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 38,
+                  "value": 34,
                   "unit": "mm"
                 }
               }
@@ -3774,7 +4007,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 153,
+                  "value": 181,
                   "unit": "mm"
                 }
               },
@@ -3807,7 +4040,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 153,
+                  "value": 181,
                   "unit": "mm"
                 }
               },
@@ -3817,7 +4050,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 58,
+                  "value": 37,
                   "unit": "mm"
                 }
               }
@@ -3840,7 +4073,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 25,
+                  "value": 18,
                   "unit": "mm"
                 }
               },
@@ -3873,7 +4106,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 25,
+                  "value": 18,
                   "unit": "mm"
                 }
               },
@@ -3883,7 +4116,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 50,
+                  "value": 37,
                   "unit": "mm"
                 }
               }
@@ -3906,7 +4139,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 85,
+                  "value": 62,
                   "unit": "mm"
                 }
               },
@@ -3939,7 +4172,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 85,
+                  "value": 62,
                   "unit": "mm"
                 }
               },
@@ -3949,7 +4182,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 43,
+                  "value": 37,
                   "unit": "mm"
                 }
               }
@@ -3972,7 +4205,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 138,
+                  "value": 106,
                   "unit": "mm"
                 }
               },
@@ -4005,7 +4238,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 138,
+                  "value": 106,
                   "unit": "mm"
                 }
               },
@@ -4015,7 +4248,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 44,
+                  "value": 39,
                   "unit": "mm"
                 }
               }
@@ -4034,26 +4267,160 @@
               },
               "offset": {
                 "x": {
-                  "value": 188,
+                  "value": 276,
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 191,
+                  "value": 164,
                   "unit": "mm"
                 }
               },
               "size": {
                 "width": {
-                  "value": 134,
+                  "value": 46,
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 25,
+                  "value": 51,
                   "unit": "mm"
                 }
               }
             },
             "style": "small",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "route-photo-a",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 18,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 73,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 84,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 61.2,
+                  "unit": "mm"
+                }
+              }
+            },
+            "fit": {
+              "scaleImages": false,
+              "imageMinScale": 0.8,
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "route-caption-a",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 108,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 82,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 44,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 47,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "caption",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "route-photo-b",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 188,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 155,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 82,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 54.7,
+                  "unit": "mm"
+                }
+              }
+            },
+            "fit": {
+              "scaleImages": false,
+              "imageMinScale": 0.8,
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "route-caption-b",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 188,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 212,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 82,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 9,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "caption",
             "fit": {
               "shrinkText": false
             }
@@ -4112,7 +4479,7 @@
                     "unit": "mm"
                   },
                   "y": {
-                    "value": 148,
+                    "value": 177,
                     "unit": "mm"
                   }
                 },
@@ -4149,7 +4516,7 @@
                     "unit": "mm"
                   },
                   "y": {
-                    "value": 79,
+                    "value": 58,
                     "unit": "mm"
                   }
                 },
@@ -4186,7 +4553,7 @@
                     "unit": "mm"
                   },
                   "y": {
-                    "value": 132,
+                    "value": 102,
                     "unit": "mm"
                   }
                 },
@@ -4223,7 +4590,7 @@
                     "unit": "mm"
                   },
                   "y": {
-                    "value": 185,
+                    "value": 149,
                     "unit": "mm"
                   }
                 },
@@ -4245,6 +4612,98 @@
                   "paletteId": "copper"
                 }
               }
+            }
+          ]
+        },
+        "footer": {
+          "elements": [
+            {
+              "kind": "text",
+              "id": "folio-even",
+              "content": "{pageNumber}",
+              "parity": "even",
+              "placement": {
+                "anchor": {
+                  "to": "page",
+                  "edge": "bottom-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 18,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": -5,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 12,
+                    "unit": "mm"
+                  },
+                  "height": "auto"
+                }
+              },
+              "fontFamily": "Archivo",
+              "fontSize": {
+                "value": 8.5,
+                "unit": "pt"
+              },
+              "fontWeight": 700,
+              "color": {
+                "hex": "#53645F",
+                "model": "hex",
+                "paletteId": "muted"
+              },
+              "align": "left",
+              "verticalAlign": "bottom",
+              "lineHeight": 1.2,
+              "overflow": "ellipsis-end"
+            },
+            {
+              "kind": "text",
+              "id": "folio-odd",
+              "content": "{pageNumber}",
+              "parity": "odd",
+              "placement": {
+                "anchor": {
+                  "to": "page",
+                  "edge": "bottom-right"
+                },
+                "offset": {
+                  "x": {
+                    "value": -18,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": -5,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 12,
+                    "unit": "mm"
+                  },
+                  "height": "auto"
+                }
+              },
+              "fontFamily": "Archivo",
+              "fontSize": {
+                "value": 8.5,
+                "unit": "pt"
+              },
+              "fontWeight": 700,
+              "color": {
+                "hex": "#53645F",
+                "model": "hex",
+                "paletteId": "muted"
+              },
+              "align": "right",
+              "verticalAlign": "bottom",
+              "lineHeight": 1.2,
+              "overflow": "ellipsis-end"
             }
           ]
         }
@@ -4300,7 +4759,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 31,
+                  "value": 29,
                   "unit": "mm"
                 }
               },
@@ -4310,7 +4769,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 30,
+                  "value": 27,
                   "unit": "mm"
                 }
               }
@@ -4334,7 +4793,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 68,
+                  "value": 63,
                   "unit": "mm"
                 }
               },
@@ -4350,8 +4809,8 @@
               }
             },
             "fit": {
-              "scaleImages": true,
-              "imageMinScale": 0.15,
+              "scaleImages": false,
+              "imageMinScale": 0.8,
               "shrinkText": false
             }
           },
@@ -4368,7 +4827,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 175,
+                  "value": 169,
                   "unit": "mm"
                 }
               },
@@ -4378,7 +4837,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 11,
+                  "value": 9,
                   "unit": "mm"
                 }
               }
@@ -4401,7 +4860,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 191,
+                  "value": 184,
                   "unit": "mm"
                 }
               },
@@ -4411,7 +4870,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 24,
+                  "value": 32,
                   "unit": "mm"
                 }
               }
@@ -4438,7 +4897,7 @@
                     "unit": "mm"
                   },
                   "y": {
-                    "value": 63,
+                    "value": 59,
                     "unit": "mm"
                   }
                 },
@@ -4515,7 +4974,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 31,
+                  "value": 29,
                   "unit": "mm"
                 }
               },
@@ -4525,7 +4984,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 29,
+                  "value": 26,
                   "unit": "mm"
                 }
               }
@@ -4549,7 +5008,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 63,
+                  "value": 61,
                   "unit": "mm"
                 }
               },
@@ -4565,8 +5024,8 @@
               }
             },
             "fit": {
-              "scaleImages": true,
-              "imageMinScale": 0.15,
+              "scaleImages": false,
+              "imageMinScale": 0.8,
               "shrinkText": false
             }
           },
@@ -4583,7 +5042,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 152,
+                  "value": 150,
                   "unit": "mm"
                 }
               },
@@ -4616,7 +5075,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 166,
+                  "value": 165,
                   "unit": "mm"
                 }
               },
@@ -4649,7 +5108,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 193,
+                  "value": 192,
                   "unit": "mm"
                 }
               },
@@ -4659,7 +5118,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 22,
+                  "value": 25,
                   "unit": "mm"
                 }
               }
@@ -4682,7 +5141,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 193,
+                  "value": 192,
                   "unit": "mm"
                 }
               },
@@ -4692,7 +5151,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 22,
+                  "value": 25,
                   "unit": "mm"
                 }
               }
@@ -4759,7 +5218,6 @@
           "unit": "mm"
         },
         "header": false,
-        "footer": false,
         "grid": {
           "columns": 12,
           "columnGap": {
@@ -4786,7 +5244,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 17,
+                  "value": 16,
                   "unit": "mm"
                 }
               },
@@ -4819,7 +5277,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 27,
+                  "value": 26,
                   "unit": "mm"
                 }
               },
@@ -4829,7 +5287,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 36,
+                  "value": 25,
                   "unit": "mm"
                 }
               }
@@ -4853,7 +5311,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 68,
+                  "value": 54,
                   "unit": "mm"
                 }
               },
@@ -4869,8 +5327,8 @@
               }
             },
             "fit": {
-              "scaleImages": true,
-              "imageMinScale": 0.15,
+              "scaleImages": false,
+              "imageMinScale": 0.8,
               "shrinkText": false
             }
           },
@@ -4887,7 +5345,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 165,
+                  "value": 151,
                   "unit": "mm"
                 }
               },
@@ -4897,7 +5355,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 12,
+                  "value": 8,
                   "unit": "mm"
                 }
               }
@@ -4920,24 +5378,24 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 182,
+                  "value": 166,
                   "unit": "mm"
                 }
               },
               "size": {
                 "width": {
-                  "value": 64,
+                  "value": 80,
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 42.7,
+                  "value": 53.3,
                   "unit": "mm"
                 }
               }
             },
             "fit": {
-              "scaleImages": true,
-              "imageMinScale": 0.15,
+              "scaleImages": false,
+              "imageMinScale": 0.8,
               "shrinkText": false
             }
           },
@@ -4950,21 +5408,21 @@
               },
               "offset": {
                 "x": {
-                  "value": 87,
+                  "value": 103,
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 182,
+                  "value": 169,
                   "unit": "mm"
                 }
               },
               "size": {
                 "width": {
-                  "value": 65,
+                  "value": 49,
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 38,
+                  "value": 47,
                   "unit": "mm"
                 }
               }
@@ -5003,8 +5461,8 @@
               }
             },
             "fit": {
-              "scaleImages": true,
-              "imageMinScale": 0.15,
+              "scaleImages": false,
+              "imageMinScale": 0.8,
               "shrinkText": false
             }
           },
@@ -5031,7 +5489,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 17,
+                  "value": 10,
                   "unit": "mm"
                 }
               }
@@ -5054,24 +5512,24 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 143,
+                  "value": 137,
                   "unit": "mm"
                 }
               },
               "size": {
                 "width": {
-                  "value": 112,
+                  "value": 118,
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 74.7,
+                  "value": 78.7,
                   "unit": "mm"
                 }
               }
             },
             "fit": {
-              "scaleImages": true,
-              "imageMinScale": 0.15,
+              "scaleImages": false,
+              "imageMinScale": 0.8,
               "shrinkText": false
             }
           },
@@ -5088,17 +5546,17 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 222,
+                  "value": 220,
                   "unit": "mm"
                 }
               },
               "size": {
                 "width": {
-                  "value": 134,
+                  "value": 116,
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 11,
+                  "value": 7,
                   "unit": "mm"
                 }
               }
@@ -5184,6 +5642,98 @@
                   "paletteId": "atlantic"
                 }
               }
+            }
+          ]
+        },
+        "footer": {
+          "elements": [
+            {
+              "kind": "text",
+              "id": "folio-even",
+              "content": "{pageNumber}",
+              "parity": "even",
+              "placement": {
+                "anchor": {
+                  "to": "page",
+                  "edge": "bottom-left"
+                },
+                "offset": {
+                  "x": {
+                    "value": 18,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": -5,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 12,
+                    "unit": "mm"
+                  },
+                  "height": "auto"
+                }
+              },
+              "fontFamily": "Archivo",
+              "fontSize": {
+                "value": 8.5,
+                "unit": "pt"
+              },
+              "fontWeight": 700,
+              "color": {
+                "hex": "#53645F",
+                "model": "hex",
+                "paletteId": "muted"
+              },
+              "align": "left",
+              "verticalAlign": "bottom",
+              "lineHeight": 1.2,
+              "overflow": "ellipsis-end"
+            },
+            {
+              "kind": "text",
+              "id": "folio-odd",
+              "content": "{pageNumber}",
+              "parity": "odd",
+              "placement": {
+                "anchor": {
+                  "to": "page",
+                  "edge": "bottom-right"
+                },
+                "offset": {
+                  "x": {
+                    "value": -18,
+                    "unit": "mm"
+                  },
+                  "y": {
+                    "value": -5,
+                    "unit": "mm"
+                  }
+                },
+                "size": {
+                  "width": {
+                    "value": 12,
+                    "unit": "mm"
+                  },
+                  "height": "auto"
+                }
+              },
+              "fontFamily": "Archivo",
+              "fontSize": {
+                "value": 8.5,
+                "unit": "pt"
+              },
+              "fontWeight": 700,
+              "color": {
+                "hex": "#DDE7E1",
+                "model": "hex",
+                "paletteId": "light"
+              },
+              "align": "right",
+              "verticalAlign": "bottom",
+              "lineHeight": 1.2,
+              "overflow": "ellipsis-end"
             }
           ]
         }
@@ -5434,7 +5984,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 36,
+                  "value": 32,
                   "unit": "mm"
                 }
               },
@@ -5444,7 +5994,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 55,
+                  "value": 40,
                   "unit": "mm"
                 }
               }
@@ -5468,7 +6018,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 102,
+                  "value": 78,
                   "unit": "mm"
                 }
               },
@@ -5478,7 +6028,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 55,
+                  "value": 54,
                   "unit": "mm"
                 }
               }
@@ -5599,8 +6149,15 @@
               }
             },
             {
-              "kind": "box",
-              "id": "back-accent",
+              "kind": "image",
+              "id": "back-photo",
+              "resourceId": "{attr.photo}",
+              "decorative": true,
+              "fit": "cover",
+              "focus": {
+                "x": 0.4,
+                "y": 0.55
+              },
               "placement": {
                 "anchor": {
                   "to": "container",
@@ -5612,7 +6169,7 @@
                     "unit": "mm"
                   },
                   "y": {
-                    "value": 170,
+                    "value": 142,
                     "unit": "mm"
                   }
                 },
@@ -5622,16 +6179,9 @@
                     "unit": "mm"
                   },
                   "height": {
-                    "value": 1,
+                    "value": 63,
                     "unit": "mm"
                   }
-                }
-              },
-              "style": {
-                "backgroundColor": {
-                  "hex": "#B36A48",
-                  "model": "hex",
-                  "paletteId": "copper"
                 }
               }
             }
@@ -5666,8 +6216,53 @@
       "elements": [
         {
           "kind": "text",
-          "id": "flow-folio",
+          "id": "folio-even",
           "content": "{pageNumber}",
+          "parity": "even",
+          "placement": {
+            "anchor": {
+              "to": "page",
+              "edge": "bottom-left"
+            },
+            "offset": {
+              "x": {
+                "value": 18,
+                "unit": "mm"
+              },
+              "y": {
+                "value": -5,
+                "unit": "mm"
+              }
+            },
+            "size": {
+              "width": {
+                "value": 12,
+                "unit": "mm"
+              },
+              "height": "auto"
+            }
+          },
+          "fontFamily": "Archivo",
+          "fontSize": {
+            "value": 8.5,
+            "unit": "pt"
+          },
+          "fontWeight": 700,
+          "color": {
+            "hex": "#53645F",
+            "model": "hex",
+            "paletteId": "muted"
+          },
+          "align": "left",
+          "verticalAlign": "bottom",
+          "lineHeight": 1.2,
+          "overflow": "ellipsis-end"
+        },
+        {
+          "kind": "text",
+          "id": "folio-odd",
+          "content": "{pageNumber}",
+          "parity": "odd",
           "placement": {
             "anchor": {
               "to": "page",
@@ -5679,7 +6274,7 @@
                 "unit": "mm"
               },
               "y": {
-                "value": -7,
+                "value": -5,
                 "unit": "mm"
               }
             },
@@ -5688,15 +6283,12 @@
                 "value": 12,
                 "unit": "mm"
               },
-              "height": {
-                "value": 5,
-                "unit": "mm"
-              }
+              "height": "auto"
             }
           },
           "fontFamily": "Archivo",
           "fontSize": {
-            "value": 9,
+            "value": 8.5,
             "unit": "pt"
           },
           "fontWeight": 700,
@@ -5706,11 +6298,14 @@
             "paletteId": "muted"
           },
           "align": "right",
-          "verticalAlign": "top",
+          "verticalAlign": "bottom",
           "lineHeight": 1.2,
           "overflow": "ellipsis-end"
         }
       ]
+    },
+    "header": {
+      "elements": []
     }
   },
   "resources": [
@@ -5725,7 +6320,9 @@
       "placement": {
         "position": "here",
         "span": "column"
-      }
+      },
+      "caption": "",
+      "resolution": 240
     },
     {
       "id": "headland",
@@ -5738,27 +6335,76 @@
       "placement": {
         "position": "here",
         "span": "column"
-      }
+      },
+      "caption": "",
+      "resolution": 240
     },
     {
       "id": "dinas-island-map",
       "typeId": "figure",
       "kind": "svg",
-      "file": "resources/dinas-island.svg",
+      "file": "resources/dinas-island-editorial.svg",
       "width": 1520,
       "height": 1680,
       "caption": "",
-      "altText": "Source-backed DesignCraft map showing the Dinas Island walking route and mapped paths.",
+      "altText": "Dinas Island circuit, with five numbered editorial reference points on the original mapped route.",
       "placement": {
         "position": "here",
         "span": "column"
-      }
+      },
+      "anchors": [
+        {
+          "id": "stage-1",
+          "x": 0.8456184210526315,
+          "y": 0.7294464285714286,
+          "width": 0.05,
+          "style": "route-marker",
+          "align": "center",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "stage-2",
+          "x": 0.29290789473684214,
+          "y": 0.8140238095238095,
+          "width": 0.05,
+          "style": "route-marker",
+          "align": "center",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "stage-3",
+          "x": 0.1261907894736842,
+          "y": 0.4273214285714286,
+          "width": 0.05,
+          "style": "route-marker",
+          "align": "center",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "stage-4",
+          "x": 0.4008026315789474,
+          "y": 0.17290476190476192,
+          "width": 0.05,
+          "style": "route-marker",
+          "align": "center",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "stage-5",
+          "x": 0.8794473684210526,
+          "y": 0.5728690476190476,
+          "width": 0.05,
+          "style": "route-marker",
+          "align": "center",
+          "verticalAlign": "middle"
+        }
+      ]
     },
     {
       "id": "headland-diagram",
       "typeId": "figure",
       "kind": "svg",
-      "file": "resources/headland-diagram.svg",
+      "file": "resources/headland-diagram-editorial.svg",
       "width": 1000,
       "height": 650,
       "altText": "Conceptual coastal cross-section with a raised headland, steep cliff and sheltered low ground; not a surveyed profile",
@@ -5769,48 +6415,49 @@
       "anchors": [
         {
           "id": "high",
-          "x": 0.655,
-          "y": 0.19,
+          "x": 0.654,
+          "y": 0.257,
           "labelAt": {
-            "x": 0.53,
-            "y": 0.07
+            "x": 0.55,
+            "y": 0.085
           },
-          "width": 0.32,
+          "width": 0.35,
           "style": "diagram-label",
           "leader": true
         },
         {
           "id": "cliff",
-          "x": 0.81,
-          "y": 0.6,
+          "x": 0.79,
+          "y": 0.51,
           "labelAt": {
-            "x": 0.82,
-            "y": 0.34
+            "x": 0.85,
+            "y": 0.24
           },
-          "width": 0.3,
+          "width": 0.27,
           "style": "diagram-label",
           "leader": true
         },
         {
           "id": "valley",
-          "x": 0.17,
-          "y": 0.63,
+          "x": 0.135,
+          "y": 0.595,
           "labelAt": {
-            "x": 0.2,
+            "x": 0.17,
             "y": 0.4
           },
-          "width": 0.34,
+          "width": 0.33,
           "style": "diagram-label",
           "leader": true
         },
         {
           "id": "sea",
           "x": 0.5,
-          "y": 0.91,
-          "width": 0.3,
+          "y": 0.89,
+          "width": 0.28,
           "style": "diagram-label"
         }
-      ]
+      ],
+      "caption": ""
     },
     {
       "id": "strumble",
@@ -5823,7 +6470,9 @@
       "placement": {
         "position": "here",
         "span": "column"
-      }
+      },
+      "caption": "",
+      "resolution": 190
     },
     {
       "id": "carningli",
@@ -5836,7 +6485,9 @@
       "placement": {
         "position": "here",
         "span": "column"
-      }
+      },
+      "caption": "",
+      "resolution": 240
     },
     {
       "id": "preseli",
@@ -5849,7 +6500,9 @@
       "placement": {
         "position": "here",
         "span": "column"
-      }
+      },
+      "caption": "",
+      "resolution": 240
     },
     {
       "id": "st-davids",
@@ -5862,7 +6515,9 @@
       "placement": {
         "position": "here",
         "span": "column"
-      }
+      },
+      "caption": "",
+      "resolution": 240
     },
     {
       "id": "annotated-headland",
@@ -5913,7 +6568,25 @@
           "style": "photo-label",
           "leader": true
         }
-      ]
+      ],
+      "caption": "",
+      "resolution": 240
+    },
+    {
+      "id": "essay-church",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/church.jpg",
+      "width": 1920,
+      "height": 1398,
+      "altText": "The surviving stone church wall and bellcote at Cwm-yr-Eglwys",
+      "placement": {
+        "position": "side",
+        "span": "column",
+        "width": 1
+      },
+      "caption": "The church ruins at Cwm-yr-Eglwys. John H Darch, CC BY-SA 2.0.",
+      "resolution": 240
     }
   ],
   "fonts": [
