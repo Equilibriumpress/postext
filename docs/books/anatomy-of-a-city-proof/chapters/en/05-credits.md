@@ -24,7 +24,7 @@
 
 [Canal Museum: Period rooms and building](https://grachten.museum/en/period-rooms-and-building/) — documented house at Herengracht 386.
 
-The schematic illustrations are original. The locator uses published point coordinates: [Anne Frank House](https://research.annefrank.org/en/locaties/b2966565-8c8b-4a92-9275-8f665e6ddd56/), [Dam Square](https://en.wikipedia.org/wiki/Dam_Square), [Magere Brug](https://www.coordinatenbepalen.nl/coordinates/1846331-magere-brug-amsterdam), [GeoNames](https://www.geonames.org/search.html?country=NL&q=amsterdam) and [UNESCO](https://whc.unesco.org/en/list/1349/maps/). It shows point positions only, not canal outlines.
+The schematic illustrations are original. The canal-side map combines selected road lines from Adamlink with published reference points. It is not a map of water surface boundaries.
 
 :::
 

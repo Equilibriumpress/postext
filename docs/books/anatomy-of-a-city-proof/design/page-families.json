@@ -770,6 +770,15 @@
         "style": "concept-panel",
         "fit": {
           "shrinkText": false
+        },
+        "height": "auto",
+        "minHeight": {
+          "value": 0,
+          "unit": "mm"
+        },
+        "maxHeight": {
+          "value": 52,
+          "unit": "mm"
         }
       }
     ],
@@ -1222,6 +1231,15 @@
         "style": "concept-panel",
         "fit": {
           "shrinkText": false
+        },
+        "height": "auto",
+        "minHeight": {
+          "value": 0,
+          "unit": "mm"
+        },
+        "maxHeight": {
+          "value": 18,
+          "unit": "mm"
         }
       }
     ]
@@ -1914,6 +1932,15 @@
         "style": "concept-panel",
         "fit": {
           "shrinkText": false
+        },
+        "height": "auto",
+        "minHeight": {
+          "value": 0,
+          "unit": "mm"
+        },
+        "maxHeight": {
+          "value": 19,
+          "unit": "mm"
         }
       }
     ],
@@ -2155,6 +2182,15 @@
         "style": "concept-panel",
         "fit": {
           "shrinkText": false
+        },
+        "height": "auto",
+        "minHeight": {
+          "value": 0,
+          "unit": "mm"
+        },
+        "maxHeight": {
+          "value": 20,
+          "unit": "mm"
         }
       }
     ],
