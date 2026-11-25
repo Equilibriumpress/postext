@@ -22,7 +22,8 @@
     "commonsBrowserFetch": "NOT RUN for new images",
     "bgtCollectionMetadata": "PASS",
     "bgtLiveFetch": "NOT RUN",
-    "mapLoaderSyntax": "PASS"
+    "mapLoaderSyntax": "PASS",
+    "bgtMock": "PASS: simulated four collections, two pages each, shared cache across three variants, distinct SVG styles, polygon holes, scale bar, unrelated request passthrough and offline fallback"
   },
   "blockers": [
     "Native browser/renderer and official generator not available in this session",
