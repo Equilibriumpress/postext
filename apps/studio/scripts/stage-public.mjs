@@ -34,3 +34,5 @@ for (const [source, dest] of [
 
 // Keep the source-linked Commons loader in future static Studio builds.
 cpSync(resolve(repo, 'apps/studio/src/commons-resource-loader.js'), resolve(publicDir, 'commons-resource-loader.js'));
+
+cpSync(resolve(repo, 'apps/studio/src/map-resource-loader.js'), resolve(publicDir, 'map-resource-loader.js'));

@@ -49,7 +49,7 @@ FIELD GUIDE / CONTENTS
 
 :::frame{slot="note"}
 
-This case study explores Amsterdam through three connected scales: the city plan, the street and the building. Read the atlas first, then use the architectural sections and field observations to interpret the historic district.
+Read the three atlas plates first, then compare the streets, architecture and historic photographs.
 
 :::
 

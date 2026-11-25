@@ -294,7 +294,7 @@
           "paletteId": "ink"
         },
         "marginTop": {
-          "value": 2,
+          "value": 1,
           "unit": "pt"
         }
       }

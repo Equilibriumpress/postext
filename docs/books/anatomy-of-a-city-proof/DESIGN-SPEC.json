@@ -57,6 +57,14 @@
       1
     ],
     [
+      "atlas-plate",
+      1
+    ],
+    [
+      "atlas-plate",
+      1
+    ],
+    [
       "atlas-essay",
       1
     ],
@@ -129,7 +137,8 @@
     "Native concept panels now use frame.height=auto and maxHeight from remaining page space, per configuration.md composed frame schema. Rendering not verified.",
     "Permanent source-linked Commons JPEGs: tiny JSON sidecar, browser fetches verified-format bytes before native preset load. Photo selected from Commons; credit in Markdown. Source links only in Git, native browser resource storage and export embedding unchanged.",
     "Photo plates, paired photos, portrait study and adjacent photographic pages. 8 photographs plus 1 historical plan in source-linked Commons JPEG descriptors; no binary photography in Git. Native map labels and repeating module/grid connectors added. Map styles for actual BGT layers specified separately, not yet rendered. Existing schematic road excerpts retained. 20 intended leaves, actual pagination not observed.",
-    "Facing photographic pair assigned to intended even/odd folios 10–11 by source order; physical pagination must be checked in native output."
+    "Facing photographic pair assigned to intended even/odd folios 10–11 by source order; physical pagination must be checked in native output.",
+    "Three matching north-up map plates using live BGT waterdeel, pand, wegdeel, overbruggingsdeel; WGS84 local equidistant approximation at midpoint. Marked pinned Adamlink fallback. 22 intended leaves, native rendering not observed."
   ],
-  "revision": "AOC-21–30 / expanded Amsterdam proof"
+  "revision": "AOC-31–35 / live BGT vector map proof"
 }

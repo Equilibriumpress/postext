@@ -1,10 +1,10 @@
 {
-  "phase": "expanded-technical-proof",
+  "phase": "live-map-technical-proof",
   "date": "2026-11-25",
   "approved": false,
-  "sourceCommit": "ac3ebf58826e7949197f182e68738efd3a36bb85",
+  "sourceCommit": "8c9ffb92e765a2d6a539be5225c1e2373e8c537a",
   "engineVersion": "NOT VERIFIED",
-  "intendedLeaves": 20,
+  "intendedLeaves": 22,
   "checks": {
     "inventory": "DRAFT",
     "manifestReferenceCheck": "STATIC ONLY",
@@ -19,13 +19,17 @@
     "fixedEpub": "NOT RUN",
     "reflowableEpub": "NOT RUN",
     "commonsLoaderMock": "PASS: exact committed JS in V8 with simulated fetch, URL, Response and image decode; retry/fallback, byte delivery, passthrough, host rejection",
-    "commonsBrowserFetch": "NOT RUN for new images"
+    "commonsBrowserFetch": "NOT RUN for new images",
+    "bgtCollectionMetadata": "PASS",
+    "bgtLiveFetch": "NOT RUN",
+    "mapLoaderSyntax": "PASS"
   },
   "blockers": [
     "Native browser/renderer and official generator not available in this session",
     "Live map API CORS, full layer data and rendering not verified",
     "Composed PDF bookmarks unresolved",
-    "New photo loads and actual folios/TOC/page count not checked"
+    "New photo loads and actual folios/TOC/page count not checked",
+    "Live BGT feature payloads, CORS and native SVG rendering unverified; runtime DNS blocked. Marked reserve map will be used on fetch failure."
   ],
   "wordCount": {
     "before": 814,
@@ -69,5 +73,12 @@
     "28": "PARTIAL: expanded native TOC and existing single-page folios; PDF outline issue unresolved",
     "29": "IMPLEMENTED: 19 composed leaves plus one intended flow page, actual page count unverified",
     "30": "NOT RUN: browser PDF and both EPUBs, native lint and stress checks"
+  },
+  "aocMap": {
+    "31": "BGT API collections verified in public metadata; live feature requests not verified",
+    "32": "Browser SVG adapter implemented with shared bbox cache, pagination, bounds and marked fallback",
+    "33": "Three style descriptors and plates implemented",
+    "34": "Six native labels implemented; actual placement not checked",
+    "35": "Integrated into existing library book; 22 intended leaves"
   }
 }

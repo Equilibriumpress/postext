@@ -456,7 +456,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 153,
+              "value": 166,
               "unit": "mm"
             }
           }
@@ -479,7 +479,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 219,
+              "value": 230,
               "unit": "mm"
             }
           },
@@ -489,7 +489,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 22,
+              "value": 12,
               "unit": "mm"
             }
           }

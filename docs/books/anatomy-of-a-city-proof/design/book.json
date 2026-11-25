@@ -3,7 +3,7 @@
   "configVersion": 22,
   "id": "anatomy-of-a-city-proof",
   "name": "THE ANATOMY OF A CITY · The Water City (design proof)",
-  "description": "Twenty-page intended Amsterdam design proof, with native page templates, eight source-linked photographs, historical cartography and native modules. Browser proof and exports pending.",
+  "description": "22 intended pages: Amsterdam technical design proof with three browser-resolved BGT vector maps, native labels, source-linked photography and architectural studies.",
   "locale": "en",
   "locales": [
     "en"
@@ -379,6 +379,48 @@
       "height": 790,
       "caption": "",
       "altText": "Selected Adamlink road excerpts and four reference points, labeled separately in the Markdown.",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "bgt-water",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/live-maps/bgt-water.svg",
+      "width": 1200,
+      "height": 790,
+      "caption": "",
+      "altText": "Water structure of central Amsterdam, generated from PDOK BGT polygons when available; otherwise explicitly marked selected street-line reserve map.",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "bgt-figure-ground",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/live-maps/bgt-figure-ground.svg",
+      "width": 1200,
+      "height": 790,
+      "caption": "",
+      "altText": "Figure and ground of central Amsterdam, generated from PDOK BGT polygons when available; otherwise explicitly marked selected street-line reserve map.",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "bgt-movement",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/live-maps/bgt-movement.svg",
+      "width": 1200,
+      "height": 790,
+      "caption": "",
+      "altText": "Street and bridge space of central Amsterdam, generated from PDOK BGT polygons when available; otherwise explicitly marked selected street-line reserve map.",
       "placement": {
         "position": "here",
         "span": "column"
