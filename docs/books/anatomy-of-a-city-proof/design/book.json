@@ -3,7 +3,7 @@
   "configVersion": 22,
   "id": "anatomy-of-a-city-proof",
   "name": "THE ANATOMY OF A CITY · The Water City (design proof)",
-  "description": "Twelve intended native composed leaves, Amsterdam case study, original vector studies and facing-page atlas. Native visual validation pending.",
+  "description": "Twenty-page intended Amsterdam design proof, with native page templates, eight source-linked photographs, historical cartography and native modules. Browser proof and exports pending.",
   "locale": "en",
   "locales": [
     "en"
@@ -253,6 +253,132 @@
       "height": 852,
       "caption": "",
       "altText": "Brick arch bridge, canal water and historic houses at the Reguliersgracht and Keizersgracht crossing.",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "herengracht-dusk",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/commons/herengracht-dusk.jpg",
+      "width": 1280,
+      "height": 959,
+      "caption": "",
+      "altText": "Herengracht at dusk, with a row of canal houses and a boat",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "aerial",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/commons/aerial.jpg",
+      "width": 1128,
+      "height": 750,
+      "caption": "",
+      "altText": "Aerial view of the central canal belt",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "magere-brug",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/commons/magere-brug.jpg",
+      "width": 1280,
+      "height": 829,
+      "caption": "",
+      "altText": "Magere Brug over the Amstel",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "bridge-bicycles",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/commons/bridge-bicycles.jpg",
+      "width": 1280,
+      "height": 781,
+      "caption": "",
+      "altText": "Canal bridge with parked bicycles and adjoining buildings",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "westerkerk",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/commons/westerkerk.jpg",
+      "width": 1280,
+      "height": 821,
+      "caption": "",
+      "altText": "Prinsengracht viewed from the Reestraat bridge towards the Westerkerk",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "singel-gable",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/commons/singel-gable.jpg",
+      "width": 1920,
+      "height": 2262,
+      "caption": "",
+      "altText": "Archival photograph of stepped gables at Singel 64 and adjoining buildings",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "scharrebiersluis",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/commons/scharrebiersluis.jpg",
+      "width": 1280,
+      "height": 960,
+      "caption": "",
+      "altText": "Nieuwe Herengracht at the Scharrebiersluis with bridge, lock and cycle path",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "historical-map",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/commons/historical-map.jpg",
+      "width": 1280,
+      "height": 1092,
+      "caption": "",
+      "altText": "Seventeenth-century engraved plan of Amsterdam and its extension, with harbour panorama",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "canal-street-native-labels",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/canal-street-native-labels.svg",
+      "width": 1200,
+      "height": 790,
+      "caption": "",
+      "altText": "Selected Adamlink road excerpts and four reference points, labeled separately in the Markdown.",
       "placement": {
         "position": "here",
         "span": "column"
