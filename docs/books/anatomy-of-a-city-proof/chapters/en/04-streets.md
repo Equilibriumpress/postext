@@ -16,21 +16,29 @@ The canal district is a working urban environment, where a single narrow corrido
 
 :::frame{slot="body-a"}
 
-A canal street has several users. Residents need access to their homes. Delivery vehicles need stopping space. People walking and cycling need continuous routes. Boats use the water, and bridges connect both sides.
+**A limited width.** A canal street serves several groups. Residents need access to homes. Delivery vehicles need stopping space. People walking and cycling need continuous routes. Boats occupy part of the water, while bridges connect the banks.
 
-These uses meet at the quay. Every decision about parking, trees, pavements or access changes the distribution of space. A useful urban reading begins by identifying who occupies each part of the street.
+These uses meet at the quay. Every decision about parking, trees, pavements or access changes the distribution of space. If a street accommodates a loading vehicle, for instance, that vehicle needs space to stop and manoeuvre. Providing room for one activity reduces the space available for another.
 
-The street is also a historical record. The relationship between building entrances, bridges and water survives even when uses change.
+**The street as a public room.** Look beyond movement. A pavement also supports conversations, waiting and access to shops. Trees provide shade, while benches allow people to remain in the street without needing to buy anything.
+
+**A layered history.** The relationship between building entrances, bridges and water often survives even when buildings change use. A former residence becomes an office, museum or shop without necessarily losing the street pattern around it. These small adaptations illustrate the difference between preserving the form of a place and freezing its activities.
+
+A good streetscape analysis therefore starts with observation, not with a fixed judgement about the ideal allocation of space.
 
 :::
 
 :::frame{slot="body-b"}
 
-Look at the width of a pavement, the position of a bridge and the doors of neighbouring houses. They reveal small-scale decisions that a city map cannot show.
+**Observe a crossing.** Stand in a safe place near a bridge and look at how movement changes. People approaching along the canal meet people crossing the water. The resulting junction combines several movements within a limited area.
 
-At a busy crossing, observe how people negotiate movement. At a quiet canal, notice the transition from public quay to private entrance. Compare the two settings rather than assuming every canal street functions in the same way.
+Now compare a quieter stretch between bridges. Notice the distance from entrances to the water, the available walking space and the position of trees. Record where people stop as well as where they travel. Both observations are needed to understand the street's performance.
 
-The district's value depends on preserving its spatial structure while adapting streets and buildings to contemporary needs. Heritage management is therefore concerned with everyday use as well as monuments.
+**Competing needs.** A change to a quay has effects beyond its immediate site. Removing stopping space might create room for wider pavements, but deliveries still need to take place. Adding planting provides shade and visual variety, but also requires attention to maintenance and underground infrastructure.
+
+**Heritage and adaptation.** The canal district is not a museum precinct removed from everyday life. Its spatial structure has historical value, while the people who use it have contemporary needs. The challenge is to keep the relationship between water, streets and buildings legible while adapting the public realm.
+
+Compare a busy shopping street with a residential canal before drawing conclusions about the district as a whole. The same underlying form supports different patterns of use.
 
 :::
 
@@ -60,13 +68,21 @@ Original elevation study of typical frontage proportions. No actual buildings ar
 
 :::frame{slot="body-a"}
 
-The recurring narrow frontage gives a canal street its rhythm. Variation in gables, doors and windows makes individual properties legible within a continuous urban edge.
+**The plot and the house.** The recurring narrow frontage establishes a rhythm along the canal. The plan of the district supplied building land, while individual houses introduced architectural variety. A long plot permitted a different internal arrangement from a shallow one.
+
+Look at entrances and window spacing to identify individual properties. A visually continuous façade may conceal several independent buildings. Conversely, a single building may occupy more than one earlier plot.
+
+The street is the shared element. Differences in architectural treatment become visible against the repeated alignment of the houses.
 
 :::
 
 :::frame{slot="body-b"}
 
-The plot is the link between the plan of the city and the design of an individual building. Look at the repeated width of entrances and the changes in roof height.
+**Reading the façade.** Stepped, neck and bell gables belong to different architectural traditions and periods. A gable is one clue to a building's history, but later changes mean it should not be treated as definitive evidence of its date.
+
+Herengracht 386, now the Museum of the Canals, provides a documented example of a merchant's canal house from 1665. Its history offers a starting point for understanding the relationship between the domestic interior, garden and street frontage.
+
+The elevation above is a conceptual study, not a drawing of that house.
 
 :::
 
@@ -102,13 +118,19 @@ Simplified conceptual relationships, not an engineering or operational diagram.
 
 :::frame{slot="body-a"}
 
-Rain reaches roofs, streets and water bodies. The route and rate of runoff depend on surfaces and local conditions.
+**Rain and storage.** Water reaches roofs, pavements, gardens and canals. Sealed surfaces generally produce more immediate runoff than permeable ground, while vegetation and storage spaces alter the timing of flows.
+
+In a dense historic district, space for new infrastructure is limited. Measures at building and street level need to work with the wider drainage network. A rain garden, for example, addresses a different scale of the problem from a regional pumping station.
 
 :::
 
 :::frame{slot="body-b"}
 
-Storage and controlled movement help manage water. Local operational rules and infrastructure determine how this works.
+**Levels and control.** Canals belong to a managed water system that also includes locks, pumps and protective infrastructure. The water visible from a bridge is only one part of that system.
+
+Water levels, groundwater and the condition of historic foundations are related but distinct concerns. Local geology, rainfall and infrastructure all influence their behaviour.
+
+When interpreting a canal city, distinguish the heritage value of its waterways from the engineering systems that support urban life. The diagram describes general relationships rather than the operating rules of Amsterdam's network.
 
 :::
 

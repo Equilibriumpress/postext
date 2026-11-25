@@ -30,7 +30,7 @@
   },
   "reference": {
     "technical": "docs/books/dinas-island-premium/design",
-    "visual": "Approved conceptual atlas wireframes in conversation; no source PDF or measured external exemplar",
+    "visual": "Conceptual atlas wireframes; user requested greater information density after initial publication. No externally measured design.",
     "geometry": "New design decisions, not measured from an original."
   },
   "sequence": [
@@ -82,6 +82,10 @@
   "notes": [
     "Twelve intended leaves, eleven composed fences; no page-count claim until native render.",
     "Original conceptual diagrams; no survey geometry, no scale. Photography and geodata pending.",
-    "Native frame geometry in millimetres. Text remains in Markdown."
-  ]
+    "Native frame geometry in millimetres. Text remains in Markdown.",
+    "Reallocate empty title/illustration space to body text; retain 11/15.5 pt text, 82 mm columns and 210×260 mm trim.",
+    "Existing schematic SVGs preserved. Body frames widened vertically; no shrink-to-fit.",
+    "Manuscript word counts are approximate static counts, not rendered text counts."
+  ],
+  "revision": "Density revision 02"
 }

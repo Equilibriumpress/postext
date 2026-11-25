@@ -555,7 +555,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 30,
+              "value": 29,
               "unit": "mm"
             }
           },
@@ -565,7 +565,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 36,
+              "value": 30,
               "unit": "mm"
             }
           }
@@ -589,7 +589,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 69,
+              "value": 61,
               "unit": "mm"
             }
           },
@@ -599,7 +599,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 25,
+              "value": 22,
               "unit": "mm"
             }
           }
@@ -622,7 +622,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 101,
+              "value": 87,
               "unit": "mm"
             }
           },
@@ -632,7 +632,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 94,
+              "value": 74,
               "unit": "mm"
             }
           }
@@ -654,17 +654,50 @@
               "unit": "mm"
             },
             "y": {
-              "value": 203,
+              "value": 167,
               "unit": "mm"
             }
           },
           "size": {
             "width": {
-              "value": 172,
+              "value": 82,
               "unit": "mm"
             },
             "height": {
-              "value": 34,
+              "value": 74,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "body",
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "story-b",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 109,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 167,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 82,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 74,
               "unit": "mm"
             }
           }
@@ -749,7 +782,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 30,
+              "value": 29,
               "unit": "mm"
             }
           },
@@ -759,7 +792,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 36,
+              "value": 30,
               "unit": "mm"
             }
           }
@@ -783,7 +816,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 74,
+              "value": 66,
               "unit": "mm"
             }
           },
@@ -793,7 +826,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 143,
+              "value": 109,
               "unit": "mm"
             }
           }
@@ -815,7 +848,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 221,
+              "value": 179,
               "unit": "mm"
             }
           },
@@ -825,7 +858,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 19,
+              "value": 12,
               "unit": "mm"
             }
           }
@@ -848,7 +881,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 30,
+              "value": 29,
               "unit": "mm"
             }
           },
@@ -858,7 +891,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 35,
+              "value": 28,
               "unit": "mm"
             }
           }
@@ -881,7 +914,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 70,
+              "value": 61,
               "unit": "mm"
             }
           },
@@ -891,7 +924,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 28,
+              "value": 22,
               "unit": "mm"
             }
           }
@@ -914,7 +947,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 109,
+              "value": 88,
               "unit": "mm"
             }
           },
@@ -924,7 +957,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 43,
+              "value": 63,
               "unit": "mm"
             }
           }
@@ -947,7 +980,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 160,
+              "value": 155,
               "unit": "mm"
             }
           },
@@ -957,7 +990,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 43,
+              "value": 65,
               "unit": "mm"
             }
           }
@@ -980,7 +1013,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 214,
+              "value": 224,
               "unit": "mm"
             }
           },
@@ -990,12 +1023,45 @@
               "unit": "mm"
             },
             "height": {
-              "value": 22,
+              "value": 17,
               "unit": "mm"
             }
           }
         },
         "style": "small",
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "map-reading",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 198,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 172,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 43,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "body",
         "fit": {
           "shrinkText": false
         }
@@ -1205,7 +1271,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 30,
+              "value": 29,
               "unit": "mm"
             }
           },
@@ -1215,7 +1281,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 36,
+              "value": 30,
               "unit": "mm"
             }
           }
@@ -1239,7 +1305,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 68,
+              "value": 61,
               "unit": "mm"
             }
           },
@@ -1249,7 +1315,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 24,
+              "value": 20,
               "unit": "mm"
             }
           }
@@ -1272,7 +1338,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 99,
+              "value": 85,
               "unit": "mm"
             }
           },
@@ -1282,7 +1348,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 91,
+              "value": 66,
               "unit": "mm"
             }
           }
@@ -1304,7 +1370,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 194,
+              "value": 155,
               "unit": "mm"
             }
           },
@@ -1314,7 +1380,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 12,
+              "value": 10,
               "unit": "mm"
             }
           }
@@ -1337,7 +1403,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 213,
+              "value": 170,
               "unit": "mm"
             }
           },
@@ -1347,12 +1413,12 @@
               "unit": "mm"
             },
             "height": {
-              "value": 29,
+              "value": 71,
               "unit": "mm"
             }
           }
         },
-        "style": "small",
+        "style": "body",
         "fit": {
           "shrinkText": false
         }
@@ -1370,7 +1436,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 213,
+              "value": 170,
               "unit": "mm"
             }
           },
@@ -1380,12 +1446,12 @@
               "unit": "mm"
             },
             "height": {
-              "value": 29,
+              "value": 71,
               "unit": "mm"
             }
           }
         },
-        "style": "small",
+        "style": "body",
         "fit": {
           "shrinkText": false
         }
@@ -1446,7 +1512,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 30,
+              "value": 29,
               "unit": "mm"
             }
           },
@@ -1456,7 +1522,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 36,
+              "value": 30,
               "unit": "mm"
             }
           }
@@ -1480,7 +1546,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 72,
+              "value": 65,
               "unit": "mm"
             }
           },
@@ -1490,7 +1556,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 93,
+              "value": 70,
               "unit": "mm"
             }
           }
@@ -1512,7 +1578,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 174,
+              "value": 141,
               "unit": "mm"
             }
           },
@@ -1522,7 +1588,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 62,
+              "value": 100,
               "unit": "mm"
             }
           }
@@ -1545,7 +1611,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 174,
+              "value": 141,
               "unit": "mm"
             }
           },
@@ -1555,7 +1621,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 62,
+              "value": 100,
               "unit": "mm"
             }
           }
@@ -1621,7 +1687,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 30,
+              "value": 29,
               "unit": "mm"
             }
           },
@@ -1631,7 +1697,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 36,
+              "value": 30,
               "unit": "mm"
             }
           }
@@ -1655,7 +1721,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 68,
+              "value": 61,
               "unit": "mm"
             }
           },
@@ -1665,7 +1731,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 23,
+              "value": 20,
               "unit": "mm"
             }
           }
@@ -1688,7 +1754,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 98,
+              "value": 85,
               "unit": "mm"
             }
           },
@@ -1698,7 +1764,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 95,
+              "value": 65,
               "unit": "mm"
             }
           }
@@ -1720,7 +1786,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 202,
+              "value": 156,
               "unit": "mm"
             }
           },
@@ -1730,12 +1796,12 @@
               "unit": "mm"
             },
             "height": {
-              "value": 38,
+              "value": 85,
               "unit": "mm"
             }
           }
         },
-        "style": "small",
+        "style": "body",
         "fit": {
           "shrinkText": false
         }
@@ -1753,7 +1819,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 202,
+              "value": 156,
               "unit": "mm"
             }
           },
@@ -1763,12 +1829,12 @@
               "unit": "mm"
             },
             "height": {
-              "value": 38,
+              "value": 85,
               "unit": "mm"
             }
           }
         },
-        "style": "small",
+        "style": "body",
         "fit": {
           "shrinkText": false
         }
@@ -1829,7 +1895,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 30,
+              "value": 29,
               "unit": "mm"
             }
           },
@@ -1839,7 +1905,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 36,
+              "value": 30,
               "unit": "mm"
             }
           }
@@ -1863,7 +1929,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 70,
+              "value": 61,
               "unit": "mm"
             }
           },
@@ -1873,7 +1939,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 26,
+              "value": 21,
               "unit": "mm"
             }
           }
@@ -1896,7 +1962,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 111,
+              "value": 88,
               "unit": "mm"
             }
           },
@@ -1906,7 +1972,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 116,
+              "value": 153,
               "unit": "mm"
             }
           }
@@ -1929,7 +1995,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 111,
+              "value": 88,
               "unit": "mm"
             }
           },
@@ -1939,7 +2005,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 116,
+              "value": 153,
               "unit": "mm"
             }
           }
@@ -1966,7 +2032,7 @@
                 "unit": "mm"
               },
               "y": {
-                "value": 110,
+                "value": 88,
                 "unit": "mm"
               }
             },
@@ -1976,7 +2042,7 @@
                 "unit": "mm"
               },
               "height": {
-                "value": 116,
+                "value": 153,
                 "unit": "mm"
               }
             }
@@ -2043,7 +2109,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 30,
+              "value": 29,
               "unit": "mm"
             }
           },
@@ -2053,7 +2119,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 36,
+              "value": 30,
               "unit": "mm"
             }
           }
@@ -2077,7 +2143,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 72,
+              "value": 65,
               "unit": "mm"
             }
           },
@@ -2087,7 +2153,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 94,
+              "value": 74,
               "unit": "mm"
             }
           }
@@ -2109,7 +2175,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 170,
+              "value": 143,
               "unit": "mm"
             }
           },
@@ -2119,7 +2185,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 13,
+              "value": 11,
               "unit": "mm"
             }
           }
@@ -2142,7 +2208,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 190,
+              "value": 159,
               "unit": "mm"
             }
           },
@@ -2152,7 +2218,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 49,
+              "value": 82,
               "unit": "mm"
             }
           }
@@ -2175,7 +2241,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 190,
+              "value": 159,
               "unit": "mm"
             }
           },
@@ -2185,7 +2251,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 49,
+              "value": 82,
               "unit": "mm"
             }
           }

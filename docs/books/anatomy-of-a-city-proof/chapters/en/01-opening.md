@@ -79,7 +79,17 @@ Amsterdam reveals how waterways, land division and everyday movement shape an ur
 
 :::frame{slot="story"}
 
-Stand beside a canal and look across the water. The houses form a continuous edge, while bridges connect streets that would otherwise stop. The water is part of the street network, the landscape and the history of the city.
+Stand beside a canal and look across the water. Houses form a continuous edge, while bridges join streets that would otherwise stop. The canal has several roles: a route, a boundary between plots, a public space and a means of managing water.
+
+**From river to port.** The Amstel provided the initial focus of the settlement. Access to the IJ connected the emerging town to regional waterways and maritime trade. Expansion required decisions about drainage, circulation and the division of land. The canal district makes the consequences of those choices visible.
+
+:::
+
+:::frame{slot="story-b"}
+
+**Read the city at three scales.** At the regional scale, examine the connection between inland water and the harbour. At the district scale, trace the canals and bridges. At the scale of a single house, look at its entrance, foundation and plot.
+
+These scales are linked. A decision about the course of a canal determines where a street runs. The street then influences where buildings face and how people reach them. Urban form is the accumulated result of such decisions, rather than a collection of isolated landmarks.
 
 :::
 

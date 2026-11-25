@@ -10,17 +10,21 @@
 
 :::frame{slot="sources"}
 
-[UNESCO World Heritage Centre: Amsterdam canal ring](https://whc.unesco.org/en/list/1349/)
+[UNESCO World Heritage Centre: Amsterdam canal ring](https://whc.unesco.org/en/list/1349/) — World Heritage significance and urban planning.
 
-[UNESCO Urban Heritage Atlas: Amsterdam](https://whc.unesco.org/en/urban-heritage-atlas/Amsterdam/)
+[UNESCO Urban Heritage Atlas: Amsterdam](https://whc.unesco.org/en/urban-heritage-atlas/amsterdam/) — expansion phases, trade and historic urban structure.
 
-[Amsterdam City Archives: 1613 Canal Ring](https://www.amsterdam.nl/stadsarchief/canon/windows/12/)
+[Amsterdam City Archives: Water](https://www.amsterdam.nl/stadsarchief/canon/windows/1/) — historical water use and foundations.
 
-[Amsterdam City Archives: Water](https://www.amsterdam.nl/stadsarchief/canon/windows/1/)
+[City of Amsterdam: Amsterdam's water world](https://www.amsterdam.nl/stad-ontwikkeling/the-city-model-amsterdam/amsterdam%27-water-world/) — water infrastructure and construction.
 
-[Canal Museum: History](https://grachten.museum/en/history/)
+[Canal Museum: History](https://grachten.museum/en/history/) — development of the canal belt.
 
-All illustrations are original conceptual SVGs produced for this proof. They are not reproductions of source maps.
+[Canal Museum: Architecture](https://grachten.museum/en/architecture/) — canal-house façade types.
+
+[Canal Museum: Period rooms and building](https://grachten.museum/en/period-rooms-and-building/) — documented house at Herengracht 386.
+
+All figures are original conceptual illustrations. They are not survey maps or engineering plans. The comparisons and observation exercises are editorial interpretations.
 
 :::
 
