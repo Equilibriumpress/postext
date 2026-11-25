@@ -26,7 +26,11 @@
     "bgtMock": "PASS: simulated four collections, two pages each, shared cache across three variants, distinct SVG styles, polygon holes, scale bar, unrelated request passthrough and offline fallback",
     "vectorWorkerSyntax": "PASS",
     "commonsLoaderSyntax": "PASS",
-    "liveVectorFetch": "NOT RUN"
+    "liveVectorFetch": "NOT RUN",
+    "vectorWorkerFixture": "PASS: synthetic MVT protobuf, real ported decoder yielded water/building polygon rings and road line, 3 features/11 vertices",
+    "mapAdapterMock": "PASS: six-tile plan, disabled descriptor no tile requests, oversized tile reserve, worker terminated on success and failure, generated fixture SVG 1842 characters",
+    "commonsAdapterMock": "PASS: oversized synthetic JPEG SOF rejected before mocked decode; safe fallback accepted; one attempt per candidate",
+    "sourcePublishedParity": "PASS"
   },
   "blockers": [
     "Native browser/renderer and official generator not available in this session",
