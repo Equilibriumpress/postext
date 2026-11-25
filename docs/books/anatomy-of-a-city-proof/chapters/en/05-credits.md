@@ -24,7 +24,7 @@
 
 [Canal Museum: Period rooms and building](https://grachten.museum/en/period-rooms-and-building/) — documented house at Herengracht 386.
 
-The schematic illustrations are original. The prepared modern atlas plates use [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), [OpenFreeMap](https://openfreemap.org/). The three Amsterdam overview maps share live geometry. Detail, Barcelona and Edinburgh maps use separate extents. Marked reserves indicate loading failures. [Barcelona: Passeig de Gràcia](https://en.wikipedia.org/wiki/Passeig_de_Gr%C3%A0cia) identifies the comparison centre. Labels include [Jordaan](https://www.geonames.org/2753201) and the Amstel near [Blauwbrug](https://en.wikipedia.org/wiki/Blauwbrug).
+The schematic illustrations are original. The prepared modern atlas plates use [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), [OpenFreeMap](https://openfreemap.org/). The three Amsterdam overview maps share live geometry. Detail, Barcelona and Edinburgh maps use separate extents. Marked reserves indicate loading failures. [Barcelona: Passeig de Gràcia](https://en.wikipedia.org/wiki/Passeig_de_Gr%C3%A0cia) identifies the comparison centre. [UNESCO Edinburgh](https://whc.unesco.org/en/list/728/) describes the Old Town ridge and its urban form. Labels include [Jordaan](https://www.geonames.org/2753201) and the Amstel near [Blauwbrug](https://en.wikipedia.org/wiki/Blauwbrug).
 
 [Adamlink: Prinsengracht](https://adamlink.nl/geo/street/prinsengracht/3684) and [Keizersgracht](https://adamlink.nl/geo/street/keizersgracht/2337) — selected street excerpts.
 

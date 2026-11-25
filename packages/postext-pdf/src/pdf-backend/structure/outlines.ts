@@ -79,8 +79,17 @@ function collectHeadings(doc: VDTDocument, base = 0): OutlineEntry[] {
       const title = `${page.partInfo.number} ${plainTitleText(page.partInfo.title)}`.trim();
       if (title) entries.push({ title, level: 0, pageIndex: base + page.index, y: 0 });
     }
-    for (const col of page.columns) {
-      for (const block of col.blocks) {
+    const flow = page.columns.flatMap((col) => col.blocks);
+    const composed = page.composed ? (page.floats ?? []).filter((b) => b.type === 'heading') : [];
+    // Composed headings live in the frames' floats, not in flow columns.
+    // Do not take facing copies: those are artifacts and absent from floats.
+    const candidates = [...flow, ...composed];
+    if (page.composed) candidates.sort((a, b) => (a.contentIndex ?? Infinity) - (b.contentIndex ?? Infinity));
+    const seen = new Set<string>();
+    for (const block of candidates) {
+        if (seen.has(block.id)) continue;
+        seen.add(block.id);
+        if (page.composed && block.attrs?.toc === 'false') continue;
         if (block.type !== 'heading') continue;
         if (block.notRunningChapter && block.headingStyleId && unlisted.has(block.headingStyleId)) continue;
         const title = extractBlockText(block);
@@ -91,9 +100,8 @@ function collectHeadings(doc: VDTDocument, base = 0): OutlineEntry[] {
           pageIndex: base + page.index,
           // A vertical page's heading runs down its column from the flow's
           // x: the top of the column on the sheet, where reading starts.
-          y: pageIsVertical(page) ? block.bbox.x : block.bbox.y,
+          y: page.composed?.frames.find((frame) => frame.blockIds.includes(block.id))?.rect.y ?? (pageIsVertical(page) ? block.bbox.x : block.bbox.y),
         });
-      }
     }
   }
   return entries;

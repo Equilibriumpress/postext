@@ -35,9 +35,12 @@
     "priorPdfMapRaster": "4063 x 2675 on pages 5–7; native PDF fallback is 600 dpi",
     "mapPreparationBrowser": "USER partial pass in v3; figure-ground failed",
     "mapPreparationMock": "PASS: ordinary resource open no tiles; first-style gate; six mocked tile requests; cache retrieval; 1800x1185 canvas request; dynamic fingerprint; per-tile network failure persisted; worker termination",
-    "automaticMapBrowser": "NOT RUN v4",
+    "automaticMapBrowser": "NOT RUN revised v5",
     "automaticMapMock": "PASS: 6 simulated tile requests including 1.1 MB and 0.9 MB tiles, one worker, three canvases, all building paths painted in all three styles, cache hit no extra requests; mocked browser APIs, not real tiles",
-    "priorPdf": "22 pages, 3 live maps at 1800x1185"
+    "priorPdf": "22 pages, 3 live maps at 1800x1185",
+    "priorPdfMapImages": "PASS user export 1800x1185 on pp5–7",
+    "frameReferenceStatic": "134 static slot checks",
+    "pdfOutlineSourceFix": "IMPLEMENTED, test NOT RUN, published bundle not rebuilt"
   },
   "blockers": [
     "Native browser/renderer and official generator not available in this session",
@@ -47,7 +50,8 @@
     "Live BGT feature payloads, CORS and native SVG rendering unverified; runtime DNS blocked. Marked reserve map will be used on fetch failure.",
     "User reports slow opening and crash on previous BGT version. No Safari crash log or native runtime in this session. New one-map performance proof requires live validation before enabling remaining styles.",
     "Uploaded PDF Unknown(2).pdf proves water-first map failed; exact previous network/decoder cause unknown. New diagnostic UI records actual browser response. Source URL official; local DNS and web binary retrieval unavailable. Native output and map-specific bounded bitmap embedding still require testing.",
-    "v4 zoom-14 batch has not been executed on actual browser tiles; native remote loader awaits resource loading before preview; no progressive live replacement hook implemented."
+    "v4 zoom-14 batch has not been executed on actual browser tiles; native remote loader awaits resource loading before preview; no progressive live replacement hook implemented.",
+    "New live extents and map names, caption positioning, larger module cards and bounded illustration embedding not rendered. Source PDF outline patch needs native build and regression test. Static GitHub Pages publication does not compile engine. Official generator and native checks not run."
   ],
   "wordCount": {
     "before": 814,
@@ -141,13 +145,13 @@
   "aocEditorial": {
     "36": "Native bitmap resolution corrected; not rendered",
     "37": "Aspect-matched frame geometry and closer captions",
-    "38": "Pending loader commit",
-    "39": "Pending loader commit",
+    "38": "IMPLEMENTED road hierarchy, OMT brunnel bridge accent; live browser unverified",
+    "39": "IMPLEMENTED selective source-derived road/water names in generated map artwork; existing native labels retained; visual placement unverified",
     "40": "Detail descriptor and native page",
     "41": "Barcelona and Edinburgh descriptor pages; actual fetch unverified",
     "42": "Enlarged native modules",
     "43": "Expanded readings and three new pages; full density target incomplete",
-    "44": "Pending loader commit",
-    "45": "PDF outline defect and EPUB exports outstanding"
+    "44": "IMPLEMENTED bounded bitmap wrapper for six large original SVG illustrations, 2000px long edge; original vector retained in Git, native exported resolution unverified",
+    "45": "PARTIAL source fix and regression fixture for composed PDF outline; static published JS bundle unchanged, tests and all new exports NOT RUN"
   }
 }
