@@ -1,10 +1,20 @@
-# Living on the edge {style="essay-heading"}
+::::page{template="atlas-essay" id="living-on-the-edge"}
 
-:::callout{type="deck"}
+:::frame{slot="kicker"}
+
+05 / CONNECTIONS
+
+:::
+
+# Living on the edge {style="display-heading"}
+
+:::frame{slot="lead"}
 
 The canal district is a working urban environment, where a single narrow corridor supports many different activities.
 
 :::
+
+:::frame{slot="body-a"}
 
 **A limited width.** A canal street serves several groups. Residents need access to homes. Delivery vehicles need stopping space. People walking and cycling need continuous routes. Boats occupy part of the water, while bridges connect the banks.
 
@@ -16,6 +26,10 @@ These uses meet at the quay. Every decision about parking, trees, pavements or a
 
 A good streetscape analysis therefore starts with observation, not with a fixed judgement about the ideal allocation of space.
 
+:::
+
+:::frame{slot="body-b"}
+
 **Observe a crossing.** Stand in a safe place near a bridge and look at how movement changes. People approaching along the canal meet people crossing the water. The resulting junction combines several movements within a limited area.
 
 Now compare a quieter stretch between bridges. Notice the distance from entrances to the water, the available walking space and the position of trees. Record where people stop as well as where they travel. Both observations are needed to understand the street's performance.
@@ -24,7 +38,21 @@ Now compare a quieter stretch between bridges. Notice the distance from entrance
 
 **Heritage and adaptation.** The canal district is not a museum precinct removed from everyday life. Its spatial structure has historical value, while the people who use it have contemporary needs. The challenge is to keep the relationship between water, streets and buildings legible while adapting the public realm.
 
+:::
+
+:::frame{slot="note"}
+
+Field observation
+
+:::
+
+:::frame{slot="concept"}
+
 Compare a busy shopping street with a residential canal before drawing conclusions about the district as a whole. The same underlying form supports different patterns of use.
+
+:::
+
+::::
 
 
 ::::page{template="photo-pair" id="bridge-comparison"}
