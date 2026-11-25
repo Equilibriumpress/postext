@@ -5,7 +5,7 @@
  * Specification: https://github.com/mapbox/vector-tile-spec/tree/master/2.1
  */
 const TYPES=["landcover","landuse","park","water","waterway","building","transportation","transportation_name","place","water_name","waterway_name","poi","mountain_peak"];
-const MAX_FEATURES=10000,MAX_VERTICES=120000;
+const MAX_FEATURES=30000,MAX_VERTICES=400000;
 const unzig=n=>(n>>>1)^-(n&1);
 class PbfReader{
  constructor(bytes){this.bytes=new Uint8Array(bytes);this.pos=0;this.end=this.bytes.length;}
@@ -218,7 +218,7 @@ self.addEventListener("message",event=>{
   if(!Array.isArray(tiles)||!tiles.length||tiles.length>2||!bounds||
    !Number.isFinite(width)||!Number.isFinite(height))throw Error("Ongeldige vectorbatch");
   const view={...bounds,width,height};
-  for(const t of tiles)if(!t.tile||!t.bytes||t.bytes.byteLength>768*1024)
+  for(const t of tiles)if(!t.tile||!t.bytes||t.bytes.byteLength>2*1024*1024)
    throw Error("Ongeldige vectortegel");
   for(const primaryPass of [true,false])for(const t of tiles)
    parseTile(t.bytes,t.tile,view,region,buckets,stats,labels,
