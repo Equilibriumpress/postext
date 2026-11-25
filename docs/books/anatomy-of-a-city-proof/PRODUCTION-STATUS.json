@@ -1,0 +1,27 @@
+{
+  "phase": "technical-proof-draft",
+  "date": "2026-11-25",
+  "approved": false,
+  "sourceCommit": "4ff0c31c836223470c391df1576ee99b1536f810",
+  "engineVersion": "NOT VERIFIED",
+  "intendedLeaves": 12,
+  "checks": {
+    "inventory": "DRAFT",
+    "manifestReferenceCheck": "STATIC ONLY",
+    "presetGenerator": "NOT RUN",
+    "lintProject": "NOT RUN",
+    "presetLint": "NOT RUN",
+    "nativeRender": "NOT RUN",
+    "nativeCheck": "NOT RUN",
+    "composedStress": "NOT RUN",
+    "visualReview": "NOT RUN",
+    "pdf": "NOT RUN",
+    "fixedEpub": "NOT RUN",
+    "reflowableEpub": "NOT RUN"
+  },
+  "blockers": [
+    "Native executable and browser unavailable",
+    "No external design reference measured",
+    "Geographic datasets and photography not included"
+  ]
+}

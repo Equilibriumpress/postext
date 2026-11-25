@@ -198,6 +198,23 @@
         "spreads",
         "layout-proof"
       ]
+    },
+    {
+      "id": "anatomy-of-a-city-proof",
+      "dir": "anatomy-of-a-city-proof",
+      "name": "THE ANATOMY OF A CITY · The Water City (design proof)",
+      "description": "Twelve intended native composed leaves, Amsterdam case study, original vector studies and facing-page atlas. Native visual validation pending.",
+      "locale": "en",
+      "locales": [
+        "en"
+      ],
+      "thumbnail": "thumbnail.svg",
+      "tags": [
+        "urbanism",
+        "atlas",
+        "composed-pages",
+        "design-proof"
+      ]
     }
   ]
 }

@@ -1,0 +1,190 @@
+{
+  "version": 2,
+  "configVersion": 22,
+  "id": "anatomy-of-a-city-proof",
+  "name": "THE ANATOMY OF A CITY · The Water City (design proof)",
+  "description": "Twelve intended native composed leaves, Amsterdam case study, original vector studies and facing-page atlas. Native visual validation pending.",
+  "locale": "en",
+  "locales": [
+    "en"
+  ],
+  "view": {
+    "canvasScope": "book"
+  },
+  "chapters": [
+    {
+      "title": "Opening",
+      "file": "chapters/en/01-opening.md"
+    },
+    {
+      "title": "The canal ring",
+      "file": "chapters/en/02-atlas.md"
+    },
+    {
+      "title": "Growth and patterns",
+      "file": "chapters/en/03-history.md"
+    },
+    {
+      "title": "The urban street",
+      "file": "chapters/en/04-streets.md"
+    },
+    {
+      "title": "Sources",
+      "file": "chapters/en/05-credits.md"
+    }
+  ],
+  "resources": [
+    {
+      "id": "cover-art",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/cover-art.svg",
+      "width": 1000,
+      "height": 600,
+      "caption": "",
+      "altText": "Abstract concentric canal lines on a dark green ground",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "canal-ring",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/canal-ring.svg",
+      "width": 1000,
+      "height": 600,
+      "caption": "",
+      "altText": "Conceptual canal ring with historic core, waterfront and Amstel",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "street-section",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/street-section.svg",
+      "width": 1000,
+      "height": 600,
+      "caption": "",
+      "altText": "Conceptual cross section of quay, buildings and piles",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "growth-timeline",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/growth-timeline.svg",
+      "width": 1000,
+      "height": 600,
+      "caption": "",
+      "altText": "Four schematic stages of urban development",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "urban-patterns",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/urban-patterns.svg",
+      "width": 1000,
+      "height": 600,
+      "caption": "",
+      "altText": "Three abstract street patterns: ring, grid and organic",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "canal-frontage",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/canal-frontage.svg",
+      "width": 1000,
+      "height": 600,
+      "caption": "",
+      "altText": "Illustrative row of narrow gabled canal houses",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "water-system",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/water-system.svg",
+      "width": 1000,
+      "height": 600,
+      "caption": "",
+      "altText": "Conceptual relationship of rain, canal, storage and managed flow",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Archivo",
+      "variants": [
+        {
+          "weight": 400,
+          "style": "normal",
+          "file": "fonts/Archivo-Regular.ttf"
+        },
+        {
+          "weight": 700,
+          "style": "normal",
+          "file": "fonts/Archivo-Bold.ttf"
+        },
+        {
+          "weight": 400,
+          "style": "italic",
+          "file": "fonts/Archivo-Italic.ttf"
+        }
+      ]
+    },
+    {
+      "name": "Newsreader",
+      "variants": [
+        {
+          "weight": 400,
+          "style": "normal",
+          "file": "fonts/Newsreader-Regular.ttf"
+        },
+        {
+          "weight": 400,
+          "style": "italic",
+          "file": "fonts/Newsreader-Italic.ttf"
+        },
+        {
+          "weight": 700,
+          "style": "normal",
+          "file": "fonts/Newsreader-Bold.ttf"
+        },
+        {
+          "weight": 700,
+          "style": "italic",
+          "file": "fonts/Newsreader-BoldItalic.ttf"
+        }
+      ]
+    }
+  ],
+  "thumbnail": "thumbnail.svg",
+  "tags": [
+    "urbanism",
+    "atlas",
+    "composed-pages",
+    "design-proof"
+  ]
+}
