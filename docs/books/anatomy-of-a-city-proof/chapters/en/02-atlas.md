@@ -19,7 +19,7 @@
 
 :::frame{slot="caption"}
 
-Live source: © OpenStreetMap contributors, OpenFreeMap. Generalized vector map; marked Adamlink reserve on failure.
+Source: © OpenStreetMap contributors, OpenFreeMap. Generalized map after browser preparation; marked Adamlink reserve otherwise.
 
 :::
 
@@ -52,7 +52,7 @@ Live source: © OpenStreetMap contributors, OpenFreeMap. Generalized vector map;
 
 :::frame{slot="caption"}
 
-Live style paused for performance testing. The marked reserve contains selected Adamlink street lines only.
+Prepare Water structure first, then this style. Source: © OpenStreetMap contributors, OpenFreeMap; Adamlink reserve until prepared.
 
 :::
 
@@ -85,7 +85,7 @@ Live style paused for performance testing. The marked reserve contains selected 
 
 :::frame{slot="caption"}
 
-Live style paused for performance testing. The marked reserve contains selected Adamlink street lines only.
+Prepare Water structure first, then this style. Source: © OpenStreetMap contributors, OpenFreeMap; Adamlink reserve until prepared.
 
 :::
 

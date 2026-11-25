@@ -38,3 +38,5 @@ cpSync(resolve(repo, 'apps/studio/src/commons-resource-loader.js'), resolve(publ
 cpSync(resolve(repo, 'apps/studio/src/map-resource-loader.js'), resolve(publicDir, 'map-resource-loader.js'));
 
 cpSync(resolve(repo, 'apps/studio/src/map-vector.worker.js'), resolve(publicDir, 'map-vector.worker.js'));
+
+cpSync(resolve(repo, 'apps/studio/src/map-preparation.html'), resolve(publicDir, 'map-preparation.html'));

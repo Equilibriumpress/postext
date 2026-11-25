@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="nl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Postext Studio | Kaartvoorbereiding</title>
+<style>
+:root{color-scheme:light dark;font:16px system-ui,sans-serif}body{max-width:780px;margin:0 auto;padding:24px}h1{font-size:1.8rem}section{border:1px solid #8886;border-radius:12px;padding:16px;margin:16px 0}button,a{font:inherit}button{padding:10px 15px;border:1px solid #888;border-radius:8px;cursor:pointer}button:disabled{opacity:.55;cursor:default}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:.8rem;max-height:290px;overflow:auto;background:#8881;padding:12px}img{max-width:100%;display:block;margin-top:12px}small{display:block;margin-top:8px}.state{font-weight:600}a{color:inherit}
+</style>
+<script src="map-resource-loader.js?v=3"></script>
+</head><body>
+<p><a href="./">← Postext Studio</a></p>
+<h1>Kaartvoorbereiding</h1><p>THE ANATOMY OF A CITY · Amsterdam</p>
+<p>Bereid eerst Water structure voor. Bij een geslaagde voorbereiding zijn de twee andere stijlen beschikbaar. De kaarten worden lokaal in deze browser bewaard. Open daarna het boek opnieuw in dezelfde browser. Zonder voorbereide kaart verschijnt een reservekaart.</p>
+<div id="cards"></div>
+<section><h2>Technisch verslag</h2><pre id="log" aria-live="polite">Nog geen verzoek uitgevoerd.</pre><button id="copy" type="button">Kopieer verslag</button><small id="copyStatus" aria-live="polite"></small></section>
+<p><a id="studio" href="./?map-prep=3">Open de Studio</a></p>
+<script>
+(function(){
+const maps=[['bgt-water','Water structure'],['bgt-figure-ground','Figure and ground'],['bgt-movement','Street and bridge space']];
+const log=document.getElementById('log'),cards=document.getElementById('cards');let busy=false,results={},urls=[];
+function report(s){if(log.textContent==='Nog geen verzoek uitgevoerd.')log.textContent='';log.textContent+=new Date().toLocaleTimeString()+' '+s+'\n';log.scrollTop=log.scrollHeight;}
+const api=window.postextMapPreparation;
+if(!api){report('Kaartloader ontbreekt. Herlaad deze pagina.');return;}
+async function refresh(){for(const [id] of maps){try{results[id]=await api.status(id);}catch(e){results[id]={ready:false,error:String(e)};}const status=document.getElementById(id+'-status');status.textContent=results[id].ready?'Lokaal voorbereid'+(results[id].error?' (laatste poging: '+results[id].error+')':''):results[id].error||'Nog niet voorbereid';document.getElementById(id).disabled=busy||(id!==maps[0][0]&&!results[maps[0][0]]?.ready);}}
+for(const [id,title] of maps){const s=document.createElement('section'),h=document.createElement('h2'),status=document.createElement('p'),btn=document.createElement('button'),img=document.createElement('img');h.textContent=title;status.id=id+'-status';status.className='state';status.textContent='Controleren…';btn.id=id;btn.textContent='Voorbereiden / opnieuw proberen';btn.disabled=true;img.alt=title;img.hidden=true;
+btn.onclick=async()=>{if(busy)return;busy=true;await refresh();report(title+' gestart');try{const svg=await api.prepare(id,report);if(img.src)URL.revokeObjectURL(img.src);img.src=URL.createObjectURL(new Blob([svg],{type:'image/svg+xml'}));urls.push(img.src);img.hidden=false;report(title+' lokaal opgeslagen.');}catch(e){report(title+' MISLUKT: '+e.message);}finally{busy=false;await refresh();document.getElementById('studio').href='./?map-prep='+Date.now();}};
+s.append(h,status,btn,img);cards.append(s);}
+document.getElementById('copy').onclick=async()=>{try{await navigator.clipboard.writeText(log.textContent);document.getElementById('copyStatus').textContent='Gekopieerd';}catch(e){document.getElementById('copyStatus').textContent='Selecteer de tekst en kopieer handmatig.';}};
+window.addEventListener('pagehide',()=>urls.forEach(u=>URL.revokeObjectURL(u)));refresh();
+})();
+</script></body></html>
