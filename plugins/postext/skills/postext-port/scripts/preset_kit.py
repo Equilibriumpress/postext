@@ -731,6 +731,8 @@ def apply_curation(manifest: dict, curation: dict) -> list[str]:
     return done
 
 
+from studio_commons_reference import commons_reference
+
 def write_manifest(project: Path | str, manifest: dict) -> Path:
     """Write preset.json (v2, stamped with CONFIG_VERSION unless the manifest
     names one) after checking that every referenced file exists, then
@@ -746,7 +748,7 @@ def write_manifest(project: Path | str, manifest: dict) -> Path:
             missing.append(c["file"])
     for r in manifest.get("resources", []):
         for k in ("file", "pdfFile"):
-            if r.get(k) and not (project / r[k]).exists():
+            if r.get(k) and not (project / r[k]).exists() and not (k == "file" and commons_reference(project, r[k])):
                 missing.append(r[k])
     for f in manifest.get("fonts", []):
         for v in f.get("variants", []):

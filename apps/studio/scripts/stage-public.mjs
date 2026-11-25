@@ -31,3 +31,6 @@ for (const [source, dest] of [
    !/\.[^/]+$/.test(path) || /(?:\.postext|\/capture\.json)$/.test(path)
  });
  cpSync(resolve(repo, 'apps/studio/src/host-parity.css'), resolve(publicDir, 'host-parity.css'));
+
+// Keep the source-linked Commons loader in future static Studio builds.
+cpSync(resolve(repo, 'apps/studio/src/commons-resource-loader.js'), resolve(publicDir, 'commons-resource-loader.js'));

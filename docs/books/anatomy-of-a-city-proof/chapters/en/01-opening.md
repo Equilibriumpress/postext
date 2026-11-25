@@ -79,7 +79,9 @@ Amsterdam reveals how waterways, land division and everyday movement shape an ur
 
 :::frame{slot="art"}
 
-::resource{id="canal-frontage"}
+::resource{id="reguliersgracht-photo"}
+
+Reguliersgracht, Marco Ober · CC BY-SA 4.0.
 
 :::
 
