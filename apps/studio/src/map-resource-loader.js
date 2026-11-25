@@ -10,19 +10,33 @@
  function plan(b,maxZoom=14){for(let z=maxZoom;z>=13;z--){const n=2**z,left=Math.floor(wx(b[0])*n),right=Math.floor(wx(b[2])*n),top=Math.floor(wy(b[3])*n),bottom=Math.floor(wy(b[1])*n);if((right-left+1)*(bottom-top+1)>MAX_TILES)continue;const tiles=[];for(let y=top;y<=bottom;y++)for(let x=left;x<=right;x++)tiles.push({z,x,y});return tiles;}throw Error('Map exceeds six tile budget');}
  function valid(d){if(!d||d.version!==2||d.source!=='openfreemap'||!Object.hasOwn(styles,d.style)||typeof d.enabled!=='boolean'||!Array.isArray(d.bbox)||d.bbox.length!==4||!d.bbox.every(Number.isFinite))return false;const[w,s,e,n]=d.bbox;return w>=-180&&e<=180&&s>-85&&n<85&&e>w&&n>s&&Array.isArray(d.points)&&d.points.length<=12&&d.points.every(p=>Array.isArray(p)&&p.length===2&&p.every(Number.isFinite)&&p[0]>=w&&p[0]<=e&&p[1]>=s&&p[1]<=n);}
  async function read(url,max,signal){const res=await original(url,{signal,credentials:'omit',cache:'default'});if(!res.ok)throw Error('HTTP '+res.status);if(Number(res.headers.get('content-length')||0)>max)throw Error('Response over budget');if(!res.body?.getReader){const b=await res.arrayBuffer();if(b.byteLength>max)throw Error('Response over budget');return b;}const reader=res.body.getReader(),chunks=[];let total=0;try{while(true){const{done,value}=await reader.read();if(done)break;total+=value.byteLength;if(total>max){await reader.cancel();throw Error('Response over budget');}chunks.push(value);}}finally{reader.releaseLock();}const b=new Uint8Array(total);let i=0;for(const c of chunks){b.set(c,i);i+=c.byteLength;}return b.buffer;}
- function decode(worker,tile,bytes,bounds,width,height,id,signal){return new Promise((resolve,reject)=>{const cleanup=()=>{worker.onmessage=null;worker.onerror=null;signal.removeEventListener('abort',abort);};const abort=()=>{cleanup();reject(Error('Map deadline exceeded'));};if(signal.aborted){abort();return;}signal.addEventListener('abort',abort,{once:true});worker.onmessage=e=>{if(e.data?.id!==id)return;cleanup();e.data.error?reject(Error(e.data.error)):resolve(e.data);};worker.onerror=e=>{cleanup();reject(Error(e.message||'Vector worker error'));};try{worker.postMessage({id,tiles:[{tile,bytes}],bounds,width,height,region:false,landscapeDetail:false,includeRoadLabels:false},[bytes]);}catch(e){cleanup();reject(e);}});}
+ function decode(worker,tile,bytes,bounds,width,height,id,signal){return new Promise((resolve,reject)=>{const cleanup=()=>{worker.onmessage=null;worker.onerror=null;signal.removeEventListener('abort',abort);};const abort=()=>{cleanup();reject(Error('Map deadline exceeded'));};if(signal.aborted){abort();return;}signal.addEventListener('abort',abort,{once:true});worker.onmessage=e=>{if(e.data?.id!==id)return;cleanup();e.data.error?reject(Error(e.data.error)):resolve(e.data);};worker.onerror=e=>{cleanup();reject(Error(e.message||'Vector worker error'));};try{worker.postMessage({id,tiles:[{tile,bytes}],bounds,width,height,region:false,landscapeDetail:false,includeRoadLabels:true},[bytes]);}catch(e){cleanup();reject(e);}});}
  function viewport(b){const ratio=(wx(b[2])-wx(b[0]))/(wy(b[1])-wy(b[3]));const width=Math.round(Math.min(1130,700*ratio)),height=Math.round(width/ratio);return{width,height,x:(1200-width)/2,y:20+(700-height)/2};}
+
+ function mapNames(d,g,v){
+  if(d.style==='figure-ground')return [];
+  const wanted=d.style==='water-first'?/^(Herengracht|Keizersgracht|Prinsengracht|Singel|Amstel|IJ)$/i:/^(Rozengracht|Vijzelstraat|Rokin|Damrak|Raadhuisstraat|Leidsestraat|Weteringschans|Nieuwezijds Voorburgwal|Prins Hendrikkade)$/i;
+  const out=[],used=new Set(),protectedPoints=[[27.84,29.63],[46.39,37.23],[61.81,9.76],[66.45,86.32],[16.89,34.94],[63.48,71.91]].map(([x,y])=>({x:x*12-v.x,y:y*7.9-v.y}));
+  for(const n of g.names||[]){
+   if(!wanted.test(n.text)||used.has(n.text)||out.length>=5||!Number.isFinite(n.x)||!Number.isFinite(n.y))continue;
+   const half=n.text.length*3.8;
+   if(n.x<half+8||n.x>v.width-half-8||n.y<18||n.y>v.height-12)continue;
+   if([...out,...protectedPoints].some(o=>Math.abs(o.x-n.x)<half+60&&Math.abs(o.y-n.y)<24))continue;
+   used.add(n.text);out.push(n);
+  }return out;
+ }
+
  function render(d,g,v){const c=styles[d.style],b=d.bbox,groups=[];function layer(k,fill,stroke='none',width=0){if(g[k]?.length)groups.push('<g fill="'+fill+'" stroke="'+stroke+'" stroke-width="'+width+'" fill-rule="evenodd" stroke-linejoin="round" stroke-linecap="round">'+g[k].map(path=>'<path d="'+path+'"/>').join('')+'</g>');}
  layer('water',c.water);layer('waterway','none',c.water,1.1);layer('building',c.building);layer('road','none',c.road,d.style==='network'?1.05:1.6);layer('path','none',c.road,d.style==='network'?.45:.7);if(d.style==='network'){layer('arterial','none','#9C412B',2.7);layer('bridge','none','#713D2D',3.4);}
  const xy=([lon,lat])=>[v.width*(wx(lon)-wx(b[0]))/(wx(b[2])-wx(b[0])),v.height*(wy(lat)-wy(b[3]))/(wy(b[1])-wy(b[3]))];
  const dots=d.points.map(p=>{const[x,y]=xy(p);return '<circle cx="'+x.toFixed(1)+'" cy="'+y.toFixed(1)+'" r="5" fill="#222926" stroke="#fff" stroke-width="1.5"/>';}).join('');
  const m=(b[2]-b[0])*111320*Math.cos((b[1]+b[3])*Math.PI/360),len=(d.scaleMeters||500)*v.width/m,building=g.building.length?'Buildings':'Buildings omitted (budget)';
- const svg='<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="790" viewBox="0 0 1200 790"><rect width="1200" height="790" fill="'+c.paper+'"/><defs><clipPath id="map-clip"><rect width="'+v.width+'" height="'+v.height+'"/></clipPath></defs><g transform="translate('+v.x+' '+v.y+')"><g clip-path="url(#map-clip)">'+groups.join('')+dots+'</g><rect width="'+v.width+'" height="'+v.height+'" fill="none" stroke="#53645F"/></g><g font-family="sans-serif" font-size="19" fill="#222926"><rect x="40" y="738" width="23" height="15" fill="'+c.water+'"/><text x="71" y="752">Water</text><rect x="175" y="738" width="23" height="15" fill="'+c.building+'"/><text x="206" y="752">'+building+'</text><path d="M540 745h25" stroke="'+c.road+'" stroke-width="3"/><text x="575" y="752">Streets</text><path d="M800 745h'+len.toFixed(1)+' M800 738v14 M'+(800+len).toFixed(1)+' 738v14" stroke="#222926" stroke-width="2"/><text x="800" y="777">'+(d.scaleMeters||500)+' m</text><text x="40" y="778" font-size="16">© OpenStreetMap contributors · OpenFreeMap · generalized print map</text><text x="1150" y="28">N</text><path d="M1155 80V37l-5 10m5-10l5 10" fill="none" stroke="#222926" stroke-width="2"/></g></svg>';
+ const svg='<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="790" viewBox="0 0 1200 790"><rect width="1200" height="790" fill="'+c.paper+'"/><defs><clipPath id="map-clip"><rect width="'+v.width+'" height="'+v.height+'"/></clipPath></defs><g transform="translate('+v.x+' '+v.y+')"><g clip-path="url(#map-clip)">'+groups.join('')+dots+mapNames(d,g,v).map(n=>'<text x="'+n.x+'" y="'+n.y+'" font-family="sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#263A35" stroke="#F1EDE3" stroke-width="2" paint-order="stroke">'+escape(n.text)+'</text>').join('')+'</g><rect width="'+v.width+'" height="'+v.height+'" fill="none" stroke="#53645F"/></g><g font-family="sans-serif" font-size="19" fill="#222926"><rect x="40" y="738" width="23" height="15" fill="'+c.water+'"/><text x="71" y="752">Water</text><rect x="175" y="738" width="23" height="15" fill="'+c.building+'"/><text x="206" y="752">'+building+'</text><path d="M540 745h25" stroke="'+c.road+'" stroke-width="3"/><text x="575" y="752">Streets</text><path d="M800 745h'+len.toFixed(1)+' M800 738v14 M'+(800+len).toFixed(1)+' 738v14" stroke="#222926" stroke-width="2"/><text x="800" y="777">'+(d.scaleMeters||500)+' m</text><text x="40" y="778" font-size="16">© OpenStreetMap contributors · OpenFreeMap · generalized print map</text><text x="1150" y="28">N</text><path d="M1155 80V37l-5 10m5-10l5 10" fill="none" stroke="#222926" stroke-width="2"/></g></svg>';
  if(new TextEncoder().encode(svg).byteLength>MAX_SVG)throw Error('SVG exceeds 500 KiB');return svg;}
  async function loadGeometry(d,signal,report=()=>{}){
   const tiles=plan(d.bbox,d.zoom===15?15:14),v=viewport(d.bbox),[west,south,east,north]=d.bbox;
   const worker=new Worker(workerUrl.href),groups={water:[],waterway:[],building:[],road:[],path:[],arterial:[],bridge:[]};
-  let total=0,chars=0;
+  let total=0,chars=0;const names=[];
   try{
    for(let i=0;i<tiles.length;i++){
     const t=tiles[i],url='https://tiles.openfreemap.org/planet/latest/'+t.z+'/'+t.x+'/'+t.y+'.pbf';
@@ -34,6 +48,7 @@
      result=await decode(worker,t,bytes,{west,south,east,north},v.width,v.height,i+1,signal);
      report('Decoder: '+JSON.stringify(result.stats));
     }catch(e){throw Error('Tegel '+t.z+'/'+t.x+'/'+t.y+': '+(signal.aborted?'tijdslimiet':String(e.message||e)));}
+    if(Array.isArray(result.labels))names.push(...result.labels);
     if(result.stats?.omittedFeatures)throw Error('Tegel '+t.z+'/'+t.x+'/'+t.y+' overschrijdt decoderbudget; geen gedeeltelijke gebouwenkaart');
     for(const k of Object.keys(groups))for(const path of result.groups?.[k]||[]){
      chars+=path.length+14;if(chars>MAX_SVG-12000)throw Error('Geometriebudget 6 MiB overschreden; geen laag verwijderd');
@@ -42,7 +57,7 @@
    }
    if((!extraIds.includes(d.id)&&!groups.water.length)||!groups.road.length||!groups.building.length)throw Error('Onvolledige kaart: water, wegen of gebouwen ontbreken');
    report('Bron: '+tiles.length+' tegels, '+total+' bytes; gebouwen '+groups.building.length+'; geometrie '+chars+' tekens');
-   return {groups,v};
+   groups.names=names;return {groups,v};
   }finally{worker.terminate();}
  }
  // One bounded canvas per style, sequentially painted from shared decoded paths.
@@ -63,6 +78,7 @@
    if(d.style==='figure-ground'){layer('road',null,c.road,1.6);layer('path',null,c.road,.7);layer('building',c.building);}
    else{layer('building',c.building);layer('road',null,c.road,d.style==='network'?1.05:1.6);layer('path',null,c.road,d.style==='network'?.45:.7);if(d.style==='network'){layer('arterial',null,'#9C412B',2.7);layer('bridge',null,'#713D2D',3.4);}}
    for(const [lon,lat] of d.points){const x=v.width*(wx(lon)-wx(b[0]))/(wx(b[2])-wx(b[0])),y=v.height*(wy(lat)-wy(b[3]))/(wy(b[1])-wy(b[3]));ctx.beginPath();ctx.arc(x,y,5,0,Math.PI*2);ctx.fillStyle='#222926';ctx.fill();ctx.strokeStyle='#FFFFFF';ctx.lineWidth=1.5;ctx.stroke();}
+   for(const n of mapNames(d,g,v)){ctx.font='600 14px sans-serif';ctx.textAlign='center';ctx.strokeStyle='#F1EDE3';ctx.lineWidth=2.5;ctx.strokeText(n.text,n.x,n.y);ctx.fillStyle='#263A35';ctx.fillText(n.text,n.x,n.y);}ctx.textAlign='start';
    ctx.restore();ctx.strokeStyle='#53645F';ctx.lineWidth=1;ctx.strokeRect(v.x,v.y,v.width,v.height);
    const line=(x,y,x2,y2,stroke='#222926',width=2)=>{ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x2,y2);ctx.strokeStyle=stroke;ctx.lineWidth=width;ctx.stroke();};
    const txt=(s,x,y,size=19)=>{ctx.font=size+'px sans-serif';ctx.fillStyle='#222926';ctx.fillText(s,x,y);};
@@ -84,7 +100,7 @@
  const cacheKey=(key,suffix)=>key+'?prepared-v5='+suffix;
  function safeKey(id){if(!allIds.includes(id))throw Error('Onbekende kaart');return new URL(prefix+id+'.svg',books).href;}
  const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
- async function wrap(svg){
+ async function wrap(svg,width=1200,height=790,longEdge=1800){
   if(typeof svg!=='string'||svg.length>MAX_SVG||!svg.startsWith('<svg'))throw Error('SVG buiten budget');
   const source=URL.createObjectURL(new Blob([svg],{type:'image/svg+xml'}));
   const image=new Image(),canvas=document.createElement('canvas');
@@ -93,10 +109,10 @@
   try{
    await new Promise((resolve,reject)=>{timer=setTimeout(()=>reject(Error('Kaartafbeelding decode-timeout')),5000);image.onload=resolve;image.onerror=()=>reject(Error('Kaartafbeelding kon niet worden gedecodeerd'));image.src=source;});
    const ctx=canvas.getContext('2d',{alpha:false});if(!ctx)throw Error('Canvas niet beschikbaar');
-   ctx.fillStyle='#F1EDE3';ctx.fillRect(0,0,1800,1185);ctx.drawImage(image,0,0,1800,1185);
+   ctx.fillStyle='#F1EDE3';ctx.fillRect(0,0,canvas.width,canvas.height);ctx.drawImage(image,0,0,canvas.width,canvas.height);
    const png=canvas.toDataURL('image/png');
    if(png.length>3500000)throw Error('Kaart-PNG buiten budget');
-   return '<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="790" viewBox="0 0 1200 790"><image x="0" y="0" width="1200" height="790" href="'+png+'"/></svg>';
+   return '<svg xmlns="http://www.w3.org/2000/svg" width="'+width+'" height="'+height+'" viewBox="0 0 '+width+' '+height+'"><image x="0" y="0" width="'+width+'" height="'+height+'" href="'+png+'"/></svg>';
   }finally{clearTimeout(timer);image.src='';URL.revokeObjectURL(source);canvas.width=canvas.height=1;}
  }
  async function descriptor(key,signal){const d=JSON.parse(new TextDecoder().decode(await read(key+'.json',16384,signal)));if(!valid(d))throw Error('Ongeldige kaartdescriptor');d.id=key.slice(key.lastIndexOf('/')+1,-4);return d;}
@@ -175,11 +191,23 @@
  }
  // Automatically resolve all three plates during the native resource-loading phase.
  // The book fingerprint incorporates the locally prepared map revision.
+
+ const artSizes={'cover-urban-study':[1000,800],'street-section-annotated':[1200,480],'growth-timeline-vertical':[320,1040],'urban-patterns':[1000,600],'gable-comparison':[1200,465],'water-system-wide':[1200,460]};
+ let artQueue=Promise.resolve();
+ function illustration(u,input,init){
+  const file=u.pathname.slice(books.pathname.length),match=/^anatomy-of-a-city-proof\/resources\/([^/]+)\.svg$/.exec(file);
+  if(!match||!Object.hasOwn(artSizes,match[1]))return null;
+  const [w,h]=artSizes[match[1]];
+  const task=artQueue.then(async()=>{const res=await original(input,init);if(!res.ok)return res;const svg=await res.clone().text();try{return new Response(await wrap(svg,w,h,2000),{headers:{'Content-Type':'image/svg+xml'}});}catch(e){console.warn('[Postext art] original SVG retained',match[1],String(e));return res;}});
+  artQueue=task.then(()=>undefined,()=>undefined);return task;
+ }
+
  const fpPath=new URL('anatomy-of-a-city-proof/fingerprint.json',books).pathname;
  scope.fetch=function(input,init){
   let u;try{u=new URL(typeof input==='string'||input instanceof URL?input:input.url,document.baseURI);}catch{return original(input,init);}
   if(((init&&init.method)||(input&&input.method)||'GET').toUpperCase()!=='GET')return original(input,init);
   if(isMap(u))return preparedResource(u.origin+u.pathname,input,init);
+  if(u.origin===books.origin&&u.pathname.startsWith(books.pathname)){const prepared=illustration(u,input,init);if(prepared)return prepared;}
   if(u.origin===books.origin&&u.pathname===fpPath)return original(input,init).then(async res=>{
    if(!res.ok)return res;
    try{const data=await res.clone().json(),cache=await caches.open(CACHE),revision=await cache.match(new URL('map-preparation-revision',books).href);

@@ -202,6 +202,7 @@ function parseTile(tileBytes,tile,view,region,buckets,stats,labels,detail,roadNa
     stats.byLayer[type]=(stats.byLayer[type]||0)+1;
     buckets[type].push(path);
     if((type==="road"||type==="path")&&f.brunnel==="bridge")buckets.bridge.push(path);
+    if(l.name==='waterway'&&f.name&&f.name.length<=42&&labels.length<100){const at=longestNamedSegment(path);if(at&&at.x>=0&&at.x<=view.width&&at.y>=0&&at.y<=view.height)labels.push({...at,text:f.name,role:'water',tier:'water',importance:1});}
     if(type==="road"&&/^(motorway|trunk|primary|secondary)(?:_|$)/.test(f.cls))
       buckets.arterial.push(path);
    }
