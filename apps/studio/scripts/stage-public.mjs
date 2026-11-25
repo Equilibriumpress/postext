@@ -36,3 +36,5 @@ for (const [source, dest] of [
 cpSync(resolve(repo, 'apps/studio/src/commons-resource-loader.js'), resolve(publicDir, 'commons-resource-loader.js'));
 
 cpSync(resolve(repo, 'apps/studio/src/map-resource-loader.js'), resolve(publicDir, 'map-resource-loader.js'));
+
+cpSync(resolve(repo, 'apps/studio/src/map-vector.worker.js'), resolve(publicDir, 'map-vector.worker.js'));
