@@ -20,6 +20,12 @@ Original conceptual diagram. The waterways are simplified and are not suitable f
 
 :::
 
+:::frame{slot="map-reading"}
+
+**How to read the diagram.** Follow the curved corridors around the old centre. The Herengracht, Keizersgracht and Prinsengracht form the principal seventeenth-century rings. Transverse connections between them allow movement across the district. Compare the continuity of the long water corridors with the shorter street connections. The IJ and Amstel provide the wider geographical context.
+
+:::
+
 :::frame{slot="right-title"}
 
 A planned extension
@@ -58,11 +64,6 @@ Source: UNESCO World Heritage Centre, canal ring property and Urban Heritage Atl
 
 :::
 
-:::frame{slot="map-reading"}
-
-**How to read the diagram.** Follow the curved corridors around the old centre. The Herengracht, Keizersgracht and Prinsengracht form the principal seventeenth-century rings. Transverse connections between them allow movement across the district. Compare the continuity of the long water corridors with the shorter street connections. The IJ and Amstel provide the wider geographical context.
-
-:::
 
 ::::
 
