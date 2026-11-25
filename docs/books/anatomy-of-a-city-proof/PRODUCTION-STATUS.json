@@ -33,7 +33,8 @@
     "sourcePublishedParity": "PASS",
     "priorPdfPages": 22,
     "priorPdfMapRaster": "4063 x 2675 on pages 5–7; native PDF fallback is 600 dpi",
-    "mapPreparationBrowser": "NOT RUN"
+    "mapPreparationBrowser": "NOT RUN",
+    "mapPreparationMock": "PASS: ordinary resource open no tiles; first-style gate; six mocked tile requests; cache retrieval; 1800x1185 canvas request; dynamic fingerprint; per-tile network failure persisted; worker termination"
   },
   "blockers": [
     "Native browser/renderer and official generator not available in this session",
