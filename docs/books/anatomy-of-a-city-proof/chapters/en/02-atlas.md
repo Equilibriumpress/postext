@@ -101,7 +101,7 @@ Source: © OpenStreetMap contributors, OpenFreeMap. Generalized live map; marked
 
 :::frame{slot="kicker"}
 
-04 / COMPARATIVE MORPHOLOGY
+01 / URBAN MORPHOLOGY
 
 :::
 
@@ -166,7 +166,7 @@ The building plots along the canal convert the large urban plan into a successio
 
 :::frame{slot="note"}
 
-Source: UNESCO World Heritage Centre, canal ring property and Urban Heritage Atlas. Diagram by Equilibrium Press.
+Source: UNESCO World Heritage Centre, canal ring property and Urban Heritage Atlas.
 
 :::
 
