@@ -1,10 +1,10 @@
 {
-  "phase": "technical-proof-live-commons",
+  "phase": "expanded-technical-proof",
   "date": "2026-11-25",
   "approved": false,
-  "sourceCommit": "f8dd7343016778d29ed81f385e0871f5e648062e",
+  "sourceCommit": "ac3ebf58826e7949197f182e68738efd3a36bb85",
   "engineVersion": "NOT VERIFIED",
-  "intendedLeaves": 12,
+  "intendedLeaves": 20,
   "checks": {
     "inventory": "DRAFT",
     "manifestReferenceCheck": "STATIC ONLY",
@@ -19,14 +19,13 @@
     "fixedEpub": "NOT RUN",
     "reflowableEpub": "NOT RUN",
     "commonsLoaderMock": "PASS: exact committed JS in V8 with simulated fetch, URL, Response and image decode; retry/fallback, byte delivery, passthrough, host rejection",
-    "commonsBrowserFetch": "NOT RUN"
+    "commonsBrowserFetch": "NOT RUN for new images"
   },
   "blockers": [
-    "Native renderer absent and local DNS inaccessible",
-    "Full water geometry not acquired",
-    "Composed-heading PDF bookmarks unresolved; engine left intact",
-    "Automatic frame height not verified",
-    "Browser Commons fetch, actual image placement, PDF and EPUB embedding NOT RUN; source-linked resources require network at book load."
+    "Native browser/renderer and official generator not available in this session",
+    "Live map API CORS, full layer data and rendering not verified",
+    "Composed PDF bookmarks unresolved",
+    "New photo loads and actual folios/TOC/page count not checked"
   ],
   "wordCount": {
     "before": 814,
@@ -57,5 +56,18 @@
     "18": "IMPLEMENTED wide diagram; actual rendering not verified",
     "19": "PARTIAL atlas split into singles for folios; bookmarks unresolved",
     "20": "NOT RUN new browser outputs"
+  },
+  "wordCountExpanded": 3356,
+  "aocExpanded": {
+    "21": "IMPLEMENTED: eight source-linked photos including prior opener, plus one historical map; browser fetch not run",
+    "22": "IMPLEMENTED: reusable photo essay, photo pair, portrait, adjacent facing-page compositions; physical facing parity not verified",
+    "23": "RESEARCH COMPLETE: PDOK/BGT and PagedPress architecture; no live map loader",
+    "24": "PARTIAL: three layer styles specified; existing road-excerpt map labels separated; full geographic polygons unavailable",
+    "25": "IMPLEMENTED: native figure labels and tree connectors; renderer not run",
+    "26": "IMPLEMENTED: two native stacked modules, repeated three-card grids, connectors; renderer not run",
+    "27": "PARTIAL: additional analytical text, regular essay pages retained; not all regular pages 250–350 words",
+    "28": "PARTIAL: expanded native TOC and existing single-page folios; PDF outline issue unresolved",
+    "29": "IMPLEMENTED: 19 composed leaves plus one intended flow page, actual page count unverified",
+    "30": "NOT RUN: browser PDF and both EPUBs, native lint and stress checks"
   }
 }

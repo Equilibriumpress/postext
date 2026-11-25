@@ -280,11 +280,11 @@
         "level": 1,
         "fontFamily": "Newsreader",
         "fontSize": {
-          "value": 13,
+          "value": 12,
           "unit": "pt"
         },
         "lineHeight": {
-          "value": 18,
+          "value": 17,
           "unit": "pt"
         },
         "fontWeight": 400,
@@ -294,7 +294,7 @@
           "paletteId": "ink"
         },
         "marginTop": {
-          "value": 5,
+          "value": 2,
           "unit": "pt"
         }
       }
@@ -1265,6 +1265,33 @@
         "endCap": "dot",
         "routing": "elbow"
       }
+    },
+    {
+      "id": "atlas-place",
+      "name": "Atlas place name",
+      "fontFamily": "Archivo",
+      "fontSize": {
+        "value": 9,
+        "unit": "pt"
+      },
+      "fontWeight": 700,
+      "color": {
+        "hex": "#222926",
+        "model": "hex",
+        "paletteId": "ink"
+      },
+      "halo": {
+        "color": {
+          "hex": "#F1EDE3",
+          "model": "hex",
+          "paletteId": "paper"
+        },
+        "width": {
+          "value": 1.6,
+          "unit": "pt"
+        }
+      },
+      "align": "start"
     }
   ],
   "links": {

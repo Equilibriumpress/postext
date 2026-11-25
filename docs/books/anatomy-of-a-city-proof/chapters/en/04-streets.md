@@ -1,3 +1,63 @@
+::::page{template="photo-facing" id="waterfront-rhythm"}
+
+:::frame{slot="kicker"}
+
+04 / THE CANAL EDGE
+
+:::
+
+# A continuous waterfront {style="display-heading"}
+
+:::frame{slot="art"}
+
+::resource{id="herengracht-dusk"}
+
+:::
+
+:::frame{slot="caption"}
+
+Herengracht at dusk, 2023 · Z3lvs · [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
+:::
+
+:::frame{slot="reading"}
+
+Observe the repeated narrow fronts, individual roof silhouettes and continuous quay. Different houses share a common alignment at the street, while the canal makes the whole row visible from the opposite bank. The photograph shows how a single infrastructure corridor gives many independent properties a collective presence.
+
+:::
+
+::::
+
+::::page{template="photo-facing" id="canal-landmark"}
+
+:::frame{slot="kicker"}
+
+04 / THE CANAL EDGE
+
+:::
+
+# A landmark in the corridor {style="display-heading"}
+
+:::frame{slot="art"}
+
+::resource{id="westerkerk"}
+
+:::
+
+:::frame{slot="caption"}
+
+Prinsengracht and Westerkerk, viewed from Reestraat, 2019 · Jules Verne Times Two / julesvernex2.com · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+:::
+
+:::frame{slot="reading"}
+
+The tower offers a point of orientation beyond the immediate bridge. The long view along the canal connects successive streets and buildings visually, even where they cannot be reached directly across the water. Compare the distant landmark with the near edge of the boats and the façades on each bank. The city is understood through both distant reference points and small-scale street details.
+
+:::
+
+::::
+
 
 # Living on the edge {style="essay-heading"}
 
@@ -27,6 +87,62 @@ Now compare a quieter stretch between bridges. Notice the distance from entrance
 
 Compare a busy shopping street with a residential canal before drawing conclusions about the district as a whole. The same underlying form supports different patterns of use.
 
+
+::::page{template="photo-pair" id="bridge-comparison"}
+
+:::frame{slot="kicker"}
+
+05 / CONNECTIONS
+
+:::
+
+# Two kinds of crossing {style="display-heading"}
+
+:::frame{slot="art-a"}
+
+::resource{id="magere-brug"}
+
+:::
+
+:::frame{slot="art-b"}
+
+::resource{id="bridge-bicycles"}
+
+:::
+
+:::frame{slot="caption-a"}
+
+Magere Brug · Zairon · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+:::
+
+:::frame{slot="caption-b"}
+
+Canal bridge and bicycles · Sumit Surai · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+:::
+
+:::frame{slot="body-a"}
+
+**Crossing the Amstel.** A river crossing links two larger parts of the urban network. The Magere Brug is a movable bridge, so passage on water and passage on land require coordination. Its long span, central moving section and approach routes make the structure legible from a distance.
+
+A bridge must carry more than the weight of its deck. Its design affects the passage of boats, the levels of adjoining streets and the ability of people to reach either bank. The point where a bridge meets the quay is therefore an important part of the urban plan.
+
+Look for the distinction between the structural crossing and the open space at each end. These spaces shape how a crossing is used.
+
+:::
+
+:::frame{slot="body-b"}
+
+**Crossing a smaller canal.** The second photograph shows a shorter connection and a continuous edge of adjoining houses. The bridge railing also functions as an informal boundary for bicycle parking. A bridge becomes a place to stop, not only a route to follow.
+
+Compare both photographs at the same conceptual scale: what is the barrier, where is the crossing, and which routes meet it? The answers help explain why crossings influence the accessibility of an entire neighbourhood.
+
+**An observation exercise.** On a map, mark two points on opposite banks. Follow the shortest legal walking route between them rather than drawing a straight line. Repeat at a second crossing. The difference reveals the effect of the network without requiring a detailed traffic model.
+
+:::
+
+::::
 
 ::::page{template="case-study" id="frontages"}
 
@@ -78,6 +194,49 @@ The elevations compare gable types, not the individual design of that house.
 
 ::::
 
+::::page{template="portrait-study" id="singel-facade"}
+
+:::frame{slot="kicker"}
+
+06 / THE BUILDING PLOT
+
+:::
+
+# Reading a real façade {style="display-heading"}
+
+:::frame{slot="art"}
+
+::resource{id="singel-gable"}
+
+:::
+
+:::frame{slot="caption"}
+
+Singel 64 and neighbouring façades, archival photograph · Rijksdienst voor het Cultureel Erfgoed · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+:::
+
+:::frame{slot="body-a"}
+
+**Look at the roofline.** The stepped gable divides the sloping roof silhouette into horizontal stages. Compare it with the neighbouring façades. The street photograph records actual buildings, while the diagram on the preceding page isolates the types for comparison.
+
+:::
+
+:::frame{slot="body-b"}
+
+**From street to building.** The front of a house is a compact record of its arrangement. The vertical stack of windows suggests several floors. The entrance and lower-level openings provide clues to the relationship between the interior and the street. A photograph cannot reveal the complete plan, and subsequent alterations complicate the interpretation.
+
+**Repetition and variation.** Compare the width of each façade, the rhythm of openings, the use of brick and stone, and the shape at roof level. These details vary from building to building even though their fronts stand in an almost continuous line. The effect is different from a street of detached buildings set back behind individual gardens.
+
+**History requires evidence.** An architectural type does not establish a construction date. A restored or altered façade may preserve some early features and incorporate later ones. Use the monument register and archival documentation for a building-specific history rather than dating a property from the gable alone.
+
+The archival image also provides a useful comparison with a present-day visit. Notice which architectural features remain, which uses are visible at street level and how the public space has changed.
+
+:::
+
+::::
+
+
 ::::page{template="diagram" id="water-management"}
 
 :::frame{slot="kicker"}
@@ -125,4 +284,125 @@ When interpreting a canal city, distinguish the heritage value of its waterways 
 :::
 
 ::::
+
+::::page{template="photo-essay" id="lock-study"}
+
+:::frame{slot="kicker"}
+
+07 / ADAPTATION
+
+:::
+
+# A working water system {style="display-heading"}
+
+:::frame{slot="art"}
+
+::resource{id="scharrebiersluis"}
+
+:::
+
+:::frame{slot="caption"}
+
+Nieuwe Herengracht at Scharrebiersluis, 2022 · Fons Heijnsbroek · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+:::
+
+:::frame{slot="body-a"}
+
+**At the lock.** Water control is visible in ordinary street scenes. The brick wall, movable bridge and waterside path occupy the same small area. Each structure has a distinct purpose, yet they must work together to support daily movement.
+
+:::
+
+:::frame{slot="body-b"}
+
+**Look beyond the canal.** A water-level management system includes structures not visible in a single photograph. The lock is one local example, not a complete description of Amsterdam's hydraulic system. Compare the site with the preceding conceptual diagram.
+
+:::
+
+::::
+
+::::page{template="system-analysis" id="urban-systems"}
+
+:::frame{slot="kicker"}
+
+08 / SYSTEMS
+
+:::
+
+# How the parts work together {style="display-heading"}
+
+:::frame{slot="lead"}
+
+Three scales connect the canal district: the network, the street and the building.
+
+:::
+
+:::module{template="system-band" name="network"}
+:::frame{slot="root"}
+
+**01 / Network**
+
+:::
+
+:::frame{slot="card"}
+
+**Waterways**
+
+Long corridors connect parts of the city.
+
+:::
+
+:::frame{slot="card"}
+
+**Crossings**
+
+Bridges connect routes across the water.
+
+:::
+
+:::frame{slot="card"}
+
+**Blocks**
+
+The network defines land for development.
+
+:::
+
+:::
+
+:::module{template="system-band" name="street"}
+:::frame{slot="root"}
+
+**02 / Street and building**
+
+:::
+
+:::frame{slot="card"}
+
+**Quay**
+
+Retains the ground and carries public space.
+
+:::
+
+:::frame{slot="card"}
+
+**Frontage**
+
+Entrances link properties to the street.
+
+:::
+
+:::frame{slot="card"}
+
+**Foundation**
+
+Transfers structural loads to supporting ground.
+
+:::
+
+:::
+
+::::
+
 

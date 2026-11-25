@@ -428,10 +428,10 @@
           }
         },
         "style": "title",
+        "takes": "h1",
         "fit": {
           "shrinkText": false
-        },
-        "takes": "h1"
+        }
       },
       {
         "name": "toc",
@@ -446,7 +446,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 62,
+              "value": 60,
               "unit": "mm"
             }
           },
@@ -456,15 +456,15 @@
               "unit": "mm"
             },
             "height": {
-              "value": 100,
+              "value": 153,
               "unit": "mm"
             }
           }
         },
+        "takes": "toc",
         "fit": {
           "shrinkText": false
-        },
-        "takes": "toc"
+        }
       },
       {
         "name": "note",
@@ -479,54 +479,22 @@
               "unit": "mm"
             },
             "y": {
-              "value": 177,
+              "value": 219,
               "unit": "mm"
             }
           },
           "size": {
             "width": {
-              "value": 84,
+              "value": 172,
               "unit": "mm"
             },
             "height": {
-              "value": 57,
+              "value": 22,
               "unit": "mm"
             }
           }
         },
-        "style": "body",
-        "fit": {
-          "shrinkText": false
-        }
-      },
-      {
-        "name": "art",
-        "placement": {
-          "anchor": {
-            "to": "container",
-            "edge": "top-left"
-          },
-          "offset": {
-            "x": {
-              "value": 107,
-              "unit": "mm"
-            },
-            "y": {
-              "value": 177,
-              "unit": "mm"
-            }
-          },
-          "size": {
-            "width": {
-              "value": 84,
-              "unit": "mm"
-            },
-            "height": {
-              "value": 57,
-              "unit": "mm"
-            }
-          }
-        },
+        "style": "small",
         "fit": {
           "shrinkText": false
         }
@@ -1124,7 +1092,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 127,
+              "value": 131,
               "unit": "mm"
             }
           }
@@ -1157,7 +1125,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 127,
+              "value": 131,
               "unit": "mm"
             }
           }
@@ -1180,7 +1148,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 211,
+              "value": 214,
               "unit": "mm"
             }
           },
@@ -1213,7 +1181,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 224,
+              "value": 226,
               "unit": "mm"
             }
           },
@@ -1223,7 +1191,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 17,
+              "value": 15,
               "unit": "mm"
             }
           }
@@ -1238,7 +1206,7 @@
           "unit": "mm"
         },
         "maxHeight": {
-          "value": 18,
+          "value": 16,
           "unit": "mm"
         }
       }
@@ -1612,7 +1580,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 77,
+              "value": 87,
               "unit": "mm"
             }
           }
@@ -1635,7 +1603,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 137,
+              "value": 147,
               "unit": "mm"
             }
           },
@@ -1645,7 +1613,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 104,
+              "value": 94,
               "unit": "mm"
             }
           }
@@ -2265,10 +2233,10 @@
           }
         },
         "style": "title",
+        "takes": "h1",
         "fit": {
           "shrinkText": false
-        },
-        "takes": "h1"
+        }
       },
       {
         "name": "sources",
@@ -2283,7 +2251,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 58,
+              "value": 57,
               "unit": "mm"
             }
           },
@@ -2293,7 +2261,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 122,
+              "value": 169,
               "unit": "mm"
             }
           }
@@ -2316,7 +2284,7 @@
               "unit": "mm"
             },
             "y": {
-              "value": 184,
+              "value": 229,
               "unit": "mm"
             }
           },
@@ -2326,7 +2294,7 @@
               "unit": "mm"
             },
             "height": {
-              "value": 48,
+              "value": 13,
               "unit": "mm"
             }
           }
@@ -2340,5 +2308,1286 @@
     "decoration": {
       "elements": []
     }
+  },
+  {
+    "id": "photo-essay",
+    "name": "Photographic study, two text columns",
+    "extends": "editorial-shell",
+    "frames": [
+      {
+        "name": "kicker",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 17,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 172,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 8,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "eyebrow",
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "title",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 29,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 172,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 23,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "title",
+        "takes": "h1",
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "art",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 56,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 172,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 116,
+              "unit": "mm"
+            }
+          }
+        },
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "caption",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 175,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 172,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 13,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "caption",
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "body-a",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 192,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 84,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 49,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "body",
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "body-b",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 107,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 192,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 84,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 49,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "body",
+        "fit": {
+          "shrinkText": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "archive-plate",
+    "name": "Historical source plate",
+    "extends": "editorial-shell",
+    "frames": [
+      {
+        "name": "kicker",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 17,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 172,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 8,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "eyebrow",
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "title",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 29,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 172,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 23,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "title",
+        "takes": "h1",
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "art",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 55,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 172,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 149,
+              "unit": "mm"
+            }
+          }
+        },
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "caption",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 207,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 172,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 12,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "caption",
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "reading",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 222,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 172,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 19,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "small",
+        "fit": {
+          "shrinkText": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "photo-pair",
+    "name": "Paired photographic comparison",
+    "extends": "editorial-shell",
+    "frames": [
+      {
+        "name": "kicker",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 17,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 172,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 8,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "eyebrow",
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "title",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 29,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 172,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 23,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "title",
+        "takes": "h1",
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "art-a",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 56,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 84,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 58,
+              "unit": "mm"
+            }
+          }
+        },
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "art-b",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 107,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 56,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 84,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 58,
+              "unit": "mm"
+            }
+          }
+        },
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "caption-a",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 117,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 84,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 15,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "caption",
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "caption-b",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 107,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 117,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 84,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 15,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "caption",
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "body-a",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 137,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 84,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 104,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "body",
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "body-b",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 107,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 137,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 84,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 104,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "body",
+        "fit": {
+          "shrinkText": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "portrait-study",
+    "name": "Portrait photograph and analysis",
+    "extends": "editorial-shell",
+    "frames": [
+      {
+        "name": "kicker",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 17,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 172,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 8,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "eyebrow",
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "title",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 29,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 172,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 23,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "title",
+        "takes": "h1",
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "art",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 56,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 84,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 100,
+              "unit": "mm"
+            }
+          }
+        },
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "caption",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 159,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 84,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 18,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "caption",
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "body-a",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 181,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 84,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 60,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "body",
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "body-b",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 107,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 56,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 84,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 185,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "body",
+        "fit": {
+          "shrinkText": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "photo-facing",
+    "name": "Facing-page photographic study",
+    "extends": "editorial-shell",
+    "frames": [
+      {
+        "name": "kicker",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 17,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 172,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 8,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "eyebrow",
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "title",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 29,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 172,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 23,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "title",
+        "takes": "h1",
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "art",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 56,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 172,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 122,
+              "unit": "mm"
+            }
+          }
+        },
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "caption",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 181,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 172,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 15,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "caption",
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "reading",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 201,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 172,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 40,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "body",
+        "fit": {
+          "shrinkText": false
+        }
+      }
+    ],
+    "footer": true
+  },
+  {
+    "id": "system-band",
+    "name": "Three linked urban functions",
+    "role": "module",
+    "frames": [
+      {
+        "name": "root",
+        "style": "concept-panel",
+        "width": {
+          "value": 84,
+          "unit": "mm"
+        },
+        "height": "auto",
+        "minHeight": {
+          "value": 13,
+          "unit": "mm"
+        },
+        "maxHeight": {
+          "value": 26,
+          "unit": "mm"
+        },
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top"
+          }
+        },
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "card",
+        "style": "concept-panel",
+        "width": {
+          "value": 54,
+          "unit": "mm"
+        },
+        "height": "auto",
+        "minHeight": {
+          "value": 24,
+          "unit": "mm"
+        },
+        "maxHeight": {
+          "value": 43,
+          "unit": "mm"
+        },
+        "fit": {
+          "shrinkText": false
+        }
+      }
+    ],
+    "groups": [
+      {
+        "name": "cards",
+        "kind": "grid",
+        "columns": 3,
+        "columnGap": {
+          "value": 5,
+          "unit": "mm"
+        },
+        "rowGap": {
+          "value": 4,
+          "unit": "mm"
+        },
+        "repeat": {
+          "frames": [
+            "card"
+          ],
+          "max": 3
+        },
+        "placement": {
+          "anchor": {
+            "to": "#root",
+            "edge": "below"
+          },
+          "offset": {
+            "y": {
+              "value": 9,
+              "unit": "mm"
+            }
+          }
+        }
+      }
+    ],
+    "decoration": {
+      "elements": [
+        {
+          "kind": "connector",
+          "id": "branch",
+          "routing": "tree",
+          "from": {
+            "to": "#root",
+            "side": "bottom"
+          },
+          "to": {
+            "to": "#card[*]",
+            "side": "top"
+          },
+          "color": {
+            "hex": "#B9573D",
+            "model": "hex",
+            "paletteId": "copper"
+          },
+          "width": {
+            "value": 0.8,
+            "unit": "pt"
+          },
+          "endCap": "arrow"
+        }
+      ]
+    }
+  },
+  {
+    "id": "system-analysis",
+    "name": "Native stacked modules",
+    "extends": "editorial-shell",
+    "frames": [
+      {
+        "name": "kicker",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 17,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 172,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 8,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "eyebrow",
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "title",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 29,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 172,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 23,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "title",
+        "takes": "h1",
+        "fit": {
+          "shrinkText": false
+        }
+      },
+      {
+        "name": "lead",
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 55,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 172,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 20,
+              "unit": "mm"
+            }
+          }
+        },
+        "style": "deck",
+        "fit": {
+          "shrinkText": false
+        }
+      }
+    ],
+    "groups": [
+      {
+        "name": "system-stack",
+        "modules": true,
+        "gap": {
+          "value": 9,
+          "unit": "mm"
+        },
+        "placement": {
+          "anchor": {
+            "to": "container",
+            "edge": "top-left"
+          },
+          "offset": {
+            "x": {
+              "value": 19,
+              "unit": "mm"
+            },
+            "y": {
+              "value": 81,
+              "unit": "mm"
+            }
+          },
+          "size": {
+            "width": {
+              "value": 172,
+              "unit": "mm"
+            },
+            "height": {
+              "value": 160,
+              "unit": "mm"
+            }
+          }
+        }
+      }
+    ]
   }
 ]

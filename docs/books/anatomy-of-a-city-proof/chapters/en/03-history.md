@@ -36,6 +36,37 @@
 
 ::::
 
+::::page{template="archive-plate" id="historical-plan"}
+
+:::frame{slot="kicker"}
+
+03 / HISTORICAL DEVELOPMENT
+
+:::
+
+# Amsterdam after 1662 {style="display-heading"}
+
+:::frame{slot="art"}
+
+::resource{id="historical-map"}
+
+:::
+
+:::frame{slot="caption"}
+
+Plan of the old and newly extended city, after 1662 · Daniel Stalpaert / Nicolaus Visscher; University of Amsterdam Library · [Public domain](https://creativecommons.org/publicdomain/mark/1.0/)
+
+:::
+
+:::frame{slot="reading"}
+
+Read the established street pattern against the planned extension. The engraved harbour panorama is part of the historic source, not a modern survey. The orientation differs from contemporary north-up maps.
+
+:::
+
+::::
+
+
 ::::page{template="comparison" id="patterns"}
 
 :::frame{slot="kicker"}

@@ -8,10 +8,11 @@
 
 # The canal ring {style="display-heading"}
 
-:::frame{slot="locator"}
-
-::resource{id="canal-street-map"}
-
+:::figure{resource="canal-street-native-labels" slot="locator"}
+::label[Westerkerk]{at="38.31% 36.56%" style="atlas-place"}
+::label[Dam]{at="52.35% 42.12%" style="atlas-place"}
+::label[Centraal Station]{at="64.02% 22.57%" style="atlas-place"}
+::label[Magere Brug]{at="56.45% 79.66%" style="atlas-place"}
 :::
 
 :::frame{slot="caption"}

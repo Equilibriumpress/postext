@@ -53,12 +53,6 @@ This case study explores Amsterdam through three connected scales: the city plan
 
 :::
 
-:::frame{slot="art"}
-
-::resource{id="canal-ring"}
-
-:::
-
 ::::
 
 ::::page{template="opener" id="water-city"}
@@ -110,4 +104,41 @@ City: waterways and trade. District: streets and bridges. Building: plots, entra
 :::
 
 ::::
+
+::::page{template="photo-essay" id="aerial-view"}
+
+:::frame{slot="kicker"}
+
+01 / THE WATER CITY
+
+:::
+
+# The city from above {style="display-heading"}
+
+:::frame{slot="art"}
+
+::resource{id="aerial"}
+
+:::
+
+:::frame{slot="caption"}
+
+Aerial view of Amsterdam, 2013 · Swimmerguy269 · [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
+
+:::
+
+:::frame{slot="body-a"}
+
+**Read the blocks.** The aerial view reveals how narrow streets and waterways enclose long urban blocks. Trace the repeated curves before looking at individual roofs. The inner district and the newer extensions differ in orientation and grain. A continuous street edge gives the water corridor a clear spatial boundary.
+
+:::
+
+:::frame{slot="body-b"}
+
+**Read the connections.** Bridges punctuate the curves. The Amstel interrupts the concentric pattern, while the harbour lies beyond the northern edge of the old city. The image is an oblique photograph, not a measured plan. Use it to understand the spatial relationships, then return to the map for position and scale.
+
+:::
+
+::::
+
 
