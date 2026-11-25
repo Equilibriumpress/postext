@@ -7,7 +7,9 @@
   "outer": 19,
   "grid": {
     "columns": 6,
-    "gutterMm": 4
+    "gutterMm": 4,
+    "columnMm": 25.333333,
+    "threeColumnSpanMm": 84
   },
   "type": {
     "display": "Newsreader 37/39 pt",
@@ -30,7 +32,7 @@
   },
   "reference": {
     "technical": "docs/books/dinas-island-premium/design",
-    "visual": "Conceptual atlas wireframes; user requested greater information density after initial publication. No externally measured design.",
+    "visual": "Atlas of Cities (Paul Knox, 2014), published preview, introduction pp.10–11: map-centred explanatory panels; Zürich Atlas publisher datasheet: maps, photography and text. PDF screenshot access failed; no exact source measurements claimed.",
     "geometry": "New design decisions, not measured from an original."
   },
   "sequence": [
@@ -63,7 +65,7 @@
       1
     ],
     [
-      "essay",
+      "flow-essay",
       1
     ],
     [
@@ -85,7 +87,8 @@
     "Native frame geometry in millimetres. Text remains in Markdown.",
     "Reallocate empty title/illustration space to body text; retain 11/15.5 pt text, 82 mm columns and 210×260 mm trim.",
     "Existing schematic SVGs preserved. Body frames widened vertically; no shrink-to-fit.",
-    "Manuscript word counts are approximate static counts, not rendered text counts."
+    "Manuscript word counts are approximate static counts, not rendered text counts.",
+    "AOC-02/03: 3+3 and 2+4 modular compositions; asymmetrical opener, vertical chronology and comparative plate. AOC-04: essay converted to native flow, pagination may vary. AOC-05: georeferenced point locator only, no canal geometry. AOC-06: revised detailed architectural section. AOC-07: photo identified with CC0, not embedded. AOC-08: two reusable concept panels. AOC-09: body size unchanged, larger and redistributed text frames. AOC-10: native render unavailable."
   ],
-  "revision": "Density revision 02"
+  "revision": "AOC-01–10 / editorial atlas revision"
 }

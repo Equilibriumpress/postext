@@ -1,8 +1,8 @@
 {
-  "phase": "technical-proof-density-revision",
+  "phase": "technical-proof-editorial-revision",
   "date": "2026-11-25",
   "approved": false,
-  "sourceCommit": "dbef21a41144696a3882745182c74f8b41419da3",
+  "sourceCommit": "4ef29f287db4ae5d9883d829354219be1615ac4d",
   "engineVersion": "NOT VERIFIED",
   "intendedLeaves": 12,
   "checks": {
@@ -20,13 +20,27 @@
     "reflowableEpub": "NOT RUN"
   },
   "blockers": [
-    "Native executable and browser unavailable",
-    "No external design reference measured",
-    "Geographic datasets and photography not included"
+    "Native renderer not installed; network DNS failure in local runtime",
+    "External PDF screenshot size limit; exact reference measurements pending",
+    "Full canal geometry not acquired; point locator only",
+    "Licensed photo selected but binary not ingested"
   ],
   "wordCount": {
     "before": 814,
     "after": 2152,
     "method": "Approximate Markdown visible words, excluding directives and URL targets"
+  },
+  "flowEssayWords": 408,
+  "aoc": {
+    "10": "NOT RUN native render and export",
+    "01": "PARTIAL: qualitative reference analysis",
+    "02": "IMPLEMENTED",
+    "03": "IMPLEMENTED",
+    "04": "IMPLEMENTED, native flow pagination unverified",
+    "05": "PARTIAL: coordinate locator, no waterways",
+    "06": "IMPLEMENTED",
+    "07": "PARTIAL: photo selected only",
+    "08": "IMPLEMENTED",
+    "09": "IMPLEMENTED geometry; fit unverified"
   }
 }

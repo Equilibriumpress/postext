@@ -1,20 +1,11 @@
-::::page{template="essay" id="public-space"}
 
-:::frame{slot="kicker"}
+# Living on the edge {style="essay-heading"}
 
-05 / PUBLIC SPACE
-
-:::
-
-# Living on the edge {style="display-heading"}
-
-:::frame{slot="lead"}
+:::callout{type="deck"}
 
 The canal district is a working urban environment, where a single narrow corridor supports many different activities.
 
 :::
-
-:::frame{slot="body-a"}
 
 **A limited width.** A canal street serves several groups. Residents need access to homes. Delivery vehicles need stopping space. People walking and cycling need continuous routes. Boats occupy part of the water, while bridges connect the banks.
 
@@ -26,10 +17,6 @@ These uses meet at the quay. Every decision about parking, trees, pavements or a
 
 A good streetscape analysis therefore starts with observation, not with a fixed judgement about the ideal allocation of space.
 
-:::
-
-:::frame{slot="body-b"}
-
 **Observe a crossing.** Stand in a safe place near a bridge and look at how movement changes. People approaching along the canal meet people crossing the water. The resulting junction combines several movements within a limited area.
 
 Now compare a quieter stretch between bridges. Notice the distance from entrances to the water, the available walking space and the position of trees. Record where people stop as well as where they travel. Both observations are needed to understand the street's performance.
@@ -40,9 +27,6 @@ Now compare a quieter stretch between bridges. Notice the distance from entrance
 
 Compare a busy shopping street with a residential canal before drawing conclusions about the district as a whole. The same underlying form supports different patterns of use.
 
-:::
-
-::::
 
 ::::page{template="case-study" id="frontages"}
 
@@ -83,6 +67,14 @@ The street is the shared element. Differences in architectural treatment become 
 Herengracht 386, now the Museum of the Canals, provides a documented example of a merchant's canal house from 1665. Its history offers a starting point for understanding the relationship between the domestic interior, garden and street frontage.
 
 The elevation above is a conceptual study, not a drawing of that house.
+
+:::
+
+:::frame{slot="concept"}
+
+**Plot rhythm**
+
+Repeated property widths shape the pattern of doors, windows and roofs. The street alignment provides continuity between individual buildings.
 
 :::
 

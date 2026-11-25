@@ -81,11 +81,11 @@
     },
     "textAlign": "justify",
     "paragraphSpacing": {
-      "value": 4,
+      "value": 5,
       "unit": "pt"
     },
     "firstLineIndent": {
-      "value": 3,
+      "value": 0,
       "unit": "mm"
     },
     "indentAfterHeading": false,
@@ -239,6 +239,39 @@
         "unit": "pt"
       },
       "numbered": false
+    },
+    {
+      "id": "essay-heading",
+      "name": "Essay opener",
+      "fontFamily": "Newsreader",
+      "fontSize": {
+        "value": 37,
+        "unit": "pt"
+      },
+      "lineHeight": {
+        "value": 39,
+        "unit": "pt"
+      },
+      "fontWeight": 700,
+      "color": {
+        "hex": "#222926",
+        "model": "hex",
+        "paletteId": "ink"
+      },
+      "marginTop": {
+        "value": 0,
+        "unit": "pt"
+      },
+      "marginBottom": {
+        "value": 9,
+        "unit": "pt"
+      },
+      "numbered": false,
+      "span": "page",
+      "breakBefore": {
+        "enabled": false,
+        "parity": "any"
+      }
     }
   ],
   "toc": {
@@ -1123,6 +1156,74 @@
           "value": 3,
           "unit": "pt"
         }
+      }
+    },
+    {
+      "id": "concept-panel",
+      "name": "Concept panel",
+      "backgroundEnabled": true,
+      "border": {
+        "enabled": false
+      },
+      "padding": {
+        "top": {
+          "value": 3,
+          "unit": "mm"
+        },
+        "right": {
+          "value": 3,
+          "unit": "mm"
+        },
+        "bottom": {
+          "value": 3,
+          "unit": "mm"
+        },
+        "left": {
+          "value": 3,
+          "unit": "mm"
+        }
+      },
+      "body": {
+        "fontFamily": "Archivo",
+        "fontSize": {
+          "value": 10,
+          "unit": "pt"
+        },
+        "lineHeight": {
+          "value": 13,
+          "unit": "pt"
+        },
+        "fontWeight": 400,
+        "boldFontWeight": 700,
+        "color": {
+          "hex": "#222926",
+          "model": "hex",
+          "paletteId": "ink"
+        },
+        "boldColor": {
+          "hex": "#222926",
+          "model": "hex",
+          "paletteId": "ink"
+        },
+        "italicColor": {
+          "hex": "#222926",
+          "model": "hex",
+          "paletteId": "ink"
+        },
+        "textAlign": "left",
+        "firstLineIndent": {
+          "value": 0,
+          "unit": "pt"
+        },
+        "paragraphSpacing": {
+          "value": 5,
+          "unit": "pt"
+        }
+      },
+      "background": {
+        "hex": "#E8E4D8",
+        "model": "hex",
+        "paletteId": "pale"
       }
     }
   ],

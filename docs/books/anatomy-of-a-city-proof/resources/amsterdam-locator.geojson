@@ -1,0 +1,75 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Westerkerk",
+        "source": "https://research.annefrank.org/en/locaties/b2966565-8c8b-4a92-9275-8f665e6ddd56/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.883944,
+          52.374509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dam Square",
+        "source": "https://en.wikipedia.org/wiki/Dam_Square"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8928,
+          52.3731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Magere Brug",
+        "source": "https://www.coordinatenbepalen.nl/coordinates/1846331-magere-brug-amsterdam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.90237529534355,
+          52.36358425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Centraal Station",
+        "source": "https://www.geonames.org/search.html?country=NL&q=amsterdam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.90015983581543,
+          52.3789525300027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNESCO reference",
+        "source": "https://whc.unesco.org/en/list/1349/maps/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.887777777777777,
+          52.365
+        ]
+      }
+    }
+  ]
+}
