@@ -1,8 +1,8 @@
 {
-  "phase": "technical-proof-draft",
+  "phase": "technical-proof-density-revision",
   "date": "2026-11-25",
   "approved": false,
-  "sourceCommit": "4ff0c31c836223470c391df1576ee99b1536f810",
+  "sourceCommit": "dbef21a41144696a3882745182c74f8b41419da3",
   "engineVersion": "NOT VERIFIED",
   "intendedLeaves": 12,
   "checks": {
@@ -23,5 +23,10 @@
     "Native executable and browser unavailable",
     "No external design reference measured",
     "Geographic datasets and photography not included"
-  ]
+  ],
+  "wordCount": {
+    "before": 814,
+    "after": 2152,
+    "method": "Approximate Markdown visible words, excluding directives and URL targets"
+  }
 }
