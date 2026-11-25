@@ -24,7 +24,7 @@
 
 [Canal Museum: Period rooms and building](https://grachten.museum/en/period-rooms-and-building/) — documented house at Herengracht 386.
 
-The schematic illustrations are original. The three modern atlas plates use [Kadaster / PDOK BGT](https://api.pdok.nl/kadaster/bgt/ogc/v1/), CC0. If live loading fails, the marked reserve uses only selected Adamlink street lines. Labels include [Jordaan](https://www.geonames.org/2753201) and the Amstel near [Blauwbrug](https://en.wikipedia.org/wiki/Blauwbrug).
+The schematic illustrations are original. The active modern atlas plate uses [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), [OpenFreeMap](https://openfreemap.org/). Other styles are paused; marked reserves use Adamlink street excerpts. Labels include [Jordaan](https://www.geonames.org/2753201) and the Amstel near [Blauwbrug](https://en.wikipedia.org/wiki/Blauwbrug).
 
 [Adamlink: Prinsengracht](https://adamlink.nl/geo/street/prinsengracht/3684) and [Keizersgracht](https://adamlink.nl/geo/street/keizersgracht/2337) — selected street excerpts.
 

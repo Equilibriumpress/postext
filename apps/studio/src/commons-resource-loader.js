@@ -9,12 +9,15 @@
   if (!script || !script.src || typeof scope.fetch !== 'function') return;
   const books = new URL('books/', script.src);
   const originalFetch = scope.fetch.bind(scope);
-  const limit = 16 * 1024 * 1024;
+  const limit = 2 * 1024 * 1024;
+  const MAX_PIXELS = 2500000;
+  let batchDeadline=0;
   const pending = new Map();
   const queue = [];
   let active = 0;
   function schedule(task) {
     return new Promise((resolve, reject) => {
+      if (!active && !queue.length) batchDeadline=Date.now()+30000;
       queue.push({ task, resolve, reject });
       drain();
     });
@@ -52,14 +55,22 @@
   }
   async function checkedFetch(url, init) {
     const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), 18000);
+    const remaining=batchDeadline-Date.now();
+    if(remaining<=0)throw new Error('Commons batch deadline exceeded');
+    const timer = setTimeout(() => controller.abort(), Math.min(6500,remaining));
     try {
       const res = await originalFetch(url, { ...init, signal: controller.signal });
       if (!res.ok) throw new Error('HTTP ' + res.status + ' ' + url);
       // Keep the timeout alive until the complete body has arrived.
       const declared = Number(res.headers.get('content-length') || 0);
-      if (declared > limit) throw new Error('Resource exceeds 16 MB');
-      const bytes = await res.arrayBuffer();
+      if (declared > limit) throw new Error('Resource exceeds 2 MiB');
+      let bytes;
+      if(res.body?.getReader){
+        const reader=res.body.getReader(),chunks=[];let total=0;
+        try{while(true){const {done,value}=await reader.read();if(done)break;total+=value.byteLength;if(total>limit){await reader.cancel();throw new Error('Resource exceeds 2 MiB');}chunks.push(value);}}
+        finally{reader.releaseLock();}
+        const joined=new Uint8Array(total);let pos=0;for(const chunk of chunks){joined.set(chunk,pos);pos+=chunk.byteLength;}bytes=joined.buffer;
+      }else bytes=await res.arrayBuffer();
       if (!bytes.byteLength || bytes.byteLength > limit) throw new Error('Empty or oversized resource');
       return { bytes, url: res.url, mime: (res.headers.get('content-type') || '').split(';')[0].toLowerCase() };
     } finally { clearTimeout(timer); }
@@ -69,6 +80,18 @@
     const b = new Uint8Array(result.bytes);
     if (result.mime !== 'image/jpeg' || b[0] !== 255 || b[1] !== 216 || b[2] !== 255)
       throw new Error('Commons response is not a JPEG');
+    // Read JPEG dimensions before allocating a full decoded image.
+    let i=2,dimensions=null;
+    while(i+3<b.length){
+      if(b[i++]!==255)break;
+      while(b[i]===255)i++;
+      const marker=b[i++];if(marker===218||marker===217)break;
+      if(marker===1||(marker>=208&&marker<=215))continue;
+      const len=b[i]*256+b[i+1];if(len<2||i+len>b.length)break;
+      if([192,193,194,195,197,198,199,201,202,203,205,206,207].includes(marker)&&len>=7){dimensions=[b[i+5]*256+b[i+6],b[i+3]*256+b[i+4]];break;}
+      i+=len;
+    }
+    if(!dimensions||!dimensions[0]||!dimensions[1]||dimensions[0]*dimensions[1]>MAX_PIXELS||Math.max(...dimensions)>2200)throw new Error('JPEG dimensions exceed safe preview budget');
     const blob = new Blob([result.bytes], { type: 'image/jpeg' });
     if (typeof scope.createImageBitmap === 'function') {
       const bitmap = await scope.createImageBitmap(blob);
@@ -96,14 +119,17 @@
     if (!validDescriptor(d)) throw new Error('Invalid Commons descriptor: ' + desc.pathname);
     let last;
     for (const candidate of d.urls) {
-      for (let attempt = 0; attempt < 2; attempt++) {
+      for (let attempt = 0; attempt < 1; attempt++) {
         try {
-          return await verifyJpeg(await checkedFetch(candidate, {
+          const started=Date.now();
+          const bytes=await verifyJpeg(await checkedFetch(candidate, {
             mode: 'cors', credentials: 'omit', cache: 'default', referrerPolicy: 'no-referrer',
           }));
+          console.info('[Postext Commons] ready',{source:d.source,bytes:bytes.byteLength,ms:Date.now()-started});
+          return bytes;
         } catch (err) {
           last = err;
-          if (attempt === 0) await new Promise(resolve => setTimeout(resolve, 400));
+          console.warn('[Postext Commons] variant failed',d.source,String(err));
         }
       }
     }

@@ -17,3 +17,6 @@ Use scale-dependent stroke widths, a north arrow, distance scale, attribution, c
 ## Current proof
 
 Existing source-referenced Adamlink street excerpts now have a separate SVG without place names; four labels are authored in Markdown via native figure labels. The aerial image and the 1662 plan add real geographic context. The three styles now have source descriptors and generated-at-load SVG plates, with visible local reserve maps. Native label placement, live CORS and exports remain untested.
+
+## MAP repair
+The BGT live approach is superseded by the bounded PagedPress/OpenFreeMap MVT worker. One water-first style is enabled for the first actual test; figure-ground and network remain staged. See Studio MAP-RESOURCES.md. OpenStreetMap attribution replaces PDOK for the live plate; the original Adamlink reserve remains distinct.
