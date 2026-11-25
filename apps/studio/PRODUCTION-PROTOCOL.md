@@ -1,5 +1,7 @@
 # Production protocol — PST-18
 
+The binding Studio instructions are in [PROJECT-INSTRUCTIONS.md](PROJECT-INSTRUCTIONS.md). Follow its official steps 0–8 and mandatory proof approval before full-book production; this protocol is the operational QA checklist.
+
 Read the upstream postext-port skill first. Use the source inventory, layout measurements, references/composed-pages.md and other relevant upstream references rather than inventing a competing layout engine.
 
 ## Gates for every book
