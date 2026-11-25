@@ -6,24 +6,92 @@
 
 :::
 
-# The canal ring {style="display-heading"}
+# Water structure {style="display-heading"}
 
-:::figure{resource="canal-street-native-labels" slot="locator"}
-::label[Westerkerk]{at="38.31% 36.56%" style="atlas-place"}
-::label[Dam]{at="52.35% 42.12%" style="atlas-place"}
-::label[Centraal Station]{at="64.02% 22.57%" style="atlas-place"}
-::label[Magere Brug]{at="56.45% 79.66%" style="atlas-place"}
+:::figure{resource="bgt-water" slot="locator"}
+::label[Westerkerk]{at="27.84% 29.63%" style="atlas-place"}
+::label[Dam]{at="46.39% 37.23%" style="atlas-place"}
+::label[Centraal Station]{at="61.81% 9.76%" style="atlas-place"}
+::label[Magere Brug]{at="66.45% 86.32%" style="atlas-place"}
+::label[Jordaan]{at="16.89% 34.94%" style="atlas-place"}
+::label[Amstel]{at="63.48% 71.91%" style="atlas-place"}
 :::
 
 :::frame{slot="caption"}
 
-Selected source road-line excerpts along the Prinsengracht and Keizersgracht. Data: Adamlink / BAG and NWB. Not water polygons or a complete street network.
+Live source: Kadaster / PDOK BGT, CC0. Same geographic extent for all three plates. A marked reserve shows selected street lines only.
 
 :::
 
 :::frame{slot="map-reading"}
 
-**How to read the diagram.** Compare the selected canal-side road lines around the old centre. The map shows their real spatial relationship, but only selected segments. The Herengracht, Keizersgracht and Prinsengracht form the principal seventeenth-century rings. Transverse connections between them allow movement across the district. Compare the continuity of the long water corridors with the shorter street connections. The IJ and Amstel provide the wider geographical context.
+**Read the water.** Water surfaces are the dominant layer in this plate. The Herengracht, Keizersgracht and Prinsengracht form the principal seventeenth-century rings. Transverse connections between them allow movement across the district. Compare the continuity of the long water corridors with the shorter street connections. The IJ and Amstel provide the wider geographical context.
+
+:::
+
+::::
+
+::::page{template="atlas-plate" id="canal-figure-ground"}
+
+:::frame{slot="kicker"}
+
+01 / URBAN MORPHOLOGY
+
+:::
+
+# Figure and ground {style="display-heading"}
+
+:::figure{resource="bgt-figure-ground" slot="locator"}
+::label[Westerkerk]{at="27.84% 29.63%" style="atlas-place"}
+::label[Dam]{at="46.39% 37.23%" style="atlas-place"}
+::label[Centraal Station]{at="61.81% 9.76%" style="atlas-place"}
+::label[Magere Brug]{at="66.45% 86.32%" style="atlas-place"}
+::label[Jordaan]{at="16.89% 34.94%" style="atlas-place"}
+::label[Amstel]{at="63.48% 71.91%" style="atlas-place"}
+:::
+
+:::frame{slot="caption"}
+
+Live source: Kadaster / PDOK BGT, CC0. Same geographic extent for all three plates. A marked reserve shows selected street lines only.
+
+:::
+
+:::frame{slot="map-reading"}
+
+**Read the built form.** Dark building footprints reveal the size and grain of blocks, while the lighter unbuilt space shows streets, courtyards and waterways. Compare the narrow plots along the canal belt with the larger structures near the waterfront. The map shows present-day footprints, not seventeenth-century parcel boundaries.
+
+:::
+
+::::
+
+::::page{template="atlas-plate" id="canal-movement"}
+
+:::frame{slot="kicker"}
+
+01 / URBAN MORPHOLOGY
+
+:::
+
+# Street and bridge space {style="display-heading"}
+
+:::figure{resource="bgt-movement" slot="locator"}
+::label[Westerkerk]{at="27.84% 29.63%" style="atlas-place"}
+::label[Dam]{at="46.39% 37.23%" style="atlas-place"}
+::label[Centraal Station]{at="61.81% 9.76%" style="atlas-place"}
+::label[Magere Brug]{at="66.45% 86.32%" style="atlas-place"}
+::label[Jordaan]{at="16.89% 34.94%" style="atlas-place"}
+::label[Amstel]{at="63.48% 71.91%" style="atlas-place"}
+:::
+
+:::frame{slot="caption"}
+
+Live source: Kadaster / PDOK BGT, CC0. Same geographic extent for all three plates. A marked reserve shows selected street lines only.
+
+:::
+
+:::frame{slot="map-reading"}
+
+**Read the connections.** Red road areas and darker bridge parts reveal where land-based movement meets the waterways. BGT road surfaces include several kinds of public traffic space. Bridge parts represent mapped structures, not necessarily public pedestrian access. This is a spatial comparison, not a routing graph or traffic count.
 
 :::
 

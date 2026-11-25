@@ -46,6 +46,8 @@ Gebruik `fonts.py`, `images.py` en `convert_assets.py` waar relevant. Controleer
 
 Voor fotografie is de permanente standaard een bronlink naar Wikimedia Commons (geen fotobinaries in GitHub). Gebruik de Studio-browseradapter en een kleine `resources/commons/<id>.jpg.json` descriptor met directe HTTPS JPEG-URL, reserve-URL, maker, licentie en bronpagina. Verwijs in het manifest naar `resources/commons/<id>.jpg` en plaats de resource via native Markdown. De browser haalt bytes op vóór de bestaande native layout en sluit ze via de bestaande export in. Lokale vectoren, lettertypen en brondata blijven ongewijzigd. Controleer de daadwerkelijke foto en offline PDF/EPUB-uitvoer, zie [COMMONS-RESOURCES.md](COMMONS-RESOURCES.md).
 
+Voor Nederlandse live kaartproeven: gebruik de beperkte BGT-browseradapter met een bronbeschrijving en herkenbare reserve-SVG; zie [MAP-RESOURCES.md](MAP-RESOURCES.md). De native engine ontvangt gewone vectorresources. Controleer daadwerkelijke datalading, kaartlabels en offline exports; een reservekaart is geen geslaagde live kaartcontrole.
+
 ### 7. Verify and iterate
 
 Render native Postext-pagina's. Vergelijk met bron of goedgekeurde referentie. Wijzig ontwerpinstellingen afzonderlijk en beoordeel telkens de nieuwe rendering. Controleer per mijlpaal:
