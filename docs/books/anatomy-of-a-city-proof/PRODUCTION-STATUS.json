@@ -40,7 +40,8 @@
     "priorPdf": "22 pages, 3 live maps at 1800x1185",
     "priorPdfMapImages": "PASS user export 1800x1185 on pp5–7",
     "frameReferenceStatic": "134 static slot checks; no overlaps of fixed frame rectangles after locator correction; actual overflow and module layout not checked",
-    "pdfOutlineSourceFix": "IMPLEMENTED, test NOT RUN, published bundle not rebuilt"
+    "pdfOutlineSourceFix": "IMPLEMENTED, test NOT RUN, published bundle not rebuilt",
+    "editorialLoaderMock": "PASS: six resources from 18 synthetic tile responses, four serial workers, seven mocked canvases including cover wrapper, bridge accent and source name paint observed, published/source JS identical; real network, decode, canvas and PDF not tested"
   },
   "blockers": [
     "Native browser/renderer and official generator not available in this session",
