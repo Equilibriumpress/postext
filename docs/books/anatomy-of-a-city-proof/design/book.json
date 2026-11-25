@@ -243,6 +243,20 @@
         "position": "here",
         "span": "column"
       }
+    },
+    {
+      "id": "reguliersgracht-photo",
+      "typeId": "figure",
+      "kind": "bitmap",
+      "file": "resources/commons/reguliersgracht.jpg",
+      "width": 1280,
+      "height": 852,
+      "caption": "",
+      "altText": "Brick arch bridge, canal water and historic houses at the Reguliersgracht and Keizersgracht crossing.",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
     }
   ],
   "fonts": [

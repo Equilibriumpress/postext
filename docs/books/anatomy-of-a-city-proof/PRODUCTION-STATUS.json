@@ -1,8 +1,8 @@
 {
-  "phase": "technical-proof-production-revision",
+  "phase": "technical-proof-live-commons",
   "date": "2026-11-25",
   "approved": false,
-  "sourceCommit": "34785fb628d2ee932cbf57246fda79921bdc87a2",
+  "sourceCommit": "f8dd7343016778d29ed81f385e0871f5e648062e",
   "engineVersion": "NOT VERIFIED",
   "intendedLeaves": 12,
   "checks": {
@@ -22,9 +22,9 @@
   "blockers": [
     "Native renderer absent and local DNS inaccessible",
     "Full water geometry not acquired",
-    "Photo transfer failed: GitHub base64 returned empty, cross-repo SHA rejected",
     "Composed-heading PDF bookmarks unresolved; engine left intact",
-    "Automatic frame height not verified"
+    "Automatic frame height not verified",
+    "Browser Commons fetch, actual image placement, PDF and EPUB embedding NOT RUN; source-linked resources require network at book load."
   ],
   "wordCount": {
     "before": 814,
@@ -48,7 +48,7 @@
     "11": "IMPLEMENTED cover composition and artwork",
     "12": "PARTIAL selected source street geometries, no full water polygons",
     "13": "IMPLEMENTED schematic annotated section",
-    "14": "BLOCKED binary photo transfer",
+    "14": "IMPLEMENTED source-linked photo; browser validation NOT RUN",
     "15": "IMPLEMENTED comparative gables",
     "16": "PARTIAL redistributed space; native flow essay retained; no new flow conversion",
     "17": "IMPLEMENTED documented auto-height frames; native output unverified",

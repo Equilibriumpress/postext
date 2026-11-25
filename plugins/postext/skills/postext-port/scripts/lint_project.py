@@ -3185,6 +3185,9 @@ def main() -> None:
         kind = r.get("kind")
         for k in ("file", "pdfFile"):
             if r.get(k) and not (root / r[k]).exists():
+                from studio_commons_reference import commons_reference
+                if k == "file" and commons_reference(root, r[k]):
+                    continue
                 rep.error(where, f"missing {k} {r[k]}")
         if r.get("file"):
             ext = Path(r["file"]).suffix.lower()

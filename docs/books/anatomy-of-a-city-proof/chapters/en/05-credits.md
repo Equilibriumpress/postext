@@ -30,7 +30,9 @@ The schematic illustrations are original. The canal-side map combines selected r
 
 :::frame{slot="note"}
 
-Illustrations are original schematic studies. The map uses selected canal-side road excerpts from [Adamlink: Prinsengracht](https://adamlink.nl/geo/street/prinsengracht/3684) and [Keizersgracht](https://adamlink.nl/geo/street/keizersgracht/2337). Full water geometry and photographic assets remain pending in this design proof.
+Photography: [Reguliersgracht, Amsterdam](https://commons.wikimedia.org/wiki/File:Reguliersgracht,_Amsterdam.jpg), Marco Ober, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Reduced to fit the page; image may be cropped. Adapted image under the same licence.
+
+Illustrations are original schematic studies. The map uses selected canal-side road excerpts from [Adamlink: Prinsengracht](https://adamlink.nl/geo/street/prinsengracht/3684) and [Keizersgracht](https://adamlink.nl/geo/street/keizersgracht/2337). Full water geometry remains pending in this design proof.
 
 :::
 
