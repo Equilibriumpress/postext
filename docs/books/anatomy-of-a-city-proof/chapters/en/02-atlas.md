@@ -19,7 +19,7 @@
 
 :::frame{slot="caption"}
 
-Live source: Kadaster / PDOK BGT, CC0. Same geographic extent for all three plates. A marked reserve shows selected street lines only.
+Live source: © OpenStreetMap contributors, OpenFreeMap. Generalized vector map; marked Adamlink reserve on failure.
 
 :::
 
@@ -52,7 +52,7 @@ Live source: Kadaster / PDOK BGT, CC0. Same geographic extent for all three plat
 
 :::frame{slot="caption"}
 
-Live source: Kadaster / PDOK BGT, CC0. Same geographic extent for all three plates. A marked reserve shows selected street lines only.
+Live style paused for performance testing. The marked reserve contains selected Adamlink street lines only.
 
 :::
 
@@ -85,13 +85,13 @@ Live source: Kadaster / PDOK BGT, CC0. Same geographic extent for all three plat
 
 :::frame{slot="caption"}
 
-Live source: Kadaster / PDOK BGT, CC0. Same geographic extent for all three plates. A marked reserve shows selected street lines only.
+Live style paused for performance testing. The marked reserve contains selected Adamlink street lines only.
 
 :::
 
 :::frame{slot="map-reading"}
 
-**Read the connections.** Red road areas and darker bridge parts reveal where land-based movement meets the waterways. BGT road surfaces include several kinds of public traffic space. Bridge parts represent mapped structures, not necessarily public pedestrian access. This is a spatial comparison, not a routing graph or traffic count.
+**Read the connections.** The intended network style emphasises street centrelines rather than surveyed road surfaces. Crossings indicate spatial connections, not necessarily public pedestrian access. This is a spatial comparison, not a routing graph or traffic count.
 
 :::
 

@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "source": "pdok-bgt",
+  "version": 2,
+  "source": "openfreemap",
   "style": "water-first",
   "bbox": [
     4.876,
@@ -25,5 +25,6 @@
       4.9023752953,
       52.36358425
     ]
-  ]
+  ],
+  "enabled": true
 }
