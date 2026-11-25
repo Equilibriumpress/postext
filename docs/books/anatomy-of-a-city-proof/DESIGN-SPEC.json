@@ -65,6 +65,10 @@
       1
     ],
     [
+      "atlas-plate",
+      1
+    ],
+    [
       "atlas-essay",
       1
     ],
@@ -85,11 +89,19 @@
       1
     ],
     [
-      "photo-facing",
+      "photo-facing-wide",
       1
     ],
     [
       "comparison",
+      1
+    ],
+    [
+      "atlas-plate",
+      1
+    ],
+    [
+      "atlas-plate",
       1
     ],
     [
@@ -113,7 +125,7 @@
       1
     ],
     [
-      "photo-essay",
+      "photo-essay-four-three",
       1
     ],
     [
@@ -140,7 +152,9 @@
     "Facing photographic pair assigned to intended even/odd folios 10–11 by source order; physical pagination must be checked in native output.",
     "Three matching north-up map plates using live BGT waterdeel, pand, wegdeel, overbruggingsdeel; WGS84 local equidistant approximation at midpoint. Marked pinned Adamlink fallback. 22 intended leaves, native rendering not observed.",
     "Replaced BGT GeoJSON loader with bounded PagedPress MVT worker. Only water-first enabled; other styles paused. 6 tiles, 3 MiB total, 500 KiB SVG, 14 s deadline; no decoded map cache. Commons byte/pixel caps. Native exports not verified.",
-    "Preserve map descriptor and vector source separately. Prepare each map on same-origin diagnostics page; cached SVG wrapper contains one bounded PNG 1800 x 1185 to avoid SVG text-dependent 600dpi raster fallback. Other styles available after first succeeds. No change to book page geometry or engine. Native labels remain separate. Export verification open."
+    "Preserve map descriptor and vector source separately. Prepare each map on same-origin diagnostics page; cached SVG wrapper contains one bounded PNG 1800 x 1185 to avoid SVG text-dependent 600dpi raster fallback. Other styles available after first succeeds. No change to book page geometry or engine. Native labels remain separate. Export verification open.",
+    "Measured supplied PDF: p4 bitmap 119.4mm wide; pp11–13,20 135.5mm, vs 172mm frame. Native per-bitmap resolution yields full measure while respecting intrinsic ratio; caption gap target 2–3mm. New maps: one Amsterdam detail and Barcelona/Edinburgh equal nominal ground extents. 25 intended leaves, unrendered. Source content retained, modest reading prompts added. System modules enlarged. No full production approval.",
+    "Map names taken from actual named MVT segments, limited with collision filtering against existing native labels. Road class hierarchy and brunnel bridge accents. Six original art SVGs served as bounded 2000px wrappers in browser; originals remain in Git. Composed heading bookmarks source patch only, static engine bundle not rebuilt."
   ],
-  "revision": "MAP-11–17 / separate browser preparation"
+  "revision": "AOC-36–45 / editorial and comparative atlas"
 }

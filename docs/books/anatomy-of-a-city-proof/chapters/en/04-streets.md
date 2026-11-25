@@ -224,7 +224,7 @@ When interpreting a canal city, distinguish the heritage value of its waterways 
 
 ::::
 
-::::page{template="photo-essay" id="lock-study"}
+::::page{template="photo-essay-four-three" id="lock-study"}
 
 :::frame{slot="kicker"}
 
@@ -287,7 +287,7 @@ Three scales connect the canal district: the network, the street and the buildin
 
 **Waterways**
 
-Long corridors connect parts of the city.
+Long water corridors connect districts and separate the land into blocks.
 
 :::
 
@@ -295,7 +295,7 @@ Long corridors connect parts of the city.
 
 **Crossings**
 
-Bridges connect routes across the water.
+Bridges connect streets across the water and concentrate movement at junctions.
 
 :::
 
@@ -303,7 +303,7 @@ Bridges connect routes across the water.
 
 **Blocks**
 
-The network defines land for development.
+The network defines land for development and shapes access to individual plots.
 
 :::
 
@@ -320,7 +320,7 @@ The network defines land for development.
 
 **Quay**
 
-Retains the ground and carries public space.
+Retains the ground beside the canal and supports the public street above.
 
 :::
 
@@ -328,7 +328,7 @@ Retains the ground and carries public space.
 
 **Frontage**
 
-Entrances link properties to the street.
+Entrances link individual properties to the shared street and quay.
 
 :::
 
@@ -336,7 +336,7 @@ Entrances link properties to the street.
 
 **Foundation**
 
-Transfers structural loads to supporting ground.
+Transfers building loads through soft soil towards deeper supporting ground.
 
 :::
 

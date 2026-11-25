@@ -1,23 +1,23 @@
 {
-  "phase": "automatic-shared-map-proof",
+  "phase": "editorial-comparative-atlas-proof",
   "date": "2026-11-25",
   "approved": false,
-  "sourceCommit": "2b582c9c498b0a09ce0e1da6346efa2032482bd6",
+  "sourceCommit": "4ee5bf7804efa940b1c85fa85d8f5f53950e5948",
   "engineVersion": "NOT VERIFIED",
-  "intendedLeaves": 22,
+  "intendedLeaves": 25,
   "checks": {
     "inventory": "DRAFT",
     "manifestReferenceCheck": "STATIC ONLY",
-    "presetGenerator": "NOT RUN",
+    "presetGenerator": "NOT RUN (manifest reproduced from generator inputs)",
     "lintProject": "NOT RUN",
     "presetLint": "NOT RUN",
     "nativeRender": "NOT RUN",
     "nativeCheck": "NOT RUN",
     "composedStress": "NOT RUN",
     "visualReview": "NOT RUN",
-    "pdf": "NOT RUN v4",
-    "fixedEpub": "NOT RUN v4",
-    "reflowableEpub": "NOT RUN v4",
+    "pdf": "NOT RUN",
+    "fixedEpub": "NOT RUN",
+    "reflowableEpub": "NOT RUN",
     "commonsLoaderMock": "PASS: exact committed JS in V8 with simulated fetch, URL, Response and image decode; retry/fallback, byte delivery, passthrough, host rejection",
     "commonsBrowserFetch": "NOT RUN",
     "bgtCollectionMetadata": "PASS",
@@ -35,8 +35,13 @@
     "priorPdfMapRaster": "4063 x 2675 on pages 5–7; native PDF fallback is 600 dpi",
     "mapPreparationBrowser": "USER partial pass in v3; figure-ground failed",
     "mapPreparationMock": "PASS: ordinary resource open no tiles; first-style gate; six mocked tile requests; cache retrieval; 1800x1185 canvas request; dynamic fingerprint; per-tile network failure persisted; worker termination",
-    "automaticMapBrowser": "NOT RUN v4",
-    "automaticMapMock": "PASS: 6 simulated tile requests including 1.1 MB and 0.9 MB tiles, one worker, three canvases, all building paths painted in all three styles, cache hit no extra requests; mocked browser APIs, not real tiles"
+    "automaticMapBrowser": "NOT RUN revised v5",
+    "automaticMapMock": "PASS: 6 simulated tile requests including 1.1 MB and 0.9 MB tiles, one worker, three canvases, all building paths painted in all three styles, cache hit no extra requests; mocked browser APIs, not real tiles",
+    "priorPdf": "22 pages, 3 live maps at 1800x1185",
+    "priorPdfMapImages": "PASS user export 1800x1185 on pp5–7",
+    "frameReferenceStatic": "134 static slot checks; no overlaps of fixed frame rectangles after locator correction; actual overflow and module layout not checked",
+    "pdfOutlineSourceFix": "IMPLEMENTED, test NOT RUN, published bundle not rebuilt",
+    "editorialLoaderMock": "PASS: six resources from 18 synthetic tile responses, four serial workers, seven mocked canvases including cover wrapper, bridge accent and source name paint observed, published/source JS identical; real network, decode, canvas and PDF not tested"
   },
   "blockers": [
     "Native browser/renderer and official generator not available in this session",
@@ -46,7 +51,8 @@
     "Live BGT feature payloads, CORS and native SVG rendering unverified; runtime DNS blocked. Marked reserve map will be used on fetch failure.",
     "User reports slow opening and crash on previous BGT version. No Safari crash log or native runtime in this session. New one-map performance proof requires live validation before enabling remaining styles.",
     "Uploaded PDF Unknown(2).pdf proves water-first map failed; exact previous network/decoder cause unknown. New diagnostic UI records actual browser response. Source URL official; local DNS and web binary retrieval unavailable. Native output and map-specific bounded bitmap embedding still require testing.",
-    "v4 zoom-14 batch has not been executed on actual browser tiles; native remote loader awaits resource loading before preview; no progressive live replacement hook implemented."
+    "v4 zoom-14 batch has not been executed on actual browser tiles; native remote loader awaits resource loading before preview; no progressive live replacement hook implemented.",
+    "New live extents and map names, caption positioning, larger module cards and bounded illustration embedding not rendered. Source PDF outline patch needs native build and regression test. Static GitHub Pages publication does not compile engine. Official generator and native checks not run."
   ],
   "wordCount": {
     "before": 814,
@@ -136,5 +142,17 @@
     "geometry": "One shared tile pass, Amsterdam zoom 14, no silent building removal; 2 MiB/tile, 12 MiB/6 tiles, 6 MiB path markup, 400000 vertices/tile",
     "render": "Sequential 1800×1185 canvas, PNG in native SVG wrapper; source vector cached when available",
     "workflow": "Automatic at remote resource load; diagnostics page optional; native preview waits for resources (not true progressive visible-page rendering)"
+  },
+  "aocEditorial": {
+    "36": "Native bitmap resolution corrected; not rendered",
+    "37": "Aspect-matched frame geometry and closer captions",
+    "38": "IMPLEMENTED road hierarchy, OMT brunnel bridge accent; live browser unverified",
+    "39": "IMPLEMENTED selective source-derived road/water names in generated map artwork; existing native labels retained; visual placement unverified",
+    "40": "Detail descriptor and native page",
+    "41": "Barcelona and Edinburgh descriptor pages; actual fetch unverified",
+    "42": "Enlarged native modules",
+    "43": "Expanded readings and three new pages; full density target incomplete",
+    "44": "IMPLEMENTED bounded bitmap wrapper for six large original SVG illustrations, 2000px long edge; original vector retained in Git, native exported resolution unverified",
+    "45": "PARTIAL source fix and regression fixture for composed PDF outline; static published JS bundle unchanged, tests and all new exports NOT RUN"
   }
 }

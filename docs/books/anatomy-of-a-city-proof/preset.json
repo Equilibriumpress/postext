@@ -3,7 +3,7 @@
   "configVersion": 22,
   "id": "anatomy-of-a-city-proof",
   "name": "THE ANATOMY OF A CITY · The Water City (design proof)",
-  "description": "22 intended pages: staged OpenFreeMap vector atlas performance proof, one enabled live map, two marked reserve plates and source-linked photography.",
+  "description": "25 intended pages: Amsterdam design proof with expanded photography, geographic comparisons and architectural studies.",
   "locale": "en",
   "locales": [
     "en"
@@ -270,7 +270,8 @@
       "placement": {
         "position": "here",
         "span": "column"
-      }
+      },
+      "resolution": 189
     },
     {
       "id": "aerial",
@@ -284,7 +285,8 @@
       "placement": {
         "position": "here",
         "span": "column"
-      }
+      },
+      "resolution": 166
     },
     {
       "id": "magere-brug",
@@ -326,7 +328,8 @@
       "placement": {
         "position": "here",
         "span": "column"
-      }
+      },
+      "resolution": 189
     },
     {
       "id": "singel-gable",
@@ -354,7 +357,8 @@
       "placement": {
         "position": "here",
         "span": "column"
-      }
+      },
+      "resolution": 189
     },
     {
       "id": "historical-map",
@@ -368,7 +372,8 @@
       "placement": {
         "position": "here",
         "span": "column"
-      }
+      },
+      "resolution": 189
     },
     {
       "id": "canal-street-native-labels",
@@ -421,6 +426,48 @@
       "height": 790,
       "caption": "",
       "altText": "Paused live style; marked Adamlink reserve otherwise.",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "amsterdam-detail",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/live-maps/amsterdam-detail.svg",
+      "width": 1200,
+      "height": 790,
+      "caption": "",
+      "altText": "Canal block detail; live OpenStreetMap geometry, or clearly marked empty reserve if unavailable.",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "barcelona-grid",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/live-maps/barcelona-grid.svg",
+      "width": 1200,
+      "height": 790,
+      "caption": "",
+      "altText": "Barcelona: Eixample; live OpenStreetMap geometry, or clearly marked empty reserve if unavailable.",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "edinburgh-organic",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/live-maps/edinburgh-organic.svg",
+      "width": 1200,
+      "height": 790,
+      "caption": "",
+      "altText": "Edinburgh: Old Town; live OpenStreetMap geometry, or clearly marked empty reserve if unavailable.",
       "placement": {
         "position": "here",
         "span": "column"
@@ -2874,7 +2921,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 117,
+                  "value": 114,
                   "unit": "mm"
                 }
               }
@@ -2896,7 +2943,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 179,
+                  "value": 175,
                   "unit": "mm"
                 }
               },
@@ -2906,7 +2953,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 13,
+                  "value": 12,
                   "unit": "mm"
                 }
               }
@@ -2929,7 +2976,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 197,
+                  "value": 190,
                   "unit": "mm"
                 }
               },
@@ -2939,7 +2986,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 44,
+                  "value": 51,
                   "unit": "mm"
                 }
               }
@@ -4391,7 +4438,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 116,
+                  "value": 115,
                   "unit": "mm"
                 }
               }
@@ -4413,7 +4460,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 175,
+                  "value": 173,
                   "unit": "mm"
                 }
               },
@@ -4423,7 +4470,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 13,
+                  "value": 9,
                   "unit": "mm"
                 }
               }
@@ -4446,7 +4493,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 192,
+                  "value": 185,
                   "unit": "mm"
                 }
               },
@@ -4456,7 +4503,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 49,
+                  "value": 56,
                   "unit": "mm"
                 }
               }
@@ -4479,7 +4526,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 192,
+                  "value": 185,
                   "unit": "mm"
                 }
               },
@@ -4489,7 +4536,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 49,
+                  "value": 56,
                   "unit": "mm"
                 }
               }
@@ -4618,7 +4665,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 207,
+                  "value": 205,
                   "unit": "mm"
                 }
               },
@@ -4651,7 +4698,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 222,
+                  "value": 220,
                   "unit": "mm"
                 }
               },
@@ -4661,7 +4708,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 19,
+                  "value": 21,
                   "unit": "mm"
                 }
               }
@@ -4768,7 +4815,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 58,
+                  "value": 55,
                   "unit": "mm"
                 }
               }
@@ -4800,7 +4847,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 58,
+                  "value": 55,
                   "unit": "mm"
                 }
               }
@@ -4822,7 +4869,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 117,
+                  "value": 113,
                   "unit": "mm"
                 }
               },
@@ -4832,7 +4879,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 15,
+                  "value": 13,
                   "unit": "mm"
                 }
               }
@@ -4855,7 +4902,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 117,
+                  "value": 113,
                   "unit": "mm"
                 }
               },
@@ -4865,7 +4912,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 15,
+                  "value": 13,
                   "unit": "mm"
                 }
               }
@@ -4888,7 +4935,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 137,
+                  "value": 130,
                   "unit": "mm"
                 }
               },
@@ -4898,7 +4945,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 104,
+                  "value": 111,
                   "unit": "mm"
                 }
               }
@@ -4921,7 +4968,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 137,
+                  "value": 130,
                   "unit": "mm"
                 }
               },
@@ -4931,7 +4978,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 104,
+                  "value": 111,
                   "unit": "mm"
                 }
               }
@@ -5243,7 +5290,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 122,
+                  "value": 130,
                   "unit": "mm"
                 }
               }
@@ -5265,7 +5312,7 @@
                   "unit": "mm"
                 },
                 "y": {
-                  "value": 181,
+                  "value": 188,
                   "unit": "mm"
                 }
               },
@@ -5275,7 +5322,7 @@
                   "unit": "mm"
                 },
                 "height": {
-                  "value": 15,
+                  "value": 9,
                   "unit": "mm"
                 }
               }
@@ -5330,12 +5377,12 @@
             "name": "root",
             "style": "concept-panel",
             "width": {
-              "value": 84,
+              "value": 166,
               "unit": "mm"
             },
             "height": "auto",
             "minHeight": {
-              "value": 13,
+              "value": 16,
               "unit": "mm"
             },
             "maxHeight": {
@@ -5361,11 +5408,11 @@
             },
             "height": "auto",
             "minHeight": {
-              "value": 24,
+              "value": 33,
               "unit": "mm"
             },
             "maxHeight": {
-              "value": 43,
+              "value": 45,
               "unit": "mm"
             },
             "fit": {
@@ -5379,7 +5426,7 @@
             "kind": "grid",
             "columns": 3,
             "columnGap": {
-              "value": 5,
+              "value": 4,
               "unit": "mm"
             },
             "rowGap": {
@@ -5399,7 +5446,7 @@
               },
               "offset": {
                 "y": {
-                  "value": 9,
+                  "value": 8,
                   "unit": "mm"
                 }
               }
@@ -5426,7 +5473,7 @@
                 "paletteId": "copper"
               },
               "width": {
-                "value": 0.8,
+                "value": 1.1,
                 "unit": "pt"
               },
               "endCap": "arrow"
@@ -5545,7 +5592,7 @@
             "name": "system-stack",
             "modules": true,
             "gap": {
-              "value": 9,
+              "value": 10,
               "unit": "mm"
             },
             "placement": {
@@ -5576,6 +5623,384 @@
             }
           }
         ]
+      },
+      {
+        "id": "photo-essay-four-three",
+        "name": "Four-to-three photograph and two columns",
+        "extends": "editorial-shell",
+        "frames": [
+          {
+            "name": "kicker",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 19,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 17,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 172,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 8,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "eyebrow",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "title",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 19,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 29,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 172,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 23,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "title",
+            "takes": "h1",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "art",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 19,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 56,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 172,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 130,
+                  "unit": "mm"
+                }
+              }
+            },
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "caption",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 19,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 188,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 172,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 9,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "caption",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "body-a",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 19,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 201,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 84,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 40,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "body",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "body-b",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 107,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 201,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 84,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 40,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "body",
+            "fit": {
+              "shrinkText": false
+            }
+          }
+        ]
+      },
+      {
+        "id": "photo-facing-wide",
+        "name": "Wide photographic plate",
+        "extends": "editorial-shell",
+        "frames": [
+          {
+            "name": "kicker",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 19,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 17,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 172,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 8,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "eyebrow",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "title",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 19,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 29,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 172,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 23,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "title",
+            "takes": "h1",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "art",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 19,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 56,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 172,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 111,
+                  "unit": "mm"
+                }
+              }
+            },
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "caption",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 19,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 169,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 172,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 10,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "caption",
+            "fit": {
+              "shrinkText": false
+            }
+          },
+          {
+            "name": "reading",
+            "placement": {
+              "anchor": {
+                "to": "container",
+                "edge": "top-left"
+              },
+              "offset": {
+                "x": {
+                  "value": 19,
+                  "unit": "mm"
+                },
+                "y": {
+                  "value": 182,
+                  "unit": "mm"
+                }
+              },
+              "size": {
+                "width": {
+                  "value": 172,
+                  "unit": "mm"
+                },
+                "height": {
+                  "value": 59,
+                  "unit": "mm"
+                }
+              }
+            },
+            "style": "body",
+            "fit": {
+              "shrinkText": false
+            }
+          }
+        ],
+        "footer": true
       }
     ]
   }

@@ -3,7 +3,7 @@
   "configVersion": 22,
   "id": "anatomy-of-a-city-proof",
   "name": "THE ANATOMY OF A CITY · The Water City (design proof)",
-  "description": "22 intended pages: staged OpenFreeMap vector atlas performance proof, one enabled live map, two marked reserve plates and source-linked photography.",
+  "description": "25 intended pages: Amsterdam design proof with expanded photography, geographic comparisons and architectural studies.",
   "locale": "en",
   "locales": [
     "en"
@@ -270,7 +270,8 @@
       "placement": {
         "position": "here",
         "span": "column"
-      }
+      },
+      "resolution": 189
     },
     {
       "id": "aerial",
@@ -284,7 +285,8 @@
       "placement": {
         "position": "here",
         "span": "column"
-      }
+      },
+      "resolution": 166
     },
     {
       "id": "magere-brug",
@@ -326,7 +328,8 @@
       "placement": {
         "position": "here",
         "span": "column"
-      }
+      },
+      "resolution": 189
     },
     {
       "id": "singel-gable",
@@ -354,7 +357,8 @@
       "placement": {
         "position": "here",
         "span": "column"
-      }
+      },
+      "resolution": 189
     },
     {
       "id": "historical-map",
@@ -368,7 +372,8 @@
       "placement": {
         "position": "here",
         "span": "column"
-      }
+      },
+      "resolution": 189
     },
     {
       "id": "canal-street-native-labels",
@@ -421,6 +426,48 @@
       "height": 790,
       "caption": "",
       "altText": "Paused live style; marked Adamlink reserve otherwise.",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "amsterdam-detail",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/live-maps/amsterdam-detail.svg",
+      "width": 1200,
+      "height": 790,
+      "caption": "",
+      "altText": "Canal block detail; live OpenStreetMap geometry, or clearly marked empty reserve if unavailable.",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "barcelona-grid",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/live-maps/barcelona-grid.svg",
+      "width": 1200,
+      "height": 790,
+      "caption": "",
+      "altText": "Barcelona: Eixample; live OpenStreetMap geometry, or clearly marked empty reserve if unavailable.",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "edinburgh-organic",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/live-maps/edinburgh-organic.svg",
+      "width": 1200,
+      "height": 790,
+      "caption": "",
+      "altText": "Edinburgh: Old Town; live OpenStreetMap geometry, or clearly marked empty reserve if unavailable.",
       "placement": {
         "position": "here",
         "span": "column"

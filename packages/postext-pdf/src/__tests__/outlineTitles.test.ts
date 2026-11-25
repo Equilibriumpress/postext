@@ -225,3 +225,12 @@ describe('bookmarks of a plate set as a heading', () => {
     expect(await outlineTitles(markdown, cfg({ toc: false }))).toEqual(['The gate', 'Chapter one', 'The garden', 'Chapter two']);
   }, 60_000);
 });
+
+
+describe('composed-page bookmarks', () => {
+  it('includes frame headings in reading order and omits an explicitly unlisted heading', async () => {
+    const cfg: PostextConfig = { ...config, pageTemplates: [{ id: 'plate', frames: [{ name: 'title', takes: 'h1', width: pt(240), height: pt(45) }, { name: 'body', width: pt(240), height: pt(120), placement: { anchor: { to: '#title', edge: 'below' } } }] }] };
+    const plate = (title: string, attrs = '') => ['::::page{template="plate"}', '', '# ' + title + attrs, '', ':::frame{slot="body"}', 'Text.', ':::', '', '::::'].join('\n');
+    expect(await outlineTitles([plate('Unlisted', ' {toc="false"}'), plate('Map one'), plate('Map two')].join('\n\n'), cfg)).toEqual(['Map one', 'Map two']);
+  }, 60_000);
+});
