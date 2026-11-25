@@ -14,9 +14,15 @@
 
 :::
 
+:::frame{slot="locator"}
+
+::resource{id="amsterdam-locator"}
+
+:::
+
 :::frame{slot="caption"}
 
-Original conceptual diagram. The waterways are simplified and are not suitable for navigation.
+Left: schematic canal morphology. Right: five source-located points, plotted in a local distance projection. No canal boundaries or navigation routes are shown.
 
 :::
 
@@ -85,7 +91,7 @@ A narrow strip of public space separates the canal from the buildings. Below gro
 
 :::frame{slot="art"}
 
-::resource{id="street-section"}
+::resource{id="street-section-detail"}
 
 :::
 

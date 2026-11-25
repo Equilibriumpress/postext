@@ -131,6 +131,48 @@
         "position": "here",
         "span": "column"
       }
+    },
+    {
+      "id": "amsterdam-locator",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/amsterdam-locator.svg",
+      "width": 500,
+      "height": 560,
+      "caption": "",
+      "altText": "Coordinate-based locator of five selected points in central Amsterdam; no canal outlines.",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "growth-timeline-vertical",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/growth-timeline-vertical.svg",
+      "width": 320,
+      "height": 1040,
+      "caption": "",
+      "altText": "Four stages of urban growth with schematic canal arcs",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "street-section-detail",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/street-section-detail.svg",
+      "width": 1200,
+      "height": 430,
+      "caption": "",
+      "altText": "Detailed conceptual section showing canal, retaining wall, street, houses, soft soil and timber piles.",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
     }
   ],
   "fonts": [

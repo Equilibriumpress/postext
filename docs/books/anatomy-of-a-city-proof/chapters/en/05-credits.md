@@ -24,13 +24,13 @@
 
 [Canal Museum: Period rooms and building](https://grachten.museum/en/period-rooms-and-building/) — documented house at Herengracht 386.
 
-All figures are original conceptual illustrations. They are not survey maps or engineering plans. The comparisons and observation exercises are editorial interpretations.
+The schematic illustrations are original. The locator uses published point coordinates: [Anne Frank House](https://research.annefrank.org/en/locaties/b2966565-8c8b-4a92-9275-8f665e6ddd56/), [Dam Square](https://en.wikipedia.org/wiki/Dam_Square), [Magere Brug](https://www.coordinatenbepalen.nl/coordinates/1846331-magere-brug-amsterdam), [GeoNames](https://www.geonames.org/search.html?country=NL&q=amsterdam) and [UNESCO](https://whc.unesco.org/en/list/1349/maps/). It shows point positions only, not canal outlines.
 
 :::
 
 :::frame{slot="note"}
 
-Design proof only. Geographic datasets and licensed photographs remain to be selected and verified. Text, captions and figures are separately editable. No publication approval has been recorded.
+Design proof only. A photograph of the Herengracht by Z3lvs, CC0, has been selected ([source](https://commons.wikimedia.org/wiki/File:Canal_houses_on_the_Herengracht_at_dusk.jpg)); binary ingestion is pending. Full canal geometry is still required. Text, captions and figures are separately editable. No publication approval has been recorded.
 
 :::
 

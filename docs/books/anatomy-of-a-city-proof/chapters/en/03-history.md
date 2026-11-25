@@ -10,7 +10,7 @@
 
 :::frame{slot="art"}
 
-::resource{id="growth-timeline"}
+::resource{id="growth-timeline-vertical"}
 
 :::
 
@@ -75,6 +75,14 @@ Neither pattern determines travel behaviour on its own. The distribution of dest
 **Compare three properties.** First, trace routes between opposite edges. Second, count the choices offered at intersections. Third, look for the relationship between streets and building plots.
 
 These are abstract patterns, not measured maps of the named cities. Actual urban networks combine geometries from different periods. A fair numerical comparison would need geographic data at a consistent scale and a clear definition of the study area.
+
+:::
+
+:::frame{slot="concept"}
+
+**Connectivity**
+
+How easily different places connect through a network. Street geometry, crossings and destinations all matter.
 
 :::
 
