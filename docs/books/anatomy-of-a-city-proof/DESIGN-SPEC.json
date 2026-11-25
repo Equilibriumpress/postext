@@ -49,8 +49,12 @@
       1
     ],
     [
-      "atlas-spread",
-      2
+      "atlas-plate",
+      1
+    ],
+    [
+      "atlas-essay",
+      1
     ],
     [
       "diagram",
@@ -88,7 +92,8 @@
     "Reallocate empty title/illustration space to body text; retain 11/15.5 pt text, 82 mm columns and 210×260 mm trim.",
     "Existing schematic SVGs preserved. Body frames widened vertically; no shrink-to-fit.",
     "Manuscript word counts are approximate static counts, not rendered text counts.",
-    "AOC-02/03: 3+3 and 2+4 modular compositions; asymmetrical opener, vertical chronology and comparative plate. AOC-04: essay converted to native flow, pagination may vary. AOC-05: georeferenced point locator only, no canal geometry. AOC-06: revised detailed architectural section. AOC-07: photo identified with CC0, not embedded. AOC-08: two reusable concept panels. AOC-09: body size unchanged, larger and redistributed text frames. AOC-10: native render unavailable."
+    "AOC-02/03: 3+3 and 2+4 modular compositions; asymmetrical opener, vertical chronology and comparative plate. AOC-04: essay converted to native flow, pagination may vary. AOC-05: georeferenced point locator only, no canal geometry. AOC-06: revised detailed architectural section. AOC-07: photo identified with CC0, not embedded. AOC-08: two reusable concept panels. AOC-09: body size unchanged, larger and redistributed text frames. AOC-10: native render unavailable.",
+    "Prior PDF: 12 actual leaves; p4 folio missing, p11 lower diagram node clipped, only flow essay bookmark. New design: two native single leaves for atlas instead of spread; no literal folios. Resource ratios adjusted to frame; existing images kept. GeoJSON road-line excerpts not actual water outlines. Concept panels compact fixed heights, not auto sizing; native checks pending."
   ],
-  "revision": "AOC-01–10 / editorial atlas revision"
+  "revision": "AOC-11–20 / production proof 04"
 }

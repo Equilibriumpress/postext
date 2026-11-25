@@ -30,7 +30,7 @@ The schematic illustrations are original. The locator uses published point coord
 
 :::frame{slot="note"}
 
-Design proof only. A photograph of the Herengracht by Z3lvs, CC0, has been selected ([source](https://commons.wikimedia.org/wiki/File:Canal_houses_on_the_Herengracht_at_dusk.jpg)); binary ingestion is pending. Full canal geometry is still required. Text, captions and figures are separately editable. No publication approval has been recorded.
+Illustrations are original schematic studies. The map uses selected canal-side road excerpts from [Adamlink: Prinsengracht](https://adamlink.nl/geo/street/prinsengracht/3684) and [Keizersgracht](https://adamlink.nl/geo/street/keizersgracht/2337). Full water geometry and photographic assets remain pending in this design proof.
 
 :::
 

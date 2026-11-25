@@ -23,7 +23,7 @@ A visual guide to how cities work
 
 :::frame{slot="art"}
 
-::resource{id="cover-art"}
+::resource{id="cover-urban-study"}
 
 :::
 
@@ -49,7 +49,13 @@ FIELD GUIDE / CONTENTS
 
 :::frame{slot="note"}
 
-An Amsterdam case study. This proof tests the visual language of a ten-chapter urban atlas.
+This case study explores Amsterdam through three connected scales: the city plan, the street and the building. Read the atlas first, then use the architectural sections and field observations to interpret the historic district.
+
+:::
+
+:::frame{slot="art"}
+
+::resource{id="canal-ring"}
 
 :::
 
@@ -90,6 +96,14 @@ Stand beside a canal and look across the water. Houses form a continuous edge, w
 **Read the city at three scales.** At the regional scale, examine the connection between inland water and the harbour. At the district scale, trace the canals and bridges. At the scale of a single house, look at its entrance, foundation and plot.
 
 These scales are linked. A decision about the course of a canal determines where a street runs. The street then influences where buildings face and how people reach them. Urban form is the accumulated result of such decisions, rather than a collection of isolated landmarks.
+
+:::
+
+:::frame{slot="concept"}
+
+**Three scales of urban form**
+
+City: waterways and trade. District: streets and bridges. Building: plots, entrances and foundations.
 
 :::
 

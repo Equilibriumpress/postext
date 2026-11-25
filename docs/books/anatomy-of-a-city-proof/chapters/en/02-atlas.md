@@ -1,4 +1,4 @@
-::::page{template="atlas-spread" id="canal-atlas" spread}
+::::page{template="atlas-plate" id="canal-atlas"}
 
 :::frame{slot="kicker"}
 
@@ -8,35 +8,35 @@
 
 # The canal ring {style="display-heading"}
 
-:::frame{slot="art"}
-
-::resource{id="canal-ring"}
-
-:::
-
 :::frame{slot="locator"}
 
-::resource{id="amsterdam-locator"}
+::resource{id="canal-street-map"}
 
 :::
 
 :::frame{slot="caption"}
 
-Left: schematic canal morphology. Right: five source-located points, plotted in a local distance projection. No canal boundaries or navigation routes are shown.
+Selected source road-line excerpts along the Prinsengracht and Keizersgracht. Data: Adamlink / BAG and NWB. Not water polygons or a complete street network.
 
 :::
 
 :::frame{slot="map-reading"}
 
-**How to read the diagram.** Follow the curved corridors around the old centre. The Herengracht, Keizersgracht and Prinsengracht form the principal seventeenth-century rings. Transverse connections between them allow movement across the district. Compare the continuity of the long water corridors with the shorter street connections. The IJ and Amstel provide the wider geographical context.
+**How to read the diagram.** Compare the selected canal-side road lines around the old centre. The map shows their real spatial relationship, but only selected segments. The Herengracht, Keizersgracht and Prinsengracht form the principal seventeenth-century rings. Transverse connections between them allow movement across the district. Compare the continuity of the long water corridors with the shorter street connections. The IJ and Amstel provide the wider geographical context.
 
 :::
 
-:::frame{slot="right-title"}
+::::
 
-A planned extension
+::::page{template="atlas-essay" id="canal-interpretation"}
+
+:::frame{slot="kicker"}
+
+01 / URBAN MORPHOLOGY
 
 :::
+
+# A planned extension {style="display-heading"}
 
 :::frame{slot="lead"}
 
@@ -70,8 +70,14 @@ Source: UNESCO World Heritage Centre, canal ring property and Urban Heritage Atl
 
 :::
 
+:::frame{slot="concept"}
+
+**Urban structure:** continuous corridors, transverse crossings and individual plots.
+
+:::
 
 ::::
+
 
 ::::page{template="diagram" id="street-section"}
 
@@ -91,7 +97,7 @@ A narrow strip of public space separates the canal from the buildings. Below gro
 
 :::frame{slot="art"}
 
-::resource{id="street-section-detail"}
+::resource{id="street-section-annotated"}
 
 :::
 
