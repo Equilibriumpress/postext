@@ -1,8 +1,8 @@
 {
-  "phase": "separate-map-preparation-proof",
+  "phase": "automatic-shared-map-proof",
   "date": "2026-11-25",
   "approved": false,
-  "sourceCommit": "c75f6e069d4fcfec98e5f7c85058223334fa9534",
+  "sourceCommit": "2b582c9c498b0a09ce0e1da6346efa2032482bd6",
   "engineVersion": "NOT VERIFIED",
   "intendedLeaves": 22,
   "checks": {
@@ -15,9 +15,9 @@
     "nativeCheck": "NOT RUN",
     "composedStress": "NOT RUN",
     "visualReview": "NOT RUN",
-    "pdf": "NOT RUN",
-    "fixedEpub": "NOT RUN",
-    "reflowableEpub": "NOT RUN",
+    "pdf": "NOT RUN v4",
+    "fixedEpub": "NOT RUN v4",
+    "reflowableEpub": "NOT RUN v4",
     "commonsLoaderMock": "PASS: exact committed JS in V8 with simulated fetch, URL, Response and image decode; retry/fallback, byte delivery, passthrough, host rejection",
     "commonsBrowserFetch": "NOT RUN",
     "bgtCollectionMetadata": "PASS",
@@ -26,15 +26,16 @@
     "bgtMock": "PASS: simulated four collections, two pages each, shared cache across three variants, distinct SVG styles, polygon holes, scale bar, unrelated request passthrough and offline fallback",
     "vectorWorkerSyntax": "PASS",
     "commonsLoaderSyntax": "PASS",
-    "liveVectorFetch": "NOT RUN",
+    "liveVectorFetch": "USER PASS in v3 only",
     "vectorWorkerFixture": "PASS: synthetic MVT protobuf, real ported decoder yielded water/building polygon rings and road line, 3 features/11 vertices",
     "mapAdapterMock": "PASS: six-tile plan, disabled descriptor no tile requests, oversized tile reserve, worker terminated on success and failure, generated fixture SVG 1842 characters",
     "commonsAdapterMock": "PASS: oversized synthetic JPEG SOF rejected before mocked decode; safe fallback accepted; one attempt per candidate",
     "sourcePublishedParity": "PASS",
     "priorPdfPages": 22,
     "priorPdfMapRaster": "4063 x 2675 on pages 5–7; native PDF fallback is 600 dpi",
-    "mapPreparationBrowser": "NOT RUN",
-    "mapPreparationMock": "PASS: ordinary resource open no tiles; first-style gate; six mocked tile requests; cache retrieval; 1800x1185 canvas request; dynamic fingerprint; per-tile network failure persisted; worker termination"
+    "mapPreparationBrowser": "USER partial pass in v3; figure-ground failed",
+    "mapPreparationMock": "PASS: ordinary resource open no tiles; first-style gate; six mocked tile requests; cache retrieval; 1800x1185 canvas request; dynamic fingerprint; per-tile network failure persisted; worker termination",
+    "automaticMapBrowser": "NOT RUN v4"
   },
   "blockers": [
     "Native browser/renderer and official generator not available in this session",
@@ -43,7 +44,8 @@
     "New photo loads and actual folios/TOC/page count not checked",
     "Live BGT feature payloads, CORS and native SVG rendering unverified; runtime DNS blocked. Marked reserve map will be used on fetch failure.",
     "User reports slow opening and crash on previous BGT version. No Safari crash log or native runtime in this session. New one-map performance proof requires live validation before enabling remaining styles.",
-    "Uploaded PDF Unknown(2).pdf proves water-first map failed; exact previous network/decoder cause unknown. New diagnostic UI records actual browser response. Source URL official; local DNS and web binary retrieval unavailable. Native output and map-specific bounded bitmap embedding still require testing."
+    "Uploaded PDF Unknown(2).pdf proves water-first map failed; exact previous network/decoder cause unknown. New diagnostic UI records actual browser response. Source URL official; local DNS and web binary retrieval unavailable. Native output and map-specific bounded bitmap embedding still require testing.",
+    "v4 zoom-14 batch has not been executed on actual browser tiles; native remote loader awaits resource loading before preview; no progressive live replacement hook implemented."
   ],
   "wordCount": {
     "before": 814,
@@ -115,5 +117,23 @@
     "15": "IMPLEMENTED separate preparation page and browser cache; no external map requests during normal book opening",
     "16": "IMPLEMENTED staged activation: secondary styles enabled only after Water structure is prepared successfully; actual success pending",
     "17": "NOT RUN revised PDF and EPUB exports"
+  },
+  "userBrowserEvidence": {
+    "date": "2026-11-25",
+    "water": "2s, zoom13, 679917 bytes, 208439-byte SVG; buildings omitted",
+    "network": "prepared, buildings omitted",
+    "figureGround": "Building layer exceeds budget",
+    "firstFourZ14TileBytes": [
+      447673,
+      676824,
+      459080,
+      672725
+    ],
+    "failure": "fifth z14 tile exceeds previous budget, downgrade to z13 and building layer discarded"
+  },
+  "mapAutomatic": {
+    "geometry": "One shared tile pass, Amsterdam zoom 14, no silent building removal; 2 MiB/tile, 12 MiB/6 tiles, 6 MiB path markup, 400000 vertices/tile",
+    "render": "Sequential 1800×1185 canvas, PNG in native SVG wrapper; source vector cached when available",
+    "workflow": "Automatic at remote resource load; diagnostics page optional; native preview waits for resources (not true progressive visible-page rendering)"
   }
 }

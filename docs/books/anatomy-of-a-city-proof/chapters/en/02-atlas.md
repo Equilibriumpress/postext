@@ -19,7 +19,7 @@
 
 :::frame{slot="caption"}
 
-Source: © OpenStreetMap contributors, OpenFreeMap. Generalized map after browser preparation; marked Adamlink reserve otherwise.
+Source: © OpenStreetMap contributors, OpenFreeMap. Generalized live map; marked Adamlink reserve only if loading fails.
 
 :::
 
@@ -52,7 +52,7 @@ Source: © OpenStreetMap contributors, OpenFreeMap. Generalized map after browse
 
 :::frame{slot="caption"}
 
-Prepare Water structure first, then this style. Source: © OpenStreetMap contributors, OpenFreeMap; Adamlink reserve until prepared.
+Source: © OpenStreetMap contributors, OpenFreeMap. Generalized live map; marked Adamlink reserve only if loading fails.
 
 :::
 
@@ -85,7 +85,7 @@ Prepare Water structure first, then this style. Source: © OpenStreetMap contrib
 
 :::frame{slot="caption"}
 
-Prepare Water structure first, then this style. Source: © OpenStreetMap contributors, OpenFreeMap; Adamlink reserve until prepared.
+Source: © OpenStreetMap contributors, OpenFreeMap. Generalized live map; marked Adamlink reserve only if loading fails.
 
 :::
 
