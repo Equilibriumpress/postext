@@ -139,7 +139,8 @@
     "Photo plates, paired photos, portrait study and adjacent photographic pages. 8 photographs plus 1 historical plan in source-linked Commons JPEG descriptors; no binary photography in Git. Native map labels and repeating module/grid connectors added. Map styles for actual BGT layers specified separately, not yet rendered. Existing schematic road excerpts retained. 20 intended leaves, actual pagination not observed.",
     "Facing photographic pair assigned to intended even/odd folios 10–11 by source order; physical pagination must be checked in native output.",
     "Three matching north-up map plates using live BGT waterdeel, pand, wegdeel, overbruggingsdeel; WGS84 local equidistant approximation at midpoint. Marked pinned Adamlink fallback. 22 intended leaves, native rendering not observed.",
-    "Replaced BGT GeoJSON loader with bounded PagedPress MVT worker. Only water-first enabled; other styles paused. 6 tiles, 3 MiB total, 500 KiB SVG, 14 s deadline; no decoded map cache. Commons byte/pixel caps. Native exports not verified."
+    "Replaced BGT GeoJSON loader with bounded PagedPress MVT worker. Only water-first enabled; other styles paused. 6 tiles, 3 MiB total, 500 KiB SVG, 14 s deadline; no decoded map cache. Commons byte/pixel caps. Native exports not verified.",
+    "Preserve map descriptor and vector source separately. Prepare each map on same-origin diagnostics page; cached SVG wrapper contains one bounded PNG 1800 x 1185 to avoid SVG text-dependent 600dpi raster fallback. Other styles available after first succeeds. No change to book page geometry or engine. Native labels remain separate. Export verification open."
   ],
-  "revision": "MAP-01–10 / bounded vector tile performance proof"
+  "revision": "MAP-11–17 / separate browser preparation"
 }

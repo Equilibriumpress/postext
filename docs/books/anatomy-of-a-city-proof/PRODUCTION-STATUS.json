@@ -1,8 +1,8 @@
 {
-  "phase": "bounded-vector-map-proof",
+  "phase": "separate-map-preparation-proof",
   "date": "2026-11-25",
   "approved": false,
-  "sourceCommit": "7ea16cc82a573e7f0bd1cdb3a3ba061a8da24682",
+  "sourceCommit": "c75f6e069d4fcfec98e5f7c85058223334fa9534",
   "engineVersion": "NOT VERIFIED",
   "intendedLeaves": 22,
   "checks": {
@@ -30,7 +30,10 @@
     "vectorWorkerFixture": "PASS: synthetic MVT protobuf, real ported decoder yielded water/building polygon rings and road line, 3 features/11 vertices",
     "mapAdapterMock": "PASS: six-tile plan, disabled descriptor no tile requests, oversized tile reserve, worker terminated on success and failure, generated fixture SVG 1842 characters",
     "commonsAdapterMock": "PASS: oversized synthetic JPEG SOF rejected before mocked decode; safe fallback accepted; one attempt per candidate",
-    "sourcePublishedParity": "PASS"
+    "sourcePublishedParity": "PASS",
+    "priorPdfPages": 22,
+    "priorPdfMapRaster": "4063 x 2675 on pages 5–7; native PDF fallback is 600 dpi",
+    "mapPreparationBrowser": "NOT RUN"
   },
   "blockers": [
     "Native browser/renderer and official generator not available in this session",
@@ -38,7 +41,8 @@
     "Composed PDF bookmarks unresolved",
     "New photo loads and actual folios/TOC/page count not checked",
     "Live BGT feature payloads, CORS and native SVG rendering unverified; runtime DNS blocked. Marked reserve map will be used on fetch failure.",
-    "User reports slow opening and crash on previous BGT version. No Safari crash log or native runtime in this session. New one-map performance proof requires live validation before enabling remaining styles."
+    "User reports slow opening and crash on previous BGT version. No Safari crash log or native runtime in this session. New one-map performance proof requires live validation before enabling remaining styles.",
+    "Uploaded PDF Unknown(2).pdf proves water-first map failed; exact previous network/decoder cause unknown. New diagnostic UI records actual browser response. Source URL official; local DNS and web binary retrieval unavailable. Native output and map-specific bounded bitmap embedding still require testing."
   ],
   "wordCount": {
     "before": 814,
@@ -101,5 +105,14 @@
     "07": "IMPLEMENTED JPEG SOF/pixel/byte caps and smaller portrait; photo failures explicit",
     "08": "ONE LIVE MAP enabled, other two staged; actual browser test pending",
     "09": "IMPLEMENTED console timing, bytes and fallback diagnostics"
+  },
+  "mapRepair2": {
+    "11": "PARTIAL: official tile URL verified; actual tile fetch unavailable in this environment; browser diagnostic page added",
+    "12": "IMPLEMENTED per-tile error, bytes, feature statistics and marked reserve reason",
+    "13": "PARTIAL: bounded lower-zoom retry on budget failures; real tile measurements pending",
+    "14": "IMPLEMENTED map-only bounded 1800x1185 PNG in native SVG wrapper; source vector cached separately; real PDF embedding pending",
+    "15": "IMPLEMENTED separate preparation page and browser cache; no external map requests during normal book opening",
+    "16": "IMPLEMENTED staged activation: secondary styles enabled only after Water structure is prepared successfully; actual success pending",
+    "17": "NOT RUN revised PDF and EPUB exports"
   }
 }
