@@ -1,8 +1,8 @@
 {
-  "phase": "live-map-technical-proof",
+  "phase": "bounded-vector-map-proof",
   "date": "2026-11-25",
   "approved": false,
-  "sourceCommit": "8c9ffb92e765a2d6a539be5225c1e2373e8c537a",
+  "sourceCommit": "7ea16cc82a573e7f0bd1cdb3a3ba061a8da24682",
   "engineVersion": "NOT VERIFIED",
   "intendedLeaves": 22,
   "checks": {
@@ -19,18 +19,22 @@
     "fixedEpub": "NOT RUN",
     "reflowableEpub": "NOT RUN",
     "commonsLoaderMock": "PASS: exact committed JS in V8 with simulated fetch, URL, Response and image decode; retry/fallback, byte delivery, passthrough, host rejection",
-    "commonsBrowserFetch": "NOT RUN for new images",
+    "commonsBrowserFetch": "NOT RUN",
     "bgtCollectionMetadata": "PASS",
     "bgtLiveFetch": "NOT RUN",
     "mapLoaderSyntax": "PASS",
-    "bgtMock": "PASS: simulated four collections, two pages each, shared cache across three variants, distinct SVG styles, polygon holes, scale bar, unrelated request passthrough and offline fallback"
+    "bgtMock": "PASS: simulated four collections, two pages each, shared cache across three variants, distinct SVG styles, polygon holes, scale bar, unrelated request passthrough and offline fallback",
+    "vectorWorkerSyntax": "PASS",
+    "commonsLoaderSyntax": "PASS",
+    "liveVectorFetch": "NOT RUN"
   },
   "blockers": [
     "Native browser/renderer and official generator not available in this session",
     "Live map API CORS, full layer data and rendering not verified",
     "Composed PDF bookmarks unresolved",
     "New photo loads and actual folios/TOC/page count not checked",
-    "Live BGT feature payloads, CORS and native SVG rendering unverified; runtime DNS blocked. Marked reserve map will be used on fetch failure."
+    "Live BGT feature payloads, CORS and native SVG rendering unverified; runtime DNS blocked. Marked reserve map will be used on fetch failure.",
+    "User reports slow opening and crash on previous BGT version. No Safari crash log or native runtime in this session. New one-map performance proof requires live validation before enabling remaining styles."
   ],
   "wordCount": {
     "before": 814,
@@ -81,5 +85,17 @@
     "33": "Three style descriptors and plates implemented",
     "34": "Six native labels implemented; actual placement not checked",
     "35": "Integrated into existing library book; 22 intended leaves"
+  },
+  "mapRepair": {
+    "10": "NOT RUN browser PDF and both EPUB exports",
+    "01": "PORTED PagedPress MVT worker from 9ed47d3",
+    "02": "IMPLEMENTED OpenFreeMap vector tiles, no BGT requests",
+    "03": "IMPLEMENTED worker print simplification and viewport filtering",
+    "04": "IMPLEMENTED 500 KiB cap; real map size unverified",
+    "05": "IMPLEMENTED transferable tile buffers, terminate worker, no raw geography cache",
+    "06": "IMPLEMENTED 6 tiles, 3 MiB total, 14 s map deadline, 30 s Commons batch deadline",
+    "07": "IMPLEMENTED JPEG SOF/pixel/byte caps and smaller portrait; photo failures explicit",
+    "08": "ONE LIVE MAP enabled, other two staged; actual browser test pending",
+    "09": "IMPLEMENTED console timing, bytes and fallback diagnostics"
   }
 }
