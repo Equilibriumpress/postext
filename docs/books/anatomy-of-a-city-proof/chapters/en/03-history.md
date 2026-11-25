@@ -67,6 +67,68 @@ Read the established street pattern against the planned extension. The engraved 
 ::::
 
 
+::::page{template="photo-facing" id="waterfront-rhythm"}
+
+:::frame{slot="kicker"}
+
+04 / THE CANAL EDGE
+
+:::
+
+# A continuous waterfront {style="display-heading"}
+
+:::frame{slot="art"}
+
+::resource{id="herengracht-dusk"}
+
+:::
+
+:::frame{slot="caption"}
+
+Herengracht at dusk, 2023 · Z3lvs · [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
+:::
+
+:::frame{slot="reading"}
+
+Observe the repeated narrow fronts, individual roof silhouettes and continuous quay. Different houses share a common alignment at the street, while the canal makes the whole row visible from the opposite bank. The photograph shows how a single infrastructure corridor gives many independent properties a collective presence.
+
+:::
+
+::::
+
+::::page{template="photo-facing" id="canal-landmark"}
+
+:::frame{slot="kicker"}
+
+04 / THE CANAL EDGE
+
+:::
+
+# A landmark in the corridor {style="display-heading"}
+
+:::frame{slot="art"}
+
+::resource{id="westerkerk"}
+
+:::
+
+:::frame{slot="caption"}
+
+Prinsengracht and Westerkerk, viewed from Reestraat, 2019 · Jules Verne Times Two / julesvernex2.com · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+:::
+
+:::frame{slot="reading"}
+
+The tower offers a point of orientation beyond the immediate bridge. The long view along the canal connects successive streets and buildings visually, even where they cannot be reached directly across the water. Compare the distant landmark with the near edge of the boats and the façades on each bank. The city is understood through both distant reference points and small-scale street details.
+
+:::
+
+::::
+
+
+
 ::::page{template="comparison" id="patterns"}
 
 :::frame{slot="kicker"}
