@@ -35,7 +35,8 @@
     "priorPdfMapRaster": "4063 x 2675 on pages 5–7; native PDF fallback is 600 dpi",
     "mapPreparationBrowser": "USER partial pass in v3; figure-ground failed",
     "mapPreparationMock": "PASS: ordinary resource open no tiles; first-style gate; six mocked tile requests; cache retrieval; 1800x1185 canvas request; dynamic fingerprint; per-tile network failure persisted; worker termination",
-    "automaticMapBrowser": "NOT RUN v4"
+    "automaticMapBrowser": "NOT RUN v4",
+    "automaticMapMock": "PASS: 6 simulated tile requests including 1.1 MB and 0.9 MB tiles, one worker, three canvases, all building paths painted in all three styles, cache hit no extra requests; mocked browser APIs, not real tiles"
   },
   "blockers": [
     "Native browser/renderer and official generator not available in this session",
