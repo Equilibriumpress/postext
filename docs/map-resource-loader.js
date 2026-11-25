@@ -32,7 +32,7 @@
  const dots=d.points.map(p=>{const[x,y]=xy(p);return '<circle cx="'+x.toFixed(1)+'" cy="'+y.toFixed(1)+'" r="5" fill="#222926" stroke="#fff" stroke-width="1.5"/>';}).join('');
  const m=(b[2]-b[0])*111320*Math.cos((b[1]+b[3])*Math.PI/360),len=(d.scaleMeters||500)*v.width/m,building=g.building.length?'Buildings':'Buildings omitted (budget)';
  const svg='<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="790" viewBox="0 0 1200 790"><rect width="1200" height="790" fill="'+c.paper+'"/><defs><clipPath id="map-clip"><rect width="'+v.width+'" height="'+v.height+'"/></clipPath></defs><g transform="translate('+v.x+' '+v.y+')"><g clip-path="url(#map-clip)">'+groups.join('')+dots+mapNames(d,g,v).map(n=>'<text x="'+n.x+'" y="'+n.y+'" font-family="sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#263A35" stroke="#F1EDE3" stroke-width="2" paint-order="stroke">'+escape(n.text)+'</text>').join('')+'</g><rect width="'+v.width+'" height="'+v.height+'" fill="none" stroke="#53645F"/></g><g font-family="sans-serif" font-size="19" fill="#222926"><rect x="40" y="738" width="23" height="15" fill="'+c.water+'"/><text x="71" y="752">Water</text><rect x="175" y="738" width="23" height="15" fill="'+c.building+'"/><text x="206" y="752">'+building+'</text><path d="M540 745h25" stroke="'+c.road+'" stroke-width="3"/><text x="575" y="752">Streets</text><path d="M800 745h'+len.toFixed(1)+' M800 738v14 M'+(800+len).toFixed(1)+' 738v14" stroke="#222926" stroke-width="2"/><text x="800" y="777">'+(d.scaleMeters||500)+' m</text><text x="40" y="778" font-size="16">© OpenStreetMap contributors · OpenFreeMap · generalized print map</text><text x="1150" y="28">N</text><path d="M1155 80V37l-5 10m5-10l5 10" fill="none" stroke="#222926" stroke-width="2"/></g></svg>';
- if(new TextEncoder().encode(svg).byteLength>MAX_SVG)throw Error('SVG exceeds 500 KiB');return svg;}
+ if(new TextEncoder().encode(svg).byteLength>MAX_SVG)throw Error('SVG exceeds 6 MiB');return svg;}
  async function loadGeometry(d,signal,report=()=>{}){
   const tiles=plan(d.bbox,d.zoom===15?15:14),v=viewport(d.bbox),[west,south,east,north]=d.bbox;
   const worker=new Worker(workerUrl.href),groups={water:[],waterway:[],building:[],road:[],path:[],arterial:[],bridge:[]};
@@ -152,10 +152,10 @@
  };
 
  async function extraMap(id){
-  if(extraPending.has(id))return extraPending.get(id);
+  if(extraPending.has(id))return extraPending.get(id).then(res=>res.clone());
   // Keep the successful shared Amsterdam batch unchanged and release its
   // geometry before starting each new extent. Only one worker at a time.
-  const overview=getBatch();
+  getBatch();
   const task=activeMap.then(async()=>{
    const key=safeKey(id),cache=await openCache(),c=new AbortController(),timer=setTimeout(()=>c.abort(),MAX_MS);
    try{

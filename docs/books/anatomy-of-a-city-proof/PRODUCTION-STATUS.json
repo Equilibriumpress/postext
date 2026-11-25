@@ -39,7 +39,7 @@
     "automaticMapMock": "PASS: 6 simulated tile requests including 1.1 MB and 0.9 MB tiles, one worker, three canvases, all building paths painted in all three styles, cache hit no extra requests; mocked browser APIs, not real tiles",
     "priorPdf": "22 pages, 3 live maps at 1800x1185",
     "priorPdfMapImages": "PASS user export 1800x1185 on pp5–7",
-    "frameReferenceStatic": "134 static slot checks",
+    "frameReferenceStatic": "134 static slot checks; no overlaps of fixed frame rectangles after locator correction; actual overflow and module layout not checked",
     "pdfOutlineSourceFix": "IMPLEMENTED, test NOT RUN, published bundle not rebuilt"
   },
   "blockers": [
