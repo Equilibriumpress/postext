@@ -1,0 +1,87 @@
+{
+  "trimMm": [
+    210,
+    260
+  ],
+  "inner": 19,
+  "outer": 19,
+  "grid": {
+    "columns": 6,
+    "gutterMm": 4
+  },
+  "type": {
+    "display": "Newsreader 37/39 pt",
+    "body": "Newsreader 11/15.5 pt",
+    "caption": "Archivo 8.5/11 pt",
+    "eyebrow": "Archivo 9/11 pt"
+  },
+  "palette": {
+    "ink": "#222926",
+    "paper": "#F1EDE3",
+    "white": "#FFFFFF",
+    "atlantic": "#263A35",
+    "grass": "#56786B",
+    "copper": "#B9573D",
+    "muted": "#53645F",
+    "rule": "#D2CABE",
+    "light": "#DDE7E1",
+    "pale": "#E8E4D8",
+    "sand": "#D6BE8D"
+  },
+  "reference": {
+    "technical": "docs/books/dinas-island-premium/design",
+    "visual": "Approved conceptual atlas wireframes in conversation; no source PDF or measured external exemplar",
+    "geometry": "New design decisions, not measured from an original."
+  },
+  "sequence": [
+    [
+      "cover",
+      1
+    ],
+    [
+      "contents",
+      1
+    ],
+    [
+      "opener",
+      1
+    ],
+    [
+      "atlas-spread",
+      2
+    ],
+    [
+      "diagram",
+      1
+    ],
+    [
+      "timeline",
+      1
+    ],
+    [
+      "comparison",
+      1
+    ],
+    [
+      "essay",
+      1
+    ],
+    [
+      "case-study",
+      1
+    ],
+    [
+      "diagram",
+      1
+    ],
+    [
+      "credits",
+      1
+    ]
+  ],
+  "notes": [
+    "Twelve intended leaves, eleven composed fences; no page-count claim until native render.",
+    "Original conceptual diagrams; no survey geometry, no scale. Photography and geodata pending.",
+    "Native frame geometry in millimetres. Text remains in Markdown."
+  ]
+}
