@@ -105,7 +105,7 @@
       1
     ],
     [
-      "flow-essay",
+      "atlas-essay",
       1
     ],
     [
@@ -154,7 +154,8 @@
     "Replaced BGT GeoJSON loader with bounded PagedPress MVT worker. Only water-first enabled; other styles paused. 6 tiles, 3 MiB total, 500 KiB SVG, 14 s deadline; no decoded map cache. Commons byte/pixel caps. Native exports not verified.",
     "Preserve map descriptor and vector source separately. Prepare each map on same-origin diagnostics page; cached SVG wrapper contains one bounded PNG 1800 x 1185 to avoid SVG text-dependent 600dpi raster fallback. Other styles available after first succeeds. No change to book page geometry or engine. Native labels remain separate. Export verification open.",
     "Measured supplied PDF: p4 bitmap 119.4mm wide; pp11–13,20 135.5mm, vs 172mm frame. Native per-bitmap resolution yields full measure while respecting intrinsic ratio; caption gap target 2–3mm. New maps: one Amsterdam detail and Barcelona/Edinburgh equal nominal ground extents. 25 intended leaves, unrendered. Source content retained, modest reading prompts added. System modules enlarged. No full production approval.",
-    "Map names taken from actual named MVT segments, limited with collision filtering against existing native labels. Road class hierarchy and brunnel bridge accents. Six original art SVGs served as bounded 2000px wrappers in browser; originals remain in Git. Composed heading bookmarks source patch only, static engine bundle not rebuilt."
+    "Map names taken from actual named MVT segments, limited with collision filtering against existing native labels. Road class hierarchy and brunnel bridge accents. Six original art SVGs served as bounded 2000px wrappers in browser; originals remain in Git. Composed heading bookmarks source patch only, static engine bundle not rebuilt.",
+    "Unknown(4).pdf baseline: 25 actual pages, p8 detail reserve (missing layer unspecified), p18 flow essay has inconsistent shell, p9 no diagram in native template. Trim and existing 19mm margins retained. Detail zoom changed 15→14 with same geographic extent and 100m scale target; no live verification. Existing native atlas-essay used for p18, source prose preserved. Gable, section, urban pattern and water system SVGs revised at same intrinsic dimensions. Existing templates reused; no new geometry or manifest generation. Raster adapter now respects intrinsic aspect and bounded long edge. Source drawings remain editable. Native render, actual card fit and all exports NOT RUN."
   ],
-  "revision": "AOC-36–45 / editorial and comparative atlas"
+  "revision": "AOC-46–55 / unrendered revision"
 }
