@@ -40,13 +40,13 @@ Compare a busy shopping street with a residential canal before drawing conclusio
 
 :::frame{slot="art"}
 
-::resource{id="canal-frontage"}
+::resource{id="gable-comparison"}
 
 :::
 
 :::frame{slot="caption"}
 
-Original elevation study of typical frontage proportions. No actual buildings are depicted.
+Three schematic gable types: stepped, neck and bell. No actual buildings are depicted.
 
 :::
 
@@ -66,15 +66,13 @@ The street is the shared element. Differences in architectural treatment become 
 
 Herengracht 386, now the Museum of the Canals, provides a documented example of a merchant's canal house from 1665. Its history offers a starting point for understanding the relationship between the domestic interior, garden and street frontage.
 
-The elevation above is a conceptual study, not a drawing of that house.
+The elevations compare gable types, not the individual design of that house.
 
 :::
 
 :::frame{slot="concept"}
 
-**Plot rhythm**
-
-Repeated property widths shape the pattern of doors, windows and roofs. The street alignment provides continuity between individual buildings.
+**Plot rhythm:** repeated frontage widths and a shared street alignment.
 
 :::
 
@@ -98,7 +96,7 @@ A water city depends on continued management. The historic form and the modern w
 
 :::frame{slot="art"}
 
-::resource{id="water-system"}
+::resource{id="water-system-wide"}
 
 :::
 

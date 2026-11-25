@@ -1167,7 +1167,7 @@
       },
       "padding": {
         "top": {
-          "value": 3,
+          "value": 2,
           "unit": "mm"
         },
         "right": {
@@ -1175,7 +1175,7 @@
           "unit": "mm"
         },
         "bottom": {
-          "value": 3,
+          "value": 2,
           "unit": "mm"
         },
         "left": {
@@ -1216,7 +1216,7 @@
           "unit": "pt"
         },
         "paragraphSpacing": {
-          "value": 5,
+          "value": 2,
           "unit": "pt"
         }
       },

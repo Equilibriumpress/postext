@@ -80,9 +80,7 @@ These are abstract patterns, not measured maps of the named cities. Actual urban
 
 :::frame{slot="concept"}
 
-**Connectivity**
-
-How easily different places connect through a network. Street geometry, crossings and destinations all matter.
+**Connectivity:** the ease of movement between places in a network.
 
 :::
 

@@ -1,8 +1,8 @@
 {
-  "phase": "technical-proof-editorial-revision",
+  "phase": "technical-proof-production-revision",
   "date": "2026-11-25",
   "approved": false,
-  "sourceCommit": "4ef29f287db4ae5d9883d829354219be1615ac4d",
+  "sourceCommit": "34785fb628d2ee932cbf57246fda79921bdc87a2",
   "engineVersion": "NOT VERIFIED",
   "intendedLeaves": 12,
   "checks": {
@@ -20,10 +20,11 @@
     "reflowableEpub": "NOT RUN"
   },
   "blockers": [
-    "Native renderer not installed; network DNS failure in local runtime",
-    "External PDF screenshot size limit; exact reference measurements pending",
-    "Full canal geometry not acquired; point locator only",
-    "Licensed photo selected but binary not ingested"
+    "Native renderer absent and local DNS inaccessible",
+    "Full water geometry not acquired",
+    "Photo transfer failed: GitHub base64 returned empty, cross-repo SHA rejected",
+    "Composed-heading PDF bookmarks unresolved; engine left intact",
+    "Automatic frame height not verified"
   ],
   "wordCount": {
     "before": 814,
@@ -42,5 +43,17 @@
     "07": "PARTIAL: photo selected only",
     "08": "IMPLEMENTED",
     "09": "IMPLEMENTED geometry; fit unverified"
+  },
+  "aocNext": {
+    "11": "IMPLEMENTED cover composition and artwork",
+    "12": "PARTIAL selected source street geometries, no full water polygons",
+    "13": "IMPLEMENTED schematic annotated section",
+    "14": "BLOCKED binary photo transfer",
+    "15": "IMPLEMENTED comparative gables",
+    "16": "PARTIAL redistributed space; native flow essay retained; no new flow conversion",
+    "17": "IMPLEMENTED documented auto-height frames; native output unverified",
+    "18": "IMPLEMENTED wide diagram; actual rendering not verified",
+    "19": "PARTIAL atlas split into singles for folios; bookmarks unresolved",
+    "20": "NOT RUN new browser outputs"
   }
 }

@@ -1,0 +1,3 @@
+# PDF outline gap
+
+Observed baseline: uploaded Unknown(1).pdf, 12 pages. Only native flow heading appears in outline; composed headings appear in automatic contents but not outline. Expected: eligible H1 headings in both flow and composed pages populate bookmarks once in reading order, using the same destinations as contents, excluding toc=false. Reproduction: export this book in the existing Sandbox. Investigate PDF outline generation and composed heading collection, add upstream regression fixture. No engine change or claim of fix in this book revision. Atlas split into individual native pages addresses the separate missing spread folio symptom; verify on export.

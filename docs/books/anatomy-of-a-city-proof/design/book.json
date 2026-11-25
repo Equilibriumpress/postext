@@ -173,6 +173,76 @@
         "position": "here",
         "span": "column"
       }
+    },
+    {
+      "id": "canal-street-map",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/canal-street-map.svg",
+      "width": 1200,
+      "height": 790,
+      "caption": "",
+      "altText": "Selected source road-line excerpts from two canal-side streets and four reference points, not a water surface map.",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "cover-urban-study",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/cover-urban-study.svg",
+      "width": 1000,
+      "height": 800,
+      "caption": "",
+      "altText": "Abstract diagram of canal corridors, streets and repeated plot units.",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "street-section-annotated",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/street-section-annotated.svg",
+      "width": 1200,
+      "height": 480,
+      "caption": "",
+      "altText": "Schematic canal section with retaining wall, street, floors, groundwater, soft soil, deeper support and timber piles; no surveyed depths.",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "gable-comparison",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/gable-comparison.svg",
+      "width": 1200,
+      "height": 465,
+      "caption": "",
+      "altText": "Three schematic canal-house elevations showing stepped, neck and bell gables.",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
+    },
+    {
+      "id": "water-system-wide",
+      "typeId": "figure",
+      "kind": "svg",
+      "file": "resources/water-system-wide.svg",
+      "width": 1200,
+      "height": 460,
+      "caption": "",
+      "altText": "Five fully contained nodes showing rainfall, runoff, canals, local storage and managed flow.",
+      "placement": {
+        "position": "here",
+        "span": "column"
+      }
     }
   ],
   "fonts": [
