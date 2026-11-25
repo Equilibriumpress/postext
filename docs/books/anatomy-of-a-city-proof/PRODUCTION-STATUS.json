@@ -1,23 +1,23 @@
 {
-  "phase": "editorial-comparative-atlas-proof",
+  "phase": "revised-design-source-proof",
   "date": "2026-11-25",
   "approved": false,
-  "sourceCommit": "4ee5bf7804efa940b1c85fa85d8f5f53950e5948",
+  "sourceCommit": "a75ca5555a2d9caac3e927fd08b3f085cfeb8f53",
   "engineVersion": "NOT VERIFIED",
   "intendedLeaves": 25,
   "checks": {
     "inventory": "DRAFT",
     "manifestReferenceCheck": "STATIC ONLY",
-    "presetGenerator": "NOT RUN (manifest reproduced from generator inputs)",
-    "lintProject": "NOT RUN",
-    "presetLint": "NOT RUN",
-    "nativeRender": "NOT RUN",
-    "nativeCheck": "NOT RUN",
-    "composedStress": "NOT RUN",
-    "visualReview": "NOT RUN",
-    "pdf": "NOT RUN",
-    "fixedEpub": "NOT RUN",
-    "reflowableEpub": "NOT RUN",
+    "presetGenerator": "NOT RUN revised proof",
+    "lintProject": "NOT RUN revised proof",
+    "presetLint": "NOT RUN revised proof",
+    "nativeRender": "NOT RUN revised proof",
+    "nativeCheck": "NOT RUN revised proof",
+    "composedStress": "NOT RUN revised proof",
+    "visualReview": "NOT RUN revised proof",
+    "pdf": "NOT RUN revised proof",
+    "fixedEpub": "NOT RUN revised proof",
+    "reflowableEpub": "NOT RUN revised proof",
     "commonsLoaderMock": "PASS: exact committed JS in V8 with simulated fetch, URL, Response and image decode; retry/fallback, byte delivery, passthrough, host rejection",
     "commonsBrowserFetch": "NOT RUN",
     "bgtCollectionMetadata": "PASS",
@@ -52,7 +52,8 @@
     "User reports slow opening and crash on previous BGT version. No Safari crash log or native runtime in this session. New one-map performance proof requires live validation before enabling remaining styles.",
     "Uploaded PDF Unknown(2).pdf proves water-first map failed; exact previous network/decoder cause unknown. New diagnostic UI records actual browser response. Source URL official; local DNS and web binary retrieval unavailable. Native output and map-specific bounded bitmap embedding still require testing.",
     "v4 zoom-14 batch has not been executed on actual browser tiles; native remote loader awaits resource loading before preview; no progressive live replacement hook implemented.",
-    "New live extents and map names, caption positioning, larger module cards and bounded illustration embedding not rendered. Source PDF outline patch needs native build and regression test. Static GitHub Pages publication does not compile engine. Official generator and native checks not run."
+    "New live extents and map names, caption positioning, larger module cards and bounded illustration embedding not rendered. Source PDF outline patch needs native build and regression test. Static GitHub Pages publication does not compile engine. Official generator and native checks not run.",
+    "Revision branch cannot be run in local native engine: repository DNS unavailable; browser Sandbox runtime unavailable. No approval, no merge, no full production."
   ],
   "wordCount": {
     "before": 814,
@@ -154,5 +155,14 @@
     "43": "Expanded readings and three new pages; full density target incomplete",
     "44": "IMPLEMENTED bounded bitmap wrapper for six large original SVG illustrations, 2000px long edge; original vector retained in Git, native exported resolution unverified",
     "45": "PARTIAL source fix and regression fixture for composed PDF outline; static published JS bundle unchanged, tests and all new exports NOT RUN"
+  },
+  "revisionReview": {
+    "baseline": "Unknown(4).pdf: 25 leaves, 5/6 maps present, detail reserve on p8, inconsistent flow on p18, 1 PDF bookmark",
+    "detail": "IMPLEMENTED zoom14 trial and explicit missing-layer diagnostic; actual map NOT RUN",
+    "art": "IMPLEMENTED four revised original SVGs and aspect-correct bounded wrapper; native render NOT RUN",
+    "essay": "IMPLEMENTED existing atlas-essay template with original prose; fit NOT RUN",
+    "sourcePublishedAdapter": "identical blob SHA 8120613e1fe2d71d9050c77ef68d64ad60b7f7ad; JS syntax parse PASS",
+    "geometry": "existing templates retained; no new generated manifest",
+    "open": "export gate, map enlargement/labels, geographical historical stages, final system infographic and bookmark engine build still open"
   }
 }
