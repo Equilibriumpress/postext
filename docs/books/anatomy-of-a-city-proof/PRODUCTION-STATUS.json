@@ -17,7 +17,9 @@
     "visualReview": "NOT RUN",
     "pdf": "NOT RUN",
     "fixedEpub": "NOT RUN",
-    "reflowableEpub": "NOT RUN"
+    "reflowableEpub": "NOT RUN",
+    "commonsLoaderMock": "PASS: exact committed JS in V8 with simulated fetch, URL, Response and image decode; retry/fallback, byte delivery, passthrough, host rejection",
+    "commonsBrowserFetch": "NOT RUN"
   },
   "blockers": [
     "Native renderer absent and local DNS inaccessible",
