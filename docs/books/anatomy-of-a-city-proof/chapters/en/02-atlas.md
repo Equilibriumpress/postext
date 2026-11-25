@@ -25,7 +25,7 @@ Source: © OpenStreetMap contributors, OpenFreeMap. Generalized live map; marked
 
 :::frame{slot="map-reading"}
 
-**Read the water.** Water surfaces are the dominant layer in this plate. The Herengracht, Keizersgracht and Prinsengracht form the principal seventeenth-century rings. Transverse connections between them allow movement across the district. Compare the continuity of the long water corridors with the shorter street connections. The IJ and Amstel provide the wider geographical context.
+**Read the water.** Water surfaces are the dominant layer in this plate. The Herengracht, Keizersgracht and Prinsengracht form the principal seventeenth-century rings. Transverse connections between them allow movement across the district. Compare the continuity of the long water corridors with the shorter street connections. The IJ and Amstel provide the wider geographical context. Trace the main waterways across the sheet and notice where a crossing links two otherwise separate streets. The lighter buildings provide context rather than a measure of population density.
 
 :::
 
@@ -58,7 +58,7 @@ Source: © OpenStreetMap contributors, OpenFreeMap. Generalized live map; marked
 
 :::frame{slot="map-reading"}
 
-**Read the built form.** Dark building footprints reveal the size and grain of blocks, while the lighter unbuilt space shows streets, courtyards and waterways. Compare the narrow plots along the canal belt with the larger structures near the waterfront. The map shows present-day footprints, not seventeenth-century parcel boundaries.
+**Read the built form.** Dark building footprints reveal the size and grain of blocks, while the lighter unbuilt space shows streets, courtyards and waterways. Compare the narrow plots along the canal belt with the larger structures near the waterfront. The map shows present-day footprints, not seventeenth-century parcel boundaries. The solid areas record the outlines of mapped structures. The open spaces include both public streets and private land, so the contrast should not be interpreted as an access map.
 
 :::
 
@@ -91,11 +91,42 @@ Source: © OpenStreetMap contributors, OpenFreeMap. Generalized live map; marked
 
 :::frame{slot="map-reading"}
 
-**Read the connections.** The intended network style emphasises street centrelines rather than surveyed road surfaces. Crossings indicate spatial connections, not necessarily public pedestrian access. This is a spatial comparison, not a routing graph or traffic count.
+**Read the connections.** The network style differentiates primary routes, local streets, paths and mapped bridge segments. It represents street centrelines rather than surveyed road surfaces. Crossings indicate spatial connections, not necessarily public pedestrian access. This is a spatial comparison, not a routing graph or traffic count.
 
 :::
 
 ::::
+
+::::page{template="atlas-plate" id="canal-block-detail"}
+
+:::frame{slot="kicker"}
+
+04 / COMPARATIVE MORPHOLOGY
+
+:::
+
+# The grain of a block {style="display-heading"}
+
+:::frame{slot="locator"}
+
+::resource{id="amsterdam-detail"}
+
+:::
+
+:::frame{slot="caption"}
+
+© OpenStreetMap contributors · OpenFreeMap. Current mapped geometry, generalized for print. An empty reserve indicates a failed map request.
+
+:::
+
+:::frame{slot="map-reading"}
+
+**Look at the buildings, not just the streets.** This closer view focuses on a small part of the western canal belt. Compare the continuous edges of the built-up blocks with the unbuilt spaces inside them. A footprint is the outline of a mapped building, not the boundary of a property. Courtyards, rear extensions and passageways are easier to see here than on the wider atlas plates. Follow a single block from canal to canal and look for changes in its depth and street access.
+
+:::
+
+::::
+
 
 ::::page{template="atlas-essay" id="canal-interpretation"}
 

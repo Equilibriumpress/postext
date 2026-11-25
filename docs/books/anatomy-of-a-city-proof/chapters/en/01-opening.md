@@ -129,7 +129,7 @@ Aerial view of Amsterdam, 2013 · Swimmerguy269 · [CC BY-SA 3.0](https://creati
 
 :::frame{slot="body-a"}
 
-**Read the blocks.** The aerial view reveals how narrow streets and waterways enclose long urban blocks. Trace the repeated curves before looking at individual roofs. The inner district and the newer extensions differ in orientation and grain. A continuous street edge gives the water corridor a clear spatial boundary.
+**Read the blocks.** The aerial view reveals how narrow streets and waterways enclose long urban blocks. Trace the repeated curves before looking at individual roofs. The inner district and the newer extensions differ in orientation and grain. A continuous street edge gives the water corridor a clear spatial boundary. Compare the uninterrupted street edge with the irregular open areas behind it.
 
 :::
 

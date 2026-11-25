@@ -1,23 +1,23 @@
 {
-  "phase": "automatic-shared-map-proof",
+  "phase": "editorial-comparative-atlas-proof",
   "date": "2026-11-25",
   "approved": false,
-  "sourceCommit": "2b582c9c498b0a09ce0e1da6346efa2032482bd6",
+  "sourceCommit": "4ee5bf7804efa940b1c85fa85d8f5f53950e5948",
   "engineVersion": "NOT VERIFIED",
-  "intendedLeaves": 22,
+  "intendedLeaves": 25,
   "checks": {
     "inventory": "DRAFT",
     "manifestReferenceCheck": "STATIC ONLY",
-    "presetGenerator": "NOT RUN",
+    "presetGenerator": "NOT RUN (manifest reproduced from generator inputs)",
     "lintProject": "NOT RUN",
     "presetLint": "NOT RUN",
     "nativeRender": "NOT RUN",
     "nativeCheck": "NOT RUN",
     "composedStress": "NOT RUN",
     "visualReview": "NOT RUN",
-    "pdf": "NOT RUN v4",
-    "fixedEpub": "NOT RUN v4",
-    "reflowableEpub": "NOT RUN v4",
+    "pdf": "NOT RUN",
+    "fixedEpub": "NOT RUN",
+    "reflowableEpub": "NOT RUN",
     "commonsLoaderMock": "PASS: exact committed JS in V8 with simulated fetch, URL, Response and image decode; retry/fallback, byte delivery, passthrough, host rejection",
     "commonsBrowserFetch": "NOT RUN",
     "bgtCollectionMetadata": "PASS",
@@ -36,7 +36,8 @@
     "mapPreparationBrowser": "USER partial pass in v3; figure-ground failed",
     "mapPreparationMock": "PASS: ordinary resource open no tiles; first-style gate; six mocked tile requests; cache retrieval; 1800x1185 canvas request; dynamic fingerprint; per-tile network failure persisted; worker termination",
     "automaticMapBrowser": "NOT RUN v4",
-    "automaticMapMock": "PASS: 6 simulated tile requests including 1.1 MB and 0.9 MB tiles, one worker, three canvases, all building paths painted in all three styles, cache hit no extra requests; mocked browser APIs, not real tiles"
+    "automaticMapMock": "PASS: 6 simulated tile requests including 1.1 MB and 0.9 MB tiles, one worker, three canvases, all building paths painted in all three styles, cache hit no extra requests; mocked browser APIs, not real tiles",
+    "priorPdf": "22 pages, 3 live maps at 1800x1185"
   },
   "blockers": [
     "Native browser/renderer and official generator not available in this session",
@@ -136,5 +137,17 @@
     "geometry": "One shared tile pass, Amsterdam zoom 14, no silent building removal; 2 MiB/tile, 12 MiB/6 tiles, 6 MiB path markup, 400000 vertices/tile",
     "render": "Sequential 1800×1185 canvas, PNG in native SVG wrapper; source vector cached when available",
     "workflow": "Automatic at remote resource load; diagnostics page optional; native preview waits for resources (not true progressive visible-page rendering)"
+  },
+  "aocEditorial": {
+    "36": "Native bitmap resolution corrected; not rendered",
+    "37": "Aspect-matched frame geometry and closer captions",
+    "38": "Pending loader commit",
+    "39": "Pending loader commit",
+    "40": "Detail descriptor and native page",
+    "41": "Barcelona and Edinburgh descriptor pages; actual fetch unverified",
+    "42": "Enlarged native modules",
+    "43": "Expanded readings and three new pages; full density target incomplete",
+    "44": "Pending loader commit",
+    "45": "PDF outline defect and EPUB exports outstanding"
   }
 }

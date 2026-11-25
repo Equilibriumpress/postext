@@ -60,7 +60,7 @@ Plan of the old and newly extended city, after 1662 · Daniel Stalpaert / Nicola
 
 :::frame{slot="reading"}
 
-Read the established street pattern against the planned extension. The engraved harbour panorama is part of the historic source, not a modern survey. The orientation differs from contemporary north-up maps.
+Read the established street pattern against the planned extension. The engraved harbour panorama is part of the historic source, not a modern survey. The orientation differs from contemporary north-up maps. Compare the developed blocks with the land and water at the outer edge of the engraving.
 
 :::
 
@@ -91,13 +91,13 @@ Herengracht at dusk, 2023 · Z3lvs · [CC0 1.0](https://creativecommons.org/publ
 
 :::frame{slot="reading"}
 
-Observe the repeated narrow fronts, individual roof silhouettes and continuous quay. Different houses share a common alignment at the street, while the canal makes the whole row visible from the opposite bank. The photograph shows how a single infrastructure corridor gives many independent properties a collective presence.
+Observe the repeated narrow fronts, individual roof silhouettes and continuous quay. Different houses share a common alignment at the street, while the canal makes the whole row visible from the opposite bank. The photograph shows how a single infrastructure corridor gives many independent properties a collective presence. Look at the interruptions in the roofline, the openings between the trees and the relationship between quay and water.
 
 :::
 
 ::::
 
-::::page{template="photo-facing" id="canal-landmark"}
+::::page{template="photo-facing-wide" id="canal-landmark"}
 
 :::frame{slot="kicker"}
 
@@ -121,7 +121,7 @@ Prinsengracht and Westerkerk, viewed from Reestraat, 2019 · Jules Verne Times T
 
 :::frame{slot="reading"}
 
-The tower offers a point of orientation beyond the immediate bridge. The long view along the canal connects successive streets and buildings visually, even where they cannot be reached directly across the water. Compare the distant landmark with the near edge of the boats and the façades on each bank. The city is understood through both distant reference points and small-scale street details.
+The tower offers a point of orientation beyond the immediate bridge. The long view along the canal connects successive streets and buildings visually, even where they cannot be reached directly across the water. Compare the distant landmark with the near edge of the boats and the façades on each bank. The city is understood through both distant reference points and small-scale street details. On a visit, compare this axial view with the side view from the preceding waterfront study. Note how the same narrow water corridor shapes both views.
 
 :::
 
@@ -178,4 +178,65 @@ These are abstract patterns, not measured maps of the named cities. Actual urban
 :::
 
 ::::
+
+::::page{template="atlas-plate" id="barcelona-grid-plate"}
+
+:::frame{slot="kicker"}
+
+04 / COMPARATIVE MORPHOLOGY
+
+:::
+
+# Barcelona: the grid {style="display-heading"}
+
+:::frame{slot="locator"}
+
+::resource{id="barcelona-grid"}
+
+:::
+
+:::frame{slot="caption"}
+
+© OpenStreetMap contributors · OpenFreeMap. Current mapped geometry, generalized for print. An empty reserve indicates a failed map request.
+
+:::
+
+:::frame{slot="map-reading"}
+
+**Read the repeated blocks.** The Eixample uses an extended grid with chamfered corners. The chosen extent centres on Passeig de Gràcia. Look for the repeated street widths, regular intersections and the spaces within blocks. Compare the figure-ground plate with Amsterdam's curved corridors: both use an underlying plan, but their block geometries differ. The map depicts modern building outlines, not Cerdà's original proposal. The scale bar and equal ground extent of the Edinburgh comparison support a direct visual comparison.
+
+:::
+
+::::
+
+::::page{template="atlas-plate" id="edinburgh-organic-plate"}
+
+:::frame{slot="kicker"}
+
+04 / COMPARATIVE MORPHOLOGY
+
+:::
+
+# Edinburgh: the ridge {style="display-heading"}
+
+:::frame{slot="locator"}
+
+::resource{id="edinburgh-organic"}
+
+:::
+
+:::frame{slot="caption"}
+
+© OpenStreetMap contributors · OpenFreeMap. Current mapped geometry, generalized for print. An empty reserve indicates a failed map request.
+
+:::
+
+:::frame{slot="map-reading"}
+
+**Read the irregular grain.** The selected Old Town area includes the historic ridge and surrounding streets. Compare the long main corridor with the smaller passages and blocks around it. The shape of the land influenced urban growth, but the map alone does not measure elevation. Look for changes in the orientation and depth of buildings rather than assuming the whole city follows one pattern. Barcelona and Edinburgh are shown at comparable ground extent. The difference is spatial form, not a judgement about the quality of either city's streets.
+
+:::
+
+::::
+
 

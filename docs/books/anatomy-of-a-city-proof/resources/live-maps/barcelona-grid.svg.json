@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "source": "openfreemap",
+  "style": "figure-ground",
+  "bbox": [
+    2.15286,
+    41.38711,
+    2.17436,
+    41.39789
+  ],
+  "points": [],
+  "enabled": true,
+  "zoom": 14,
+  "scaleMeters": 500
+}
