@@ -57,11 +57,12 @@ function attributes(data,keys,values){
   else if(tag===3&&wire===0)type=unpack(payload)[0];
   else if(tag===4&&wire===2)geometry=unpack(payload);
  });
- let cls="",subclass="",name="";
+ let cls="",subclass="",name="",brunnel="";
  for(let i=0;i<tags.length-1;i+=2)if(keys[tags[i]]==="name")name=values[tags[i+1]]||"";
  for(let i=0;i<tags.length-1;i+=2)if(keys[tags[i]]==="class")cls=values[tags[i+1]]||"";
  for(let i=0;i<tags.length-1;i+=2)if(keys[tags[i]]==="subclass")subclass=values[tags[i+1]]||"";
- return {type,cls:String(cls||subclass).toLowerCase(),subclass:String(subclass).toLowerCase(),
+ for(let i=0;i<tags.length-1;i+=2)if(keys[tags[i]]==="brunnel")brunnel=values[tags[i+1]]||"";
+ return {type,brunnel,cls:String(cls||subclass).toLowerCase(),subclass:String(subclass).toLowerCase(),
   name:String(name),geometry};
 }
 function category(layerName,f,z,region,detail=false){
@@ -200,6 +201,7 @@ function parseTile(tileBytes,tile,view,region,buckets,stats,labels,detail,roadNa
     stats.features++;
     stats.byLayer[type]=(stats.byLayer[type]||0)+1;
     buckets[type].push(path);
+    if((type==="road"||type==="path")&&f.brunnel==="bridge")buckets.bridge.push(path);
     if(type==="road"&&/^(motorway|trunk|primary|secondary)(?:_|$)/.test(f.cls))
       buckets.arterial.push(path);
    }
@@ -210,7 +212,7 @@ self.addEventListener("message",event=>{
  const {id,tiles,bounds,width,height,region=false,landscapeDetail=false,includeRoadLabels=false}=event.data||{};
  const buckets={wood:[],grass:[],heath:[],wetland:[],sand:[],rock:[],farmland:[],
   residential:[],park:[],water:[],waterway:[],building:[],road:[],
-  "minor-road":[],path:[],track:[],rail:[],arterial:[]};
+  "minor-road":[],path:[],track:[],rail:[],arterial:[],bridge:[]};
  const stats={features:0,vertices:0,omittedFeatures:0,byLayer:{}};
  const labels=[],roadNames=[];
  try{
