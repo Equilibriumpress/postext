@@ -55,7 +55,7 @@
      groups[k].push(path);
     }
    }
-   if((!extraIds.includes(d.id)&&!groups.water.length)||!groups.road.length||!groups.building.length)throw Error('Onvolledige kaart: water, wegen of gebouwen ontbreken');
+   const missing=[];if((!extraIds.includes(d.id)||d.id==='amsterdam-detail')&&!groups.water.length&&!groups.waterway.length)missing.push('water');if(!groups.road.length&&!groups.path.length&&!groups.arterial.length&&!groups.bridge.length)missing.push('wegen');if(!groups.building.length)missing.push('gebouwen');if(missing.length)throw Error('Onvolledige kaart: '+missing.join(', ')+' ontbreken');
    report('Bron: '+tiles.length+' tegels, '+total+' bytes; gebouwen '+groups.building.length+'; geometrie '+chars+' tekens');
    groups.names=names;return {groups,v};
   }finally{worker.terminate();}
@@ -97,14 +97,15 @@
  // A bounded PNG embedded in an otherwise simple SVG uses Postext's native
  // SVG image XObject path, without requiring SVG text fonts at 600 dpi.
  // Original vector markup is kept separately in browser cache.
- const cacheKey=(key,suffix)=>key+'?prepared-v5='+suffix;
+ const cacheKey=(key,suffix)=>key+(key.endsWith('/amsterdam-detail.svg')?'?prepared-detail-v6=':'?prepared-v5=')+suffix;
  function safeKey(id){if(!allIds.includes(id))throw Error('Onbekende kaart');return new URL(prefix+id+'.svg',books).href;}
  const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
  async function wrap(svg,width=1200,height=790,longEdge=1800){
   if(typeof svg!=='string'||svg.length>MAX_SVG||!svg.startsWith('<svg'))throw Error('SVG buiten budget');
   const source=URL.createObjectURL(new Blob([svg],{type:'image/svg+xml'}));
   const image=new Image(),canvas=document.createElement('canvas');
-  canvas.width=1800;canvas.height=1185;
+  const scale=longEdge/Math.max(width,height);
+  canvas.width=Math.max(1,Math.round(width*scale));canvas.height=Math.max(1,Math.round(height*scale));
   let timer;
   try{
    await new Promise((resolve,reject)=>{timer=setTimeout(()=>reject(Error('Kaartafbeelding decode-timeout')),5000);image.onload=resolve;image.onerror=()=>reject(Error('Kaartafbeelding kon niet worden gedecodeerd'));image.src=source;});
@@ -147,11 +148,11 @@
  }
  function getBatch(report){if(!batchPromise){batchPromise=activeMap.then(()=>batch(report||((s)=>console.info('[Postext map]',s))));activeMap=batchPromise.then(()=>undefined,()=>undefined);}return batchPromise;}
  scope.postextMapPreparation={
-  prepare:async(id,report)=>{safeKey(id);batchPromise=null;const out=await getBatch(report);if(!out.maps[id])throw Error(out.errors[id]||'Kaart niet beschikbaar');return out.maps[id];},
+  prepare:async(id,report)=>{safeKey(id);if(extraIds.includes(id)){const cache=await openCache();if(cache)await cache.delete(cacheKey(safeKey(id),'image'));return (await extraMap(id,report)).text();}batchPromise=null;const out=await getBatch(report);if(!out.maps[id])throw Error(out.errors[id]||'Kaart niet beschikbaar');return out.maps[id];},
   status:async id=>{const cache=await openCache(),key=safeKey(id);return{ready:!!(cache&&await cache.match(cacheKey(key,'image'))),error:cache?await(await cache.match(cacheKey(key,'error')))?.text()||'':''};}
  };
 
- async function extraMap(id){
+ async function extraMap(id,report){
   if(extraPending.has(id))return extraPending.get(id).then(res=>res.clone());
   // Keep the successful shared Amsterdam batch unchanged and release its
   // geometry before starting each new extent. Only one worker at a time.
@@ -160,11 +161,11 @@
    const key=safeKey(id),cache=await openCache(),c=new AbortController(),timer=setTimeout(()=>c.abort(),MAX_MS);
    try{
     const hit=cache&&await cache.match(cacheKey(key,'image'));if(hit)return hit;
-    const d=await descriptor(key,c.signal),{groups,v}=await loadGeometry(d,c.signal,s=>console.info('[Postext map '+id+']',s));
+    const d=await descriptor(key,c.signal),{groups,v}=await loadGeometry(d,c.signal,report||((s)=>console.info('[Postext map '+id+']',s)));
     const wrapped=await paint(d,groups,v);
-    if(cache)try{await cache.put(cacheKey(key,'image'),new Response(wrapped,{headers:{'Content-Type':'image/svg+xml'}}));await cache.put(cacheKey(key,'vector'),new Response(render(d,groups,v),{headers:{'Content-Type':'image/svg+xml'}}));await cache.delete(cacheKey(key,'error'));}catch{}
+    if(cache)try{await cache.put(cacheKey(key,'image'),new Response(wrapped,{headers:{'Content-Type':'image/svg+xml'}}));await cache.put(cacheKey(key,'vector'),new Response(render(d,groups,v),{headers:{'Content-Type':'image/svg+xml'}}));await cache.delete(cacheKey(key,'error'));await cache.put(new URL('map-preparation-revision',books).href,new Response(String(Date.now())));}catch{}
     return new Response(wrapped,{headers:{'Content-Type':'image/svg+xml'}});
-   }finally{clearTimeout(timer);}
+   }catch(e){if(cache)try{await cache.put(cacheKey(key,'error'),new Response(String(e.message||e)));}catch{}throw e;}finally{clearTimeout(timer);}
   });
   activeMap=task.then(()=>undefined,()=>undefined);extraPending.set(id,task);task.finally(()=>extraPending.delete(id)).catch(()=>{});
   return task.then(res=>res.clone());
